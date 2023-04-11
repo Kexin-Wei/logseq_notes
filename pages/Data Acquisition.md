@@ -1,0 +1,23 @@
+- [Data Acquisition (DAQ) Systems, Devices & Software - NI](https://www.ni.com/en-sg/shop/data-acquisition.html)
+- [Data Acquisition Synchronisation & Timing Methods | Dewesoft](https://dewesoft.com/daq/data-acquisition-synchronisation)
+- What is DAQ?
+  Data acquisition (DAQ) is the process of measuring an electrical or physical phenomenon, such as voltage, current, temperature, pressure, or sound. A DAQ system consists of sensors, DAQ measurement hardware, and a computer with programmable software.
+- Measurement Types
+	- Voltage
+	- Current
+	- Temperature
+	- Sound and Vibration
+	- Strain, Pressure, and Force
+- Synchronization Timing Sources
+	- IRIG Time Code
+	- GPS PPS
+	- NTP
+	- EtherCAT
+	- PTP V2
+- Synchronization Types
+  There are essentially three types of synchronization that Dewesoft DAQ systems support. In addition, single or multiple DAQ instruments can be referenced to an external absolute time reference.
+	- Synchronizing channels on a single DAQ system: Internal Synchronization
+	- Synchronizing channels between multiple DAQ systems:
+		- Local Synchronization
+		- Remote Synchronization
+		- Absolute Time Reference

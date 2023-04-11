@@ -1,0 +1,1 @@
+- One of England's most influential monarchs, Queen Elizabeth I presided over a period of cultural and economic growth known as the Elizabethan era, and her legacy continues to influence modern British culture.

@@ -1,0 +1,19 @@
+- LC2
+  > [[@Automatic ultrasound–MRI registration for neurosurgery using the 2D and 3D LC2 Metric]]
+	- $f$: relationship function
+		- Mono-modality: $f(J(y)) = \alpha J(y) + \beta$
+		- Multi-modality: $f(J(x)) = \alpha p_i + \beta g_i + \gamma$
+			- $p_i =J(T(x))$
+			- $g_i=|\nabla p_i|$
+	- $LC^2(I,J,T,\vec x,s) = 1 - \frac{\sum_{\vec y \in \Omega(\vec x,s)} (I(y) - f(J(T(y))))^2}{|\Omega (\vec x)| Var(I(\vec y|\vec y \in\Omega(\vec x,s))}$
+- Sum of Squared (Intensity) Differences (SSD)
+	- Difference of two images: $\sum( a_i - b'_i)$  - ref 2
+	- the pair count: $\sum p_{i,j}(T)$ - ref 1
+- conservation of intensity
+- image histogram
+- Roger Woods’ heuristic observation / Joint histogram
+- Mutual Information (MI)
+	- $MI(I,J|T)=\sum p_{i,j} \log \frac{p_{i,j}}{p_i p_j}$ - ref 1
+	- $MI = H(a) + H(b')- H(a,b')$ - ref 2
+		- $H(a)$ is the entropy
+- Cross Correlation Measure

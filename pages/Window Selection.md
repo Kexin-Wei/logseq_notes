@@ -1,0 +1,9 @@
+- > [Is there a rigorous way to choose an appropiate window function for FFT? (researchgate.net)](https://www.researchgate.net/post/Is_there_a_rigorous_way_to_choose_an_appropiate_window_function_for_FFT)
+- Hamming window aims to cancel the 1st side-lobes introduced by the Dirichlet kernel (the DTFT of the rectangular window).
+- The Hann window (same number of cosine terms) does this approximately using a tidy factor of 1/2.
+- The Blackman window introduces more cosine terms to cancel more side lobes.
+- Slepian window, which is an optimal formulation that maximizes the power in the main lobe.
+- interested in measuring the frequency, the best window to use is the rectangular.
+- Random Data: Analysis and Measurement Procedures - 2nd edition. J.S. Bendat & A.G. Piersol, Wiley-Interscience; 1986 #📑READ
+- K.M.M. Prabhu: "Window functions and heir applications in signal processing" #📑READ
+- [Window function - Wikipedia](https://en.wikipedia.org/wiki/Window_function) #📑READ

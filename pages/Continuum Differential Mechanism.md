@@ -1,0 +1,18 @@
+- Reference
+	- [[@Continuum Differential Mechanisms and Their Applications in Gripper Designs]]
+	- [Snake Arm / Elephant’s Trunk experiment - YouTube](https://www.youtube.com/watch?v=EUEp-AfvvzE)
+	- [Continuum robot arm progress. Yamamoto laboratory 2018 - YouTube](https://www.youtube.com/watch?v=iNtAn3t79fs)
+- Simulator
+	- ANSYS
+	- COMSOL Multiphysics
+	- Abaqus
+	- [[SOFA]]
+	- Gazebo
+- Differential mechanisms usually possess several typical structures, including the following
+	- pulley-based forms
+	- linkage-based forms
+	- gear-based forms
+	- fluidic T-pipe-based forms.
+- ![image.png](../assets/image_1680766945382_0.png)
+- Planar Form
+- Spatial Form

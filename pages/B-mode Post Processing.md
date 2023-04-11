@@ -1,0 +1,19 @@
+- Frame Averaging
+	- When consecutive B-mode images are formed and stored in the image memory, they contain small **frame-to-frame variations** due to random imposed **electrical noise**.
+	- **Random noise** events then tend to be **averaged out**,while constant ultrasonic image features are reinforced, improving the signal-to-noise ratio of the image.
+- Grey-level Transfer Curves
+  ![](/../assets/gray_level_transfer_curve.png)
+- Edge Enhancement and Image Smooth
+	- Where the targets of interest include blood vessels or anatomical interfaces, the **boundary** echoes can often be made clearer or more complete by applying edge enhancement.
+	- These would normally be suppressed by applying a **low-pass spatial filter** to the image, i.e. one with the **opposite characteristic to the edge enhancement filter**, which suppresses changes in brightness across the image and has a smoothing effect.
+	- both types of spatial filter is that they are applied u**niformly to the whole image** and so cannot be applied at the same time.
+- Adaptive Image Processing
+	- Adaptive image processing is now widely used incommercial B-mode imaging systems to allow **edge enhancement and image smoothing** to be applied to different elements of the image at the same time.
+	- The process is normally applied **frame by frame** on the stored image so that it adapts in **real time** to the changing characteristics of the image.
+	- Adaptive image processing is a multi-stage process which analyses the image content and applies processing according to **local image features.**
+	- Each scan converted image is decomposed into a set of frames which separate image features according to their scale. This is achieved by **spatial filtration** so that **large-, medium- and small-scale image features** appear in separate frames.
+	- Each frame is analysed to identify **low contrast isotropic regions** dominated by **noise** and **speckle separately from high contrast features**.
+	- **High contrast features** are analysed to identify **anisotropic elements** such as organ **boundaries** and estimate the direction of anisotropy, i.e. the orientation of the boundary in the image.
+	- In low-contrast regionsand high-contrast regions with no anisotropic features, some smoothing is applied to suppress noiseand speckle.
+	- For **anisotropic features** such as organ **boundaries**, **smoothing** is performed along thedirection of the boundary and edge enhancementacross the boundary.
+	- Adaptive image processing improves the appearance of B-mode images by **enhancing tissue contrast and border definition** without degrading the image content.

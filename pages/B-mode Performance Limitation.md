@@ -1,0 +1,39 @@
+- beam width
+  pulse length
+- Performance Properties
+	- **spatial** property determine the smallest separation of targets which can be resolved
+	- **amplitude** property determine the smallest and largest changes in scattered or reflected echo amplitude which can be detected
+	- **temporal** properties determine the most rapid movement that can be displayed
+	- Lateral Resolution
+	  collapsed:: true
+		- ![](/../assets/lateral_resolution.png)
+		- The separation at this point, which is about half the beam width, is a measure of the lateral resolution at that range. Thus, at best, **lateral resolution is half the beam width**.
+		- the beam width varies with distance from the transducer. It is narrow in the focal region, but wider at other depths. Hence **lateral resolution may change with depth**.
+	- Slice Thickness
+	  collapsed:: true
+		- The effect of slice thickness is most noticeable when imaging **small liquid areas**, such as cysts and longitudinal sections of blood vessels
+		- when a small cyst is imaged by a real imaging system whose slice thick ness is comparable to or larger than the diameter of the cyst, the slice may **overlap adjacent tissues**, generating echoes at the same range as the cyst. Such echoes are displayed within the cystic area in the image as if they were from targets, such as **debris**, within the cyst.
+		- For a conventional array transducer with a single row of elements and a fixed cylindrical lens, the **beam width** is **fixed** in the elevation direction, and there is little the operator can do to reduce this artefact, other than **selecting a transducer with an elevation focus that matches the target depth**. Slice thickness artefact can be **reduced** by the use of a **multi-row transducer**
+	- Speckle Pattern
+		- ![](/../assets/speckle_pattern.png)
+		- echoes from interfaces or scatterers which are separated by more than approximately **half a beam width** (lateral and elevation) and **half a pulse length** are displayed as separate regions of brightness in the image #📑READ
+		- In a 2D B-mode image, the form of the speckle pattern tends to be related to the dimensions of the sample **volume**.
+		- where the **beam width** in the lateral direction is **greater** than the **pulse length**, the pattern includes prominent streaks in the lateral direction whose lengths are similar to the beam width and axial extent similar to the pulse length.
+		- speckle **pattern** is relatively **fine** in the region where the beam is **focused**. Beyond the focus, the beam diverges, leading to lateral streaks in the speckle pattern
+		- As speckle introduces such large random variations in brightness, **contrast resolution** must be defined in terms of the statistics of the brightness variations.
+		- If the **mean difference** in brightness is **less** than the **standard deviation** of the background bright ness, then the **lesion** may **not be detectable**.
+		- Reduce Speckle
+			- it can be seen that reducing the size of the sample volume leads to a finer (i.e. smaller scale) speckle pattern which is less distracting.
+			- use higher frequencies without loss of penetration depth. Higher frequencies lead to shorter pulses and reduced beam width, leading to a small-scale speckle pattern.
+			- Compound scanning
+				- [[@Compound scanning with a phased array]]
+			- Frequency compounding #📑READ
+- Artefacts
+	- Speed of sound
+		- Misregistration of targets
+		- Distortion of interfaces
+		- Errors in size
+		- Defocusing of the ultrasound beam
+	- Examples of Bad Image and Reasons
+	  collapsed:: true
+		- ![](/../assets/attenuation_artefact.png)

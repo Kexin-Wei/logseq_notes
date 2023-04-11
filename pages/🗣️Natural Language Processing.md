@@ -1,0 +1,4 @@
+- [Youtube Standford Lectures](https://www.youtube.com/watch?v=rmVRLeJRkl4&list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ)
+- [[GPT-4]]
+- [[Word vectors]]
+	- [[Word2vec]]

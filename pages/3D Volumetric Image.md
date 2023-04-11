@@ -1,0 +1,113 @@
+- [[@A Review on Real-Time 3D Ultrasound Imaging Technology]]
+- 3D US enables clinicians to diagnose fast and accurately as it reduces the time spent on evaluating images and interacts with diagnosticians friendly to obtain a handle of the shape and location of the lesion.
+- Data Acquisition
+	- Obtaining 3D real-time US image without distortions is crucial for the subsequent clinical diagnosis
+		- Acquire relative locations and orientations of the tomographic images accurately, which ensures the 3D reconstruction without errors
+		- Capture the ROI expeditiously, which is aimed at avoiding the artifacts caused by cardiac, respiratory, and involuntary motion, as well as enabling the 3D visualization of dynamic structures in real-time.
+	- 2D array transducers
+	  collapsed:: true
+		- 2D array transducers acquire 3D information by electronic scanning.
+		  ![](/../assets/2d_array_transducer.png)
+		- the elements of 2D array transducer generate a diverging beam in a **pyramidal** shape and the received echoes are processed to integrate 3D US images in real-time.
+		- Since the beams can be steered and focused on the ROI by adjusting the phased array delays, the transducers can remain **stationary** while being used to scan
+		- A variety of 2D array patterns are proposed to fabricate 2D array transducers, such as sparse periodic array, Mills cross array [9], random array, and Vernier array.
+		- The elements of 2D array transducers can be arranged as either a **rectangle** or an **annular** array
+		- Aside from piezoelectric transducers, capacitive micromachined US transducers (**CMUTs**) have also shown a potential performance as their counterparts
+		- the electrical **impedance** of each element in 2D array transducers is much **greater** than that in 1D array transducers, which makes impedance matching of 2D array elements challenging.
+		- to avoid the cross talk between elements, a half-wavelength distance is needed for the neighbor elements, which results in a large number of elements and extremely small size of each element.
+		- To reduce the difficulties in fabrication of 2D array transducer, the size of the array cannot be large, which leads to a **small field of view** in imaging.
+	- Mechanical Probe
+	  collapsed:: true
+		- Mechanical 3D probes are made compactly and they are convenient to operate, though they are comparatively larger than conventional linear probes.
+			- Linear Scanning
+			- Tilting Scanning
+			- Rotational Scanning
+		- ![](/../assets/mechanical_probe.png)
+	- Mechanical Localizer
+	  collapsed:: true
+		- In a 3D mechanical probe, the scanning mechanism is integrated inside a **handheld** instrument together with a special 1D linear transducer.
+		  the scanning route is predefined such that the relative positions and orientations of acquired 2D images can be precisely recorded in computers.With this location information, 3D US images can be reconstruction in real-time.
+	- Freehand Scanner
+	  collapsed:: true
+		- ![](/../assets/freehand_scanner.png)
+		- Acoustic positioner
+			- The microphones receive acoustic wave continuously from sound emitters during the scanning.
+			- Positions and orientations can be calculated for reconstructing 3D images with knowledge of the speed of sound in air, the measured time-of-flight from each sound emitter to microphones, and the positions of microphones
+			- To guarantee a good signal-to-noise ratio (SNR), microphones should be placed closely to the patients and the space between emitters and microphones should be free of obstacles.
+		- Optical positioner
+			- A freehand transducer with optical positioner system consists of passive or active targets fixed on the transducer and at least two cameras used to track targets.
+			- Optical positioners can be divided into passive stereovision system and active marker system.
+			- Passive stereovision systems make use of three or more matt objects as targets
+			- active marker system utilizes several infrared diodes as markers, whose frequency is already known
+			- A freehand transducer with optical positioner is stable and has high accuracy.
+		- Articulated arm positioner
+			- a transducer is mounted on an articulated arm with multiple movable joints.
+			- Unlike mechanical localizer, clinicians can manipulate the transducer with an articulated arm positioner in arbitrary orientations to obtain optimal views.
+			- Potentiometers located on the joints can monitor the moving angulation and position of articulated arms continuously, which are effective for calculating the spacing information of transducer for 3D reconstruction
+		- Magnetic field senor
+			- A transducer with magnetic field sensor consists of a time-varying magnetic transmitter placed near the patient and a receiver containing three orthogonal coins attached on the transducer
+			- Magnetic field sensors are relatively small and more flexible without a need for unobstructed sight
+			- However, electromagnetic interference and existence of metallic objects may compromise the tracking accuracy and cause distortion
+			- Furthermore, to avoid tracking errors, the magnetic field sampling rate should be increased.
+		- without positional sensors, image-based approaches  were also developed, for example, speckle decorrelation
+			- the speckle pattern should be the same if two images are acquired at the same position
+			- decorrelation is proportional to the distance between two images
+			- this approach is lacking accuracy.
+- Reconstruction Algorithms
+	- Aside from quality and rate of data acquisition, the speed and accuracy of volume reconstruction are significant for realizing real-time 3D US imaging
+	- 3D Surface Model
+		- 2D images segmentation -> Boundary in 2D -> Boundary in 3D
+	- Voxel based Methods
+		- place 2D image at proper location in 3D volume
+		- can still use segmentation algorithm, due to store of the original data
+		- Voxel Nearest Neighbor (VNN)
+			- By taking into account the fact that the nearest pixel to the voxel lies on its normal to the nearest B-scan, the reconstruction can be speeded up rapidly
+		- Voxel-Based Methods with Interpolation (VBMI)
+			- The voxel value relies on the interpolation between several corresponding pixels of the captured frames
+			- The interpolation methods that are popularly used refer to the distance weighted (DW) and its modified versions.
+			- DW is that the voxel value is assigned the weighted average of pixels in local neighborhood and the weight is often the inverse of the distance from the pixel to the voxel
+			- Interpolation method: bilinear interpolation of 4 enclosing pixel
+		- Pixel-Based Methods (PBMs)
+			- collapsed:: true
+			  1. a distribution stage (DS)
+				- Pixel nearest neighbor interpolation (PNN) may be the earliest and simplest reconstruction algorithm as it just fills the pixel value to the nearest voxel in the volume.
+				- kernel-based algorithms introduce a local neighborhood called kernel around the pixel to distribute the pixel value to the contained voxels. Every voxel accumulates the pixel values as well as the weight values which are then used to calculate the final voxel value
+				- further improved the approach by introducing a positive parameter for the weight and the method is called the squared distance weighted (SDW) interpolation. The method can reduce the blurring effect in the 3D image since it offers the nonlinear assignment for the weights
+				- adaptive squared distance weighted (ASDW) method, to automatically adjust 𝛼 by utilizing the local statistics of pixels in the spherical region around the target voxel with the goal to preserve tissue edges and reduce speckles in the 3DUS image.
+				- adaptive Gaussian distance weighted (AGDW) which performs well in speckle reduction and edges preservation as well, offering a good trade-off between the edges preservation and speckle suppression
+				- four median-filter-based methods
+				- pixel trilinear interpolation (PTL) each pixel smeared into a 2x2x2 kernel and then compounded or alpha-blended into the resulting volume at an appropriate location
+			- collapsed:: true
+			  2. a gap-filling stage (GFS)
+				- After theDS, some gaps occur in the volume array if the size of the voxel or the local neighborhood is small compared to the distance between the acquired B-scans. Therefore a necessary processing, that is, GFS, is performed to fill the empty voxels to make the volume integrated and continuous.
+				- Hottier and Billon traversed the volume voxels and applied bilinear interpolation between two closest nonempty voxels in the transverse direction to the B-scans to the empty voxel.
+				- Other investigators applied a kernel to the filled or empty voxel, and the kernel shape can be sphere or ellipsoid and so on
+				- Some simple interpolation strategies include replacing the hole with a nearest nonempty voxel, an average (Nelson and Pretorius) or a median (Est´epar et al.) of the filled voxels in a local neighborhood
+		- Function-Based Methods (FBM).
+			- FBMs attempt to introduce functional interpolation for 3D US reconstruction
+			- chooses particular function, for example, a polynomial, and utilizes the pixel values and relative positions to determine the function coefficients
+			- Afterwards, the functions are evaluated at regular intervals to produce the voxel array
+			- Different functions
+				- Radial Basis Function: smoothness requirement
+				- Rayleigh interpolation with Bayesian framework
+				- Bezier curve
+		- Computation time
+			- VNNand PTL achieve a satisfying computation performance for they adopt plain process architecture.
+			- kernel-based algorithms: computation cost can be reduced through minimizing the neighborhood size or selecting relative simple kernel and weighting
+			- Although the RBF is declared to achieve encouraging reconstruction accuracy, it cannot be acceptable in most practical application for its intolerable computation time.
+			- Bezier interpolation, however, performs the reconstruction closely to real-time as it takes advantage of Bezier curves to use 4 control points to interpolate more voxels in the path.
+		- Reconstruction Quality
+			- Various factors impact the final reconstruction quality, including the probe resolution, the rationality of reconstruction algorithm, probe calibration, and position
+			- leave-one-out test, where some pixels from the raw data are removed before the remaining data are used to reconstruct the voxel array, and the reconstruction error is defined to the average absolute difference between the missing pixels and the corresponding reconstructed voxels sensor accuracy.
+- Volume Rendering Methods
+	- There exist three basic approaches for 3D visualization of US images: that is, slice projection, surface rendering, and volume rendering
+	- The slice projection allows users to view arbitrary slices from any angle of the scanned object. It can be real-time but still has the drawback that the physicians have to mentally reconstruct the 2D slices in 3D space
+	- Surface rendering based on visualization of tissue surfaces just simplifies the data set to rapidly describe the shapes of 3D objects such that the topography and 3D geometry are more easily comprehended
+	- Volume rendering displays the anatomy in a translucent manner.
+	- Both the slice projection and surface rendering only display a small part of the whole 3D information acquired at any one time
+	- One early approach for ray-casting volume rendering is based on intensity projection techniques
+	- Rendering Arrangement: rendering during data acquisition and insertion
+		- render the volume as each newly acquired image arrived and has been inserted into the voxel grid
+		- wait for a fixed number of frames to be mapped onto the volume before the rendering.
+		- Multiple Scans per Rendering (MSPR)
+		- One Scan per Rendering (OSPR): The OSPR means the arrangement of rendering the partial volume immediately after a newly captured B-scan has been inserted into the volume grid. Its feasibility has been demonstrated

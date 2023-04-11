@@ -1,0 +1,9 @@
+- > AM contains two types of signal: message signal and the carrier signal, not fully applicable for ultrasound wave
+- ![Envelop Detection Categories](EnvelopeDetection.pdf)
+- Envelope demodulation using filter ((635b47ea-d1e6-4114-9c11-c754328b2e31))
+	- ![](../assets/envelope_demodulation_filter.png){:height 117, :width 505}
+- Envelope demodulation with Hilbert transform
+	- ![](../assets/envelope_demodulation_hilbert.png){:height 117, :width 505}
+- Coherent demodulation
+- Square-law demodulation
+- Quadrature demodulation

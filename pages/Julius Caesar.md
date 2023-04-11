@@ -1,0 +1,1 @@
+- One of the most successful military commanders in history, Caesar played a pivotal role in the rise of the Roman Empire and his legacy continues to influence modern Western culture.

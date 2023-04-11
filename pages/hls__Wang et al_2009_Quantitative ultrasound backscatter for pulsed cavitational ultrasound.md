@@ -1,0 +1,103 @@
+file:: [Wang et al_2009_Quantitative ultrasound backscatter for pulsed cavitational ultrasound.pdf](file://D:\Dropbox\Study\ZoteroFiles/Wang et al_2009_Quantitative ultrasound backscatter for pulsed cavitational ultrasound.pdf)
+file-path:: file://D:\Dropbox\Study\ZoteroFiles/Wang et al_2009_Quantitative ultrasound backscatter for pulsed cavitational ultrasound.pdf
+
+- The results showed that the normalized backscatter intensity decreased exponentially with increasing number of pulses. 
+  ls-type:: annotation
+  hl-page:: 1
+  hl-color:: yellow
+  id:: 63608dd6-a28d-4db2-b22b-6acd2b1ff5e9
+- our recent studies have demonstrated that cavitation can be controlled to achieve consistent soft tissue ablation using extremely short (<20 μs) and intense (>8 mPa) ultrasound pulses delivered at low duty cycles (<1%) [10]–[16]. 
+  ls-type:: annotation
+  hl-page:: 1
+  hl-color:: blue
+  id:: 63608f01-d9dc-4924-a365-6b1d98c8ac2e
+  hl-stamp:: 1667284517269
+- With a sufficient number of successive pulses, the cavitation activities can completely fractionate tissue to a subcellular level, resulting in a highly disintegrated volume with sharply demarcated boundaries[13], [15]
+  ls-type:: annotation
+  hl-page:: 1
+  hl-color:: blue
+  id:: 63608f0e-e969-4ce3-be95-60625687dd9d
+- several ultrasound imaging methods have also been investigated to monitor the thermal tissue damage by measuring the changes in tissue elasticity, sound velocity, and acoustic attenuation[23]–[28]
+  ls-type:: annotation
+  hl-page:: 1
+  hl-color:: blue
+  id:: 63608f4f-570a-4901-84f1-8f5e6388e745
+  hl-stamp:: 1667284529062
+- In comparison, the fractionated tissue volume produced by histotripsy can be visualized clearly as a hypoechoic region using standard ultrasound B-mode imaging.
+  ls-type:: annotation
+  hl-page:: 1
+  hl-color:: blue
+  id:: 63608f62-4764-4460-832b-87b4dd81712d
+  hl-stamp:: 1667284530866
+- his phenomenon likely occurs because tissue is mechanically subdivided into small fragments that cannot effectively scatter ultrasound at the imaging frequency used 
+  ls-type:: annotation
+  hl-page:: 1
+  hl-color:: blue
+  id:: 63608f83-a794-4275-900b-9a399065d466
+- This paper studies the quantitative relationship between the ultrasound backscatter intensity and the degree of tissue fractionation.
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: yellow
+  id:: 63608fe3-b67e-46ac-a820-499d4dafd7bb
+- The intactness of a cell is determined by the appearance of its cell nucleus on histology. The cell nucleus is selected because it is a common indication of cell damage or death. 
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: blue
+  id:: 6360906f-e0ce-43f5-8229-84b83c715aba
+- The flushed kidneys were then sealed in Ziploc bags filled with saline, mounted to a motorized 3-axis positioning system (Parker Hannifin, rohnert Park, ca), and submerged in a tank of degassed, deionized water during experimentation.
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: yellow
+  id:: 63609106-0aa4-4ab5-8820-d0c6623dde72
+- Ultrasound pulses of 15 acoustic cycles in duration delivered at a pulse repetition frequency (PrF) of 100 Hz were used in all treatments. 
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: yellow
+  id:: 63609175-f765-473b-8d2e-2294f8058dbb
+- The peak negative and positive pressures were measured to be 19 mPa and 125 mPa,
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: yellow
+  id:: 63609184-4b10-420e-ab09-b8e3209e5c94
+- 2 imaging probes, a 5-mHz phased array and a 10-mHz linear array,
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: yellow
+  id:: 6360baa7-04d6-4c7d-95bc-9ef53312e287
+- he 10-mHz imaging probe was used to collect higher-resolution backscatter signals before and immediately after the treatment. 
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: yellow
+  id:: 6360bd48-7dfa-42f4-b639-010a4e842c60
+- The 5-mHz imaging probe was used for target localization and monitoring of the treatment.
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: yellow
+  id:: 6360bd55-07bc-4c93-9ff3-2040357749ae
+- lesions of approximately 6 × 6 × 15 mm 
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: yellow
+  id:: 6360be15-9c9a-4d3d-a90b-c598a5cf3c93
+- In most lesions, the area occupied by the bubbles was small and easily identified, because its echogenicity was 15 dB higher than that of the untreated tissue. 
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: yellow
+  id:: 6360be91-862f-4fb3-a347-40a540c3b303
+- [:span]
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: green
+  id:: 6360c1f6-cbde-4d94-9af6-1e8e9fc19fc1
+  hl-type:: area
+  hl-stamp:: 1667285497593
+- significant ultrasound backscatter reduction is observed in a highly localized area treated by histotripsy.
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: yellow
+  id:: 6360c256-12d3-4b39-90a2-39662598148f
+- median backscatter intensit
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: yellow
+  id:: 6360c2a9-b3db-4c43-b47c-1b693e1a09c8

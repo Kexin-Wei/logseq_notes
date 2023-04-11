@@ -1,0 +1,1 @@
+- A Chinese philosopher and teacher who developed a system of moral and social ethics that has had a lasting impact on Chinese and East Asian culture.

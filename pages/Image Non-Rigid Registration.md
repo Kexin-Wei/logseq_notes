@@ -1,0 +1,15 @@
+- [[@Comparison of Popular Non-Rigid Image Registration Techniques and a New Hybrid Mutual Information-Based Fluid Algorithm]]
+- This type of registration is distance preserving and is adequate for many applications in medical imaging including **multimodality** and **intrapatient** registration.
+- $I_{f} \circ T(\mathbf{x})=I_{f}(\mathbf{x}-\mathbf{u}(\mathbf{x}))=I_{r}$
+	- $I_f$ : floating image
+	- $T$ : non-rigid transformation, $\mathbf{x}$ -> $\mathbf{u}(\mathbf{x})$
+	- $I_r$ : reference image
+- Method
+	- Block matching: [matlab algorithm](https://www.mathworks.com/help/vision/ref/blockmatching.html?searchHighlight=block%20matching&s_tid=srchtitle_block%2520matching_1)
+	- Gaussian Convolution
+	- Thin-Plate Spline Warp
+- Measurement of the Registration- Mutual Information
+	- $I(X,Y)=\sum_{x,y}p_{X,Y}(x,y)\log\left(\frac{p_{X,Y}(x,y)}{p_X(x)p_Y(y)}\right)$
+	- $p_{X,Y}(x,y)$  :  joint distribution
+- DONE https://www.mathworks.com/help/medical-imaging/ug/medical-image-registration.html
+  SCHEDULED: <2022-12-30 Fri>

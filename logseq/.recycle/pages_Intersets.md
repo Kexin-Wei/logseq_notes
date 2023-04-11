@@ -1,0 +1,39 @@
+- # 🌍️ Physics {{renderer :todomaster}}
+	- TODO ![Fundamentals of Physics Mechanics Relativity and Thermodynamics](041-Fundamentals-of-Physics-Mechanics-Relativity-and-Thermodynamics-R.-Shankar-Edisi-1-2014.pdf)
+		- TODO Sort Part One Knowledge
+		- TODO Develop Einstein's Relativity Equation
+- # 🇫🇷 French
+	- DONE Unit 1
+	- TODO Unit 2
+- # ✈️ SLAM {{renderer :todomaster}}
+  SCHEDULED: <2022-12-01 Thu>
+	- TODO [[SLAM for Dummies]]
+	- TODO A Solution to the Simultaneous Localization and Map Building (SLAM) Problem
+	- TODO Visual SLAM algorithms: a survey from 2010 to 2016
+- # 🤖 Robot
+	- [[Parallel Robot]]
+- # 🇯🇵 Japanese
+- # ⚡️ Electric Engineering  {{renderer :todomaster}}
+  :LOGBOOK:
+  * State "DONE" from "TODO" [2022-10-03 Mon 08:22]
+  :END:
+  > [Learn electric circuits](https://www.youtube.com/playlist?list=PL9F74AFA03AA06A11) - 1h
+	- TODO Lecture 15
+		- TODO LC Circuit Develop Equation
+	- TODO Lecture 16
+- # ⚜️ Learn OpenGL
+- # 🖼️ Image Processing {{renderer :todomaster}}
+	- C++ Install Preparation
+		- DONE Try Opencv C++ in Raspberry P
+		  SCHEDULED: <2022-10-29 Sat>
+			- DONE Install Visual Studio Code
+			- DONE Install Opencv
+			- DONE Setup Github Folder
+	- [[Optical Flow]]
+		- TODO Try Optical Flow
+		  SCHEDULED: <2022-10-18 Tue>
+	- [[Corner Detection]]
+		- TODO Try [[Corner Detection]] on Raspeberry Pi
+		  SCHEDULED: <2022-10-29 Sat>
+- # 🗣️ Natural Language Processing
+  > [Youtube Standford Lectures](https://www.youtube.com/watch?v=rmVRLeJRkl4&list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ)

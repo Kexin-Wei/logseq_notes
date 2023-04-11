@@ -1,0 +1,18 @@
+- {{youtube XP5pQuqTSZE}}
+- {{youtube Ek_JKAyKAKg}}
+- {{youtube XUi9sDTOi-0}}
+- ![](/../assets/puca_overheat_solution.png)
+- should move ultrasound head whether is continuous or pulsed
+- Speed of the sound head movement
+	- generally 4cm/s
+	- speed of sound head won't affect the damage
+- cooler gel (18 degree) may decrease the surface heating issue
+- room temperature (~23 degree) may enough
+- Water Coupling
+	- surface is hard to apply gel to make
+	- room temperature
+	- example treatment area: ankle
+	- half efficient as direct coupling with ultrasound gel
+- Bladder Coupling (not frequently used)
+	- treatment part isn't flat
+	- US gel on both side of bladder

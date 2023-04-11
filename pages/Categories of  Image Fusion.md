@@ -1,0 +1,31 @@
+- > http://staff.utia.cas.cz/sroubekf/papers/EUSIPCO_07_fusion_tut.pdf
+- Multiview fusion
+	- same modality, same time, different places or condition
+	- supply complementary information from different views
+- Multimodal fusion
+	- [[US-CT Image Fusion]]
+	- different modalities: PET, CT, MRI, visible, infrared, ultraviolet
+	- decrease the amount of data, to emphasize band-specific information
+	- Algorithm
+		- Weighted averaging pixel-wise
+		- Fusion in transform domains
+		- Object-level fusion
+		- rigid fusion: no compensation of patient motion and position
+		- deformable fusion: structure or shape change
+- Multimodal fusion with different resolution
+	- One image with high spatial resolution, the other one with low spatial but higher spectral resolution
+	- To get an image with high spatial and spectral resolution
+	- Method: replacing bands in DWT (discrete wavelet transform)
+- Multitemporal fusion
+	- same scene, different time, (same modality)
+	- detect the changes
+	- Method: subtraction
+- Multifocus fusion
+	- The original image can be divided into regions such that every region is in focus in at least one channel
+	- Method: identify the regions in focus and combine them together
+- Fusion for image restoration
+	- Each image consists of “true” part and “degradation”, which can be removed by fusion
+	- Types of degradation
+		- additive noise: image denoising, averaging over multiple
+		- convolution: blind deconvolution
+		- resolution decimation: superresolution

@@ -1,0 +1,18 @@
+- Parallel Robot
+	- Papers
+		- [[@taghirad2013parallel]]
+		- [[@The Degree of Freedom of Parallel Robots: A Group-Theoretic Approach]] 
+		  Chebyshev-Grübler kinematic Kutzbach-Hervé(CGKH) Formula
+		- [[@Modeling Parallel Robot Kinematics for 3T2R and 3T3R Tasks Using Reciprocal Sets of Euler Angles]]
+		- [[@Dynamics of Parallel Robots: From Rigid Bodies to Flexible Elements]]
+- ROS2 learning
+	- [Install Guide of Humble](https://docs.ros.org/en/humble/Installation.html)
+	- [Great Start Up Video - ROS2 Humble](https://www.youtube.com/watch?v=Gg25GfA456o)
+	- Foxy
+- Simulator
+	- [[Gazebo]]
+	- [[Sofa]]
+- Free CAD Software
+	- Fusion 360
+	- Blender
+	- FreeCAD

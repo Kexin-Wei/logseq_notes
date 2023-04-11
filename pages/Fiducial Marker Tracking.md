@@ -1,0 +1,7 @@
+- Steps:
+	- Image segmentation: frame difference -> threshold -> boundary box
+	- Marker Identification
+		- feature detection using manual selected filter bank
+		- "imfindcircles" Matlab to get center pot using  Hough Transformation
+		- mean-shift algorithm to average different output of different filters
+	- Unscented Kalman Filter Marker Tracking

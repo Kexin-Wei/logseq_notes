@@ -1,0 +1,1 @@
+- A Renaissance genius and polymath, da Vinci is considered one of the most creative and inventive individuals in history, known for his art, science, and engineering contributions.

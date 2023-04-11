@@ -1,0 +1,64 @@
+- #👩‍💻software
+- # Dataset
+	- [Abdomen organs in CT](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789)
+		- [Other Possible Datasets](https://www.synapse.org/#)
+- # 3D Slicer Plugin
+	- [Segmentation](https://slicer.readthedocs.io/en/latest/user_guide/image_segmentation.html#segmentation-modules)
+		- [SegmentEditorExtraEffects](https://github.com/lassoan/SlicerSegmentEditorExtraEffects): Adds 8 more effects to Segment Editor.
+		- [SurfaceWrapSolidify](https://github.com/sebastianandress/Slicer-SurfaceWrapSolidify): fill in internal holes in a segmented image region or retrieve the largest cavity inside a segmentation.
+		- [MONAILabel](https://github.com/Project-MONAI/MONAILabel/tree/main/plugins/slicer/MONAILabel): AI-based segmentation of **various organs** using MONAILabel.
+			- [How to Youtube Tutorial](https://www.youtube.com/watch?v=KjwuFx0pTXU)
+			- 13 abdominal organs including
+			  collapsed:: true
+				- Spleen
+				- Right Kidney
+				- Left Kidney
+				- Gallbladder
+				- Esophagus
+				- Liver
+				- Stomach
+				- Aorta
+				- IVC
+				- Portal and Splenic Veins
+				- Pancreas
+				- Right adrenal gland
+				- Left adrenal gland
+		- *[TotalSegmentator](https://github.com/lassoan/SlicerTotalSegmentator): AI-based fully automatic segmentation of 104 structures in **whole-body CT** images.
+			- kidney
+			- liver
+		- [DensityLungSegmentation](https://github.com/pzaffino/SlicerDensityLungSegmentation): AI-based fully automatic **lung** segmentation.
+		- [HDBrainExtraction](https://github.com/lassoan/SlicerHDBrainExtraction): AI-based fully automatic **skull** stripping in **brain** MRI images.
+		- [NVIDIA-AIAA](https://github.com/NVIDIA/ai-assisted-annotation-client/tree/master/slicer-plugin): AI-based fully automatic segmentation of **several organs**. Segmentation is performed on a remote server.
+			- [Segmentation Youtube Video Tutorial](https://www.youtube.com/watch?v=ucnvE16pkmI&t=23s)
+			- limited options in 3d Slicer, only have brain tumor, lung, and spleen
+		- [RVesselX](https://github.com/R-Vessel-X/SlicerRVXLiverSegmentation): Semi-automatic **liver** parenchyma and vessels segmentation.
+- [MIRTK](https://mirtk.github.io/index.html): The main application of the MIRTK is in adult and neonatal brain MR image registration as well as the reconstruction of cortical surface meshes
+- [TotalSegmentator](https://github.com/wasserth/TotalSegmentator)
+	- based on model structure [nnUNet](https://github.com/MIC-DKFZ/nnUNet)
+- [SimpleITK](https://simpleitk.org/)
+	- Registration
+	  collapsed:: true
+		- The API for the SimpleITK transformation classes is available in Doxygen format:
+		- [2D or 3D translation](https://simpleitk.org/doxygen/latest/html/classitk_1_1simple_1_1TranslationTransform.html).
+		- [VersorTransform](https://simpleitk.org/doxygen/latest/html/classitk_1_1simple_1_1VersorTransform.html).
+		- [Euler2DTransform](https://simpleitk.org/doxygen/latest/html/classitk_1_1simple_1_1Euler2DTransform.html) and [Euler3DTransform](https://simpleitk.org/doxygen/latest/html/classitk_1_1simple_1_1Euler3DTransform.html).
+		- [Similarity2DTransform](https://simpleitk.org/doxygen/latest/html/classitk_1_1simple_1_1Similarity2DTransform.html) and [Similarity3DTransform](https://simpleitk.org/doxygen/latest/html/classitk_1_1simple_1_1Similarity3DTransform.html).
+		- [2D or 3D ScaleTransform](https://simpleitk.org/doxygen/latest/html/classitk_1_1simple_1_1ScaleTransform.html).
+		- [ScaleVersor3DTransform](https://simpleitk.org/doxygen/latest/html/classitk_1_1simple_1_1ScaleVersor3DTransform.html).
+		- [ScaleSkewVersor3DTransform](https://simpleitk.org/doxygen/latest/html/classitk_1_1simple_1_1ScaleSkewVersor3DTransform.html).
+		- [ComposeScaleSkewVersor3DTransform](https://simpleitk.org/doxygen/latest/html/classitk_1_1simple_1_1ComposeScaleSkewVersor3DTransform.html).
+		- [2D or 3D AffineTransform](https://simpleitk.org/doxygen/latest/html/classitk_1_1simple_1_1AffineTransform.html).
+		- [2D or 3D BSplineTransform](https://simpleitk.org/doxygen/latest/html/classitk_1_1simple_1_1BSplineTransform.html).
+		- [2D or 3D DisplacementFieldTransform](https://simpleitk.org/doxygen/latest/html/classitk_1_1simple_1_1DisplacementFieldTransform.html).
+		- [CompositeTransform](https://simpleitk.org/doxygen/latest/html/classitk_1_1simple_1_1CompositeTransform.html).
+		- [Transform](https://simpleitk.org/doxygen/latest/html/classitk_1_1simple_1_1Transform.html).
+	- Segmentation
+- [MONAI](https://github.com/Project-MONAI/MONAI/)
+	- https://hub.docker.com/r/projectmonai/monailabel
+- [Github RsingLa92](https://github.com/rsingla92/kidneyUS) with Kidney Dataset
+- [elastix](https://elastix.lumc.nl/): Nowadays elastix is accompanied by [ITKElastix](https://github.com/InsightSoftwareConsortium/ITKElastix) making it available in Python ([on Pypi](https://pypi.org/project/itk-elastix/)) and by [SimpleElastix](http://simpleelastix.github.io/), making it available in languages like C++, Python, Java, R, Ruby, C# and Lua.
+	- SimpleElastix
+		- failed in windows install
+		- https://hub.docker.com/r/chunglabmit/simpleelastix/tags
+	- ITKElastix: for image Registration only
+- [Github Prostate Ultrasound Image Dataset](https://github.com/nurbalbayrak/prostate_volume_estimation)

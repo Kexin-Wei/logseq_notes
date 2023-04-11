@@ -1,0 +1,24 @@
+- Characteristics
+  > SC: stable cavitation
+  > IC: inertial cavitaion
+	- Thermal lesion volume increased with the increase of pulse duration and PRF, but mechanical erosion reached its maximum volume with the pulse duration of 20ms and PRF of 1 Hz.
+	- SC strength is usually higher than that of IC because IC has a much broader bandwidth
+	- At low PRF of 0.2 Hz, bubbles may have sufficient time for dissolution because no persisting bubbles were found between bursts
+	- with the increase of PRF, thermal effect induced by bubble scattering became significant and led to the growth of a “tadpole” lesion
+	- temperature in the pre-focal was always higher than that at the focus and post-focal region
+	- The occurring time of tissue boiling depends on the acoustic pressure in the focal region of the HIFU transducer and the tissue absorption.
+	- high power output (i.e., 300 W) could produce a boiling bubble within milliseconds using a single-element air-backed transducer at a frequency of 2.158 Hz
+	- Increasing duty cycles or pulse duration would lead to the production of a thick white paste with different thermal denaturation
+- Mechanism
+	- In the first HIFU pulse, the bubble nuclei will absorb the acoustical energy and then expand
+	- Bubbles may form by the growth of tiny cavitation nuclei in blood or tissue under the negative pressure of the acoustic wave or from boiling of fluid at the high temperature
+	- When the interval time between bursts was sufficiently long for thermal diffusion, no thermal denaturation but purely mechanical erosion could be observed.
+- Histotripsy in Skull
+	- ablate a volume
+	- ablate near skull surface (5mm)
+	- not overheating skull
+	- lesion confined in the treatment zone
+	- rapid resorption and healing
+	- tissue selectivity
+		- collagen based structure more resistant: vessel, bile duct
+		- cell very susceptible: tumor

@@ -1,0 +1,15 @@
+- [[@Diagnostic ultrasound: physics and equipment]]
+- Peak Negative Acoustic Pressure
+	- ![](/../assets/peak_negative_pressure.png)
+	- Negative acoustic pressure -> acoustic wave is trying to pull the water molecules apart -> lasts for long enough -> probably a cavitation bubble.
+- Frequency
+	- Frequency is important to safety
+	- Absorption coefficient of most soft tissues increases with frequency
+	- Leading to energy being absorbed in a smaller volume and producing higher temperature rises.
+- Pulse Average Intensity
+	- $I=\frac{p^2}{\rho c}$
+	  $p$ is the pressure, $c$ is the speed of sound in the medium and $\rho$ is its density
+- Temporal Average Intensity
+	- time-averaged value of the intensity at a particular point in the field is called the "temporal average intensity"
+- Spatial Distribution
+	- ![](/../assets/spatial_distribution.png)

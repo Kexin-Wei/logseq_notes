@@ -1,0 +1,3 @@
+- >https://www.nibib.nih.gov/science-education/science-topics/computed-tomography-ct
+- a computerized x-ray imaging procedure in which a narrow beam of x-rays is aimed at a patient and quickly rotated around the body, producing signals that are processed by the machine’s computer to generate cross-sectional images, or “slices.”
+- Once a number of successive slices are collected by the machine’s computer, they can be digitally “stacked” together to form a three-dimensional (3D) image of the patient that allows for easier identification of basic structures as well as possible tumors or abnormalities.

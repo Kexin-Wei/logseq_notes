@@ -1,0 +1,1 @@
+- ![Scotch_Yoke_Mechanism_and_Slider_Crank_Mechanism.pdf](../assets/Scotch_Yoke_Mechanism_and_Slider_Crank_Mechanism.pdf)

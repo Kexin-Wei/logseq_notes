@@ -1,0 +1,14 @@
+- [[@Broadband Ultrasonic Attenuation Estimation and Compensation With Passive Acoustic Mapping]]
+	- ==on hold untill PAM Finished==
+- [[@An Acoustic backscatter-based method for estimating attenuation towards monitoring lesion formation in high intensity focused ultrasound]]
+- Phase shift -> Center frequency shift -> Attenuation
+	- [[@B-scan ultrasound imaging of thermal coagulation in bovine liver: frequency shift attenuation mapping]]
+- B-mode Aline Amplitude under 16 combinations of different z and angle value of frontend
+	- [[@Acoustic Coupling Quantification in Ultrasound-Guided Focused Ultrasound Surgery: Simulation-Based Evaluation and Experimental Feasibility Study]]
+	- ![image.png](../assets/image_1680488548670_0.png){:height 429, :width 503}
+	- $\mathrm{AC}_z^{r, d}=1-\frac{\bar{P}_z^{r, d}}{\bar{P}_{-1}^{r, d}} \in[0,1]$
+		- $\bar{P}_z^{r, d}$: corresponds to $p$, averaged across steering angles, at repetition r, day d and position z
+		- $p$: acoustic pressure, $p=\sqrt{2 I \rho C}$, C speed of sound
+- Attenuation Assessment based on 2 different ultrasound frequency
+	- [[@Real-Time Ultrasound Attenuation Imaging of Diffuse Fatty Liver Disease]]
+	- ![](/../assets/Attenuation_of_Ultrasound.png)

@@ -1,0 +1,1 @@
+- The last pharaoh of ancient Egypt, Cleopatra was a powerful political figure and diplomat who had a profound impact on the politics and culture of the ancient Mediterranean world.

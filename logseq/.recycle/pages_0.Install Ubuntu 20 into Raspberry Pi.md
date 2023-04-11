@@ -1,0 +1,25 @@
+title:: 0.Install Ubuntu 20 into Raspberry Pi
+
+- > Model: Raspberry Pi 4B 
+  > RAM: 8GB
+  > SD Card: 16GB
+  > 
+  > Ethernet Access
+  > USB keyboard
+  > HDMI to Monitor
+- Steps
+	- Write the Ubuntu into SD Card
+	  1. install [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
+	  2. download [Ubuntu Server 20.04 for Raspberry Pi](https://ubuntu.com/download/raspberry-pi)
+	  3. open Raspberry Pi Imager and select `Use custom` option at the bottom to load the ubuntu image
+	  4. chose the SD card and start to write
+	- Install Ubuntu with Desktop
+	  1. Insert the SD card
+	  2. Power on Raspberry Pi with Ethernet access
+	  3. After `could-init` finished, login with username `ubuntu` and password `ubuntu`
+	  4. Type `sudo apt update` and `sudo apt full-upgrade`
+	  5. Use [desktopify](https://github.com/wimpysworld/desktopify) to install `ubuntu-mate` desktop
+	  	1. `git clone https://github.com/wimpysworld/desktopify.git`
+	  	2. `cd desktopify`
+	  	3. `sudo ./desktopify --de ubuntu-mate`
+	  6. `sudo reboot` to open Raspberry Pi again with Desktop

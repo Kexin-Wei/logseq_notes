@@ -1,0 +1,10 @@
+- Galil Motor Port
+	- Hardware: Port Name Meaning
+		- Reverse Limit Switch
+		- Forward Limit Switch
+		- Home Switch
+		- Latch Armed
+		- Latch Input
+	- Command definition check
+		- TPn
+		- Dpn

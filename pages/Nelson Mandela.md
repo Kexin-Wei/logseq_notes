@@ -1,0 +1,1 @@
+- A South African anti-apartheid revolutionary and politician, Mandela spent 27 years in prison for his activism before becoming the country's first black president in 1994. He is widely regarded as a symbol of the struggle against racism and injustice, and his legacy continues to inspire people around the world.

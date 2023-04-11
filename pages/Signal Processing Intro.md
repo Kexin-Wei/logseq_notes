@@ -1,0 +1,36 @@
+- Characterise Signal
+	- in time domain
+	- in transform domain
+		- Fourier transform
+			- sinusoidal signal
+			- continuous and discrete
+		- Z-transform
+			- discrete time only
+		- Laplace transform
+			- continuous time only
+- Characterise System
+	- Impulse response
+		- output signal when the input is an impulse
+		- unit impulse signal
+		  ![](/../assets/unit_impulse.png){:height 214, :width 404}
+	- Frequency response
+	- Fourier transform: Impulse response -> frequency response
+	- Z-transform / Laplace transform: impulse response -> transfer function
+- Digital Filtering
+  ![](/../assets/signal_processing.png)
+	- $x(t)$: continuous signal
+	- $x[n]$: discrete signal
+	- Filtering
+		- pointwise operator: $y[n]=(x[n])^2$
+		- running average filter: $y[n]=\frac{1}{3}(x[n-1]+x[n]+x[n+1])$
+- Linear Filter
+	- attenuate certain frequency
+	- pass certain frequency
+	- affect both phase and magnitude
+	- IIR Infinite Impulse Response
+		- Mostly non-linear phase response
+		- Could be linear over a range of frequencies
+	- FIR Finite Impulse Response
+		- Much easier to control the phase
+		- Both non-linear and linear phase
+- [[FIR Filter]]

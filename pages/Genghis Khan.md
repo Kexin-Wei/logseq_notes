@@ -1,0 +1,1 @@
+- The founder and leader of the Mongol Empire, Genghis Khan is one of the most successful conquerors in history and his legacy continues to influence Central Asian culture and history.

@@ -1,0 +1,29 @@
+- [[@A blood–brain barrier overview on structure, function, impairment, and biomarkers of integrity]]
+- controlling the influx and efflux of biological substances essential for the brain’s metabolic activity as well as neuronal function
+- the functional and structural integrity of the BBB is pivotal to maintain the homeostasis of the brain microenvironment.
+- Definition
+	- a biological barrier at the blood to brain interface effectively separating the brain from the rest of the body
+	- Biological barriers are protecting the brain. a Blood–brain barrier; b blood–CSF barrier; c the arachnoid barrier
+	- ![](/../assets/bbb_structure.png)
+	- The second barrier is the blood–cerebrospinal fluid barrier (BCSFB), which is formed by the epithelial cells of the choroid plexus.
+- Physiological functions of the BBB at the blood–brain interface
+	- Maintain ionic homeostasis and brain nutrition
+	- Regulate levels of neurotransmitters
+	- Limit plasma macromolecules leak into the brain
+- Transport across the BBB
+	- Passive diffusion: a wide range of lipid-soluble molecules
+	- Active efflux: Several ATP-binding cassette (ABC) proteins are expressed on the luminal, blood-facing endothelial plasma membrane of the BBB.
+	- Carrier-mediated transport (CMT):
+		- The BBB isolates the brain and limits the diffusion of many essential polar nutrients, including glucose and amino acids, which are essential for metabolism.
+		- CMTs are encoded genes within the Solute Carrier (SLC) Transporter Gene Family. This includes more than 300 transporter genes encoding membrane-bound proteins that facilitate the transport of a wide array of substrates across biological membranes
+	- Receptor-mediated transport (RMT)
+		- The presence of peptide bonds limits the larger peptides and proteins from using the amino acid CMT systems to cross the BBB
+	- Major facilitator superfamily: Essential omega-3 fatty acids, such as docosahexaenoic acid (DHA)
+	- Immune cell movement across the BBB
+- BBB disruption in different pathological conditions
+	- hypoxic and ischemic insult
+	- Parkinson’s and Alzheimer’s disease
+	- epilepsy
+	- brain tumors
+	- glaucoma
+	- lysosomal storage diseases

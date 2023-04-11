@@ -1,0 +1,6 @@
+- Translation
+- Rigid transformation = translation + rotation
+- Scaling transformation = translation + rotation + scale
+- Affine transformation = translation + rotation + scale + shear
+- Deformation
+	- [[Image Non-Rigid Registration]]

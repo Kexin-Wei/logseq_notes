@@ -1,0 +1,19 @@
+- Definition
+	- In [robotics](https://en.wikipedia.org/wiki/Robotics "Robotics") and [computer vision](https://en.wikipedia.org/wiki/Computer_vision "Computer vision"), **visual odometry** is the process of determining the position and orientation of a robot by analyzing the associated camera images. It has been used in a wide variety of robotic applications, such as on the [Mars Exploration Rovers](https://en.wikipedia.org/wiki/Mars_Exploration_Rover "Mars Exploration Rover").
+- Approach
+  ![Phase correlation](/../assets/Phase_correlation.png)
+	- Most existing approaches to visual odometry are based on the following stages.
+		- Acquire **input images**: using either single cameras.,[2][3] stereo cameras,[3][4] or omnidirectional cameras.[5][6]
+		- **Image correction**: apply image processing techniques for lens distortion removal, etc.
+		- **Feature detection**: define interest operators, and match features across frames and construct optical flow field.
+			- Use correlation to establish correspondence of two images, and no long term feature tracking.
+			- Feature extraction and correlation.
+		- Construct **optical flow field** ([[5.1 Optical Flow]]Lucas–Kanade method).
+		- Check flow field vectors for potential tracking **errors** and **remove outliers**.[7]
+		- **Estimation of the camera motion** from the optical flow.[8][9][10][11]
+			- Choice 1: **Kalman filter** for state estimate distribution maintenance.
+			- Choice 2: find the geometric and 3D properties of the features that minimize a cost function based on the re-projection error between two adjacent images. This can be done by mathematical minimization or random sampling.
+		- Periodic repopulation of track points to maintain coverage across the image.
+	- An alternative to feature-based methods is the "direct" or **_appearance-based visual odometry_** technique which minimizes an error directly in sensor space and subsequently avoids feature matching and extraction.[4][12][13]
+	- Another method, coined 'visiodometry' estimates the **planar** roto-translations between images using **Phase correlation** instead of extracting features.[14][15]
+	-

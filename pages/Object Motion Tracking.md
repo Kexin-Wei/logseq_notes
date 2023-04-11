@@ -1,0 +1,24 @@
+- [[@A survey on moving object tracking using image processing]]
+- Moving Object Detection
+	- Frame Difference
+	- Background Subtraction
+	- Optical Flow
+- Moving Object Classification
+	- motion based
+	- texture based
+	- shape based
+	- color based
+- Moving Object Tracking
+	- Point Tracking
+		- Kalman Filter
+		- Particle Filter
+		- Multiple Hypothesis Tracking
+	- Kernel Tracking
+		- Simple Template Matching : require template
+		- Mean Shift : require ROI
+			- Chamfer distance transform : improve the accuracy of target representation and localization
+		- Support Vector Machine
+		- Layer based Tracking
+	- Silhouette Tracking
+		- Contour Tracking
+		- Shape Matching in kernel approach

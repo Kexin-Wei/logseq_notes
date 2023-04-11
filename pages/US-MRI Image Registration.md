@@ -1,0 +1,2 @@
+-
+- [[@Automatic ultrasound–MRI registration for neurosurgery using the 2D and 3D LC2 Metric]]

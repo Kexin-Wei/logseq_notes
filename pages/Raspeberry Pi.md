@@ -1,0 +1,5 @@
+- [[0. Install Ubuntu 20 into Raspberry Pi]]
+- [[1. Install fish shell to Replace bash]]
+- [[2. Install Pyenv as Python environment Manager]]
+- [[3. Install OpenCV in Raspberry Pi 4]]
+- [[4. Use Camera in Raspberry Pi]]

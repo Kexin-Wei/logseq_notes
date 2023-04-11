@@ -1,0 +1,1801 @@
+[{:block/name "0. install ubuntu 20 into raspberry pi",
+  :block/created-at 1662688763258,
+  :block/updated-at 1662688763258}
+ {:block/name
+  "041-fundamentals-of-physics-mechanics-relativity-and-thermodynamics-r.-shankar-edisi-1-2014.pdf",
+  :block/created-at 1665391001342,
+  :block/updated-at 1665391001342}
+ {:block/name "09.2022",
+  :block/created-at 1662944550061,
+  :block/updated-at 1662944550061}
+ {:block/name "1 sound intensity |sound intensity",
+  :block/created-at 1663930704063,
+  :block/updated-at 1663930704063}
+ {:block/name "1. install fish shell to replace bash",
+  :block/created-at 1662688788668,
+  :block/updated-at 1662688788668}
+ {:block/name "10.2022",
+  :block/created-at 1665391000912,
+  :block/updated-at 1665391000912}
+ {:block/name "10th aug 2020",
+  :block/created-at 1664713926338,
+  :block/updated-at 1664713926338}
+ {:block/name "10th may 2005",
+  :block/created-at 1664951064450,
+  :block/updated-at 1664951064450}
+ {:block/name "10th oct 2022",
+  :block/created-at 1665391000608,
+  :block/updated-at 1665391000608}
+ {:block/name "10th sep 2022",
+  :block/created-at 1662947095420,
+  :block/updated-at 1668409180881}
+ {:block/name "11th oct 2022",
+  :block/created-at 1665448110188,
+  :block/updated-at 1665826064146}
+ {:block/name "11th sep 2022",
+  :block/created-at 1662947095390,
+  :block/updated-at 1667139718049}
+ {:block/name "12th oct 2022",
+  :block/created-at 1665534774138,
+  :block/updated-at 1666767407818}
+ {:block/name "12th sep 2022",
+  :block/created-at 1663469139472,
+  :block/updated-at 1663469139472}
+ {:block/name "13th oct 2022",
+  :block/created-at 1665621410517,
+  :block/updated-at 1665925169793}
+ {:block/name "13th sep 2022",
+  :block/created-at 1663469139492,
+  :block/updated-at 1663469139492}
+ {:block/name "14th oct 2022",
+  :block/created-at 1665824807600,
+  :block/updated-at 1668409162415}
+ {:block/name "14th sep 2022",
+  :block/created-at 1663469139562,
+  :block/updated-at 1663469139562}
+ {:block/name "15th oct 2022",
+  :block/created-at 1665824807192,
+  :block/updated-at 1666770187279}
+ {:block/name "15th sep 2022",
+  :block/created-at 1663469139576,
+  :block/updated-at 1663469139576}
+ {:block/name "16th apr 2021",
+  :block/created-at 1664951064386,
+  :block/updated-at 1664951064386}
+ {:block/name "16th oct 2022",
+  :block/created-at 1665850967934,
+  :block/updated-at 1666765358373}
+ {:block/name "16th sep 2022",
+  :block/created-at 1663469139588,
+  :block/updated-at 1663469139588}
+ {:block/name "17th oct 2022",
+  :block/created-at 1666753601737,
+  :block/updated-at 1666765354051}
+ {:block/name "18th nov 2020",
+  :block/created-at 1664845595541,
+  :block/updated-at 1664845595541}
+ {:block/name "18th sep 2022",
+  :block/created-at 1663469137018,
+  :block/updated-at 1663469959245}
+ {:block/name "19th sep 2022",
+  :block/created-at 1663548041532,
+  :block/updated-at 1663575285832}
+ {:block/name "1st apr 1983",
+  :block/created-at 1664930154525,
+  :block/updated-at 1664930154525}
+ {:block/name "1st apr 2013",
+  :block/created-at 1664805230165,
+  :block/updated-at 1664805230165}
+ {:block/name "1st aug 2014",
+  :block/created-at 1664713925378,
+  :block/updated-at 1664713925378}
+ {:block/name "1st dec 2001",
+  :block/created-at 1664551260148,
+  :block/updated-at 1664551260148}
+ {:block/name "1st feb 1994",
+  :block/created-at 1664580614573,
+  :block/updated-at 1664580614573}
+ {:block/name "1st jul 1994",
+  :block/created-at 1664713926284,
+  :block/updated-at 1664713926284}
+ {:block/name "1st jul 2005",
+  :block/created-at 1664157692039,
+  :block/updated-at 1664157692039}
+ {:block/name "1st jul 2014",
+  :block/created-at 1664156063739,
+  :block/updated-at 1664156063739}
+ {:block/name "1st jun 2000",
+  :block/created-at 1665825274353,
+  :block/updated-at 1665825274353}
+ {:block/name "1st mar 2014",
+  :block/created-at 1664551261264,
+  :block/updated-at 1664551261264}
+ {:block/name "1st may 2003",
+  :block/created-at 1664160218691,
+  :block/updated-at 1664160218691}
+ {:block/name "1st may 2019",
+  :block/created-at 1664551260683,
+  :block/updated-at 1664551260683}
+ {:block/name "1st nov 2022",
+  :block/created-at 1667233044407,
+  :block/updated-at 1667233044407}
+ {:block/name "1st oct 2021",
+  :block/created-at 1664805229698,
+  :block/updated-at 1664805229698}
+ {:block/name "1st oct 2022",
+  :block/created-at 1664580614844,
+  :block/updated-at 1664584362533}
+ {:block/name "2. install pyenv as python environment manager",
+  :block/created-at 1662688828848,
+  :block/updated-at 1662688861325}
+ {:block/name "20th sep 2022",
+  :block/created-at 1663634921906,
+  :block/updated-at 1663635529566}
+ {:block/name "22nd sep 2022",
+  :block/created-at 1663808611653,
+  :block/updated-at 1667270511967}
+ {:block/name "23rd sep 2022",
+  :block/created-at 1663895648260,
+  :block/updated-at 1663900242520}
+ {:block/name "25th apr 2016",
+  :block/created-at 1664551260098,
+  :block/updated-at 1664551260098}
+ {:block/name "25th sep 2022",
+  :block/created-at 1664067636397,
+  :block/updated-at 1664153386741}
+ {:block/name "26th oct 2022",
+  :block/created-at 1666836553536,
+  :block/updated-at 1667270447832}
+ {:block/name "26th sep 2022",
+  :block/created-at 1664153161822,
+  :block/updated-at 1666950956894}
+ {:block/name "28th oct 2022",
+  :block/created-at 1666888517569,
+  :block/updated-at 1668409327412}
+ {:block/name "29th oct 2022",
+  :block/created-at 1666972911954,
+  :block/updated-at 1667285917113}
+ {:block/name "2nd nov 2022",
+  :block/created-at 1667318757553,
+  :block/updated-at 1667318757553}
+ {:block/name "2nd oct 2022",
+  :block/created-at 1664640859616,
+  :block/updated-at 1664713874228}
+ {:block/name "3. install opencv in raspberry pi 4",
+  :block/created-at 1662688874361,
+  :block/updated-at 1662688874361}
+ {:block/name "30th oct 2022",
+  :block/created-at 1667059773048,
+  :block/updated-at 1667059773048}
+ {:block/name "30th sep 2022",
+  :block/created-at 1664502345062,
+  :block/updated-at 1664502581766}
+ {:block/name "31st oct 2022",
+  :block/created-at 1667145605655,
+  :block/updated-at 1667285922701}
+ {:block/name "3d volumetric image",
+  :block/created-at 1662944550289,
+  :block/updated-at 1663206519332}
+ {:block/name "3rd oct 2022",
+  :block/created-at 1664756467349,
+  :block/updated-at 1664759213755}
+ {:block/name "4. use camera in raspberry pi",
+  :block/created-at 1662688898100,
+  :block/updated-at 1662688898100}
+ {:block/name "4th nov 2022",
+  :block/created-at 1667561762932,
+  :block/updated-at 1668409131141}
+ {:block/name "4th oct 2022",
+  :block/created-at 1664841970842,
+  :block/updated-at 1664843169010}
+ {:block/name "5.1 fiducial marker tracking",
+  :block/created-at 1664843041205,
+  :block/updated-at 1664843041205}
+ {:block/name "5.1 object motion tracking",
+  :block/created-at 1664843018049,
+  :block/updated-at 1664843018049}
+ {:block/name "5.1 optical flow",
+  :block/created-at 1664842958983,
+  :block/updated-at 1664842958983}
+ {:block/name "5th oct 2022",
+  :block/created-at 1664928723779,
+  :block/updated-at 1664930170245}
+ {:block/name "6th aug 2019",
+  :block/created-at 1665925215805,
+  :block/updated-at 1665925215805}
+ {:block/name "6th oct 2022",
+  :block/created-at 1665016594552,
+  :block/updated-at 1665035776701}
+ {:block/name "7th oct 2022",
+  :block/created-at 1665108402705,
+  :block/updated-at 1665112677691}
+ {:block/name "9th sep 2022",
+  :block/created-at 1662947095457,
+  :block/updated-at 1662947095457}
+ {:block/name
+  "@a blood–brain barrier overview on structure, function, impairment, and biomarkers of integrity",
+  :block/created-at 1664842326949,
+  :block/updated-at 1664842326949}
+ {:block/name
+  "@a computerised quality control testing system for b-mode ultrasound",
+  :block/created-at 1663295398610,
+  :block/updated-at 1663550706537}
+ {:block/name
+  "@a primer on the physical principles of tissue harmonic imaging",
+  :block/created-at 1664758331182,
+  :block/updated-at 1664758331182}
+ {:block/name "@a review : image fusion techniques and applications",
+  :block/created-at 1665035429289,
+  :block/updated-at 1665035429289}
+ {:block/name
+  "@a review of kidney motion under free, deep and forced-shallow breathing conditions: implications for stereotactic ablative body radiotherapy treatment",
+  :block/created-at 1664580837744,
+  :block/updated-at 1664580837744}
+ {:block/name
+  "@a review on real-time 3d ultrasound imaging technology",
+  :block/created-at 1663205915317,
+  :block/updated-at 1663205915317}
+ {:block/name
+  "@a survey of motion planning and control techniques for self-driving urban vehicles",
+  :block/created-at 1664071777314,
+  :block/updated-at 1664071777314}
+ {:block/name
+  "@a survey on moving object tracking using image processing",
+  :block/created-at 1663823879821,
+  :block/updated-at 1663823879821}
+ {:block/name
+  "@acoustic coupling quantification in ultrasound-guided focused ultrasound surgery: simulation-based evaluation and experimental feasibility study",
+  :block/created-at 1664763893260,
+  :block/updated-at 1664764771598}
+ {:block/name
+  "@an ieee single-precision arithmetic based beamformer architecture for phased array ultrasound imaging system",
+  :block/created-at 1664757334074,
+  :block/updated-at 1664757334074}
+ {:block/name
+  "@application of adaptive image processing technique to real-time spatial compound ultrasound imaging improves image quality",
+  :block/created-at 1665391000687,
+  :block/updated-at 1665391000687}
+ {:block/name
+  "@broadband ultrasonic attenuation estimation and compensation with passive acoustic mapping",
+  :block/created-at 1664759305680,
+  :block/updated-at 1664759386370}
+ {:block/name "@clinical use of ultrasound tissue harmonic imaging",
+  :block/created-at 1663038627404,
+  :block/updated-at 1663038627404}
+ {:block/name
+  "@comparison of popular non-rigid image registration techniques and a new hybrid mutual information-based fluid algorithm",
+  :block/created-at 1664502525334,
+  :block/updated-at 1664502525334}
+ {:block/name
+  "@comparison of techniques for in vivo attenuation measurements",
+  :block/created-at 1664768150788,
+  :block/updated-at 1664768150788}
+ {:block/name
+  "@detection of gaps between high-intensity focused ultrasound (hifu)-induced lesions using transient axial shear strain elastograms",
+  :block/created-at 1663589236499,
+  :block/updated-at 1663589236499}
+ {:block/name
+  "@diagnostic radiology physics: a handbook for teachers and students",
+  :block/created-at 1662951957514,
+  :block/updated-at 1666767454344}
+ {:block/name "@diagnostic ultrasound: physics and equipment",
+  :block/created-at 1662945563936,
+  :block/updated-at 1663550747220}
+ {:block/name
+  "@dynamics of parallel robots: from rigid bodies to flexible elements",
+  :block/created-at 1665993644098,
+  :block/updated-at 1666768647458}
+ {:block/name "@fetal ultrasound",
+  :block/created-at 1663930703989,
+  :block/updated-at 1663930703989}
+ {:block/name
+  "@focused flow micropump using ultrasonic flexural plate waves",
+  :block/created-at 1665825274076,
+  :block/updated-at 1666770177604}
+ {:block/name
+  "@for whom the bubble grows: physical principles of bubble nucleation and dynamics in histotripsy ultrasound therapy",
+  :block/created-at 1664071197013,
+  :block/updated-at 1664071197013}
+ {:block/name "@from rf signals to b-mode images using deep learning",
+  :block/created-at 1664756908323,
+  :block/updated-at 1664756908323}
+ {:block/name "@handbook of medical image processing and analysis",
+  :block/created-at 1662947614882,
+  :block/updated-at 1666925063595}
+ {:block/name
+  "@hyperecho in ultrasound images of hifu therapy: involvement of cavitation",
+  :block/created-at 1664157692032,
+  :block/updated-at 1664157692032}
+ {:block/name
+  "@imaging feedback of histotripsy treatments using ultrasound shear wave elastography",
+  :block/created-at 1663589217726,
+  :block/updated-at 1663589217726}
+ {:block/name "@kidney mobility during respiration",
+  :block/created-at 1664580749793,
+  :block/updated-at 1664580749793}
+ {:block/name "@mankiw2020principles",
+  :block/created-at 1664071208714,
+  :block/updated-at 1664071578420}
+ {:block/name
+  "@modeling parallel robot kinematics for 3t2r and 3t3r tasks using reciprocal sets of euler angles",
+  :block/created-at 1665920550952,
+  :block/updated-at 1665920550952}
+ {:block/name
+  "@multi-sensor time synchronization method, device, system, electronic device and medium",
+  :block/created-at 1664951064409,
+  :block/updated-at 1664951064409}
+ {:block/name
+  "@multisensory integration: strategies for synchronization",
+  :block/created-at 1664951064478,
+  :block/updated-at 1664951064478}
+ {:block/name
+  "@nonlinear effects in high-intensity focused ultrasound power transfer systems",
+  :block/created-at 1664713301032,
+  :block/updated-at 1664713301032}
+ {:block/name
+  "@passive cavitation detection during pulsed hifu exposures of ex vivo tissues and in vivo mouse pancreatic tumors",
+  :block/created-at 1664156063689,
+  :block/updated-at 1664156063689}
+ {:block/name "@physical principles of medical ultrasonics",
+  :block/created-at 1662948447433,
+  :block/updated-at 1663550755457}
+ {:block/name
+  "@quantitative assessment of shockwave lithotripsy accuracy and the effect of respiratory motion",
+  :block/created-at 1664580614437,
+  :block/updated-at 1664580614437}
+ {:block/name
+  "@quantitative ultrasound backscatter for pulsed cavitational ultrasound therapy-histotripsy",
+  :block/created-at 1663589227996,
+  :block/updated-at 1667285678359}
+ {:block/name
+  "@real-time image fusion involving diagnostic ultrasound",
+  :block/created-at 1663548041948,
+  :block/updated-at 1663550721595}
+ {:block/name
+  "@real-time monitoring of high-intensity focused ultrasound treatment using axial strain and axial-shear strain elastograms",
+  :block/created-at 1663589230519,
+  :block/updated-at 1663589230519}
+ {:block/name
+  "@real-time ultrasound attenuation imaging of diffuse fatty liver disease",
+  :block/created-at 1664757182466,
+  :block/updated-at 1664767819909}
+ {:block/name
+  "@spatial-temporal ultrasound imaging of residual cavitation bubbles around a fluid–tissue interface in histotripsy",
+  :block/created-at 1663589234181,
+  :block/updated-at 1663589234181}
+ {:block/name "@taghirad2013parallel",
+  :block/created-at 1665454540997,
+  :block/updated-at 1665632232691}
+ {:block/name
+  "@the degree of freedom of parallel robots: a group-theoretic approach",
+  :block/created-at 1665993606599,
+  :block/updated-at 1665993606599}
+ {:block/name
+  "@the influence of respiration induced motion of the kidneys on the accuracy of radiotherapy treatment planning, a magnetic resonance imaging study",
+  :block/created-at 1664580614626,
+  :block/updated-at 1664580614626}
+ {:block/name
+  "@the pulse length-dependence of inertial cavitation dose and hemolysis",
+  :block/created-at 1664160218636,
+  :block/updated-at 1664160218636}
+ {:block/name
+  "@time synchronization accuracy verification for multi-sensor system",
+  :block/created-at 1664951064587,
+  :block/updated-at 1664951064587}
+ {:block/name
+  "@ultrasonic signal processing for in vivo attenuation measurement: short time fourier analysis",
+  :block/created-at 1664768127201,
+  :block/updated-at 1667200196598}
+ {:block/name
+  "@ultrasound elastography: review of techniques and clinical applications",
+  :block/created-at 1664758528031,
+  :block/updated-at 1664758528031}
+ {:block/name "a",
+  :block/created-at 1662677697149,
+  :block/updated-at 1662677697149}
+ {:block/name "a. c. m. van den bergh",
+  :block/created-at 1664580614577,
+  :block/updated-at 1664580614577}
+ {:block/name "aarushi bhargava",
+  :block/created-at 1664713301069,
+  :block/updated-at 1664713301069}
+ {:block/name "abhishek tomar",
+  :block/created-at 1664757334110,
+  :block/updated-at 1664757334110}
+ {:block/name "ablation",
+  :block/created-at 1664071197027,
+  :block/updated-at 1664071197027}
+ {:block/name "abstract",
+  :block/created-at 1663038627460,
+  :block/updated-at 1663038627460}
+ {:block/name "access-date",
+  :block/created-at 1663038627446,
+  :block/updated-at 1663038627446}
+ {:block/name "accuracy verification",
+  :block/created-at 1664951064564,
+  :block/updated-at 1664951064564}
+ {:block/name "acoustic parameters",
+  :block/created-at 1662944550580,
+  :block/updated-at 1662947028519}
+ {:block/name "acoustic physics",
+  :block/created-at 1662944550580,
+  :block/updated-at 1663548656047}
+ {:block/name "acoustic pulses",
+  :block/created-at 1663589228060,
+  :block/updated-at 1663589228060}
+ {:block/name "acoustic radiation force",
+  :block/created-at 1663589236544,
+  :block/updated-at 1663589236544}
+ {:block/name "acoustic transducers",
+  :block/created-at 1663589228187,
+  :block/updated-at 1663589228187}
+ {:block/name "acoustics",
+  :block/created-at 1664759305707,
+  :block/updated-at 1664759305707}
+ {:block/name "active cavitation detection",
+  :block/created-at 1664160218687,
+  :block/updated-at 1664160218687}
+ {:block/name "adrian săftoiu",
+  :block/created-at 1663548041951,
+  :block/updated-at 1663548041951}
+ {:block/name "albunex®",
+  :block/created-at 1664160218687,
+  :block/updated-at 1664160218687}
+ {:block/name "amplitude estimation",
+  :block/created-at 1664768150809,
+  :block/updated-at 1664768150809}
+ {:block/name "anatomy views of human",
+  :block/created-at 1662944550327,
+  :block/updated-at 1664842124781}
+ {:block/name "andrew a. brayman",
+  :block/created-at 1664160218695,
+  :block/updated-at 1664160218695}
+ {:block/name "anthony e. samir",
+  :block/created-at 1664758331197,
+  :block/updated-at 1664758331197}
+ {:block/name "anthony maeder",
+  :block/created-at 1664502525374,
+  :block/updated-at 1664502525374}
+ {:block/name "anup r. shah",
+  :block/created-at 1664580614396,
+  :block/updated-at 1664580614396}
+ {:block/name "apodization",
+  :block/created-at 1664757334107,
+  :block/updated-at 1664757334107}
+ {:block/name "application-number",
+  :block/created-at 1664951064405,
+  :block/updated-at 1664951064405}
+ {:block/name "arash anvari",
+  :block/created-at 1664758331196,
+  :block/updated-at 1664758331196}
+ {:block/name "array calibration",
+  :block/created-at 1664759305708,
+  :block/updated-at 1664759305708}
+ {:block/name "arrays",
+  :block/created-at 1664759305708,
+  :block/updated-at 1664759305708}
+ {:block/name "arun k. thittai",
+  :block/created-at 1663589231606,
+  :block/updated-at 1663589231606}
+ {:block/name "assignee",
+  :block/created-at 1664951064406,
+  :block/updated-at 1664951064406}
+ {:block/name "attachments",
+  :block/created-at 1662945564454,
+  :block/updated-at 1662945564454}
+ {:block/name "attenuation",
+  :block/created-at 1664759305712,
+  :block/updated-at 1664759305712}
+ {:block/name "attenuation assessment algorithm",
+  :block/created-at 1664768419958,
+  :block/updated-at 1664768588578}
+ {:block/name "attenuation measurement",
+  :block/created-at 1664768150810,
+  :block/updated-at 1664768150810}
+ {:block/name "audra h. meng",
+  :block/created-at 1665825274125,
+  :block/updated-at 1665825274125}
+ {:block/name "authors",
+  :block/created-at 1663038627449,
+  :block/updated-at 1663038627449}
+ {:block/name "automated measurement",
+  :block/created-at 1663295398660,
+  :block/updated-at 1663295398660}
+ {:block/name "axial strain",
+  :block/created-at 1663589230728,
+  :block/updated-at 1663589230728}
+ {:block/name "axial- shear strain",
+  :block/created-at 1663589230575,
+  :block/updated-at 1663589230575}
+ {:block/name "b",
+  :block/created-at 1662677697149,
+  :block/updated-at 1662677697149}
+ {:block/name "b-flow",
+  :block/created-at 1664757868127,
+  :block/updated-at 1664757868196}
+ {:block/name "b-mode",
+  :block/created-at 1662944550107,
+  :block/updated-at 1662944550107}
+ {:block/name "b-mode image quality",
+  :block/created-at 1662952120979,
+  :block/updated-at 1663295399479}
+ {:block/name "b-mode imaging",
+  :block/created-at 1662944550287,
+  :block/updated-at 1664757914368}
+ {:block/name "b-mode performance limitation",
+  :block/created-at 1664757852921,
+  :block/updated-at 1664757853111}
+ {:block/name "b-mode post processing",
+  :block/created-at 1664757863225,
+  :block/updated-at 1664757863383}
+ {:block/name "backscatter",
+  :block/created-at 1663589228226,
+  :block/updated-at 1663589228226}
+ {:block/name "bbn",
+  :block/created-at 1662728102052,
+  :block/updated-at 1662728102052}
+ {:block/name "bbn blood brain barrier",
+  :block/created-at 1662944550327,
+  :block/updated-at 1664842327591}
+ {:block/name "beam forming",
+  :block/created-at 1662944550288,
+  :block/updated-at 1664758204098}
+ {:block/name "beamformer",
+  :block/created-at 1664757334108,
+  :block/updated-at 1664757334108}
+ {:block/name "behnam noorani",
+  :block/created-at 1664842326990,
+  :block/updated-at 1664842326990}
+ {:block/name "bioeffect",
+  :block/created-at 1664160218688,
+  :block/updated-at 1664160218688}
+ {:block/name "biomedical engineering",
+  :block/created-at 1663589228103,
+  :block/updated-at 1663589228103}
+ {:block/name "biomedical measurements",
+  :block/created-at 1664768150810,
+  :block/updated-at 1664768150810}
+ {:block/name "biophysics",
+  :block/created-at 1662948447463,
+  :block/updated-at 1662948447463}
+ {:block/name "blood–brain barrier",
+  :block/created-at 1664842326983,
+  :block/updated-at 1664842326983}
+ {:block/name "board band noise",
+  :block/created-at 1664157050265,
+  :block/updated-at 1664160184480}
+ {:block/name "book",
+  :block/created-at 1662945563943,
+  :block/updated-at 1662945563943}
+ {:block/name "book-title",
+  :block/created-at 1664502525379,
+  :block/updated-at 1664502525379}
+ {:block/name "booksection",
+  :block/created-at 1664502525372,
+  :block/updated-at 1664502525372}
+ {:block/name "brian paden",
+  :block/created-at 1664071777338,
+  :block/updated-at 1664071777338}
+ {:block/name "broadband noise",
+  :block/created-at 1664160218688,
+  :block/updated-at 1664160218688}
+ {:block/name
+  "bubble activity in therapeutic ultrasound live workshop",
+  :block/created-at 1662944550187,
+  :block/updated-at 1665112311926}
+ {:block/name "bubbles",
+  :block/created-at 1664071197027,
+  :block/updated-at 1664071197027}
+ {:block/name "c",
+  :block/created-at 1662677697149,
+  :block/updated-at 1662677697149}
+ {:block/name "c++ environment setup",
+  :block/created-at 1662688958973,
+  :block/updated-at 1662688958973}
+ {:block/name "c-mode color doppler",
+  :block/created-at 1662947574774,
+  :block/updated-at 1663122794861}
+ {:block/name "c. j. g. bakker",
+  :block/created-at 1664580614583,
+  :block/updated-at 1664580614583}
+ {:block/name "c.s. cain",
+  :block/created-at 1663589228550,
+  :block/updated-at 1663589228550}
+ {:block/name "call-number",
+  :block/created-at 1662945563948,
+  :block/updated-at 1662945563948}
+ {:block/name "cameras",
+  :block/created-at 1664951064563,
+  :block/updated-at 1664951064563}
+ {:block/name "canceled",
+  :block/created-at 1662677697149,
+  :block/updated-at 1662677697149}
+ {:block/name "cancelled",
+  :block/created-at 1662677697149,
+  :block/updated-at 1662677697149}
+ {:block/name "card",
+  :block/created-at 1662677697149,
+  :block/updated-at 1662677697149}
+ {:block/name "caroline ewertsen",
+  :block/created-at 1663548041950,
+  :block/updated-at 1663548041950}
+ {:block/name "cavitation",
+  :block/created-at 1664155159976,
+  :block/updated-at 1664712945802}
+ {:block/name "cavitation bubbles",
+  :block/created-at 1663589230564,
+  :block/updated-at 1663589230564}
+ {:block/name "cells (biology)",
+  :block/created-at 1663589228037,
+  :block/updated-at 1663589228037}
+ {:block/name "charles a. cain",
+  :block/created-at 1663589218299,
+  :block/updated-at 1663589218299}
+ {:block/name "chenghao wang",
+  :block/created-at 1664951064575,
+  :block/updated-at 1664951064575}
+ {:block/name "chenhui liu",
+  :block/created-at 1663589236813,
+  :block/updated-at 1663589236813}
+ {:block/name "chords",
+  :block/created-at 1662944550138,
+  :block/updated-at 1666763609381}
+ {:block/name "circuits",
+  :block/created-at 1663589228131,
+  :block/updated-at 1663589228131}
+ {:block/name "clinton fookes",
+  :block/created-at 1664502525374,
+  :block/updated-at 1664502525374}
+ {:block/name "cns",
+  :block/created-at 1664842326984,
+  :block/updated-at 1664842326984}
+ {:block/name "comb filter",
+  :block/created-at 1663296097824,
+  :block/updated-at 1663296166866}
+ {:block/name "comb_filter.pdf",
+  :block/created-at 1663296166865,
+  :block/updated-at 1663296166865}
+ {:block/name "computer science - robotics",
+  :block/created-at 1664071777343,
+  :block/updated-at 1664071777343}
+ {:block/name "conference-name",
+  :block/created-at 1663823879831,
+  :block/updated-at 1663823879831}
+ {:block/name "conferencepaper",
+  :block/created-at 1663823879823,
+  :block/updated-at 1663823879823}
+ {:block/name "constantin c. coussios",
+  :block/created-at 1664759305715,
+  :block/updated-at 1664759305715}
+ {:block/name "contents",
+  :block/created-at 1662871396949,
+  :block/updated-at 1664584308610}
+ {:block/name "corner detection",
+  :block/created-at 1662944550560,
+  :block/updated-at 1664842660619}
+ {:block/name "country",
+  :block/created-at 1664951064403,
+  :block/updated-at 1664951064403}
+ {:block/name "couplings",
+  :block/created-at 1666753602272,
+  :block/updated-at 1666753602272}
+ {:block/name "ct  computed tomography image",
+  :block/created-at 1662944550290,
+  :block/updated-at 1662944550290}
+ {:block/name "data acquisition",
+  :block/created-at 1662944550543,
+  :block/updated-at 1664929185550}
+ {:block/name "date",
+  :block/created-at 1662870713242,
+  :block/updated-at 1662870713242}
+ {:block/name "dec 29th, 2022",
+  :block/created-at 1672275513508,
+  :block/updated-at 1672275513508}
+ {:block/name "degass_water",
+  :block/created-at 1662728102053,
+  :block/updated-at 1662728102053}
+ {:block/name "degenerative",
+  :block/created-at 1664842326984,
+  :block/updated-at 1664842326984}
+ {:block/name "degree of freedom",
+  :block/created-at 1666753602255,
+  :block/updated-at 1666753602255}
+ {:block/name "delay calculator",
+  :block/created-at 1664757334108,
+  :block/updated-at 1664757334108}
+ {:block/name
+  "design,_implementation_and_comparison_of_demodulation_methods_in_am_and_fm.pdf",
+  :block/created-at 1666926582240,
+  :block/updated-at 1666926582240}
+ {:block/name "diane dalecki",
+  :block/created-at 1663930708701,
+  :block/updated-at 1663930708701}
+ {:block/name "dicom",
+  :block/created-at 1664758355269,
+  :block/updated-at 1664758438742}
+ {:block/name "disruption",
+  :block/created-at 1664842326985,
+  :block/updated-at 1664842326985}
+ {:block/name "dmitry yershov",
+  :block/created-at 1664071777341,
+  :block/updated-at 1664071777341}
+ {:block/name "doi",
+  :block/created-at 1663038627444,
+  :block/updated-at 1663038627444}
+ {:block/name "doing",
+  :block/created-at 1662677697149,
+  :block/updated-at 1662677697149}
+ {:block/name "done",
+  :block/created-at 1662677697149,
+  :block/updated-at 1662677697149}
+ {:block/name "drug delivery",
+  :block/created-at 1664156063736,
+  :block/updated-at 1664156063736}
+ {:block/name "dthi differential tissue harmonic imaging",
+  :block/created-at 1662944550291,
+  :block/updated-at 1664758335222}
+ {:block/name "e-reader",
+  :block/created-at 1662688127150,
+  :block/updated-at 1662688387569}
+ {:block/name "e.d. rothman",
+  :block/created-at 1663589228496,
+  :block/updated-at 1663589228496}
+ {:block/name "edition",
+  :block/created-at 1662945563950,
+  :block/updated-at 1662945563950}
+ {:block/name "elasticity",
+  :block/created-at 1663589217824,
+  :block/updated-at 1663589217824}
+ {:block/name "elastography",
+  :block/created-at 1663589230553,
+  :block/updated-at 1664759122451}
+ {:block/name "emilio frazzoli",
+  :block/created-at 1664071777342,
+  :block/updated-at 1664071777342}
+ {:block/name "emmanuel touboul",
+  :block/created-at 1664580749831,
+  :block/updated-at 1664580749831}
+ {:block/name "envelopedetection.pdf",
+  :block/created-at 1666925945286,
+  :block/updated-at 1666925945286}
+ {:block/name "estimation",
+  :block/created-at 1664759305710,
+  :block/updated-at 1664759305710}
+ {:block/name "extra",
+  :block/created-at 1663589218446,
+  :block/updated-at 1663589218446}
+ {:block/name "f tranquart",
+  :block/created-at 1663038627439,
+  :block/updated-at 1663038627439}
+ {:block/name "f. winterroth",
+  :block/created-at 1663589228411,
+  :block/updated-at 1663589228411}
+ {:block/name "fast fourier transform",
+  :block/created-at 1663589239141,
+  :block/updated-at 1663589239141}
+ {:block/name "fast_fourier_transform.pdf",
+  :block/created-at 1663589239128,
+  :block/updated-at 1663589239128}
+ {:block/name "fatty liver",
+  :block/created-at 1664757182497,
+  :block/updated-at 1664757182497}
+ {:block/name "favorites",
+  :block/created-at 1662871396950,
+  :block/updated-at 1662871396950}
+ {:block/name "fetus",
+  :block/created-at 1663930708529,
+  :block/updated-at 1663930708529}
+ {:block/name "fiducial marker tracking",
+  :block/created-at 1662944550562,
+  :block/updated-at 1662944550562}
+ {:block/name "file",
+  :block/created-at 1662946460574,
+  :block/updated-at 1662946460574}
+ {:block/name "file-path",
+  :block/created-at 1662946460575,
+  :block/updated-at 1662946460575}
+ {:block/name "filing-date",
+  :block/created-at 1664951064393,
+  :block/updated-at 1664951064393}
+ {:block/name "finite element analysis",
+  :block/created-at 1664759305710,
+  :block/updated-at 1664759305710}
+ {:block/name "fir filter",
+  :block/created-at 1662944550541,
+  :block/updated-at 1664930677427}
+ {:block/name "flemming forsberg",
+  :block/created-at 1664758331196,
+  :block/updated-at 1664758331196}
+ {:block/name "flexural",
+  :block/created-at 1665825274121,
+  :block/updated-at 1665825274121}
+ {:block/name "focused",
+  :block/created-at 1665825274122,
+  :block/updated-at 1665825274122}
+ {:block/name "focused ultrasound",
+  :block/created-at 1664071197030,
+  :block/updated-at 1664071197030}
+ {:block/name "focusing",
+  :block/created-at 1663589228257,
+  :block/updated-at 1663589228257}
+ {:block/name "fractionation",
+  :block/created-at 1663589228159,
+  :block/updated-at 1663589228159}
+ {:block/name "françois gudinchet",
+  :block/created-at 1665391000657,
+  :block/updated-at 1665391000657}
+ {:block/name "frequency estimation",
+  :block/created-at 1664768150811,
+  :block/updated-at 1664768150811}
+ {:block/name "galil training",
+  :block/created-at 1667548945195,
+  :block/updated-at 1667552042979}
+ {:block/name "gre",
+  :block/created-at 1664072034395,
+  :block/updated-at 1664072189625}
+ {:block/name "gre55.pdf",
+  :block/created-at 1664072145864,
+  :block/updated-at 1664072145864}
+ {:block/name "hamid d taghirad",
+  :block/created-at 1665454541005,
+  :block/updated-at 1665454541005}
+ {:block/name "harmonics",
+  :block/created-at 1662728102051,
+  :block/updated-at 1662728102051}
+ {:block/name "hemolysis",
+  :block/created-at 1664160218689,
+  :block/updated-at 1664160218689}
+ {:block/name "hifu",
+  :block/created-at 1662944550238,
+  :block/updated-at 1662944550238}
+ {:block/name "hifu device design",
+  :block/created-at 1662944550238,
+  :block/updated-at 1664713843164}
+ {:block/name "hifu introduction",
+  :block/created-at 1662944550159,
+  :block/updated-at 1662944623127}
+ {:block/name "hifu monitoring",
+  :block/created-at 1662944550187,
+  :block/updated-at 1668408753961}
+ {:block/name "high-intensity focused ultrasound",
+  :block/created-at 1663589230774,
+  :block/updated-at 1663589230774}
+ {:block/name "high-intensity focused ultrasound (hifu)",
+  :block/created-at 1663589236570,
+  :block/updated-at 1663589236570}
+ {:block/name "hilbert transform",
+  :block/created-at 1666929062618,
+  :block/updated-at 1666929117895}
+ {:block/name "history",
+  :block/created-at 1666753602266,
+  :block/updated-at 1666753602266}
+ {:block/name "histotripsy",
+  :block/created-at 1662944550236,
+  :block/updated-at 1662944550236}
+ {:block/name
+  "hls__bankman_2009_handbook of medical image processing and analysis",
+  :block/created-at 1662947713850,
+  :block/updated-at 1662947713850}
+ {:block/name "hls__briot_khalil_2015_dynamics of parallel robots",
+  :block/created-at 1665993777626,
+  :block/updated-at 1665993777626}
+ {:block/name
+  "hls__design,_implementation_and_comparison_of_demodulation_methods_in_am_and_fm",
+  :block/created-at 1664783440460,
+  :block/updated-at 1664783440460}
+ {:block/name "hls__diagnostic radiology physics2",
+  :block/created-at 1662952039709,
+  :block/updated-at 1662952039709}
+ {:block/name
+  "hls__fink et al_1983_ultrasonic signal processing for in vivo attenuation measurement",
+  :block/created-at 1667200670845,
+  :block/updated-at 1667200670845}
+ {:block/name
+  "hls__gibson et al_2001_a computerised quality control testing system for b-mode ultrasound",
+  :block/created-at 1663295449835,
+  :block/updated-at 1663295449835}
+ {:block/name
+  "hls__gray_coussios_2018_broadband ultrasonic attenuation estimation and compensation with passive",
+  :block/created-at 1664759724030,
+  :block/updated-at 1664759724030}
+ {:block/name
+  "hls__hill et al_2004_physical principles of medical ultrasonics2",
+  :block/created-at 1662948519442,
+  :block/updated-at 1662948519442}
+ {:block/name "hls__hoskins et al_2019_diagnostic ultrasound",
+  :block/created-at 1662946460572,
+  :block/updated-at 1662946460572}
+ {:block/name "hls__iqdemodulation",
+  :block/created-at 1664783094613,
+  :block/updated-at 1664783094613}
+ {:block/name
+  "hls__kanayama et al_2013_real-time ultrasound attenuation imaging of diffuse fatty liver disease",
+  :block/created-at 1664767031657,
+  :block/updated-at 1664767031657}
+ {:block/name
+  "hls__liu_zhou_2018_detection of gaps between high-intensity focused ultrasound (hifu)-induced",
+  :block/created-at 1663589238876,
+  :block/updated-at 1663589238876}
+ {:block/name
+  "hls__meuwly et al_2003_application of adaptive image processing technique to real-time spatial",
+  :block/created-at 1665391000843,
+  :block/updated-at 1665391000843}
+ {:block/name "hls__taghirad_2013_parallel robots",
+  :block/created-at 1665454755436,
+  :block/updated-at 1665454755436}
+ {:block/name
+  "hls__wang et al_2009_quantitative ultrasound backscatter for pulsed cavitational ultrasound",
+  :block/created-at 1667272150614,
+  :block/updated-at 1667272150614}
+ {:block/name
+  "hls__wang et al_2012_imaging feedback of histotripsy treatments using ultrasound shear wave",
+  :block/created-at 1663589241700,
+  :block/updated-at 1663589241700}
+ {:block/name
+  "hls__xia_thittai_2014_real-time monitoring of high-intensity focused ultrasound treatment using axial",
+  :block/created-at 1663589242510,
+  :block/updated-at 1663589242510}
+ {:block/name "hong chen",
+  :block/created-at 1664156063743,
+  :block/updated-at 1664156063743}
+ {:block/name "hong hu",
+  :block/created-at 1663589234259,
+  :block/updated-at 1663589234259}
+ {:block/name "hossam kadry",
+  :block/created-at 1664842326989,
+  :block/updated-at 1664842326989}
+ {:block/name "hydrophone",
+  :block/created-at 1662728102055,
+  :block/updated-at 1664713612846}
+ {:block/name "hyperechoic region: scattering by gas or vapor bubbles",
+  :block/created-at 1665920388103,
+  :block/updated-at 1665920388306}
+ {:block/name "ieee single precision arithmetic",
+  :block/created-at 1664757334109,
+  :block/updated-at 1664757334109}
+ {:block/name "image fusion",
+  :block/created-at 1662944550258,
+  :block/updated-at 1665035438053}
+ {:block/name "image non-rigid registration",
+  :block/created-at 1662944550257,
+  :block/updated-at 1664502563362}
+ {:block/name "image processing",
+  :block/created-at 1663295398660,
+  :block/updated-at 1663295398660}
+ {:block/name "image registration",
+  :block/created-at 1662944550256,
+  :block/updated-at 1665035661138}
+ {:block/name "image registration and fusion",
+  :block/created-at 1662944550259,
+  :block/updated-at 1665035815747}
+ {:block/name "imaging mechanism",
+  :block/created-at 1662944550292,
+  :block/updated-at 1664758370880}
+ {:block/name "in vivo",
+  :block/created-at 1664157692037,
+  :block/updated-at 1664157692037}
+ {:block/name "in-progress",
+  :block/created-at 1662677697149,
+  :block/updated-at 1662677697149}
+ {:block/name "inertial cavitation",
+  :block/created-at 1664160218689,
+  :block/updated-at 1664160218689}
+ {:block/name "inertial_cavitation",
+  :block/created-at 1662728102050,
+  :block/updated-at 1662728102050}
+ {:block/name "instrumentation",
+  :block/created-at 1662945563940,
+  :block/updated-at 1662945563940}
+ {:block/name "integrity",
+  :block/created-at 1664842326985,
+  :block/updated-at 1664842326985}
+ {:block/name "interests",
+  :block/created-at 1667290814615,
+  :block/updated-at 1667290814615}
+ {:block/name "intersets",
+  :block/created-at 1667290813132,
+  :block/updated-at 1668409208851}
+ {:block/name "iq demodulation",
+  :block/created-at 1662944550542,
+  :block/updated-at 1664930940213}
+ {:block/name "iqdemodulation.pdf",
+  :block/created-at 1666926643028,
+  :block/updated-at 1666926643028}
+ {:block/name "isbn",
+  :block/created-at 1662945563947,
+  :block/updated-at 1662945563947}
+ {:block/name "issn",
+  :block/created-at 1663038627443,
+  :block/updated-at 1663038627443}
+ {:block/name "issue",
+  :block/created-at 1663038627443,
+  :block/updated-at 1663038627443}
+ {:block/name "issue-date",
+  :block/created-at 1664951064391,
+  :block/updated-at 1664951064391}
+ {:block/name "issuing-authority",
+  :block/created-at 1664951064402,
+  :block/updated-at 1664951064402}
+ {:block/name "item-type",
+  :block/created-at 1662945563947,
+  :block/updated-at 1662945563947}
+ {:block/name "j. b. fowlkes",
+  :block/created-at 1663589228462,
+  :block/updated-at 1663589228462}
+ {:block/name "j. brian fowlkes",
+  :block/created-at 1663589218261,
+  :block/updated-at 1663589218261}
+ {:block/name "j. j. battermann",
+  :block/created-at 1664580614587,
+  :block/updated-at 1664580614587}
+ {:block/name "j. j. w. lagendijk",
+  :block/created-at 1664580614585,
+  :block/updated-at 1664580614585}
+ {:block/name "james f. greenleaf",
+  :block/created-at 1663930708679,
+  :block/updated-at 1663930708679}
+ {:block/name "jean-philippe thiran",
+  :block/created-at 1665391000656,
+  :block/updated-at 1665391000656}
+ {:block/name "jean-yves meuwly",
+  :block/created-at 1665391000655,
+  :block/updated-at 1665391000655}
+ {:block/name "jing ren",
+  :block/created-at 1664756908334,
+  :block/updated-at 1664756908334}
+ {:block/name "jocelyne richaud",
+  :block/created-at 1664580749829,
+  :block/updated-at 1664580749829}
+ {:block/name "jonathan d. harper",
+  :block/created-at 1664580614402,
+  :block/updated-at 1664580614402}
+ {:block/name "joo ha hwang",
+  :block/created-at 1664156063746,
+  :block/updated-at 1664156063746}
+ {:block/name "journal-abbreviation",
+  :block/created-at 1663038627448,
+  :block/updated-at 1663038627448}
+ {:block/name "journalarticle",
+  :block/created-at 1662951957517,
+  :block/updated-at 1662951957517}
+ {:block/name "k.j. parker",
+  :block/created-at 1664768150815,
+  :block/updated-at 1664768150815}
+ {:block/name "kalman filter",
+  :block/created-at 1662944550562,
+  :block/updated-at 1664842916835}
+ {:block/name "kalman_filter.pdf",
+  :block/created-at 1663649435331,
+  :block/updated-at 1663649435331}
+ {:block/name "kate griffith",
+  :block/created-at 1663295398667,
+  :block/updated-at 1663295398667}
+ {:block/name "kenichi maruyama",
+  :block/created-at 1664757182502,
+  :block/updated-at 1664757182502}
+ {:block/name "kidney",
+  :block/created-at 1663589217842,
+  :block/updated-at 1663589217842}
+ {:block/name "kidney anatomy",
+  :block/created-at 1662944550328,
+  :block/updated-at 1664842550208}
+ {:block/name "kidney motion model",
+  :block/created-at 1662944550564,
+  :block/updated-at 1664580921176}
+ {:block/name "kidney motion tracking",
+  :block/created-at 1662944550564,
+  :block/updated-at 1664843041206}
+ {:block/name "kidney_motion_anatomy.pdf",
+  :block/created-at 1663823879768,
+  :block/updated-at 1663823879768}
+ {:block/name "kidney_motion_tracking_new.pdf",
+  :block/created-at 1663205598394,
+  :block/updated-at 1663205598394}
+ {:block/name "kinematics",
+  :block/created-at 1666753602260,
+  :block/updated-at 1666753602260}
+ {:block/name "kjell a. salvesen",
+  :block/created-at 1663930708728,
+  :block/updated-at 1663930708728}
+ {:block/name "l pourcelot",
+  :block/created-at 1663038627441,
+  :block/updated-at 1663038627441}
+ {:block/name "language",
+  :block/created-at 1662945563949,
+  :block/updated-at 1662945563949}
+ {:block/name "laser radar",
+  :block/created-at 1664951064565,
+  :block/updated-at 1664951064565}
+ {:block/name "later",
+  :block/created-at 1662677697149,
+  :block/updated-at 1662677697149}
+ {:block/name "laurent buffat",
+  :block/created-at 1664580749830,
+  :block/updated-at 1664580749830}
+ {:block/name "laurent h. schwartz",
+  :block/created-at 1664580749829,
+  :block/updated-at 1664580749829}
+ {:block/name "lawrence a. crum",
+  :block/created-at 1664160218696,
+  :block/updated-at 1664160218696}
+ {:block/name "leg",
+  :block/created-at 1666753602264,
+  :block/updated-at 1666753602264}
+ {:block/name "legged locomotion",
+  :block/created-at 1666753602281,
+  :block/updated-at 1666753602281}
+ {:block/name "lesion gap",
+  :block/created-at 1663589236590,
+  :block/updated-at 1663589236590}
+ {:block/name "lesions",
+  :block/created-at 1663589217858,
+  :block/updated-at 1663589217858}
+ {:block/name "library-catalog",
+  :block/created-at 1662945563951,
+  :block/updated-at 1662945563951}
+ {:block/name "links",
+  :block/created-at 1662945563951,
+  :block/updated-at 1662945563951}
+ {:block/name "liver",
+  :block/created-at 1664757182498,
+  :block/updated-at 1664757182498}
+ {:block/name "location awareness",
+  :block/created-at 1664951064568,
+  :block/updated-at 1664951064568}
+ {:block/name "luca cucullo",
+  :block/created-at 1664842326990,
+  :block/updated-at 1664842326990}
+ {:block/name "lucian g. gruionu",
+  :block/created-at 1663548041952,
+  :block/updated-at 1663548041952}
+ {:block/name "m. a. moerland",
+  :block/created-at 1664580614576,
+  :block/updated-at 1664580614576}
+ {:block/name "markers",
+  :block/created-at 1664842326986,
+  :block/updated-at 1664842326986}
+ {:block/name "marla paun",
+  :block/created-at 1664580614400,
+  :block/updated-at 1664580614400}
+ {:block/name "matching box",
+  :block/created-at 1663205730677,
+  :block/updated-at 1663205783860}
+ {:block/name "matching_box.pdf",
+  :block/created-at 1663205783860,
+  :block/updated-at 1663205783860}
+ {:block/name "mathew d. sorensen",
+  :block/created-at 1664580614393,
+  :block/updated-at 1664580614393}
+ {:block/name "matlab",
+  :block/created-at 1663548042870,
+  :block/updated-at 1663548042870}
+ {:block/name "mayur agarwal",
+  :block/created-at 1664757334110,
+  :block/updated-at 1664757334110}
+ {:block/name "mechanical effects",
+  :block/created-at 1663930708541,
+  :block/updated-at 1663930708541}
+ {:block/name "mechanical engineering",
+  :block/created-at 1666753602275,
+  :block/updated-at 1666753602275}
+ {:block/name "medical knowledge",
+  :block/created-at 1662944550329,
+  :block/updated-at 1662944550329}
+ {:block/name "medical treatment",
+  :block/created-at 1663589217885,
+  :block/updated-at 1663589217885}
+ {:block/name "melvin e. stratmeyer",
+  :block/created-at 1663930708655,
+  :block/updated-at 1663930708655}
+ {:block/name "methods",
+  :block/created-at 1662945563941,
+  :block/updated-at 1662945563941}
+ {:block/name "michael b. nielsen",
+  :block/created-at 1663548041958,
+  :block/updated-at 1663548041958}
+ {:block/name "michael d. gray",
+  :block/created-at 1664759305715,
+  :block/updated-at 1664759305715}
+ {:block/name "michael r. bailey",
+  :block/created-at 1664580614394,
+  :block/updated-at 1664580614394}
+ {:block/name "michal cap",
+  :block/created-at 1664071777339,
+  :block/updated-at 1664071777339}
+ {:block/name "michel schlienger",
+  :block/created-at 1664580749832,
+  :block/updated-at 1664580749832}
+ {:block/name "microbubbles",
+  :block/created-at 1664160218690,
+  :block/updated-at 1664160218690}
+ {:block/name "microfluidic",
+  :block/created-at 1665825274122,
+  :block/updated-at 1665825274122}
+ {:block/name "micromachine",
+  :block/created-at 1665825274123,
+  :block/updated-at 1665825274123}
+ {:block/name "mingxi wan",
+  :block/created-at 1663589234356,
+  :block/updated-at 1663589234356}
+ {:block/name "mobile robots",
+  :block/created-at 1666753602268,
+  :block/updated-at 1666753602268}
+ {:block/name "monitoring",
+  :block/created-at 1664157692038,
+  :block/updated-at 1664157692038}
+ {:block/name "moritz schappler",
+  :block/created-at 1665920550979,
+  :block/updated-at 1665920550979}
+ {:block/name "morton w. miller",
+  :block/created-at 1664160218696,
+  :block/updated-at 1664160218696}
+ {:block/name "motion",
+  :block/created-at 1664580837753,
+  :block/updated-at 1664580837753}
+ {:block/name "mri",
+  :block/created-at 1662944550292,
+  :block/updated-at 1663635343220}
+ {:block/name "muhammad r. hajj",
+  :block/created-at 1664713301072,
+  :block/updated-at 1664713301072}
+ {:block/name "multi-sensor system",
+  :block/created-at 1664951064562,
+  :block/updated-at 1664951064562}
+ {:block/name "multiple lesions",
+  :block/created-at 1663589230679,
+  :block/updated-at 1663589230679}
+ {:block/name "multivariate normal distribution",
+  :block/created-at 1662944550361,
+  :block/updated-at 1662952655849}
+ {:block/name "music theory",
+  :block/created-at 1662944550374,
+  :block/updated-at 1663469647691}
+ {:block/name "n gregory mankiw",
+  :block/created-at 1664071208739,
+  :block/updated-at 1664071208739}
+ {:block/name "n grenier",
+  :block/created-at 1663038627440,
+  :block/updated-at 1663038627440}
+ {:block/name "nam-trung nguyen",
+  :block/created-at 1665825274125,
+  :block/updated-at 1665825274125}
+ {:block/name "naohisa kamiyama",
+  :block/created-at 1664757182502,
+  :block/updated-at 1664757182502}
+ {:block/name "navneet kumar",
+  :block/created-at 1664757334111,
+  :block/updated-at 1664757334111}
+ {:block/name "neuroinflammation",
+  :block/created-at 1664842326987,
+  :block/updated-at 1664842326987}
+ {:block/name "nicholas j dudley",
+  :block/created-at 1663295398666,
+  :block/updated-at 1663295398666}
+ {:block/name "nicholas m gibson",
+  :block/created-at 1663295398666,
+  :block/updated-at 1663295398666}
+ {:block/name "nonlinear_kalman_filter.pdf",
+  :block/created-at 1663649435359,
+  :block/updated-at 1663649435359}
+ {:block/name "notes",
+  :block/created-at 1662945564892,
+  :block/updated-at 1662945564892}
+ {:block/name "nov 4th, 2022",
+  :block/created-at 1672275513239,
+  :block/updated-at 1672275513239}
+ {:block/name "now",
+  :block/created-at 1662677697149,
+  :block/updated-at 1662677697149}
+ {:block/name "num-pages",
+  :block/created-at 1662947614911,
+  :block/updated-at 1662947614911}
+ {:block/name "object motion tracking",
+  :block/created-at 1662944550563,
+  :block/updated-at 1663809298992}
+ {:block/name "obstetrics",
+  :block/created-at 1663930708552,
+  :block/updated-at 1663930708552}
+ {:block/name "oct 14th, 2022",
+  :block/created-at 1672275513092,
+  :block/updated-at 1672275513092}
+ {:block/name "oct 28th, 2022",
+  :block/created-at 1672275513148,
+  :block/updated-at 1672275513148}
+ {:block/name "optical flow",
+  :block/created-at 1662944550561,
+  :block/updated-at 1665451001787}
+ {:block/name "optison®",
+  :block/created-at 1664160218690,
+  :block/updated-at 1664160218690}
+ {:block/name "orbital robotics",
+  :block/created-at 1666753602288,
+  :block/updated-at 1666753602288}
+ {:block/name "original-title",
+  :block/created-at 1662945563948,
+  :block/updated-at 1662945563948}
+ {:block/name "pages",
+  :block/created-at 1662951957519,
+  :block/updated-at 1662951957519}
+ {:block/name "pancreatic cancer",
+  :block/created-at 1664156063736,
+  :block/updated-at 1664156063736}
+ {:block/name "parallel robot",
+  :block/created-at 1665454417990,
+  :block/updated-at 1666767617532}
+ {:block/name "parallel robots",
+  :block/created-at 1666753602295,
+  :block/updated-at 1666753602295}
+ {:block/name "passive acoustic mapping (pam)",
+  :block/created-at 1664759305713,
+  :block/updated-at 1664759305713}
+ {:block/name "passive cavitation detection",
+  :block/created-at 1662944550185,
+  :block/updated-at 1665920437089}
+ {:block/name "patent",
+  :block/created-at 1665919965539,
+  :block/updated-at 1665919965539}
+ {:block/name "patent-number",
+  :block/created-at 1664951064400,
+  :block/updated-at 1664951064400}
+ {:block/name "permeability",
+  :block/created-at 1664842326987,
+  :block/updated-at 1664842326987}
+ {:block/name "phantoms",
+  :block/created-at 1663589217942,
+  :block/updated-at 1663589217942}
+ {:block/name "phifu",
+  :block/created-at 1664156063738,
+  :block/updated-at 1664156063738}
+ {:block/name "physical phenomena",
+  :block/created-at 1662945563939,
+  :block/updated-at 1662945563939}
+ {:block/name "pkm",
+  :block/created-at 1666753602256,
+  :block/updated-at 1666753602256}
+ {:block/name "place",
+  :block/created-at 1662945563946,
+  :block/updated-at 1662945563946}
+ {:block/name "plane wave imaging",
+  :block/created-at 1663589236612,
+  :block/updated-at 1663589236612}
+ {:block/name "preprint",
+  :block/created-at 1664071777345,
+  :block/updated-at 1664071777345}
+ {:block/name "proceedings-title",
+  :block/created-at 1663823879832,
+  :block/updated-at 1663823879832}
+ {:block/name "progress",
+  :block/created-at 1662871307868,
+  :block/updated-at 1662871307868}
+ {:block/name "publication-title",
+  :block/created-at 1663038627448,
+  :block/updated-at 1663038627448}
+ {:block/name "publisher",
+  :block/created-at 1662945563946,
+  :block/updated-at 1662945563946}
+ {:block/name "pulse shaping methods",
+  :block/created-at 1664768150813,
+  :block/updated-at 1664768150813}
+ {:block/name "pulse signal",
+  :block/created-at 1664951064382,
+  :block/updated-at 1664951064382}
+ {:block/name "pulsed high-intensity focused ultrasound",
+  :block/created-at 1664156063737,
+  :block/updated-at 1664156063737}
+ {:block/name "qinghua huang",
+  :block/created-at 1663205915343,
+  :block/updated-at 1663205915343}
+ {:block/name "quality control",
+  :block/created-at 1663295398661,
+  :block/updated-at 1663295398661}
+ {:block/name "r. bhagwandien",
+  :block/created-at 1664580614580,
+  :block/updated-at 1664580614580}
+ {:block/name "r.c. waag",
+  :block/created-at 1664768150816,
+  :block/updated-at 1664768150816}
+ {:block/name "r.m. lerner",
+  :block/created-at 1664768150815,
+  :block/updated-at 1664768150815}
+ {:block/name "radiotherapy",
+  :block/created-at 1664580837754,
+  :block/updated-at 1664580837754}
+ {:block/name "raspeberry pi",
+  :block/created-at 1662686885309,
+  :block/updated-at 1662688903204}
+ {:block/name "read",
+  :block/created-at 1662944550106,
+  :block/updated-at 1662944550106}
+ {:block/name "real time",
+  :block/created-at 1663589230702,
+  :block/updated-at 1663589230702}
+ {:block/name "real-time imaging",
+  :block/created-at 1664757182499,
+  :block/updated-at 1664757182499}
+ {:block/name "real-time monitoring",
+  :block/created-at 1663589236647,
+  :block/updated-at 1663589236647}
+ {:block/name "renal",
+  :block/created-at 1664580837755,
+  :block/updated-at 1664580837755}
+ {:block/name "respiratory motion phantom",
+  :block/created-at 1662944550566,
+  :block/updated-at 1664843122529}
+ {:block/name "review of cavitation papers",
+  :block/created-at 1662944550453,
+  :block/updated-at 1662944550453}
+ {:block/name "richard m. white",
+  :block/created-at 1665825274127,
+  :block/updated-at 1665825274127}
+ {:block/name "rights",
+  :block/created-at 1664502525381,
+  :block/updated-at 1664502525381}
+ {:block/name "robotic assembly",
+  :block/created-at 1666753602253,
+  :block/updated-at 1666753602253}
+ {:block/name "robustness",
+  :block/created-at 1664951064560,
+  :block/updated-at 1664951064560}
+ {:block/name "rongmin xia",
+  :block/created-at 1663589231413,
+  :block/updated-at 1663589231413}
+ {:block/name "runna liu",
+  :block/created-at 1663589234313,
+  :block/updated-at 1663589234313}
+ {:block/name "ryan s. hsi",
+  :block/created-at 1664580614398,
+  :block/updated-at 1664580614398}
+ {:block/name "s. karthikeyan",
+  :block/created-at 1663823879825,
+  :block/updated-at 1663823879825}
+ {:block/name "s. r. balaji",
+  :block/created-at 1663823879824,
+  :block/updated-at 1663823879824}
+ {:block/name "scotch yoke vs slider crank",
+  :block/created-at 1663039252176,
+  :block/updated-at 1663039309940}
+ {:block/name "self driving car",
+  :block/created-at 1664071637810,
+  :block/updated-at 1664071929660}
+ {:block/name "sensor",
+  :block/created-at 1664951064382,
+  :block/updated-at 1664951064382}
+ {:block/name "sensor systems",
+  :block/created-at 1664951064561,
+  :block/updated-at 1664951064561}
+ {:block/name "sep 10th, 2022",
+  :block/created-at 1672275512663,
+  :block/updated-at 1672275512663}
+ {:block/name "sep 22nd, 2022",
+  :block/created-at 1672275512880,
+  :block/updated-at 1672275512880}
+ {:block/name "series",
+  :block/created-at 1662947614907,
+  :block/updated-at 1662947614907}
+ {:block/name "shanshan xu",
+  :block/created-at 1663589234276,
+  :block/updated-at 1663589234276}
+ {:block/name "sheet reading basics",
+  :block/created-at 1662944550372,
+  :block/updated-at 1664581009214}
+ {:block/name "shima shahab",
+  :block/created-at 1664713301073,
+  :block/updated-at 1664713301073}
+ {:block/name "short time fourier transform",
+  :block/created-at 1662944550543,
+  :block/updated-at 1664931062609}
+ {:block/name "short-title",
+  :block/created-at 1662945563950,
+  :block/updated-at 1662945563950}
+ {:block/name "short_time_fourier_transform.pdf",
+  :block/created-at 1663649433455,
+  :block/updated-at 1663649433455}
+ {:block/name "signal processing",
+  :block/created-at 1662944550545,
+  :block/updated-at 1666929204543}
+ {:block/name "signal processing intro",
+  :block/created-at 1662944550540,
+  :block/updated-at 1664931181865}
+ {:block/name "signal to b-mode",
+  :block/created-at 1664757914243,
+  :block/updated-at 1666929321645}
+ {:block/name "simultaneous localization and mapping",
+  :block/created-at 1664951064567,
+  :block/updated-at 1664951064567}
+ {:block/name "single lesion",
+  :block/created-at 1663589230656,
+  :block/updated-at 1663589230656}
+ {:block/name "slam for dummies",
+  :block/created-at 1664583444942,
+  :block/updated-at 1664712828504}
+ {:block/name "slam_for_dummies.pdf",
+  :block/created-at 1664583491958,
+  :block/updated-at 1664583491958}
+ {:block/name "songyu yuan",
+  :block/created-at 1664951064571,
+  :block/updated-at 1664951064571}
+ {:block/name "sound speed",
+  :block/created-at 1664759305714,
+  :block/updated-at 1664759305714}
+ {:block/name "static axial strain elastograms (ases)",
+  :block/created-at 1663589236681,
+  :block/updated-at 1663589236681}
+ {:block/name "steatosis",
+  :block/created-at 1664757182499,
+  :block/updated-at 1664757182499}
+ {:block/name "steen karstrup",
+  :block/created-at 1663548041955,
+  :block/updated-at 1663548041955}
+ {:block/name "strain",
+  :block/created-at 1663589230602,
+  :block/updated-at 1663589230602}
+ {:block/name "stress",
+  :block/created-at 1663589230750,
+  :block/updated-at 1663589230750}
+ {:block/name "supin wang",
+  :block/created-at 1663589234334,
+  :block/updated-at 1663589234334}
+ {:block/name "svenja tappe",
+  :block/created-at 1665920550980,
+  :block/updated-at 1665920550980}
+ {:block/name "synchronization",
+  :block/created-at 1664951064383,
+  :block/updated-at 1664951064383}
+ {:block/name "sze zheng yong",
+  :block/created-at 1664071777340,
+  :block/updated-at 1664071777340}
+ {:block/name "sébastien briot",
+  :block/created-at 1665993644101,
+  :block/updated-at 1665993644101}
+ {:block/name "t.-y. wang",
+  :block/created-at 1663589228362,
+  :block/updated-at 1663589228362}
+ {:block/name "t.l. hall",
+  :block/created-at 1663589228438,
+  :block/updated-at 1663589228438}
+ {:block/name "tatiana khokhlova",
+  :block/created-at 1664156063743,
+  :block/updated-at 1664156063743}
+ {:block/name "teer",
+  :block/created-at 1664842326987,
+  :block/updated-at 1664842326987}
+ {:block/name "temperature",
+  :block/created-at 1663589230477,
+  :block/updated-at 1663589230477}
+ {:block/name "test object",
+  :block/created-at 1663295398661,
+  :block/updated-at 1663295398661}
+ {:block/name "tgc time gain compensation",
+  :block/created-at 1663469140017,
+  :block/updated-at 1664757466830}
+ {:block/name "therapy guidance",
+  :block/created-at 1664157692038,
+  :block/updated-at 1664157692038}
+ {:block/name "thi tissue harmonic imaging",
+  :block/created-at 1662944550290,
+  :block/updated-at 1663039191709}
+ {:block/name "thomas j. matula",
+  :block/created-at 1664160218695,
+  :block/updated-at 1664160218695}
+ {:block/name "tight junctions",
+  :block/created-at 1664842326988,
+  :block/updated-at 1664842326988}
+ {:block/name "time",
+  :block/created-at 1664951064383,
+  :block/updated-at 1664951064383}
+ {:block/name "time measurement",
+  :block/created-at 1664951064569,
+  :block/updated-at 1664951064569}
+ {:block/name "time synchronization",
+  :block/created-at 1662944550545,
+  :block/updated-at 1664932251554}
+ {:block/name "time_synchronization.pdf",
+  :block/created-at 1663930707473,
+  :block/updated-at 1663930707473}
+ {:block/name "timothy l. hall",
+  :block/created-at 1663589218145,
+  :block/updated-at 1663589218145}
+ {:block/name "tissue characterization",
+  :block/created-at 1664757182500,
+  :block/updated-at 1664757182500}
+ {:block/name "tobias ortmaier",
+  :block/created-at 1665920550981,
+  :block/updated-at 1665920550981}
+ {:block/name "todo",
+  :block/created-at 1662677697149,
+  :block/updated-at 1662677697149}
+ {:block/name "tong li",
+  :block/created-at 1664156063742,
+  :block/updated-at 1664156063742}
+ {:block/name "track motion in ultrasound",
+  :block/created-at 1662944550567,
+  :block/updated-at 1662944550567}
+ {:block/name "transcytosis",
+  :block/created-at 1664842326989,
+  :block/updated-at 1664842326989}
+ {:block/name "transducer",
+  :block/created-at 1662944550158,
+  :block/updated-at 1664713118113}
+ {:block/name "transient axial shear strain elastograms (asses)",
+  :block/created-at 1663589236713,
+  :block/updated-at 1663589236713}
+ {:block/name "treatment monitoring",
+  :block/created-at 1663589230541,
+  :block/updated-at 1663589230541}
+ {:block/name "trigger pulse",
+  :block/created-at 1664951064384,
+  :block/updated-at 1664951064384}
+ {:block/name "tzu-yin wang",
+  :block/created-at 1663589218091,
+  :block/updated-at 1663589218091}
+ {:block/name "ultrasonic",
+  :block/created-at 1665825274124,
+  :block/updated-at 1665825274124}
+ {:block/name "ultrasonic imaging",
+  :block/created-at 1663589217973,
+  :block/updated-at 1663589217973}
+ {:block/name "ultrasonic therapy",
+  :block/created-at 1662948447463,
+  :block/updated-at 1662948447463}
+ {:block/name "ultrasonic transducers",
+  :block/created-at 1663589228078,
+  :block/updated-at 1663589228078}
+ {:block/name "ultrasonic variables measurement",
+  :block/created-at 1664768150814,
+  :block/updated-at 1664768150814}
+ {:block/name "ultrasonics",
+  :block/created-at 1662948447464,
+  :block/updated-at 1662948447464}
+ {:block/name "ultrasonics in medicine",
+  :block/created-at 1662948447464,
+  :block/updated-at 1662948447464}
+ {:block/name "ultrasonography",
+  :block/created-at 1662945563939,
+  :block/updated-at 1662945563939}
+ {:block/name "ultrasound",
+  :block/created-at 1663589230634,
+  :block/updated-at 1663589230634}
+ {:block/name "ultrasound attenuation",
+  :block/created-at 1664757182500,
+  :block/updated-at 1664759306357}
+ {:block/name "ultrasound basic",
+  :block/created-at 1662944550582,
+  :block/updated-at 1663809957076}
+ {:block/name "ultrasound biological effect",
+  :block/created-at 1662944550581,
+  :block/updated-at 1664712975030}
+ {:block/name "ultrasound contrast agent",
+  :block/created-at 1664160218691,
+  :block/updated-at 1664160218691}
+ {:block/name "ultrasound coupling",
+  :block/created-at 1662944550582,
+  :block/updated-at 1665391237255}
+ {:block/name "ultrasound image registration",
+  :block/created-at 1662944550257,
+  :block/updated-at 1663470699046}
+ {:block/name "ultrasound imaging",
+  :block/created-at 1662944550591,
+  :block/updated-at 1662944550591}
+ {:block/name "ultrasound imaging system",
+  :block/created-at 1664757334109,
+  :block/updated-at 1664757334109}
+ {:block/name "ultrasound summary",
+  :block/created-at 1662944550606,
+  :block/updated-at 1664928968824}
+ {:block/name "ultrasound visualization",
+  :block/created-at 1664157692039,
+  :block/updated-at 1664157692039}
+ {:block/name "ultrasound_basics.pdf",
+  :block/created-at 1663823880071,
+  :block/updated-at 1663823880071}
+ {:block/name "ultrasound_pressure",
+  :block/created-at 1662728102054,
+  :block/updated-at 1662728102054}
+ {:block/name "url",
+  :block/created-at 1663038627447,
+  :block/updated-at 1663038627447}
+ {:block/name "v eder",
+  :block/created-at 1663038627440,
+  :block/updated-at 1663038627440}
+ {:block/name "vamsi c. meesala",
+  :block/created-at 1664713301071,
+  :block/updated-at 1664713301071}
+ {:block/name "visual odometry",
+  :block/created-at 1662944550560,
+  :block/updated-at 1664842972389}
+ {:block/name "volume",
+  :block/created-at 1663038627445,
+  :block/updated-at 1663038627445}
+ {:block/name "w. m. janssen",
+  :block/created-at 1664580614581,
+  :block/updated-at 1664580614581}
+ {:block/name "w.w. roberts",
+  :block/created-at 1663589228520,
+  :block/updated-at 1663589228520}
+ {:block/name "wait",
+  :block/created-at 1662677697149,
+  :block/updated-at 1662677697149}
+ {:block/name "waiting",
+  :block/created-at 1662677697149,
+  :block/updated-at 1662677697149}
+ {:block/name "wayne kreider",
+  :block/created-at 1664156063745,
+  :block/updated-at 1664156063745}
+ {:block/name "webpage",
+  :block/created-at 1664805230379,
+  :block/updated-at 1664805230379}
+ {:block/name "week plan 12.09-18.09.2022",
+  :block/created-at 1664756486999,
+  :block/updated-at 1664756486999}
+ {:block/name "week plan 2022",
+  :block/created-at 1664763701201,
+  :block/updated-at 1664763701201}
+ {:block/name "week plan 2022/09",
+  :block/created-at 1664763701202,
+  :block/updated-at 1664763701202}
+ {:block/name "week plan 2022/09/12",
+  :block/created-at 1663589247203,
+  :block/updated-at 1665362791474}
+ {:block/name "week plan 2022/09/19",
+  :block/created-at 1663589243617,
+  :block/updated-at 1664763475924}
+ {:block/name "week plan 2022/10",
+  :block/created-at 1664763701117,
+  :block/updated-at 1664763701117}
+ {:block/name "week plan 2022/10/10",
+  :block/created-at 1665391000604,
+  :block/updated-at 1667285850584}
+ {:block/name "week plan 2022/10/3",
+  :block/created-at 1664763520770,
+  :block/updated-at 1665362799235}
+ {:block/name "weekplan",
+  :block/created-at 1663313151578,
+  :block/updated-at 1663313151578}
+ {:block/name "wen-shiang chen",
+  :block/created-at 1664160218694,
+  :block/updated-at 1664160218694}
+ {:block/name "window selection",
+  :block/created-at 1662944550544,
+  :block/updated-at 1664068543996}
+ {:block/name "wisama khalil",
+  :block/created-at 1665993644102,
+  :block/updated-at 1665993644102}
+ {:block/name "xuemei he",
+  :block/created-at 1664156063745,
+  :block/updated-at 1664156063745}
+ {:block/name "yak-nam wang",
+  :block/created-at 1664156063744,
+  :block/updated-at 1664156063744}
+ {:block/name "yasukiyo sumino",
+  :block/created-at 1664757182503,
+  :block/updated-at 1664757182503}
+ {:block/name "yong chen",
+  :block/created-at 1664951064574,
+  :block/updated-at 1664951064574}
+ {:block/name "yuan yuan",
+  :block/created-at 1663589234290,
+  :block/updated-at 1663589234290}
+ {:block/name "yuehua li",
+  :block/created-at 1664951064572,
+  :block/updated-at 1664951064572}
+ {:block/name "yufeng zhou",
+  :block/created-at 1663589236838,
+  :block/updated-at 1663589236838}
+ {:block/name "yuko kanayama",
+  :block/created-at 1664757182501,
+  :block/updated-at 1664757182501}
+ {:block/name "z transform",
+  :block/created-at 1663589239385,
+  :block/updated-at 1663589239385}
+ {:block/name "z. xu",
+  :block/created-at 1663589228387,
+  :block/updated-at 1663589228387}
+ {:block/name "z_transform.pdf",
+  :block/created-at 1663589239363,
+  :block/updated-at 1663589239363}
+ {:block/name "zhaozheng zeng",
+  :block/created-at 1663205915344,
+  :block/updated-at 1663205915344}
+ {:block/name "zhen xu",
+  :block/created-at 1663589218191, 
+  :block/updated-at 1663589218191}]

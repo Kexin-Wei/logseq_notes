@@ -1,0 +1,8 @@
+- How to
+	- In the B-flow technique, **echoes** scattered from blood and tissue are detected using coded excitation, but the echoes scattered from tissue are then suppressed using a technique called **tissue equalization**, so that both can be displayed in the image at the same time (Chiao et al. 2000).
+	- Tissue equalization is achieved by applying a **line-to-line high-pass filter**.
+	- A simple way of achievingtissue equalization is to **use two consecutive pulse-echo cycles** for each image line. The echo signal from the **first line** is **compressed** (i.e. the waveformis decoded) and **stored**. The **second line** is compressed and then **inverted** before being added tothe first (equivalent to subtraction).
+- What for
+	- **emphasizes changing image features**, the brightness of the moving blood increases with blood velocity.
+	- B-flow is **not** a **quantitative** technique and cannot be used to measure blood velocity
+	- it does **not** **suffer** from some of the **limitations** of **Doppler** techniques such as angle dependence and aliasing

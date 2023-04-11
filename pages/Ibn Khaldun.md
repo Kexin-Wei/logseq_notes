@@ -1,0 +1,1 @@
+- A Muslim historian, philosopher, and sociologist, Ibn Khaldun is regarded as one of the greatest intellectuals of the medieval Islamic world, known for his contributions to the fields of history, economics, and political theory.

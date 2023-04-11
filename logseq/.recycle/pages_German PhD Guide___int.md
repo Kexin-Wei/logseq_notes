@@ -1,0 +1,25 @@
+- [German PhD Guide](https://www.research-in-germany.org/en/your-goal/phd/find-your-phd-position.html)
+- ![RIG_Doing a PhD_barrierefrei.pdf](../assets/RIG_Doing a PhD_barrierefrei.pdf)
+- Paperworks
+	- A research proposal
+	- Your curriculum vitae
+	- Any documents substantiating the information in your CV, e.g. a certified copy of your master’s degree certificate
+	- A letter of motivation
+	- A letter of support or recommendation
+	- An email for establishing first contact with the potential supervisor or structured doctoral programme
+- Search
+	- https://www.hochschulkompass.de/en/study-in-germany.html
+	- https://www2.daad.de/deutschland/promotion/phd/en/13306-phdgermany-database/
+	- https://gerit.org/en/
+	- https://www2.daad.de/deutschland/promotion/phd/en/13306-phdgermany-database/
+	- https://www.dfg.de/en/service/error/404.jsp?redirectedURL=/en/service/jobs/positions_dfg_funded_projects/index.jsp
+	- https://www.hochschulkompass.de/en/study-in-germany.html
+	- more in the Guide
+	- DAAD
+	- Fraunhofer TALENTA support programme for young female scientists
+- Funding
+	- www.research-in-germany.org/funding
+	- www.funding-guide.de
+	- www.stipendiumplus.de
+	- www.dsz.de/foerderung (only in German)
+	- www.stipendienlotse.de (only in German)

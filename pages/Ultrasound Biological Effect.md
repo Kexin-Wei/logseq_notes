@@ -1,0 +1,33 @@
+- [[@Fetal Ultrasound]]
+- Thermal Bioeffect
+	- Calculation
+		- Thermal Energy: $Q=2\alpha I t$, J/cm2
+			- $\alpha = 0.026f^{1.1}$ : absorption ratio
+			- $I$: [[1 Sound Intensity |sound intensity]], average along time
+			- $t$ : time
+		- Temperature Increase: $\Delta T$
+			- $\rho C_t \Delta T = 2 \alpha I \Delta t$
+			- $\rho$ : tissue density, g/cm3
+			- $C_t$ : specific heat capacity, Jg/K
+			- $t$ : time
+		- if >50 degree: protein denaturation, can kill tumor
+	- Measurement : Thermal Index
+		- Thermal Index (TI) : intended as a measure of an ultrasound beam's **thermal** bioeffects.
+		- thermal index = Wp / Wdeg
+			- Wp: relevant (attenuated) acoustic power at the depth of interest
+			- Wdeg: estimated power necessary to raise the tissue equilibrium temperature by one degree Celsius
+- Mechanical Bioeffect
+	- Any process that can produce a biological effect without a significant degree of heating (ie, less than ≈1°C above the physiologic temperature) is a nonthermal mechanism. Nonthermal bioeffects can result from physical mechanisms such as acoustic cavitation, radiation force, and acoustic streaming.
+	- If the sound pressure $p$ is big enough,  the tissue cells will be broken
+- Acoustic Cavitation
+	- [Cavitation category](((6337095d-ac34-40b3-a669-4946accfa0b9)))
+	- Cavitation Mechanism
+		- Inertial Cavitation
+			- cavitation nuclei (small bubbles) expand in negative pressure, compressed and break up in positive pressure
+			- when compressed, temperature can reach 1000 degree
+		- Stable Cavitation
+			- if bubbles are big enough, can resonance with ultrasound
+	- Measurement : Mechanical Index
+	  Mechanical Index (MI) : ultrasound beam's bioeffect
+		- proportional to an ultrasound beam's peak negative pressure (or peak rarefaction pressure).
+		- $MI = \frac{P_r}{\sqrt{f_c}}$

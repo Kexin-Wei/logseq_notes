@@ -1,0 +1,3 @@
+- [[SLAM for Dummies]]
+- A Solution to the Simultaneous Localization and Map Building (SLAM) Problem
+- Visual SLAM algorithms: a survey from 2010 to 2016

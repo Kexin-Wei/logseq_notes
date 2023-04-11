@@ -1,0 +1,2 @@
+- [Covariance - Wikipedia](https://en.wikipedia.org/wiki/Covariance)
+- $\begin{aligned} \operatorname{cov}(X, Y) & =\mathrm{E}[(X-\mathrm{E}[X])(Y-\mathrm{E}[Y])] \\ & =\mathrm{E}[X Y-X \mathrm{E}[Y]-\mathrm{E}[X] Y+\mathrm{E}[X] \mathrm{E}[Y]] \\ & =\mathrm{E}[X Y]-\mathrm{E}[X] \mathrm{E}[Y]-\mathrm{E}[X] \mathrm{E}[Y]+\mathrm{E}[X] \mathrm{E}[Y] \\ & =\mathrm{E}[X Y]-\mathrm{E}[X] \mathrm{E}[Y]\end{aligned}$

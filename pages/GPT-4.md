@@ -1,0 +1,8 @@
+- [GPT-4](https://openai.com/research/gpt-4)
+- [[@GPT-4 Technical Report]]
+	- MMLU Benchmark
+	- Transformer-style model
+	- Reinforcement Learning from Human Feedback (RLHF)
+	- fitting a scaling law with an irreducible loss term (as in Henighan et al. [15]): L(C) = aCb + c
+	- HumanEval dataset
+- [Demo](https://www.youtube.com/watch?v=outcGtbnMuQ)
