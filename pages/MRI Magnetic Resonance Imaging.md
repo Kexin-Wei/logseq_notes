@@ -30,9 +30,11 @@
 	- A very simple brain exam might contain a T2w image and a FLAIR, with T1w images pre- and post-Gd.
 	- ![image.png](../assets/image_1681107092994_0.png)
 	- T2W T2-Weighted Image
+		- {{video https://youtu.be/ALRcr-AjRK4}}
 		- T2w contrast can be produced by either Spin-Echo (SE) or some Gradient-Echo (GE) sequences. (GE sequences actually produce T2*-weighting, not T2-weighting: the image appearance is similar, but there are important differences which we will explain later.)
 		- SE T2 images require long TR and long TE, so they have a long scan time (this is because the scan time depends directly on the TR).
 	- T1W T1 Weighted Image
+		- {{video https://youtu.be/j5u9349PWIw}}
 		- T1-weighted (T1w) images can be produced using either SE or GE sequences.
 		- T1w Images Post-Gd
 			- The most commonly used contrast agents are based on gadolinium (Gd)

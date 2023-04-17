@@ -1,4 +1,5 @@
 - Reference
+  collapsed:: true
 	- [How MRI Works - Part 1 - NMR Basics - YouTube](https://www.youtube.com/watch?v=TQegSF4ZiIQ&t=628s)
 	- [How MRI Works - Part 2 - The Spin Echo - YouTube](https://www.youtube.com/watch?v=M7yh0To6Wbs)
 	- [Basic Pulse Sequences, TR, TE, T1 and T2 weighting - YouTube](https://www.youtube.com/watch?v=kF1hM1Y5Cho)
@@ -12,9 +13,20 @@
 	- ![image.png](../assets/image_1681118543128_0.png){:height 228, :width 421}
 	- ![image.png](../assets/image_1681118660028_0.png){:height 233, :width 424}
 	- ![image.png](../assets/image_1681118674130_0.png){:height 238, :width 428}
+- RF Pulse make Quantum Excitation
+	- {{video https://www.youtube.com/watch?v=-O-HY5EQJmw&list=PLu1MmgmmnvQTBaEKBj7UDnIaHQ_0uYiZu&index=4}}
+- MRI Signal
+	- {{video https://www.youtube.com/watch?v=yFPRtl1Ga08&list=PLu1MmgmmnvQTBaEKBj7UDnIaHQ_0uYiZu&index=7}}
+	- {{video https://youtu.be/wZkoKVDz0rY}}
+- T1  Relaxation Time > 10 x T2 = 63% of original log
+	- {{video https://www.youtube.com/watch?v=g11nuTHC_cQ&list=PLu1MmgmmnvQTBaEKBj7UDnIaHQ_0uYiZu&index=7}}
+	- {{video https://youtu.be/1Mq-jy3HJao}}
+- T2 Relaxation Time = 37 % of original log
+	- {{video https://www.youtube.com/watch?v=Mf6r5Nqh-xI&list=PLu1MmgmmnvQTBaEKBj7UDnIaHQ_0uYiZu&index=8}}
+	- {{video https://youtu.be/GBlT-64k42s}}
+- TR Time
+	- {{video https://youtu.be/lxFfN8Ka05c}}
 - slice selection, phase encoding and frequency encoding
-- Dephasing and Rephasing
-	- ![image.png](../assets/image_1681113847610_0.png)
 - Mechanism
 	- MRI (Magnetic Resonance Imaging) is a medical imaging technique that uses a strong magnetic field and radio waves to generate detailed images of the body's internal structures. The mechanism of MRI involves the following steps:
 	- Alignment of hydrogen atoms: The human body contains millions of hydrogen atoms, which have a property called [[Spin]] . When placed in a strong magnetic field, these hydrogen atoms align themselves with the direction of the magnetic field.
