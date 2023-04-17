@@ -1,4 +1,5 @@
+-
 - "spin" refers to the intrinsic angular momentum of atomic nuclei, such as hydrogen nuclei (protons), that are present in the body's tissues.
-- In the presence of a strong magnetic field, these atomic nuclei become oriented with the magnetic field, which means that their spins become aligned with the direction of the magnetic field. The orientation of these spins can be thought of as tiny bar magnets pointing in the same direction.
-- When an RF pulse is applied to these aligned spins at the resonant frequency of the specific nuclei, it causes the spins to temporarily move out of alignment with the magnetic field. This creates a detectable electromagnetic signal that can be used to create an image of the body's internal structures.
+- In the presence of a strong **magnetic field**, these atomic nuclei become oriented with the magnetic field, which means that their spins become aligned with the direction of the magnetic field. The orientation of these spins can be thought of as tiny bar magnets pointing in the same direction.
+- When an **RF pulse** is applied to these aligned spins at the resonant frequency of the specific nuclei, it causes the spins to **temporarily move out of alignment** with the magnetic field. This creates a detectable electromagnetic signal that can be used to create an image of the body's internal structures.
 - The ability of atomic nuclei to align with a magnetic field and generate a detectable electromagnetic signal is the basis for the MRI technique.

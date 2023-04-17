@@ -1,4 +1,5 @@
 - Proton Spin
+	- {{video https://www.youtube.com/watch?v=JFSU9X11wyY}}
 	- [Larmor precession - Wikipedia](https://en.wikipedia.org/wiki/Larmor_precession)
 		- The Larmor or precession frequency is the rate at which spins wobble when placed in a magnetic field.
 		- $\omega_0=\gamma B_0$
@@ -10,6 +11,7 @@
 - Resonance Condition
 	- Energy can be introduced into such a stable spin system by applying an electromagnetic wave of the same frequency as the Larmor frequency
 - Excitation
+	- {{video https://www.youtube.com/watch?v=wZkoKVDz0rY}}
 - Detected Signal
 	- ![image.png](../assets/image_1680502084147_0.png)
 - Flip angle
