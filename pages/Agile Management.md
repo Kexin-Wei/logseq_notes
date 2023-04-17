@@ -14,3 +14,6 @@
 	- Crystal Clear by Alistair Cockburn
 	- Feature Driven Development (FDD) by Jeff De Luca
 	- ICONIX process by Doug Rosenberg
+- Between teams
+	- Scrum@Scale
+		- https://www.scrumatscale.com/scrum-at-scale-guide/

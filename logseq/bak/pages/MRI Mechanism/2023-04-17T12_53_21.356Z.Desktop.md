@@ -1,0 +1,26 @@
+- Reference
+	- [How MRI Works - Part 1 - NMR Basics - YouTube](https://www.youtube.com/watch?v=TQegSF4ZiIQ&t=628s)
+	- [How MRI Works - Part 2 - The Spin Echo - YouTube](https://www.youtube.com/watch?v=M7yh0To6Wbs)
+	- [Basic Pulse Sequences, TR, TE, T1 and T2 weighting - YouTube](https://www.youtube.com/watch?v=kF1hM1Y5Cho)
+	- [MRI Sequences - YouTube](https://www.youtube.com/watch?v=mOt2FeGHjaY)
+	- [核磁共振为何知道](https://www.bilibili.com/video/BV1di4y1y7au/?share_source=copy_web&vd_source=c03fdb1951bb4a936645ef8f5fff9461)
+	- [Introduction to Clinical MRI Physics (part 1 of 3) - YouTube](https://www.youtube.com/watch?v=Yubg0cmXSQg)
+	- [Introduction to MRI: Basics 1 - How we get Signal - YouTube](https://www.youtube.com/watch?v=5rjIMQqPukk)
+- ![image.png](../assets/image_1681116802403_0.png){:height 259, :width 549}
+- [[Quantum Mechanics Basic]]
+- MRI Machine Structure
+	- ![image.png](../assets/image_1681118543128_0.png){:height 228, :width 421}
+	- ![image.png](../assets/image_1681118660028_0.png){:height 233, :width 424}
+	- ![image.png](../assets/image_1681118674130_0.png){:height 238, :width 428}
+- slice selection, phase encoding and frequency encoding
+- Dephasing and Rephasing
+	- ![image.png](../assets/image_1681113847610_0.png)
+- Mechanism
+	- MRI (Magnetic Resonance Imaging) is a medical imaging technique that uses a strong magnetic field and radio waves to generate detailed images of the body's internal structures. The mechanism of MRI involves the following steps:
+	- Alignment of hydrogen atoms: The human body contains millions of hydrogen atoms, which have a property called [[spin]] . When placed in a strong magnetic field, these hydrogen atoms align themselves with the direction of the magnetic field.
+	- Excitation of hydrogen atoms: A radiofrequency (RF) pulse is applied to the aligned hydrogen atoms, causing them to absorb energy and move away from their aligned state. This process is called resonance.
+	- Relaxation of hydrogen atoms: After the RF pulse is turned off, the hydrogen atoms return to their aligned state and release the absorbed energy as electromagnetic signals.
+	- Detection of electromagnetic signals: A receiver coil detects the electromagnetic signals released by the hydrogen atoms and sends them to a computer.
+	- Image reconstruction: The computer processes the signals and creates a detailed image of the body's internal structures.
+	- The strength of the magnetic field and the timing of the RF pulses are carefully controlled to produce different types of MRI images, such as T1-weighted, T2-weighted, and diffusion-weighted images. MRI can be used to image soft tissues, such as the brain, spinal cord, and internal organs, and is often used to diagnose a variety of medical conditions, including cancer, neurological disorders, and joint injuries.
+-

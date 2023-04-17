@@ -3,6 +3,7 @@
 	- "Vector Calculus" by Jerrold E. Marsden and Anthony J. Tromba
 	- Khan Academy's multivariable calculus course (free online)
 	- MIT OpenCourseWare's multivariable calculus course (free online)
+	- [6.1 Vector Fields - Calculus Volume 3 | OpenStax](https://openstax.org/books/calculus-volume-3/pages/6-1-vector-fields)
 - vector field properties
 - vector field operations
 - Study applications of vector fields

@@ -1,9 +1,11 @@
 - 👩🏻‍⚕️Doktoraten
+  collapsed:: true
 	- [[How to find a prof]]
 	- [[English PhD Guide]]
 	- [[German PhD Guide]]
 	- [[Search PhD by Uni]]
 - 🏥Medical Knowledge
+  collapsed:: true
 	- [[BBN Blood Brain Barrier]]
 	- [[Anatomy Views of Human]]
 	- [[Kidney Anatomy]]
@@ -11,11 +13,13 @@
 	- [[MRI Magnetic Resonance Imaging]]
 	- [[🫀Prostate Biopsy]]
 - 🩻 Ultrasound
+  collapsed:: true
 	- [[Ultrasound Basic]]
 	- [[Ultrasound Imaging Mechanism]]
 	- [[HIFU]]
 	- [[🔊HIFU Monitoring]]
 - 🖥️ Image Processing
+  collapsed:: true
 	- [[Online Library of Medical Image Analysis]]
 	- [[Installation of Image Processing Repo]]
 	- [[Corner Detection]]
@@ -41,6 +45,7 @@
 	- [DL in image registration](https://www.youtube.com/watch?v=c4dvyTBvysQ https://www.youtube.com/watch?v=O3TmEcaN5Ww)
 	- [[🗣️Natural Language Processing]]
 - 💻️Software Development
+  collapsed:: true
 	- [[CUDA]]
 	- [[Docker]]
 	- [[VTK & ITK]]
@@ -267,5 +272,8 @@
 			- DONE Unit 2
 			- DONE Unit 3
 			- TODO Unit 4
+- Learning website to if you can't find help
+	- https://scienceexchange.caltech.edu/
+	- https://brilliant.org/?utm_medium=sponsor&utm_source=youtube&utm_campaign=upandatom_170123
 - Logseq
 	- [[Logseq + Zotero Setting]]

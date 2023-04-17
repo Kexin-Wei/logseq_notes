@@ -2,3 +2,5 @@
 	- Sort Part One Knowledge
 	- Develop Einstein's Relativity Equation
 - [[Quantum Mechanics Basic]]
+- Quantum Computing
+	- {{video https://www.youtube.com/watch?v=GANYTiyW9Qk}}
