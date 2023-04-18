@@ -5,7 +5,6 @@
 	- [[German PhD Guide]]
 	- [[Search PhD by Uni]]
 - 🏥Medical Knowledge
-  collapsed:: true
 	- [[BBN Blood Brain Barrier]]
 	- [[Anatomy Views of Human]]
 	- [[Kidney Anatomy]]

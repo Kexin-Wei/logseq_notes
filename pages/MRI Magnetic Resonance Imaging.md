@@ -64,13 +64,12 @@
 		- The sensitivity to water diffusion is defined by the gradient factor _b_ (sec/mm2). The higher the b values, the better the sensitivity of diffusion weighted imaging (usually three to four b values are used in diffusion-weighted sequences b50, b500, b1000 and b1400).
 	- Spin echo branch
 		- ![image.png](../assets/image_1681112919106_0.png)
-		- ![image.png](../assets/image_1681112375010_0.png){:height 356, :width 497}
-		- ![image.png](../assets/image_1681113280189_0.png){:height 366, :width 473}
+		- ![image.png](../assets/image_1681112375010_0.png)
+		- ![image.png](../assets/image_1681113280189_0.png)
 		- In terms of increasing speed and complexity the spin-echo branch of the family contains Turbo or Fast Spin Echo (TSE/FSE), turbo GRadient And Spin Echo (GRASE), single-shot TSE or HAlf-Fourier Single-shot Turbo spin Echo (HASTE) and Spin-Echo Echo Planar Imaging (SE-EPI).
 		- Others spin echo include FLuid Attenuated Inversion Recovery (FLAIR) and Short TI Inversion Recovery (STIR).
 		- In Turbo or Fast Spin Echo (TSE, FSE), multiple signal echoes are collected following each excitation pulse
 			- ![image.png](../assets/image_1681113077179_0.png)
 	- Gradient Echo Branch
-		- ![image.png](../assets/image_1681113237890_0.png){:height 462, :width 467}
-		- ![image.png](../assets/image_1681113303843_0.png){:height 333, :width 557}
-		-
+		- ![image.png](../assets/image_1681113237890_0.png)
+		- ![image.png](../assets/image_1681113303843_0.png)

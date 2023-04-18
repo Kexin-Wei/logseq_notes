@@ -1,5 +1,4 @@
 - Reference
-  collapsed:: true
 	- [How MRI Works - Part 1 - NMR Basics - YouTube](https://www.youtube.com/watch?v=TQegSF4ZiIQ&t=628s)
 	- [How MRI Works - Part 2 - The Spin Echo - YouTube](https://www.youtube.com/watch?v=M7yh0To6Wbs)
 	- [Basic Pulse Sequences, TR, TE, T1 and T2 weighting - YouTube](https://www.youtube.com/watch?v=kF1hM1Y5Cho)
@@ -7,6 +6,8 @@
 	- [核磁共振为何知道](https://www.bilibili.com/video/BV1di4y1y7au/?share_source=copy_web&vd_source=c03fdb1951bb4a936645ef8f5fff9461)
 	- [Introduction to Clinical MRI Physics (part 1 of 3) - YouTube](https://www.youtube.com/watch?v=Yubg0cmXSQg)
 	- [Introduction to MRI: Basics 1 - How we get Signal - YouTube](https://www.youtube.com/watch?v=5rjIMQqPukk)
+	- https://www.ncbi.nlm.nih.gov/books/NBK564320/
+	- ** [MRI Basics | Alignment - YouTube](https://www.youtube.com/watch?v=WHWI5UJ2dPc&list=PLu1MmgmmnvQTBaEKBj7UDnIaHQ_0uYiZu)
 - ![image.png](../assets/image_1681116802403_0.png){:height 259, :width 549}
 - [[Quantum Mechanics Basic]]
 - MRI Machine Structure
@@ -17,13 +18,17 @@
 	- {{video https://www.youtube.com/watch?v=-O-HY5EQJmw&list=PLu1MmgmmnvQTBaEKBj7UDnIaHQ_0uYiZu&index=4}}
 - MRI Signal
 	- {{video https://www.youtube.com/watch?v=yFPRtl1Ga08&list=PLu1MmgmmnvQTBaEKBj7UDnIaHQ_0uYiZu&index=7}}
-	- {{video https://youtu.be/wZkoKVDz0rY}}
 - T1  Relaxation Time > 10 x T2 = 63% of original log
 	- {{video https://www.youtube.com/watch?v=g11nuTHC_cQ&list=PLu1MmgmmnvQTBaEKBj7UDnIaHQ_0uYiZu&index=7}}
 	- {{video https://youtu.be/1Mq-jy3HJao}}
+- 90 degree RF Pulse
+	- {{video https://youtu.be/wZkoKVDz0rY}}
 - T2 Relaxation Time = 37 % of original log
 	- {{video https://www.youtube.com/watch?v=Mf6r5Nqh-xI&list=PLu1MmgmmnvQTBaEKBj7UDnIaHQ_0uYiZu&index=8}}
 	- {{video https://youtu.be/GBlT-64k42s}}
+- 180 degree RF Pulse
+	- {{video https://www.youtube.com/watch?v=yKmEbCPV4Cg}}
+	- {{video https://www.youtube.com/watch?v=gqgC2XD0Oe8}}
 - TR Time
 	- {{video https://youtu.be/lxFfN8Ka05c}}
 - slice selection, phase encoding and frequency encoding
