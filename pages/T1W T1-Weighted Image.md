@@ -1,0 +1,4 @@
+- {{video https://youtu.be/j5u9349PWIw}}
+- T1-weighted (T1w) images can be produced using either SE or GE sequences.
+- T1w Images Post-Gd
+	- The most commonly used contrast agents are based on gadolinium (Gd)

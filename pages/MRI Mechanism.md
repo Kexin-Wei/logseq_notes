@@ -9,12 +9,26 @@
 	- https://www.ncbi.nlm.nih.gov/books/NBK564320/
 	- ** [MRI Basics | Alignment - YouTube](https://www.youtube.com/watch?v=WHWI5UJ2dPc&list=PLu1MmgmmnvQTBaEKBj7UDnIaHQ_0uYiZu)
 - ![image.png](../assets/image_1681116802403_0.png){:height 259, :width 549}
-- [[Quantum Mechanics Basic]]
+- Quantum Related Knowledge to MRI
+	- [[Quantum Mechanics Basic]]
+	- Resonance Condition
+		- Energy can be introduced into such a stable spin system by applying an electromagnetic wave of the same frequency as the Larmor frequency
+	- Excitation
+		- {{video https://www.youtube.com/watch?v=wZkoKVDz0rY}}
+	- Detected Signal
+		- ![image.png](../assets/image_1680502084147_0.png){:height 406, :width 605}
+	- Flip angle
+		- ![image.png](../assets/image_1680502228986_0.png){:height 314, :width 531}
+	- Relaxation Time
+		- ![image.png](../assets/image_1680512538242_0.png){:height 245, :width 533}
 - MRI Machine Structure
+	- [Gradient coils - Questions and Answers ​in MRI (mriquestions.com)](https://mriquestions.com/gradient-coils.html)
 	- ![image.png](../assets/image_1681118543128_0.png){:height 228, :width 421}
 	- ![image.png](../assets/image_1681118660028_0.png){:height 233, :width 424}
 	- ![image.png](../assets/image_1681118674130_0.png){:height 238, :width 428}
 - RF Pulse make Quantum Excitation
+  id:: 643de787-0b12-4dfb-9890-4056d96d7a3f
+	- {{video https://youtu.be/5rjIMQqPukk?t=353}}
 	- {{video https://www.youtube.com/watch?v=-O-HY5EQJmw&list=PLu1MmgmmnvQTBaEKBj7UDnIaHQ_0uYiZu&index=4}}
 - MRI Signal
 	- {{video https://www.youtube.com/watch?v=yFPRtl1Ga08&list=PLu1MmgmmnvQTBaEKBj7UDnIaHQ_0uYiZu&index=7}}
@@ -30,8 +44,10 @@
 	- {{video https://www.youtube.com/watch?v=yKmEbCPV4Cg}}
 	- {{video https://www.youtube.com/watch?v=gqgC2XD0Oe8}}
 - TR Time
+	- ![Spin echo image contrast](https://mriquestions.com/uploads/3/4/5/7/34572113/3310360.gif?317)
 	- {{video https://youtu.be/lxFfN8Ka05c}}
 - slice selection, phase encoding and frequency encoding
+	- [Phase-encoding - Questions and Answers ​in MRI (mriquestions.com)](https://mriquestions.com/what-is-phase-encoding.html)
 - Mechanism
 	- MRI (Magnetic Resonance Imaging) is a medical imaging technique that uses a strong magnetic field and radio waves to generate detailed images of the body's internal structures. The mechanism of MRI involves the following steps:
 	- Alignment of hydrogen atoms: The human body contains millions of hydrogen atoms, which have a property called [[Spin]] . When placed in a strong magnetic field, these hydrogen atoms align themselves with the direction of the magnetic field.

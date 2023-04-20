@@ -1,0 +1,7 @@
+- [DWI](https://mrimaster.com/characterise%20image%20dwi%20.html)
+- Diffusion-Weighted Imaging (DWI) is almost always performed using a spin-echo Echo Planar Imaging (EPI) scan
+- provides image contrast that is dependent on the random microscopic motion of water protons
+- uses a T2-weighted pulse sequence with two extra gradient pulses which is equal in magnitude and opposite in direction
+- imaging is more sensitive to water molecular motion in the direction of the additional applied gradients.
+- Higher water diffusion will result in greater signal attenuation and appears darker on the image. The magnitude of water signal attenuation on diffusion-weighted images depends on two factors: the translational movement of water molecules, and the amount of diffusion weighting.
+- The sensitivity to water diffusion is defined by the gradient factor _b_ (sec/mm2). The higher the b values, the better the sensitivity of diffusion weighted imaging (usually three to four b values are used in diffusion-weighted sequences b50, b500, b1000 and b1400).

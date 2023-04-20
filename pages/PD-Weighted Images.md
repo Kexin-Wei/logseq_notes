@@ -1,0 +1,1 @@
+- PDw images can be produced either with SE or GE sequences; however, for musculoskeletal imaging it is usual to stick to SE

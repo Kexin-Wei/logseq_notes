@@ -1,0 +1,2 @@
+- Although the sequence choice is important, the choice of excitation flip angle, α, is much more important to determine the contrast in the images.
+- ![image.png](../assets/image_1681111040049_0.png)

@@ -1,0 +1,2 @@
+- remove the CSF signal, known as ‘nulling the signal’, by choosing an Inversion Recovery (IR) sequence instead of spin echo, and carefully setting the inversion time (TI).
+- ![image.png](../assets/image_1681110920053_0.png){:height 586, :width 506}

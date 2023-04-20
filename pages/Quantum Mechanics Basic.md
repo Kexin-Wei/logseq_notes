@@ -8,16 +8,6 @@
 		- into a stable state, longitudinal magnetization Mz is building up in the z-direction because the magnetic vectors representing the individual magnetic moments add together
 - Lez's Law
 	- $\mathcal{E}=-\frac{\mathrm{d} \Phi_{\mathrm{B}}}{\mathrm{d} t}$
-- Resonance Condition
-	- Energy can be introduced into such a stable spin system by applying an electromagnetic wave of the same frequency as the Larmor frequency
-- Excitation
-	- {{video https://www.youtube.com/watch?v=wZkoKVDz0rY}}
-- Detected Signal
-	- ![image.png](../assets/image_1680502084147_0.png)
-- Flip angle
-	- ![image.png](../assets/image_1680502228986_0.png)
-- Relaxation Time
-	- ![image.png](../assets/image_1680512538242_0.png)
 - Wave-particle duality
 	- ![](https://cdn.mos.cms.futurecdn.net/hUjJhhMt4bBb6CvckbfDAJ-1200-80.jpg)
 	- At the quantum level, particles (such as electrons) exhibit both wave-like and particle-like behavior. This means they can sometimes behave as a continuous wave, while at other times, they act as discrete particles.
@@ -34,6 +24,7 @@
 	- Quantum states are described by mathematical functions called wave functions, which contain information about the probabilities of finding a particle in different positions or energy states.
 	- ![image.png](../assets/image_1681571597906_0.png)
 - Uncertainty principle
+  id:: 643de789-0f24-4319-92b1-fbf37e1dfa68
 	- or **Heisenberg's uncertainty principle**
 	- {{video https://www.youtube.com/watch?v=a8FTr2qMutA}}
 	- {{video https://www.youtube.com/watch?v=VwWRX9IdblE}}
@@ -47,8 +38,11 @@
 	- This phenomenon has significant implications for quantum computing and quantum communication.
 		- If the researcher measures the direction of one particle's spin and then repeats the measurement on its distant, entangled partner, that researcher will always find that the pair are correlated: if one particle's spin is up, the other's will be down
 - Quantum tunneling
+	- Related to ((643de789-0f24-4319-92b1-fbf37e1dfa68))
+	- {{video https://www.youtube.com/watch?v=WPZLRtyvEqo}}
 	- In quantum mechanics, particles can "tunnel" through energy barriers that would be insurmountable according to classical physics. This phenomenon is responsible for various effects, such as nuclear decay and the operation of some electronic devices.
 - Schrödinger's equation
+	- like $F=ma$
 	- $i\hbar {\frac {d}{dt}}\psi (t)=H\psi (t)$
 		- H denotes the Hamiltonian, the observable corresponding to the total energy of the system
 		- $\hbar$  is the reduced Planck constant.

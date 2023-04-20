@@ -1,0 +1,3 @@
+- another IR sequence like FLAIR
+- TI is chosen to null fat signals, which have much shorter T1s than CSF.
+- Using short TI, fluids with long T1s give a high signal, so the STIR appearance is approximately ‘T2w with fat suppression’.

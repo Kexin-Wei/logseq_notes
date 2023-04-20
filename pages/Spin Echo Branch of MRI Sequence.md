@@ -1,0 +1,7 @@
+- ![image.png](../assets/image_1681112919106_0.png)
+- ![image.png](../assets/image_1681112375010_0.png)
+- ![image.png](../assets/image_1681113280189_0.png)
+- In terms of increasing speed and complexity the spin-echo branch of the family contains Turbo or Fast Spin Echo (TSE/FSE), turbo GRadient And Spin Echo (GRASE), single-shot TSE or HAlf-Fourier Single-shot Turbo spin Echo (HASTE) and Spin-Echo Echo Planar Imaging (SE-EPI).
+- Others spin echo include FLuid Attenuated Inversion Recovery (FLAIR) and Short TI Inversion Recovery (STIR).
+- In Turbo or Fast Spin Echo (TSE, FSE), multiple signal echoes are collected following each excitation pulse
+	- ![image.png](../assets/image_1681113077179_0.png)
