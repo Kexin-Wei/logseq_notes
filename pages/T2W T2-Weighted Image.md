@@ -26,6 +26,16 @@
 	  | et2w_tse_ax_hr | 1 |  |
 	  | t2-h | 1 |  |
 - ((643de787-0b12-4dfb-9890-4056d96d7a3f))
+- [Fat suppression methods - Questions and Answers ​in MRI (mriquestions.com)](https://mriquestions.com/best-method.html)
+	- **Chemical-shift Techniques**
+		- **In-Phase/Out-of-Phase Imaging**
+		- **Dixon Technique(s)**
+		- **CHESS (Fat-Sat)**
+		- **Water Excitation**
+	- **Technique Based on Short T1 of Fat**
+		- **Short TI Inversion Recovery (STIR)**.
+	- **Hybrid Techniques**
+		- **SPIR and SPAIR**
 - Spin Echo
 	- SE T2 images require long TR and long TE, so they have a long scan time (this is because the scan time depends directly on the TR).
 	- Low signal for fat
@@ -38,5 +48,7 @@
 	- ![Sagittal T1WI (A), T2WI (B) and T2-SPAIR image (C) MRI revealing signal change of the adjacent discs of the acute osteoporotic compression fracture.](https://www.researchgate.net/publication/273287770/figure/fig1/AS:671514340896770@1537112903241/Sagittal-T1WI-A-T2WI-B-and-T2-SPAIR-image-C-MRI-revealing-signal-change-of-the.png)
 - Dixon
 	- The Dixon method for fat/water separation is widely used to obtain uniform fat suppression using the water-only reconstruction.
+	- It will generate 4 images
+	- ![Dixon method MRI](https://mriquestions.com/uploads/3/4/5/7/34572113/8102450.jpg?577)
 	- ![](https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00261-022-03546-w/MediaObjects/261_2022_3546_Figa_HTML.png)
 - ((643f4d74-12c8-40d4-9da5-dabdab4e7a10))

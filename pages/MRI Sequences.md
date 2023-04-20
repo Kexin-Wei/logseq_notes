@@ -1,4 +1,5 @@
 - ![MRI From Pricture to Proton](../assets/MRI from Picture to Proton (Donald W. McRobbie, Elizabeth A. Moore etc.).pdf)
+- [Questions and Answers ​in MRI - MRI Questions & Answers; MR imaging physics & technology](https://mriquestions.com/index.html)
 - ![illustration classification](https://www.imaios.com/i/var/site/storage/images/5/1/5/6/436515-1-eng-GB/classification_sequencesV2.jpg?caption=&ixlib=php-3.3.1&q=75&w=900){:height 430, :width 630}
 	- [[Spin Echo Branch of MRI Sequence]]
 	- [[Gradient Echo Branch of MRI Sequence]]

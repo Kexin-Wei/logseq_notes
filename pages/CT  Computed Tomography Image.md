@@ -1,3 +1,9 @@
 - >https://www.nibib.nih.gov/science-education/science-topics/computed-tomography-ct
 - a computerized x-ray imaging procedure in which a narrow beam of x-rays is aimed at a patient and quickly rotated around the body, producing signals that are processed by the machine’s computer to generate cross-sectional images, or “slices.”
 - Once a number of successive slices are collected by the machine’s computer, they can be digitally “stacked” together to form a three-dimensional (3D) image of the patient that allows for easier identification of basic structures as well as possible tumors or abnormalities.
+- PET/CT
+	- PET
+		- Positron emission tomography (PET) is a type of nuclear medicine procedure that measures metabolic activity of the cells of body tissues.  [source](https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/positron-emission-tomography-pet)
+		- A small amount of radioactive glucose (a sugar) is injected into a vein. The PET scanner takes a picture of where glucose is being used in the brain. [source](https://stanfordhealthcare.org/medical-tests/p/pet-scan/what-to-expect.html#:~:text=conditions%20like%20epilepsy.-,A%20small%20amount%20of%20radioactive%20glucose%20(a%20sugar)%20is%20injected,glucose%20than%20normal%20cells%20do)
+		- {{video https://www.youtube.com/watch?v=I7ZYRkafj8Q}}
+	-
