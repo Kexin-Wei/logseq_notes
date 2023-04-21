@@ -2,6 +2,7 @@
 	- [[@Continuum Differential Mechanisms and Their Applications in Gripper Designs]]
 	- [Snake Arm / Elephant’s Trunk experiment - YouTube](https://www.youtube.com/watch?v=EUEp-AfvvzE)
 	- [Continuum robot arm progress. Yamamoto laboratory 2018 - YouTube](https://www.youtube.com/watch?v=iNtAn3t79fs)
+	- [Frontiers | How to Model Tendon-Driven Continuum Robots and Benchmark Modelling Performance (frontiersin.org)](https://www.frontiersin.org/articles/10.3389/frobt.2020.630245/full)
 - Simulator
 	- ANSYS
 	- COMSOL Multiphysics

@@ -8,7 +8,7 @@
 	- Responding to change over following a plan
 - ![Screenshot 2023-04-06 at 11.49.11 AM.png](../assets/Screenshot_2023-04-06_at_11.49.11_AM_1680752971080_0.png){:height 303, :width 522}
 - Framework
-	- [[Scrum]]
+	- [[Real Scrum]]
 	- XP Extreme Programming
 	- Adaptive Software Development by Jim Highsmith
 	- Crystal Clear by Alistair Cockburn
@@ -17,3 +17,4 @@
 - Between teams
 	- Scrum@Scale
 		- https://www.scrumatscale.com/scrum-at-scale-guide/
+- [[Jira Management Software]]

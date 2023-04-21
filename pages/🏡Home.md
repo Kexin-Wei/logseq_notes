@@ -36,7 +36,7 @@
 - 🤖Robot
 	- [[🤖Robot Control]]
 	- [[Continuum Mechanism]]
-	- [[Continuum Differential Mechanism]]
+	- [[Continuum Robot]]
 	- [[🏃Motion Tracking]]
 	- [[📈Signal Processing]]
 	- [[✈️SLAM]]
@@ -44,21 +44,17 @@
 	- [DL in image registration](https://www.youtube.com/watch?v=c4dvyTBvysQ https://www.youtube.com/watch?v=O3TmEcaN5Ww)
 	- [[🗣️Natural Language Processing]]
 - 💻️Software Development
-  collapsed:: true
 	- [[CUDA]]
 	- [[Docker]]
 	- [[VTK & ITK]]
 	- [[Agile Management]]
-		- [[Jira Management Software]]
 - 🥼Science Theory
 	- [[⚡️Electric Engineering]]
 	  :LOGBOOK:
 	  * State "DONE" from "TODO" [2022-10-03 Mon 08:22]
 	  :END:
 	- [[🌍️Physics]]
-	- 🔢Mathematics
-		- [[Vector Field]]
-		- [[Expected Value]]
+	- [[🔢Mathematics]]
 - 🏛️Bite of History
   collapsed:: true
 	- Ten must known people

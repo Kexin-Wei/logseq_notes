@@ -12,6 +12,9 @@
 - Simulator
 	- [[Gazebo]]
 	- [[Sofa]]
+	- [Drake: Model-Based Design and Verification for Robotics (mit.edu)](https://drake.mit.edu/)
+	- https://github.com/ContinuumRoboticsLab/CRVisToolkit
+	- [OpenSourceMedicalRobots/Endo-Continuum-Robot-Library: Arduino Library for the OSMR Endo Continuum Robot. (github.com)](https://github.com/OpenSourceMedicalRobots/Endo-Continuum-Robot-Library)
 - Free CAD Software
 	- Fusion 360
 	- Blender

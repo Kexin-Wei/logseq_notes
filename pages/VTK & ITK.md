@@ -46,4 +46,7 @@
 	- `vtkCutter`+`vtkKochanekSpline`+`vtkSplineFilter`
 - BSpline Mesh Library
 	- [Rhino - The openNURBS initiative (rhino3d.com)](https://www.rhino3d.com/it/features/developer/opennurbs/)
+		- too hard
 	- [SINTEF-Geometry/SISL: The SINTEF Spline Library (github.com)](https://github.com/SINTEF-Geometry/SISL)
+		- ![license_rule.png](../assets/license_rule_1682059827944_0.png)
+	-
