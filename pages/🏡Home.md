@@ -69,8 +69,10 @@
 		- [[Ibn Khaldun]]
 		- [[Nelson Mandela]]
 - 💶Economics
-	- [[ETF(Exchange-Traded Fund)/]]
+	- [[ETF(Exchange-Traded Fund)]]
 	  collapsed:: true
+	- 110- your age = stock, rest in bonds
+	- Stock: half local, half overseas
 - 🗺️Languages Learning
 	- IPA
 		- [IPA Chart](https://www.ipachart.com/)
