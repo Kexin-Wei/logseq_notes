@@ -44,12 +44,14 @@
 	- [vtkContour3DLinearGrid](https://vtk.org/doc/nightly/html/classvtkContour3DLinearGrid.html)
 - 2D Contour Extract from Mesh / Polydata
 	- `vtkCutter`+`vtkKochanekSpline`+`vtkSplineFilter`
-- BSpline Mesh Library
+- NURBS
+	- [NURBS Part 1: An introduction to NURBS - YouTube](https://www.youtube.com/watch?v=GJnXuSsjtZo)
+- NURBS Library
 	- [Rhino - The openNURBS initiative (rhino3d.com)](https://www.rhino3d.com/it/features/developer/opennurbs/)
 		- too hard
 	- [SINTEF-Geometry/SISL: The SINTEF Spline Library (github.com)](https://github.com/SINTEF-Geometry/SISL)
 		- ![license_rule.png](../assets/license_rule_1682059827944_0.png)
 	- [mcneel/opennurbs at v7.11.21285.13001 (github.com)](https://github.com/mcneel/opennurbs/tree/v7.11.21285.13001)
-- NURBS
-	- [NURBS Part 1: An introduction to NURBS - YouTube](https://www.youtube.com/watch?v=GJnXuSsjtZo)
-	-
+	- [msteinbeck/tinyspline: ANSI C library for NURBS, B-Splines, and Bézier curves with interfaces for C++, C#, D, Go, Java, Javascript, Lua, Octave, PHP, Python, R, and Ruby. (github.com)](https://github.com/msteinbeck/tinyspline#documentation)
+		- MIT License: free for company
+		- C++: [TinySpline: /tinyspline/src/tinyspline.h File Reference (msteinbeck.github.io)](https://msteinbeck.github.io/tinyspline/tinyspline_8h.html)

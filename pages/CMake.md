@@ -1,4 +1,3 @@
 - * [An Introduction to Modern CMake · Modern CMake (cliutils.gitlab.io)](https://cliutils.gitlab.io/modern-cmake/)
 - ** [Effective Modern CMake (github.com)](https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1)
 - ** https://github.com/ttroy50/cmake-examples/tree/master/01-basic
--
