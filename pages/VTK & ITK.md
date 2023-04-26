@@ -49,4 +49,7 @@
 		- too hard
 	- [SINTEF-Geometry/SISL: The SINTEF Spline Library (github.com)](https://github.com/SINTEF-Geometry/SISL)
 		- ![license_rule.png](../assets/license_rule_1682059827944_0.png)
+	- [mcneel/opennurbs at v7.11.21285.13001 (github.com)](https://github.com/mcneel/opennurbs/tree/v7.11.21285.13001)
+- NURBS
+	- [NURBS Part 1: An introduction to NURBS - YouTube](https://www.youtube.com/watch?v=GJnXuSsjtZo)
 	-
