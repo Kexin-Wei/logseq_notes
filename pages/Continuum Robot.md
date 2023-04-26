@@ -8,7 +8,13 @@
 	- COMSOL Multiphysics
 	- Abaqus
 	- [[SOFA]]
+	- Matlab
+		- https://www.cs.toronto.edu/~jbk/opencontinuumrobotics/
+		- https://github.com/ContinuumRoboticsLab/CRVisToolkit
 	- Gazebo
+		- https://github.com/aGotelli/A_Gazebo_Simulator_For_Continuum_Parallel_Robots
+		- [A Gazebo Simulator For Continuum Parallel Robots: walk through and demonstration of the simulator](https://www.youtube.com/watch?v=6k5aZPOQjQ8)
+		- https://www.frontiersin.org/articles/10.3389/frobt.2021.713083/full
 - Differential mechanisms usually possess several typical structures, including the following
 	- pulley-based forms
 	- linkage-based forms
