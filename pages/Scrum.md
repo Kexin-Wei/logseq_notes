@@ -1,3 +1,4 @@
+- ![Scrum Sum Handnote.pdf](../assets/Scrum_Sum_Handnote_1682513537977_0.pdf)
 - ![3-2020-Scrum-Guide-US.pdf](../assets/3-2020-Scrum-Guide-US.pdf)
 - [Home | Scrum Guides](https://scrumguides.org/)
 - [8/17 - Scrum Master are now "Leaders Who Serve" - YouTube](https://www.youtube.com/watch?v=U-eOrsCWVrk&list=PLMWjHyTcdqkZ6fUroGstR6NKL6RQhaFJT&index=9)
