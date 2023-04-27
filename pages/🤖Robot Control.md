@@ -5,12 +5,12 @@
 		  Chebyshev-Grübler kinematic Kutzbach-Hervé(CGKH) Formula
 		- [[@Modeling Parallel Robot Kinematics for 3T2R and 3T3R Tasks Using Reciprocal Sets of Euler Angles]]
 		- [[@Dynamics of Parallel Robots: From Rigid Bodies to Flexible Elements]]
-- ROS2 learning
+- ROS2
 	- [Install Guide of Humble](https://docs.ros.org/en/humble/Installation.html)
 	- [Great Start Up Video - ROS2 Humble](https://www.youtube.com/watch?v=Gg25GfA456o)
-	- Foxy
-- Simulator
-	- [[Gazebo]]
+	- [[ROS2 Foxy + Raspberry Pi + Macbook]]
+- #simulator
+	- Gazebo
 	- [[Sofa]]
 	- [Drake: Model-Based Design and Verification for Robotics (mit.edu)](https://drake.mit.edu/)
 	- https://github.com/ContinuumRoboticsLab/CRVisToolkit
