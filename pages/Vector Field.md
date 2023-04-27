@@ -17,6 +17,18 @@
 		  $$
 - Vector Field Properties
 	- {{video https://www.youtube.com/watch?v=Q_tdnTtXwu4}}
+	- Multivariable Calculus" by James Stewart
+	- "Vector Calculus" by Jerrold E. Marsden and Anthony J. Tromba
+	- Khan Academy's multivariable calculus course (free online)
+	- MIT OpenCourseWare's multivariable calculus course (free online)
+	- [6.1 Vector Fields - Calculus Volume 3 | OpenStax](https://openstax.org/books/calculus-volume-3/pages/6-1-vector-fields)
+- vector field properties
+	- Conservative or Not
+		- Requirement: Open and Connected Region R
+		- $F(x,y)$ is conservative on R, if scalar function $f(x,y)$ s.t.t $\nabla f =F$
+		- $\int_C F \cdot dr$ is path-independent, if $\int_{C_1} F \cdot dr =  \int_{C_2} F \cdot dr$ for all curves
+		- For $F(x,y) = <P,Q>$, F has zero-curl on R, if $curl (F)=P_y-Q_x$ on R
+		- ![image.png](../assets/image_1682554223585_0.png){:height 248, :width 489}
 - vector field operations
 - Study applications of vector fields
 	- Fluid flow and aerodynamics
