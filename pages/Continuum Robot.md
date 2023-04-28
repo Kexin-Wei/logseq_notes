@@ -12,4 +12,6 @@
 		- fluidic T-pipe-based forms.
 	- ![image.png](../assets/image_1680766945382_0.png)
 	- Planar Form
+		- ((644b3087-59b3-4f05-92a4-be675781cd5f))
+		- ![08_Energy_02_Elastic_Strain_Energy.pdf](../assets/08_Energy_02_Elastic_Strain_Energy.pdf)
 	- Spatial Form
