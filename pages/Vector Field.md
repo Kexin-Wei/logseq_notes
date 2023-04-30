@@ -17,19 +17,23 @@
 		  $$
 - Vector Field Properties
 	- {{video https://www.youtube.com/watch?v=Q_tdnTtXwu4}}
-	- Multivariable Calculus" by James Stewart
-	- "Vector Calculus" by Jerrold E. Marsden and Anthony J. Tromba
-	- Khan Academy's multivariable calculus course (free online)
-	- MIT OpenCourseWare's multivariable calculus course (free online)
-	- [6.1 Vector Fields - Calculus Volume 3 | OpenStax](https://openstax.org/books/calculus-volume-3/pages/6-1-vector-fields)
-- vector field properties
 	- Conservative or Not
 		- Requirement: Open and Connected Region R
 		- $F(x,y)$ is conservative on R, if scalar function $f(x,y)$ s.t.t $\nabla f =F$
 		- $\int_C F \cdot dr$ is path-independent, if $\int_{C_1} F \cdot dr =  \int_{C_2} F \cdot dr$ for all curves
 		- For $F(x,y) = <P,Q>$, F has zero-curl on R, if $curl (F)=P_y-Q_x$ on R
 		- ![image.png](../assets/image_1682554223585_0.png){:height 248, :width 489}
-- vector field operations
+	- [6.1 Vector Fields - Calculus Volume 3 | OpenStax](https://openstax.org/books/calculus-volume-3/pages/6-1-vector-fields)
+- Vector field operations
+	- Line Integral
+		- $\int_\gamma V(\mathbf{x})\cdot d \mathbf{x} = \int^{b}_{a} V(\gamma(t))\cdot \dot \gamma(t) dt$
+	- Divergence
+		- $\text{div} \mathbf{F} = \nabla \cdot \mathbf{F} = \frac{\partial F_1}{\partial x} + \frac{\partial F_2}{\partial y} + \frac{\partial F_3}{\partial z}$
+	- Curl
+		- $\text{crul} \mathbf{F} = \nabla \times \mathbf{F} = \left( \frac{\partial F_3}{\partial y} - \frac{\partial F_2}{\partial z} \right)\mathbf{e}_1 - \left( \frac{\partial F_3}{\partial x} - \frac{\partial F_1}{\partial z} \right)\mathbf{e}_2 + \left( \frac{\partial F_2}{\partial x} - \frac{\partial F_1}{\partial y} \right)\mathbf{e}_3$
+		  id:: 644e57fa-4d8d-4f8f-8d2a-dbe7909ce8d9
+	- Index
+		- ![image.png](../assets/image_1682856653023_0.png)
 - Study applications of vector fields
 	- Fluid flow and aerodynamics
 	- Electromagnetic fields
