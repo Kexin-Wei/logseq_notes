@@ -77,6 +77,7 @@
 	- 110- your age = stock, rest in bonds
 	- Stock: half local, half overseas
 - 🗺️Languages Learning
+  collapsed:: true
 	- IPA
 		- [IPA Chart](https://www.ipachart.com/)
 	- 🇬🇧English
