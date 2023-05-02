@@ -43,6 +43,7 @@
 	- ![Examples in lecture notes](../assets/VC-3-examples.pdf)
 - In other coordinates, spherical coordinates, cylindrical coordinates
 	- https://en.wikipedia.org/wiki/Del_in_cylindrical_and_spherical_coordinates
+	- [[Spherical Coordinates]]
 - Explore advanced topics (optional)
   If you want to dive deeper into vector fields, consider studying more advanced topics like differential forms, differential geometry, or tensor analysis.
 - More References

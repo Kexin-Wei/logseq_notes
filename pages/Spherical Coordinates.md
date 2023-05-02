@@ -1,0 +1,10 @@
+- https://en.wikipedia.org/wiki/Spherical_coordinate_system#Coordinate_system_conversions
+- Definition
+	- ![Screenshot 2023-05-02 at 9.26.55 PM.png](../assets/Screenshot_2023-05-02_at_9.26.55_PM_1683034035716_0.png){:height 217, :width 246}
+- [Unit Vector](https://en.wikipedia.org/wiki/Unit_vector)
+	- How to get Unit Vector in Spherical Coordinate
+		- Method 1: Geo ![rauv.pdf](../assets/rauv.pdf)
+		- Method 2: Algebra ![paper_11_24775_76.pdf](../assets/paper_11_24775_76.pdf)
+	- Unit Vector transformation - [Jacobian](https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant)
+	- ![image.png](../assets/image_1683032089353_0.png){:height 265, :width 686}
+- [Orthogonal Matrix](https://en.wikipedia.org/wiki/Orthogonal_matrix)
