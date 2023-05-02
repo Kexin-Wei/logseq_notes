@@ -50,6 +50,7 @@
 	- [[CUDA]]
 	- [[Docker]]
 	- [[VTK & ITK]]
+		- [[NURBS]]
 	- [[Agile Management]]
 - 🥼Science Theory
 	- [[⚡️Electric Engineering]]
