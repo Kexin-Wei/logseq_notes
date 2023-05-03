@@ -5,6 +5,8 @@
 	- ![image.png](../assets/image_1682986516652_0.png){:height 559, :width 478}
 - How to set up a library
 	- ```CMake
+	  # Sources code provided
+	  
 	  FILE(GLOB SISL_SOURCES "src/*.c")
 	  add_library(sisl ${SISL_SOURCES})
 	  
@@ -12,8 +14,17 @@
 	      include
 	  )
 	  ```
-	- Or
-	  ```CMake
+	- ```CMake
+	  # Sources code provided, include and src include together
 	  FILE(GLOB SISL_SOURCES "src/*.c" "include/*.h")
 	  add_library(sisl ${SISL_SOURCES})
+	  ```
+	- ```CMake
+	  # Static library
+	  
+	  add_library(sisl SHARED IMPORTED GLOBAL)
+	  target_include_directories(sisl INTERFACE
+	      include
+	  )
+	  set_property(TARGET sisl PROPERTY IMPORTED_IMPLIB ${CMAKE_CURRENT_SOURCE_DIR}/lib/sisl.lib)
 	  ```
