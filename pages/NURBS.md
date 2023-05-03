@@ -1,13 +1,34 @@
-- [NURBS Part 1: An introduction to NURBS - YouTube](https://www.youtube.com/watch?v=GJnXuSsjtZo)
+- * [NURBS Part 1: An introduction to NURBS - YouTube](https://www.youtube.com/watch?v=GJnXuSsjtZo)
+- ** [4.1 Introduction to NURBS Geometry - Intro to Parametric Modeling](https://youtu.be/HofbVh--LKg)
+- *** https://wiki.mcneel.com/rhino/home/essentialmathematics
+	- ![TheEssentialMathematicsForComputationalDesign_4thEdition2019.doc.pdf](../assets/TheEssentialMathematicsForComputationalDesign_4thEdition2019.doc.pdf)
+- NURBS
+	- Degree
+		- 2nd Degree is just tangent to control polygon
+		- ![image.png](../assets/image_1683101896579_0.png){:height 252, :width 426}
+	- Weights of the Control points
+		- ![image.png](../assets/image_1683103905493_0.png)
+	- Knot
+		- define the effective range of basic function, in corresponding to control points
+	- Basic function
+		- ![image.png](../assets/image_1683102095107_0.png){:height 395, :width 309}
+	- Close curve
+		- ![image.png](../assets/image_1683103023685_0.png){:height 486, :width 466}
 - NURBS Library
-	- [SINTEF-Geometry/SISL: The SINTEF Spline Library (github.com)](https://github.com/SINTEF-Geometry/SISL)
+	- [SINTEF-Geometry/SISL](https://github.com/SINTEF-Geometry/SISL)
+		- C++
 		- ![license_rule.png](../assets/license_rule_1682059827944_0.png)
 		- Installation
-			- Viewer: Tried for 2022, 2019, 2015, all failed ![image.png](../assets/image_1682581298157_0.png)
-	- [mcneel/opennurbs at v7.11.21285.13001 (github.com)](https://github.com/mcneel/opennurbs/tree/v7.11.21285.13001)
+			- Viewer
+				- Need to download freeglut
+				- And find gl.h in windows using everything
+	- [mcneel/opennurbs](https://github.com/mcneel/opennurbs/tree/v7.11.21285.13001)
 		- will read and write openNURBS 3D model files (*.3dm*).
 		- [Rhino - The openNURBS initiative (rhino3d.com)](https://www.rhino3d.com/it/features/developer/opennurbs/)
-	- [msteinbeck/tinyspline: ANSI C library for NURBS, B-Splines, and Bézier curves with interfaces for C++, C#, D, Go, Java, Javascript, Lua, Octave, PHP, Python, R, and Ruby. (github.com)](https://github.com/msteinbeck/tinyspline#documentation)
+	- [msteinbeck/tinyspline](https://github.com/msteinbeck/tinyspline#documentation)
+		- ANSI C library for NURBS, B-Splines, and Bézier curves with interfaces for C++, C#, D, Go, Java, Javascript, Lua, Octave, PHP, Python, R, and Ruby. (github.com)
 		- MIT License: free for company
 		- C++: [TinySpline: /tinyspline/src/tinyspline.h File Reference (msteinbeck.github.io)](https://msteinbeck.github.io/tinyspline/tinyspline_8h.html)
 		- just spline no surface
+	- [NURBS-Python](https://github.com/orbingol/NURBS-Python)
+		- [examples](https://github.com/orbingol/geomdl-examples)
