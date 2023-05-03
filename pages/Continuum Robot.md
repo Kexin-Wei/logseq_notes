@@ -14,4 +14,4 @@
 		- ![08_Energy_02_Elastic_Strain_Energy.pdf](../assets/08_Energy_02_Elastic_Strain_Energy.pdf)
 	- Spatial Form
 		- ((644b3087-59b3-4f05-92a4-be675781cd5f))
-		- ![CDM - Planar Form and Spatial Form](../assets/CDM.pdf)
+		- ![Notes - Planar Form and Spatial Form](../assets/CDM.pdf)
