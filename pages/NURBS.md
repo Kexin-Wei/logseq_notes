@@ -14,6 +14,13 @@
 		- ![image.png](../assets/image_1683102095107_0.png){:height 395, :width 309}
 	- Close curve
 		- ![image.png](../assets/image_1683103023685_0.png){:height 486, :width 466}
+		- ![image.png](../assets/image_1683161451459_0.png)
+	- Evaluate
+		- ![image.png](../assets/image_1683162357189_0.png){:height 1083, :width 536}
+	- Closed Surface
+		- ![image.png](../assets/image_1683162526181_0.png){:height 573, :width 488}
+	- Polysurfaces
+		- ![image.png](../assets/image_1683162649551_0.png)
 - NURBS Library
 	- [SINTEF-Geometry/SISL](https://github.com/SINTEF-Geometry/SISL)
 		- C++
