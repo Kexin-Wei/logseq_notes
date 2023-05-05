@@ -57,7 +57,7 @@
  ;; When :all-pages-public? true, export repo would export all pages within that repo.
  ;; Regardless of whether you've set any page to public or not.
  ;; Example:
- ;; :publishing/all-pages-public? true
+ :publishing/all-pages-public? true
 
  ;; Specify default home page and sidebar status for Logseq
  ;; If not specified, Logseq default opens journals page on startup
@@ -269,10 +269,10 @@
  ;; logbook setup
 :logbook/settings
 {
- :with-second-support? false ;limit logbook to minutes, seconds will be eliminated
-  :enabled-in-all-blocks true ;display logbook in all blocks after timetracking
+  :with-second-support? false ;limit logbook to minutes, seconds will be eliminated
+  :enabled-in-all-blocks false ;display logbook in all blocks after timetracking
   :enabled-in-timestamped-blocks false ;don't display logbook at all
- }
+}
 
  ;; Mobile photo uploading setup
  ;; :mobile/photo
@@ -337,4 +337,5 @@
  :feature/enable-journals? false
  :default-home {:page "🏡Home"}
  :feature/enable-whiteboards? false
+ :ui/auto-expand-block-refs? false
  }
