@@ -51,6 +51,7 @@
 	- [[Docker]]
 	- [[VTK & ITK]]
 		- [[NURBS]]
+	- [[Qt]]
 	- [[Agile Management]]
 - 🥼Science Theory
 	- [[⚡️Electric Engineering]]
