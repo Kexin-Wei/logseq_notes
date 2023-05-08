@@ -28,7 +28,11 @@
 		- Installation
 			- Viewer
 				- Need to download freeglut
-				- And find gl.h in windows using everything
+				- And find gl.h in windows using `everything` software
+		- File format: g2
+			- Curve
+				- ![20230508-100014.png](../assets/20230508-100014_1683511312353_0.png)
+				  id:: 64585808-c815-417b-923b-b313a50baa5d
 	- [mcneel/opennurbs](https://github.com/mcneel/opennurbs/tree/v7.11.21285.13001)
 		- will read and write openNURBS 3D model files (*.3dm*).
 		- [Rhino - The openNURBS initiative (rhino3d.com)](https://www.rhino3d.com/it/features/developer/opennurbs/)
