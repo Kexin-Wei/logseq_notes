@@ -30,3 +30,13 @@
 	  )
 	  set_property(TARGET sisl PROPERTY IMPORTED_IMPLIB ${CMAKE_CURRENT_SOURCE_DIR}/lib/sisl.lib)
 	  ```
+	- On Windows, a .dll and its .lib import library may be imported together:
+		- ```CMake
+		  add_library(bar SHARED IMPORTED)
+		  set_property(TARGET bar PROPERTY
+		             IMPORTED_LOCATION "c:/path/to/bar.dll")
+		  set_property(TARGET bar PROPERTY
+		             IMPORTED_IMPLIB "c:/path/to/bar.lib")
+		  add_executable(myexe src1.c src2.c)
+		  target_link_libraries(myexe PRIVATE bar)
+		  ````
