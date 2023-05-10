@@ -8,32 +8,35 @@
 	- [[BBN Blood Brain Barrier]]
 	- [[Anatomy Views of Human]]
 	- [[Kidney Anatomy]]
-	- [[CT  Computed Tomography Image]]
+	- [[Laparoscopic Surgery]]
 	- [[MRI Magnetic Resonance Imaging]]
 	- [[🫀Prostate]]
-- 🩻 Ultrasound
+- 🩻 Medical Image
   collapsed:: true
-	- [[Ultrasound Basic]]
-	- [[Ultrasound Imaging Mechanism]]
-	- [[HIFU]]
-	- [[🔊HIFU Monitoring]]
+	- [[CT  Computed Tomography Image]]
+	- Ultrasound
+		- [[Ultrasound Basic]]
+		- [[Ultrasound Imaging Mechanism]]
+		- [[HIFU]]
+		- [[🔊HIFU Monitoring]]
 - 🖥️ Image Processing
   collapsed:: true
-	- [[Online Library of Medical Image Analysis]]
 	- [[Installation of Image Processing Repo]]
 	- [[Corner Detection]]
 	- [[Homogeneous Transformation]]
 	- [[Image Interpolation]]
 	- [[Image registration]]
-	- [[Medical Image Fusion]]
-	- [[Medical Image Segmentation]]
+	- Medical Image
+		- [[Online Library of Medical Image Analysis]]
+		- [[Medical Image Fusion]]
+		- [[Medical Image Segmentation]]
 	- Segmentation + Registration
-	  collapsed:: true
 		- > Xiaohua, Chen, et al. "Simultaneous segmentation and registration of contrast-enhanced breast MRI." _Biennial International Conference on Information Processing in Medical Imaging_. Springer, Berlin, Heidelberg, 2005.
 		- • Segmentation can aid registration
 		  • Registration can aid segmentation
 		  • Interleaving segmentation and registration
 - 🤖Robot
+	- [The da Vinci Research Kit (dVRK) – Intuitive Foundation (intuitive-foundation.org)](https://www.intuitive-foundation.org/dvrk/)
 	- [[🤖Robot Control]]
 	- [[Continuum Mechanism]]
 	- [[Continuum Robot]]
