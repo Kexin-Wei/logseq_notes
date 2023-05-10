@@ -1,2 +1,3 @@
 - Reference
 	- [Qt5 C++ GUI Development Full Course For Beginners | C++ GUI](https://www.youtube.com/watch?v=Et_bgnJ_Hhg)
+- [A Qt Demo created by me](https://github.com/Kexin-Wei/QTCppCallPython_Demo)
