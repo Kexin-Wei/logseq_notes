@@ -56,6 +56,7 @@
 		- [[NURBS]]
 	- [[Qt]]
 	- [[Agile Management]]
+	- [[Medical Related Open Source]]
 - 🥼Science Theory
 	- [[⚡️Electric Engineering]]
 	  :LOGBOOK:
