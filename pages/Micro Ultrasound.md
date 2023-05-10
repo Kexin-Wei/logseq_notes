@@ -1,0 +1,9 @@
+- First invented for animal (mouse) ultrasound examination
+	- [2006 Award of Distinction - Dr. Stuart Foster for Non-Invasive Ultrasound Imaging - YouTube](https://youtu.be/RV6EqzJZj7k)
+- [Micro-Ultrasound IMAGE GALLERY - Exact Imaging.](https://www.exactimaging.com/image-gallery)
+	- ![image.png](../assets/image_1683689229363_0.png)
+- [Micro-ultrasound for preclinical imaging - PMC (nih.gov)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3262267/)
+	- ![image.png](../assets/image_1683687526124_0.png)
+	- ![image.png](../assets/image_1683688703393_0.png)
+- [Vevo F2 for Small to Larger Animals | FUJIFILM VisualSonics](https://www.visualsonics.com/product/imaging-systems/vevo-f2-preclinical)
+	- ![VEVO_04.pdf](../assets/VEVO_04_1683688446537_0.pdf)
