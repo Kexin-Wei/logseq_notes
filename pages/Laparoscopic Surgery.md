@@ -1,0 +1,12 @@
+- Abdominal Cavity
+	- ![image.png](../assets/image_1683685206362_0.png)
+- Open Abdomen Surgery
+- Traditional Laparoscopic Surgery
+	- 3 - 5 port, minimal invasive
+	- 1 - telescopic rod lens
+	- 1 - surgical instrument
+	- 1 - tissue removal hole (carrying in a bag)
+	- ![Laparoscopy - Recovery Time & Laparoscopy Side Effects](https://healthjade.com/wp-content/uploads/2018/06/laparoscopy-procedure.jpg){:height 554, :width 573}
+- Single Incision Laparoscopic Surgery
+	- [Single Port | Da Vinci SP | System | Intuitive](https://www.intuitive.com/en-us/products-and-services/da-vinci/systems/sp)
+	- ![Dr. Heidari Zadi - Single-Port Surgery](https://drheidarizadi.com/images/single-port-laparoscopy-illus.jpg)

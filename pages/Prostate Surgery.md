@@ -1,3 +1,7 @@
+- [Urology Robotic Assisted Surgery | Surgeons | Intuitive](https://www.intuitive.com/en-us/healthcare-professionals/surgeons/urology)
+	- prostatectomies, cystectomies, partial nephrectomies, pyeloplasties, and procedures for other urologic conditions.
+	- [Da Vinci Surgery | Urology Robotic Assisted Surgery (intuitive.com)](https://www.intuitive.com/en-us/patients/procedures/urology)
+	  ![image.png](../assets/image_1683685378099_0.png)
 - BPH Benign prostatic hyperplasia
 	- enlarged prostate block urinary
 	- ![image.png](../assets/image_1683681761694_0.png)
@@ -16,6 +20,7 @@
 		- [Rezūm Water Vapor Therapy Procedure Animation for Physicians - YouTube](https://www.youtube.com/watch?v=ukQpfBE0oMg)
 		- [Rezum procedure for enlarged prostate less invasive with great results - Medical Minute - YouTube](https://www.youtube.com/watch?v=U0-EGEqVNJ4)
 	- UroLift
-		- implant
+		- 4-6 implants
 		- ![image.png](../assets/image_1683682394005_0.png){:height 217, :width 386}
+		- ![image.png](../assets/image_1683683840007_0.png){:height 249, :width 440}
 		- [UroLift® System Procedure Animation - YouTube](https://www.youtube.com/watch?v=e20Ak49YD6E)
