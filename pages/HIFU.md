@@ -28,7 +28,7 @@
 				- With the help of ultrasound and X-ray imaging, the shock wave generator is positioned so that the shock waves are concentrated on the stone. X-rays and/or ultrasounds are also used to check the success of the treatment during and after the procedure.
 		- [Alpius 900](http://www.alpinion.com/en/product/product_view_alpius900.do?productKey=KEY.1505083248000000219) #abdomen
 		  ![](/../assets/alpius.png){:height 289, :width 440}
-		- [Sonablate HIFU](https://www.sonablate.com/sonablate-hifu) #prostate
+		- [Sonablate HIFU](https://www.sonablate.com/sonablate-hifu) #🫀Prostate
 		  collapsed:: true
 		  ![Sonablate HIFU](https://assets.website-files.com/6241b7c638141908d1b379b6/62684b58fcb9f7ce6fe863e6_Sonablate_console.png){:height 409, :width 407}
 			- [Sonacare Medical's HIFU Treatment for Prostate Cancer - YouTube](https://www.youtube.com/watch?v=wsHH2u8EIZc&t=101s)

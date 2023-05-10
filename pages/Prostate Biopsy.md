@@ -1,6 +1,5 @@
 - #📺️youtube
 - Categories
-  collapsed:: true
 	- Systematical Biopsy
 	- Targeted Biopsy
 	- TRUSBx: Transrectal Ultrasound Guided Biopsy, infection from rectum
@@ -39,8 +38,6 @@
 	  [192.168.0.153](http://192.168.0.153)
 	  user: 3I
 	  password: cmsnavi
-- [[MRI Image of Prostate/]]
-  id:: 641913f4-fc79-47b7-9324-9f8908f7cdcf
 - Competitor highlights
 	- TODO https://ultrastmedtech.feishu.cn/wiki/wikcn1gHBqXtT4gK2qfeckD4WPg
 	- Robotic biopsy

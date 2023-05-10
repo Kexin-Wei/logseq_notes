@@ -5,13 +5,12 @@
 	- [[German PhD Guide]]
 	- [[Search PhD by Uni]]
 - 🏥Medical Knowledge
-  collapsed:: true
 	- [[BBN Blood Brain Barrier]]
 	- [[Anatomy Views of Human]]
 	- [[Kidney Anatomy]]
 	- [[CT  Computed Tomography Image]]
 	- [[MRI Magnetic Resonance Imaging]]
-	- [[🫀Prostate Biopsy]]
+	- [[🫀Prostate]]
 - 🩻 Ultrasound
   collapsed:: true
 	- [[Ultrasound Basic]]
@@ -42,6 +41,7 @@
 	- [[📈Signal Processing]]
 	- [[✈️SLAM]]
 - 🧠AI
+  collapsed:: true
 	- [DL in image registration](https://www.youtube.com/watch?v=c4dvyTBvysQ https://www.youtube.com/watch?v=O3TmEcaN5Ww)
 	- [[🗣️Natural Language Processing]]
 - 💻️Software Development
