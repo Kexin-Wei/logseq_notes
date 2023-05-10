@@ -12,13 +12,14 @@
 	- [[MRI Magnetic Resonance Imaging]]
 	- [[🫀Prostate]]
 - 🩻 Medical Image
-  collapsed:: true
 	- [[CT  Computed Tomography Image]]
 	- Ultrasound
 		- [[Ultrasound Basic]]
 		- [[Ultrasound Imaging Mechanism]]
 		- [[HIFU]]
 		- [[🔊HIFU Monitoring]]
+		- [[Micro Ultrasound]]
+		- [[Ultrasound Devices]]
 - 🖥️ Image Processing
   collapsed:: true
 	- [[Installation of Image Processing Repo]]
@@ -36,7 +37,6 @@
 		  • Registration can aid segmentation
 		  • Interleaving segmentation and registration
 - 🤖Robot
-	- [The da Vinci Research Kit (dVRK) – Intuitive Foundation (intuitive-foundation.org)](https://www.intuitive-foundation.org/dvrk/)
 	- [[🤖Robot Control]]
 	- [[Continuum Mechanism]]
 	- [[Continuum Robot]]
