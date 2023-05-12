@@ -5,6 +5,14 @@
 		  Chebyshev-Grübler kinematic Kutzbach-Hervé(CGKH) Formula
 		- [[@Modeling Parallel Robot Kinematics for 3T2R and 3T3R Tasks Using Reciprocal Sets of Euler Angles]]
 		- [[@Dynamics of Parallel Robots: From Rigid Bodies to Flexible Elements]]
+- DH Parameters
+	- [Denavit–Hartenberg parameters - Wikipedia](https://en.wikipedia.org/wiki/Denavit%E2%80%93Hartenberg_parameters)
+	- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/DHParameter.png/519px-DHParameter.png)
+		- *d*: offset along previous *z* to the common normal
+		- *θ*: angle about previous *z*, from old *x* to new *x*
+			- ![Sample Denavit-Hartenberg Diagram.png](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Sample_Denavit-Hartenberg_Diagram.png/375px-Sample_Denavit-Hartenberg_Diagram.png)
+		- *r*: length of the common normal (aka *a*, but if using this notation, do not confuse with *α*). Assuming a revolute joint, this is the radius about previous *z*.
+		- *α*: angle about common normal, from old *z* axis to new *z* axis
 - ROS2
 	- [Install Guide of Humble](https://docs.ros.org/en/humble/Installation.html)
 	- [Great Start Up Video - ROS2 Humble](https://www.youtube.com/watch?v=Gg25GfA456o)
