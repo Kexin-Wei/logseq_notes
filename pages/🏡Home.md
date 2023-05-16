@@ -12,6 +12,7 @@
 	- [[MRI Magnetic Resonance Imaging]]
 	- [[🫀Prostate]]
 - 🩻 Medical Image
+  collapsed:: true
 	- [[CT  Computed Tomography Image]]
 	- Ultrasound
 		- [[Ultrasound Basic]]
@@ -21,12 +22,12 @@
 		- [[Micro Ultrasound]]
 		- [[Ultrasound Devices]]
 - 🖥️ Image Processing
-  collapsed:: true
 	- [[Installation of Image Processing Repo]]
 	- [[Corner Detection]]
 	- [[Homogeneous Transformation]]
 	- [[Image Interpolation]]
-	- [[Image registration]]
+	- [[Image Registration]]
+		- ((64633424-0e2d-4017-b298-5eb815a87f1b))
 	- Medical Image
 		- [[Online Library of Medical Image Analysis]]
 		- [[Medical Image Fusion]]

@@ -1,0 +1,15 @@
+- https://www.nature.com/articles/srep27386
+	- ![Figure 1](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep27386/MediaObjects/41598_2016_Article_BFsrep27386_Fig1_HTML.jpg)
+	- ![Figure 2](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep27386/MediaObjects/41598_2016_Article_BFsrep27386_Fig2_HTML.jpg)
+	- shear wave elastography (SWE) + FEM
+	- ### Impact of patient-specific deformation model on MR-TRUS registration
+		- ![Figure 4](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep27386/MediaObjects/41598_2016_Article_BFsrep27386_Fig4_HTML.jpg)
+		- To illustrate the effect of biomechanical parameter setting on the deformation estimation, we systematically perturbed the biomechanical parameters of inner and outer prostate with positive and negative offsets from the SWE measures for the model-guided MR-TRUS registration on all the patient data. For the perturbing of outer prostate, the parameter of inner prostate was fixed as SWE the measurement, whereas the outer prostate parameter was similarly unchanged while perturbing the parameter of inner prostate.
+		- ![Figure 6](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep27386/MediaObjects/41598_2016_Article_BFsrep27386_Fig6_HTML.jpg)
+		- Previous mass-spring and finite element methods modeled using linear elastic models have not been able to simulate such large deformations. In our implementation, we assumed that the involved tissues are elastic/hyperelastic isochoric materials and employed a neo-Hookean model to formulate the biomechanical behaviors of the prostate.
+		- each deformation modeling took about 15 seconds to calculate the mesh displacement
+	- Biomedical Model
+		- MSM Mass Spring Method
+		- FEM Finite Element Method
+	- Statistical Model
+		- training data, so can real-time

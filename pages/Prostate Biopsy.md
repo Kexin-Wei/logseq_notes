@@ -13,6 +13,10 @@
 		  ![image.png](../assets/image_1679292962036_0.png)
 		  ![image.png](../assets/image_1679292991004_0.png)
 - Procedures in software
+	- MRI-US Registration
+	  id:: 64633424-0e2d-4017-b298-5eb815a87f1b
+		- Difficulties
+			- [[Prostate Deformation with Probe]]
 	- Modeling, relating to [[Medical Image Segmentation]]
 	- Planning
 - Requirement
