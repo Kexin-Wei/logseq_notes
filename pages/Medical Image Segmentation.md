@@ -19,15 +19,13 @@
 			- The proton density weighted image was acquired prior to the DCE time series using the same sequence with different echo and repetition times and a different flip angle.
 			- The DWI series were acquired with a single-shot echo planar imaging sequence with a resolution of 2 mm in-plane and 3.6 mm slice thickness and with diffusion-encoding gradients in three directions. Three b-values were acquired (50, 400, and 800), and subsequently, the ADC map was calculated by the scanner software. All images were acquired without an endorectal coil.
 		- https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2
-- # Tools
-	- #👩‍💻software
+- # Tools #👩‍💻software
 	- [TotalSegmentator](https://github.com/wasserth/TotalSegmentator)
 	- [[Train your own dataset using nnUNet]]
 	- [Biomedisa](https://biomedisa.de/)
 	- ![image.png](../assets/image_1680231283494_0.png)
 		- ![AStar UCAnet](../assets/ISCAS_2023_UCAnet.pdf)
 - # Prostate Segmentation
-	- ((641913f4-fc79-47b7-9324-9f8908f7cdcf))
 	- ((64238f0e-d27f-42c4-8f37-ab486ddffd02))
 	- Manually Segmentation Software #👩‍💻software
 		- ~~[MedSeg (amazonaws.com)](http://htmlsegmentation.s3.eu-north-1.amazonaws.com/index.html)~~

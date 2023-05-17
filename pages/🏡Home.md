@@ -1,9 +1,3 @@
-- 👩🏻‍⚕️Doktoraten
-  collapsed:: true
-	- [[How to find a prof]]
-	- [[English PhD Guide]]
-	- [[German PhD Guide]]
-	- [[Search PhD by Uni]]
 - 🏥Medical Knowledge
 	- [[BBN Blood Brain Barrier]]
 	- [[Anatomy Views of Human]]
@@ -12,27 +6,30 @@
 	- [[MRI Magnetic Resonance Imaging]]
 	- [[🫀Prostate]]
 - 🩻 Medical Image
-  collapsed:: true
 	- [[CT  Computed Tomography Image]]
 	- Ultrasound
+	  collapsed:: true
 		- [[Ultrasound Basic]]
 		- [[Ultrasound Imaging Mechanism]]
 		- [[HIFU]]
 		- [[🔊HIFU Monitoring]]
 		- [[Micro Ultrasound]]
 		- [[Ultrasound Devices]]
+	- Medical Image Processing
+		- [[Online Library of Medical Image Analysis]]
+		- [[Medical Image Fusion]]
+		- [[Medical Image Interpolation]]
+		- [[Medical Image Segmentation]]
+		- [[MRI-US Prostate Registration]]
 - 🖥️ Image Processing
+  collapsed:: true
 	- [[Installation of Image Processing Repo]]
 	- [[Corner Detection]]
 	- [[Homogeneous Transformation]]
-	- [[Image Interpolation]]
 	- [[Image Registration]]
 		- ((64633424-0e2d-4017-b298-5eb815a87f1b))
-	- Medical Image
-		- [[Online Library of Medical Image Analysis]]
-		- [[Medical Image Fusion]]
-		- [[Medical Image Segmentation]]
 	- Segmentation + Registration
+	  collapsed:: true
 		- > Xiaohua, Chen, et al. "Simultaneous segmentation and registration of contrast-enhanced breast MRI." _Biennial International Conference on Information Processing in Medical Imaging_. Springer, Berlin, Heidelberg, 2005.
 		- • Segmentation can aid registration
 		  • Registration can aid segmentation
@@ -57,8 +54,14 @@
 		- [[NURBS]]
 	- [[Qt]]
 	- [[Agile Management]]
-	- [[Medical Related Open Source]]
+	- Medical Related Open Source
+		- List of them #👩‍💻software
+			- [Building Solutions on Open Source Technologies (kitware.com)](https://www.kitware.com/open-source/)
+			- [For Users (openigtlink.org)](http://openigtlink.org/users/)
+			- [IGTL](http://openigtlink.org/users/)
+			- [Plus](https://plustoolkit.github.io/)
 - 🥼Science Theory
+  collapsed:: true
 	- [[⚡️Electric Engineering]]
 	  :LOGBOOK:
 	  * State "DONE" from "TODO" [2022-10-03 Mon 08:22]
@@ -79,6 +82,7 @@
 		- [[Ibn Khaldun]]
 		- [[Nelson Mandela]]
 - 💶Economics
+  collapsed:: true
 	- [[ETF(Exchange-Traded Fund)]]
 	  collapsed:: true
 	- 110- your age = stock, rest in bonds
@@ -280,6 +284,12 @@
 			- DONE Unit 2
 			- DONE Unit 3
 			- TODO Unit 4
+- 👩🏻‍⚕️Doktoratsstudium
+  collapsed:: true
+	- [[How to find a prof]]
+	- [[English PhD Guide]]
+	- [[German PhD Guide]]
+	- [[Search PhD by Uni]]
 - Learning website to if you can't find help
 	- https://scienceexchange.caltech.edu/
 	- https://brilliant.org/?utm_medium=sponsor&utm_source=youtube&utm_campaign=upandatom_170123
