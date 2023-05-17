@@ -1,3 +1,3 @@
 - [[Prostate Anatomy in MRI]]
 - [[Prostate Biopsy]]
-- [[Prostate Surgery]]
+- [[Prostate Surgery or Treatment]]

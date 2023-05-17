@@ -1,26 +1,36 @@
 - [Urology Robotic Assisted Surgery | Surgeons | Intuitive](https://www.intuitive.com/en-us/healthcare-professionals/surgeons/urology)
 	- prostatectomies, cystectomies, partial nephrectomies, pyeloplasties, and procedures for other urologic conditions.
 	- [Da Vinci Surgery | Urology Robotic Assisted Surgery (intuitive.com)](https://www.intuitive.com/en-us/patients/procedures/urology)
-	  ![image.png](../assets/image_1683685378099_0.png)
-- BPH Benign prostatic hyperplasia
-	- enlarged prostate block urinary
-	- ![image.png](../assets/image_1683681761694_0.png)
-	- Transurethral Resection of the Prostate (TURP)
+	  ![image.png](../assets/image_1683685378099_0.png){:height 221, :width 438}
+- # BPH Benign prostatic hyperplasia
+	- Definition
+		- enlarged prostate block urinary
+		- ![image.png](../assets/image_1683681761694_0.png){:height 323, :width 612}
+	- ## Transurethral Resection of the Prostate (TURP)
 		- ![image.png](../assets/image_1683682298474_0.png){:height 281, :width 574}
 		- [TURP Transurethral Resection Prostate Surgery, patient education series](https://youtu.be/CB7ff7QFZkQ?t=24)
-	- Aquablation
+	- ## Aquablation
 		- Robotic System with water jet, destroying the cells
 		- ![image.png](../assets/image_1683682219032_0.png){:height 451, :width 861}
 		- [New treatment for enlarged prostates](https://www.youtube.com/watch?v=Q0_hQAqxhNY)
 		- [Robotic Aquablation: A novel technology to treat prostate enlargement - YouTube](https://youtu.be/gVN_bwpu-l0?t=140)
 		- [Aquablation - BPH Surgery Reimagined](https://youtu.be/2AJO2Tkwn6Q?t=714)
-	- Rezum
+	- ## Rezum
 		- Heating tissue to kill cells in [TZ zone](((643c962f-61e1-4b94-b480-cc4079ed8013)))
 		- ![image.png](../assets/image_1683682431560_0.png){:height 332, :width 540}
 		- [Rezūm Water Vapor Therapy Procedure Animation for Physicians - YouTube](https://www.youtube.com/watch?v=ukQpfBE0oMg)
 		- [Rezum procedure for enlarged prostate less invasive with great results - Medical Minute - YouTube](https://www.youtube.com/watch?v=U0-EGEqVNJ4)
-	- UroLift
+	- ## UroLift
 		- 4-6 implants
 		- ![image.png](../assets/image_1683682394005_0.png){:height 217, :width 386}
 		- ![image.png](../assets/image_1683683840007_0.png){:height 249, :width 440}
 		- [UroLift® System Procedure Animation - YouTube](https://www.youtube.com/watch?v=e20Ak49YD6E)
+- # Cancer
+	- [[Prostate Biopsy]]
+	- ## Brachytherapy
+		- [Cancer Treatment: Brachytherapy - YouTube](https://www.youtube.com/watch?v=MZRfzLQb92A)
+		- Temporary or Permanent
+		- ![image.png](../assets/image_1684309372821_0.png)
+		- ![Brachytherapy - Mayo Clinic](https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2013/11/15/17/44/ds00043_-my01635_im03217_hdg7_seedthu_jpg.jpg)
+		- Advantage
+			- ![image.png](../assets/image_1684309551979_0.png)
