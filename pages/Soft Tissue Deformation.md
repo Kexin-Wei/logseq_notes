@@ -1,0 +1,5 @@
+- Biomedical Model
+	- MSM Mass Spring Method
+	- FEM Finite Element Method
+- Statistical Model
+	- training data, so can real-time

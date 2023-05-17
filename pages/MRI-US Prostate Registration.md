@@ -1,0 +1,20 @@
+- Difficulties
+	- Prostate Deformation with Probe
+		- [[Soft Tissue Deformation]]
+		- ![Figure 1](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep27386/MediaObjects/41598_2016_Article_BFsrep27386_Fig1_HTML.jpg){:height 257, :width 717}
+		- ![Figure 2](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep27386/MediaObjects/41598_2016_Article_BFsrep27386_Fig2_HTML.jpg){:height 192, :width 720}
+		- [Patient-specific Deformation Modelling via Elastography: Application to Image-guided Prostate Interventions](https://www.nature.com/articles/srep27386)
+		  collapsed:: true
+			- ![Figure 4](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep27386/MediaObjects/41598_2016_Article_BFsrep27386_Fig4_HTML.jpg){:height 203, :width 700}
+			- shear wave elastography (SWE) + FEM
+			- ![Figure 6](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fsrep27386/MediaObjects/41598_2016_Article_BFsrep27386_Fig6_HTML.jpg){:height 396, :width 834}
+			- ### Impact of patient-specific deformation model on MR-TRUS registration
+				- To illustrate the effect of biomechanical parameter setting on the deformation estimation, we systematically perturbed the biomechanical parameters of inner and outer prostate with positive and negative offsets from the SWE measures for the model-guided MR-TRUS registration on all the patient data. For the perturbing of outer prostate, the parameter of inner prostate was fixed as SWE the measurement, whereas the outer prostate parameter was similarly unchanged while perturbing the parameter of inner prostate.
+				- Previous mass-spring and finite element methods modeled using linear elastic models have not been able to simulate such large deformations. In our implementation, we assumed that the involved tissues are elastic/hyperelastic isochoric materials and employed a neo-Hookean model to formulate the biomechanical behaviors of the prostate.
+				- each deformation modeling took about 15 seconds to calculate the mesh displacement
+		- [Clinical evaluation of an MRI-to-ultrasound deformable image registration algorithm for prostate brachytherapy](https://www.sciencedirect.com/science/article/abs/pii/S1538472118304343)
+			- Affine deformation (3 translations + 3 scaling)
+		- https://plastimatch.org/ #👩‍💻software
+			- BSD License: commercial okay
+			- CT, MRI, PET
+			- B-spline method for deformable image registration (GPU and multicore accelerated)
