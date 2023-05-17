@@ -18,7 +18,7 @@
 			- 3 translation MRI - TRUS center -> MR Contour 3d scale to TRUS Contour -> 2d scale MRI contour to TRUS -> smooth DIL
 			- |Method|Result|
 			  |--|--|
-			  |![image.png](../assets/image_1684292037027_0.png) | ![image.png](../assets/image_1684291705959_0.png){:height 557, :width 685} |
+			  | ![image.png](../assets/image_1684311949778_0.png) | ![image.png](../assets/image_1684291705959_0.png){:height 557, :width 685} |
 			- https://plastimatch.org/ #👩‍💻software
 			  collapsed:: true
 				- BSD License: commercial okay
@@ -36,3 +36,6 @@
 				  |--|--|--|
 				  |![3187f72c-bd27-4726-a5ec-a2744f953652.jpeg](../assets/3187f72c-bd27-4726-a5ec-a2744f953652_1684307850795_0.jpeg)| ![image.png](../assets/image_1684308167707_0.png) | ![image.png](../assets/image_1684308435346_0.png) |
 				  | |This suggests that both RR and CB registrations in MIM are robust and able to accommodate the aforementioned changes in anatomy between the MRI and TRUS imagesets due to leg position and US probe-in vs. probe-out, without need of applying the additional Predictive Fusion option.| |
+		- ## [Open-source image registration for MRI–TRUS fusion-guided prostate interventions | SpringerLink](https://link.springer.com/article/10.1007/s11548-015-1180-7)
+			- The deformable registration (19) is performed after the initial rigid registration. First, an affine registration is performed. Second, a B-spline regularization is executed to elastically align the binary 3D label maps [source](https://www.brachyjournal.com/article/S1538-4721(17)30539-1/fulltext)
+			- [GitHub - siavashk/GMM-FEM: Biomechanically Constrained Point Cloud Registration Using Gaussian Mixture Models](https://github.com/siavashk/GMM-FEM)
