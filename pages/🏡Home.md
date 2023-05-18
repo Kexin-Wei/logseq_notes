@@ -15,7 +15,7 @@
 		- [[🔊HIFU Monitoring]]
 		- [[Micro Ultrasound]]
 		- [[Ultrasound Devices]]
-	- Medical Image Processing
+	- Medical Image Analysis
 		- [[Online Library of Medical Image Analysis]]
 		- [[Medical Image Fusion]]
 		- [[Medical Image Interpolation]]

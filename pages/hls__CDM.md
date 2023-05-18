@@ -1,0 +1,31 @@
+file:: [CDM.pdf](../assets/CDM.pdf)
+file-path:: ../assets/CDM.pdf
+
+- [:span]
+  ls-type:: annotation
+  hl-page:: 3
+  hl-color:: yellow
+  id:: 64656f6e-9f29-453d-b57d-e424244257d0
+  hl-type:: area
+  hl-stamp:: 1684369260804
+- [:span]
+  ls-type:: annotation
+  hl-page:: 4
+  hl-color:: yellow
+  id:: 64657004-a7b1-4723-9c05-e3316027c14d
+  hl-type:: area
+  hl-stamp:: 1684369411456
+- [:span]
+  ls-type:: annotation
+  hl-page:: 1
+  hl-color:: yellow
+  id:: 64657079-2283-4330-a571-53e55b150a97
+  hl-type:: area
+  hl-stamp:: 1684369528820
+- [:span]
+  ls-type:: annotation
+  hl-page:: 2
+  hl-color:: yellow
+  id:: 646570e9-5f66-4583-bea2-725734d351e2
+  hl-type:: area
+  hl-stamp:: 1684369640930
