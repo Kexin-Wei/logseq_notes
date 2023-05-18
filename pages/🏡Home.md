@@ -46,7 +46,7 @@
 	- [DL in image registration](https://www.youtube.com/watch?v=c4dvyTBvysQ https://www.youtube.com/watch?v=O3TmEcaN5Ww)
 	- [[🗣️Natural Language Processing]]
 - 💻️Software Development
-	- [[C++ Environment Set Up]]
+	- [[C++]]
 	- [[CMake]]
 	- [[CUDA]]
 	- [[Docker]]
