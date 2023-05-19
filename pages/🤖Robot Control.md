@@ -1,5 +1,5 @@
 - [[Robot Kinematics]]
-- Robot Control Software
+- Robot Control #👩‍💻software
 	- ROS2
 		- [Install Guide of Humble](https://docs.ros.org/en/humble/Installation.html)
 		- [Great Start Up Video - ROS2 Humble](https://www.youtube.com/watch?v=Gg25GfA456o)
@@ -15,6 +15,19 @@
 		- Fusion 360
 		- Blender
 		- FreeCAD
+	- Python Package
+		- [moble/quaternionic: Interpret numpy arrays as quaternionic arrays with numba acceleration (github.com)](https://github.com/moble/quaternionic): evolved from the [quaternion](https://github.com/moble/quaternion) package, numpy adaptive
+		- [quaternion](https://github.com/moble/quaternion/) (core written in C; very fast; adds quaternion `dtype` to numpy; named [numpy-quaternion](https://pypi.org/project/numpy-quaternion/) on pypi due to name conflict)
+		- [clifford](https://github.com/pygae/clifford) (very powerful; more general geometric algebras)
+		- [rowan](https://github.com/glotzerlab/rowan) (many features; similar approach to this package; no acceleration or overloading)
+		- [pyquaternion](http://kieranwynn.github.io/pyquaternion/) (many features; pure python; no acceleration or overloading)
+		- [quaternions](https://github.com/mjsobrep/quaternions) (basic pure python package; no acceleration; specialized for rotations only)
+		- [scipy.spatial.transform.Rotation.as_quat](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.transform.Rotation.as_quat.html) (quaternion output for `Rotation` object)
+		- [mathutils](https://gitlab.com/ideasman42/blender-mathutils) (a Blender package with python bindings)
+		- [Quaternion](https://pypi.org/project/Quaternion/) (extremely limited capabilities; unmaintained)
+		- Also note that there is some capability to do symbolic manipulations of quaternions in these packages:
+			- [galgebra](https://github.com/pygae/galgebra) (more general geometric algebras; analogous to `clifford`, but for symbolic calculations)
+			- [sympy.algebras.quaternion](https://docs.sympy.org/latest/modules/algebras.html)
 - Parallel Robot
 	- Papers
 		- [[@taghirad2013parallel]]
