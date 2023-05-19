@@ -20,7 +20,7 @@
 			- The DWI series were acquired with a single-shot echo planar imaging sequence with a resolution of 2 mm in-plane and 3.6 mm slice thickness and with diffusion-encoding gradients in three directions. Three b-values were acquired (50, 400, and 800), and subsequently, the ADC map was calculated by the scanner software. All images were acquired without an endorectal coil.
 		- https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2
 - # Tools #👩‍💻software
-	- [TotalSegmentator](https://github.com/wasserth/TotalSegmentator)
+	- [[TotalSegmentator]]
 	- [[Train your own dataset using nnUNet]]
 	- [Biomedisa](https://biomedisa.de/)
 	- ![image.png](../assets/image_1680231283494_0.png)

@@ -6,6 +6,7 @@
 	- [[MRI Magnetic Resonance Imaging]]
 	- [[🫀Prostate]]
 - 🩻 Medical Image
+  collapsed:: true
 	- [[CT  Computed Tomography Image]]
 	- Ultrasound
 	  collapsed:: true
