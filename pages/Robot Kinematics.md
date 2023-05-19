@@ -1,0 +1,9 @@
+- DH Parameters
+	- [Denavit–Hartenberg parameters - Wikipedia](https://en.wikipedia.org/wiki/Denavit%E2%80%93Hartenberg_parameters)
+	- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/DHParameter.png/519px-DHParameter.png)
+		- *d*: offset along previous *z* to the common normal
+		- *θ*: angle about previous *z*, from old *x* to new *x*
+			- ![Sample Denavit-Hartenberg Diagram.png](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Sample_Denavit-Hartenberg_Diagram.png/375px-Sample_Denavit-Hartenberg_Diagram.png)
+		- *r*: length of the common normal (aka *a*, but if using this notation, do not confuse with *α*). Assuming a revolute joint, this is the radius about previous *z*.
+		- *α*: angle about common normal, from old *z* axis to new *z* axis
+	- ![image.png](../assets/image_1684453229639_0.png){:height 465, :width 550}
