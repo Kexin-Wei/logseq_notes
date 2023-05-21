@@ -1,0 +1,3 @@
+- [Zero to IDE with LazyVim](https://www.youtube.com/watch?v=N93cTbtLCIM)
+- LSP: build your IDE
+	- [A great concept explaining blog](https://roobert.github.io/2022/12/03/Extending-Neovim/)
