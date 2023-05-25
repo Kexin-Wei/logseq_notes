@@ -1,3 +1,7 @@
 - [Zero to IDE with LazyVim](https://www.youtube.com/watch?v=N93cTbtLCIM)
 - LSP: build your IDE
 	- [A great concept explaining blog](https://roobert.github.io/2022/12/03/Extending-Neovim/)
+- Python
+	- [Python and pyenv - Schlink's Docs (sts10.github.io)](https://sts10.github.io/docs/initial-setup/dev-env/python-pyenv.html)
+	- [How to set python interpreter in neovim for python language server depending on pyenv / virtualenv - Stack Overflow](https://stackoverflow.com/questions/65847159/how-to-set-python-interpreter-in-neovim-for-python-language-server-depending-on)
+	- [Setting up Python for Neovim · deoplete-plugins/deoplete-jedi Wiki (github.com)](https://github.com/deoplete-plugins/deoplete-jedi/wiki/Setting-up-Python-for-Neovim)
