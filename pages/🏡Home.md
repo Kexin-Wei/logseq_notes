@@ -36,10 +36,8 @@
 		  • Registration can aid segmentation
 		  • Interleaving segmentation and registration
 - 🤖Robot
+	- [[Robotics]]
 	- [[Soft Robot]]
-	  :LOGBOOK:
-	  CLOCK: [2023-05-30 Tue 08:10:52]--[2023-05-30 Tue 08:10:52] =>  00:00:00
-	  :END:
 	- [[🤖Robot Control]]
 	- [[Continuum Mechanism]]
 	- [[Continuum Robot]]
