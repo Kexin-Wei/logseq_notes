@@ -5,7 +5,7 @@
 		- [Great Start Up Video - ROS2 Humble](https://www.youtube.com/watch?v=Gg25GfA456o)
 		- [[ROS2 Foxy + Raspberry Pi + Macbook]]
 	- #simulator
-		- Gazebo
+		- [[Gazebo]]
 		- [[Sofa]]
 		- [Drake: Model-Based Design and Verification for Robotics (mit.edu)](https://drake.mit.edu/)
 		- https://github.com/ContinuumRoboticsLab/CRVisToolkit
