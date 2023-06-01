@@ -6,4 +6,3 @@
 - ![](/../assets/dicom_pacs.png)
   ![](/../assets/dicom_objects.png)
   ![](/../assets/dicom_atrribute.png)
--
