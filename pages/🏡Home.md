@@ -34,7 +34,6 @@
 - 🩻 Medical Image
 	- [[CT  Computed Tomography Image]]
 	- Ultrasound
-	  collapsed:: true
 		- [[Ultrasound Basic]]
 		- [[Ultrasound Imaging Mechanism]]
 		- [[HIFU]]

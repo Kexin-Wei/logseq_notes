@@ -8,19 +8,25 @@
 		- Such waves travel in a direction perpendicular to the surface of the source with relatively little sideways spread, i.e. in the form of a parallel-sided beam
 	- The curved waves from each propagate outwards and the parts of the curve which are parallel to the surface of the source align to form plane waves. The other, **non-parallel** parts of the curved waves tend to interfere destructively and **cancel out**.
 - Scan the Area by Scan Line
-  ![](/../assets/active_group.png){:height 226, :width 547}
-	- each element is usuallyfurther ‘sub-diced’ into two or three even narrower elements
-	- In order to interrogate a particular scan line, an ‘active group’ of adjacent transducer elements, centred on the required scan line, is used.
-	- First, a pulse is transmitted, using say the central 20 elements of the group. This pulse travels along the transmit beam, centred on the scan line. As soon as the pulse has been **transmitted**, elements in a different combination, still centred on the scan line, act together as a **receiving transducer**, defining the receive beam. The number of elements used for **reception** is initially **less** than that used for **transmission**
-	- Once all echoes have been received from onescan line, a new active group of elements, centred on the next scan line, is activated
-	- Maximal Amplitude at Focus
-	  ![](/../assets/focus_max_amplitude.png)
-	- Dynamic Focusing
-	  ![](/../assets/dynamic_focus.png)
-	- Grating lobes
-	  ![](/../assets/grating_lobe.png)
-		- Grating lobes can occur with any transducer having regularly spaced elements, such as a **linear** or **curvilinear** array or a phased array (discussed later).
-		- In all cases, the **greater the angle** at which a grating lobe occurs, the **weaker** it will be, since each element is less efficient at transmitting or receiving sound waves in directions at large angles to the straight ahead direction.
+	- Source 1
+		- ![](/../assets/active_group.png){:height 226, :width 547}
+		- each element is usually further ‘sub-diced’ into two or three even narrower elements
+		- In order to interrogate a particular scan line, an ‘active group’ of adjacent transducer elements, centred on the required scan line, is used.
+		- First, a pulse is transmitted, using say the central 20 elements of the group. This pulse travels along the transmit beam, centred on the scan line. As soon as the pulse has been **transmitted**, elements in a different combination, still centred on the scan line, act together as a **receiving transducer**, defining the receive beam. The number of elements used for **reception** is initially **less** than that used for **transmission**
+		- Once all echoes have been received from one scan line, a new active group of elements, centred on the next scan line, is activated
+	- [Source 2](https://www.ob-ultrasound.net/somers.html)
+		- In order to overcome this, adjacent elements typically 8 to 16 (more in wide-aperture designs), are pulsed simultaneously.
+		- In the subgroup of X elements, pulsing of the inner elements is delayed with respect to the outer elements. A focused beam results from the interference of the X small divergent wavelets. The time delays determines the depth of focus for the transmitted beam and can be changed during scanning.
+		- The same delay factors are also applied to the X elements during the receiving phase resulting in a dynamic focusing effect on return. In this manner, a single scan line in the real-time image is formed.
+		- To generate the next adjacent scan line, another group of X elements is formed by shifting one element position along the transducer array from the previous group. The same pattern is then repeated for this set of X elements and all other sets along the array, in a sequential and repetitive manner.
+- Maximal Amplitude at Focus
+  ![](/../assets/focus_max_amplitude.png)
+- Dynamic Focusing
+  ![](/../assets/dynamic_focus.png)
+- Grating lobes
+  ![](/../assets/grating_lobe.png)
+	- Grating lobes can occur with any transducer having regularly spaced elements, such as a **linear** or **curvilinear** array or a phased array (discussed later).
+	- In all cases, the **greater the angle** at which a grating lobe occurs, the **weaker** it will be, since each element is less efficient at transmitting or receiving sound waves in directions at large angles to the straight ahead direction.
 - Saving Time in Array Transducer
 	- Temporal resolution
 	- Size of the field of view
