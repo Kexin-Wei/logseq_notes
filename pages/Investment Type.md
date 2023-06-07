@@ -1,0 +1,2 @@
+- [Simple but helpful explanations](https://smartasset.com/investing/types-of-investment)
+- [[ETF(Exchange-Traded Fund)]]
