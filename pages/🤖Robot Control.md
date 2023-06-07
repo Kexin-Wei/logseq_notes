@@ -1,21 +1,22 @@
 - [[Robot Kinematics]]
-- Robot Control #👩‍💻software
+- [[ROS + Gazebo Installation]]
+- Robot Control Software #👩‍💻software
 	- ROS2
 		- [Install Guide of Humble](https://docs.ros.org/en/humble/Installation.html)
 		- [Great Start Up Video - ROS2 Humble](https://www.youtube.com/watch?v=Gg25GfA456o)
 		- [[ROS2 Foxy + Raspberry Pi + Macbook]]
-	- #simulator
-		- [[Gazebo]]
+	- Robot Simulator #👩‍💻software #simulator
+		- Gazebo
 		- [[Sofa]]
 		- [Drake: Model-Based Design and Verification for Robotics (mit.edu)](https://drake.mit.edu/)
 		- https://github.com/ContinuumRoboticsLab/CRVisToolkit
 		- [OpenSourceMedicalRobots/Endo-Continuum-Robot-Library: Arduino Library for the OSMR Endo Continuum Robot. (github.com)](https://github.com/OpenSourceMedicalRobots/Endo-Continuum-Robot-Library)
 		- [The da Vinci Research Kit (dVRK) – Intuitive Foundation (intuitive-foundation.org)](https://www.intuitive-foundation.org/dvrk/)
-	- Free CAD Software
+	- Free CAD Software #👩‍💻software
 		- Fusion 360
 		- Blender
 		- FreeCAD
-	- Python Package
+	- Python Package for Robot Control #👩‍💻software
 		- [moble/quaternionic: Interpret numpy arrays as quaternionic arrays with numba acceleration (github.com)](https://github.com/moble/quaternionic): evolved from the [quaternion](https://github.com/moble/quaternion) package, numpy adaptive
 		- [quaternion](https://github.com/moble/quaternion/) (core written in C; very fast; adds quaternion `dtype` to numpy; named [numpy-quaternion](https://pypi.org/project/numpy-quaternion/) on pypi due to name conflict)
 		- [clifford](https://github.com/pygae/clifford) (very powerful; more general geometric algebras)
