@@ -1,6 +1,7 @@
 - Hardware Setup
 	- Raspberry Pi 4 (or Serv Machine): ubuntu server 20 + lubuntu
-	- Dev Machine: VirtualBox Ubuntu 20
+	- Dev Machine: VirtualBox Ubuntu 20 on macbook
+	- ![Screenshot 2023-06-09 at 5.26.46 AM.png](../assets/Screenshot_2023-06-09_at_5.26.46_AM_1686259655596_0.png){:height 203, :width 304}
 - Installation
 	- Chose Version on machine
 		- Ros 2 Foxy + Citadel
@@ -9,6 +10,7 @@
 	  collapsed:: true
 		- has issue, can't run simulation, give up
 	- Dev Machine in VirtualBox
+	  collapsed:: true
 		- How to setup network in VirtualBox
 			- [Explanation of the Network Setting in VirtualBox](https://www.nakivo.com/blog/virtualbox-network-setting-guide/)
 			- chose bridged network
@@ -50,4 +52,7 @@
 			  #To enable SSH key login, uncomment
 			  PubkeyAuthentication yes
 			  ```
-		-
+		- Run `source /opt/ros/foxy/setup.bash` and `ros2 run demo_nodes_cpp talker` in Raspberry Pi and Run `source /opt/ros/foxy/setup.bash` and `ros2 run demo_nodes_py listener` in Dev Machine.
+		  > add source to file : `echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc`
+		- Install colcon at both sides, `echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc`
+- [[ROS]]
