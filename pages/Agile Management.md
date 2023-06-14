@@ -18,3 +18,4 @@
 	- Scrum@Scale
 		- https://www.scrumatscale.com/scrum-at-scale-guide/
 - [[Jira Management Software]]
+- [[Scrum]]
