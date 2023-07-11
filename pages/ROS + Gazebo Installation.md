@@ -1,9 +1,12 @@
+- Following [Youtube Tutorial](https://youtube.com/playlist?list=PLunhqkrRNRhYYCaSTVP-qJnyUPkTxJnBt)
 - Hardware Setup
 	- Raspberry Pi 4 (or Serv Machine): ubuntu server 20 + lubuntu
+	  > IP: kk@192.168.50.55
 	- Dev Machine: VirtualBox Ubuntu 20 on macbook
 	- ![Screenshot 2023-06-09 at 5.26.46 AM.png](../assets/Screenshot_2023-06-09_at_5.26.46_AM_1686259655596_0.png){:height 203, :width 304}
 - Installation
 	- Chose Version on machine
+	  collapsed:: true
 		- Ros 2 Foxy + Citadel
 		- ![image.png](../assets/image_1685492561147_0.png)
 	- ~~macOS 13 -> [Gazebo Fortress](https://gazebosim.org/docs/fortress)~~
