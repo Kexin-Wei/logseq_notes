@@ -1,4 +1,5 @@
 - 💻️Software Development
+  collapsed:: true
 	- [[C++]]
 	- [[CMake]]
 	- [[CUDA]]
@@ -16,6 +17,7 @@
 			- [Plus](https://plustoolkit.github.io/)
 	- [[Neovim]]
 - 🤖Robot
+  collapsed:: true
 	- [[Robot Kinematics]]
 	- [[Soft Robot]]
 	- [[🤖Robot Control]]
@@ -25,6 +27,7 @@
 	- [[📈Signal Processing]]
 	- [[✈️SLAM]]
 - 🏥Medical Knowledge
+  collapsed:: true
 	- [[BBN Blood Brain Barrier]]
 	- [[Anatomy Views of Human]]
 	- [[Kidney Anatomy]]
@@ -32,6 +35,7 @@
 	- [[MRI Magnetic Resonance Imaging]]
 	- [[🫀Prostate]]
 - 🩻 Medical Image
+  collapsed:: true
 	- [[CT  Computed Tomography Image]]
 	- Ultrasound
 		- [[Ultrasound Basic]]
@@ -47,6 +51,7 @@
 		- [[Medical Image Segmentation]]
 		- [[MRI-US Prostate Registration]]
 - 🖥️ Image Processing
+  collapsed:: true
 	- [[Installation of Image Processing Repo]]
 	- [[Corner Detection]]
 	- [[Homogeneous Transformation]]
