@@ -1,4 +1,16 @@
+- References:
+	- ⭐️[Alll in one online book](https://motion.cs.illinois.edu/RoboticSystems/)
+	- Parallel Robot
+		- [[@taghirad2013parallel]]
+		- [[@The Degree of Freedom of Parallel Robots: A Group-Theoretic Approach]] 
+		  Chebyshev-Grübler kinematic Kutzbach-Hervé(CGKH) Formula
+		- [[@Modeling Parallel Robot Kinematics for 3T2R and 3T3R Tasks Using Reciprocal Sets of Euler Angles]]
+		- [[@Dynamics of Parallel Robots: From Rigid Bodies to Flexible Elements]]
+- # Theory
+- [[DoFs Degree of Freedoms Calculation]]
 - [[Robot Kinematics]]
+- [[Robot Path Tracking]]
+- # Software
 - [[ROS + Gazebo Installation]]
 - Robot Control Software #👩‍💻software
 	- ROS2
@@ -17,22 +29,6 @@
 		- Blender
 		- FreeCAD
 	- Python Package for Robot Control #👩‍💻software
-		- [moble/quaternionic: Interpret numpy arrays as quaternionic arrays with numba acceleration (github.com)](https://github.com/moble/quaternionic): evolved from the [quaternion](https://github.com/moble/quaternion) package, numpy adaptive
-		- [quaternion](https://github.com/moble/quaternion/) (core written in C; very fast; adds quaternion `dtype` to numpy; named [numpy-quaternion](https://pypi.org/project/numpy-quaternion/) on pypi due to name conflict)
-		- [clifford](https://github.com/pygae/clifford) (very powerful; more general geometric algebras)
-		- [rowan](https://github.com/glotzerlab/rowan) (many features; similar approach to this package; no acceleration or overloading)
-		- [pyquaternion](http://kieranwynn.github.io/pyquaternion/) (many features; pure python; no acceleration or overloading)
-		- [quaternions](https://github.com/mjsobrep/quaternions) (basic pure python package; no acceleration; specialized for rotations only)
-		- [scipy.spatial.transform.Rotation.as_quat](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.transform.Rotation.as_quat.html) (quaternion output for `Rotation` object)
-		- [mathutils](https://gitlab.com/ideasman42/blender-mathutils) (a Blender package with python bindings)
-		- [Quaternion](https://pypi.org/project/Quaternion/) (extremely limited capabilities; unmaintained)
-		- Also note that there is some capability to do symbolic manipulations of quaternions in these packages:
-			- [galgebra](https://github.com/pygae/galgebra) (more general geometric algebras; analogous to `clifford`, but for symbolic calculations)
-			- [sympy.algebras.quaternion](https://docs.sympy.org/latest/modules/algebras.html)
-- Parallel Robot
-	- Papers
-		- [[@taghirad2013parallel]]
-		- [[@The Degree of Freedom of Parallel Robots: A Group-Theoretic Approach]] 
-		  Chebyshev-Grübler kinematic Kutzbach-Hervé(CGKH) Formula
-		- [[@Modeling Parallel Robot Kinematics for 3T2R and 3T3R Tasks Using Reciprocal Sets of Euler Angles]]
-		- [[@Dynamics of Parallel Robots: From Rigid Bodies to Flexible Elements]]
+		- [robotics - python](https://github.com/petercorke/robotics-toolbox-python) : only serial robot, kinematics, dynamics,  good visualization
+		- [Klampt](https://github.com/krishauser/Klampt): tree-structured articulated robots, kinematics, dynamics, motion planning
+		- [DART](http://dartsim.github.io/): more for c++

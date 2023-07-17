@@ -17,8 +17,6 @@
 			- [Plus](https://plustoolkit.github.io/)
 	- [[Neovim]]
 - 🤖Robot
-  collapsed:: true
-	- [[Robot Kinematics]]
 	- [[Soft Robot]]
 	- [[🤖Robot Control]]
 	- [[Continuum Mechanism]]
