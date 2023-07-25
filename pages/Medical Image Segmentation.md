@@ -1,5 +1,4 @@
 - # Dataset
-  collapsed:: true
 	- Brain
 		- [2012 MICCAI Multi-Atlas Labeling Challenge Data](http://www.neuromorphometrics.com/2012_MICCAI_Challenge_Data.html)
 			- 30 manually labeled MRI brain scans, 25 unique subjects, 5 subjects scanned twice.
@@ -10,8 +9,10 @@
 			- [Prostate158 - test data | Zenodo](https://zenodo.org/record/6592345)
 			- Permission is granted to view and use the Prostate158 dataset free of charge for personal, non-commercial research purposes only. Any commercial use, sale, or other form of monetization is prohibited.
 		- [Promise12](https://promise12.grand-challenge.org/)
+			- New* [PROMISE12: Data from the MICCAI Grand Challenge: Prostate MR Image Segmentation 2012 | Zenodo](https://zenodo.org/record/8026660)
 			- Teams (research groups, companies, etc.) who are developing a segmentation algorithm can register and [download](http://promise12.grand-challenge.org/Download) multi-center, multi-vendor training data from this website to train their algorithms. Test data will also be supplied.
 		- [ProstateX](https://prostatex.grand-challenge.org/)
+			- New* [SPIE-AAPM-NCI PROSTATEx Challenges (PROSTATEx) - The Cancer Imaging Archive (TCIA) Public Access - Cancer Imaging Archive Wiki](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=23691656)
 			- Studies include T2-weighted (T2W), proton density-weighted (PD-W), dynamic contrast-enhanced (DCE), and diffusion-weighted (DW) imaging.
 			- The images were acquired on two different types of Siemens 3T MR scanners, the MAGNETOM Trio and Skyra.
 			- T2-weighted images were acquired using a turbo spin echo sequence and had a resolution of around 0.5 mm in-plane and a slice thickness of 3.6 mm.
@@ -24,6 +25,7 @@
 	- [[TotalSegmentator]]
 	- [[Train your own dataset using nnUNet]]
 	- [Biomedisa](https://biomedisa.de/)
+	- [davidiommi/Pytorch--3D-Medical-Images-Segmentation--SALMON: Segmentation deep learning ALgorithm based on MONai toolbox: single and multi-label segmentation software developed by QIMP team-Vienna. (github.com)](https://github.com/davidiommi/Pytorch--3D-Medical-Images-Segmentation--SALMON)
 	- ![image.png](../assets/image_1680231283494_0.png)
 		- ![AStar UCAnet](../assets/ISCAS_2023_UCAnet.pdf)
 - # Prostate Segmentation

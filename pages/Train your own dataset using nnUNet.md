@@ -1,10 +1,8 @@
 - ## Training examples
-  collapsed:: true
 	- [Example 1 - prostate](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/inference_example_Prostate.md)
 	- [Example 2 - liver](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/training_example_Hippocampus.md)
 	- [Training Benchmark](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/expected_epoch_times.md)
 - ## [1. How to run nnU-Net on a new dataset](https://github.com/MIC-DKFZ/nnUNet#how-to-run-nnu-net-on-a-new-dataset)
-  collapsed:: true
 	- Install software: Python3, Pytorch, `pip install nnunet`
 	- Windows can use bash shell: [Set up Paths of the dataset](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/setting_up_paths.md)
 		- ```bash
@@ -15,7 +13,6 @@
 		  export RESULTS_FOLDER=$nnUNetPath/nnUNet_trained_models
 		  ```
 - ## 2. Prepare dataset
-  collapsed:: true
 	- [Dataset Conversion for MSD dataset](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/dataset_conversion.md)
 		- MSD: [Medical Segmentation Decathlon](http://medicaldecathlon.com/)
 		- Need to modify path for bash shell and **windows** platform, see [Github repo](https://github.com/Kexin-Wei/nnUNet)
@@ -74,7 +71,6 @@
 			   }
 			  ```
 - ## 3. Train Dataset
-  collapsed:: true
 	- [Command explanation in Github](https://github.com/MIC-DKFZ/nnUNet#model-training)
 	- ```bash
 	  nnUNet_train 3d_fullres nnUNetTrainerV2 TaskXXX_MYTASK FOLD --npz
@@ -84,7 +80,6 @@
 	  
 	  ```
 - ## 4. Predict Dataset
-  collapsed:: true
 	- [Command explanation in Github](https://github.com/MIC-DKFZ/nnUNet#run-inference)
 	- ```bash
 	  nnUNet_predict -i INPUT_FOLDER -o OUTPUT_FOLDER -t TASK_NAME_OR_ID -m CONFIGURATION --save_npz

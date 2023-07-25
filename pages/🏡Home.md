@@ -17,6 +17,7 @@
 			- [Plus](https://plustoolkit.github.io/)
 	- [[Neovim]]
 - 🤖Robot
+  collapsed:: true
 	- [[Soft Robot]]
 	- [[🤖Robot Control]]
 	- [[Continuum Mechanism]]
@@ -62,7 +63,7 @@
 		  • Registration can aid segmentation
 		  • Interleaving segmentation and registration
 - 🧠AI
-  collapsed:: true
+	- [[Bio Hackathon]]
 	- [DL in image registration](https://www.youtube.com/watch?v=c4dvyTBvysQ https://www.youtube.com/watch?v=O3TmEcaN5Ww)
 	- [[🗣️Natural Language Processing]]
 - 🥼Science Theory
