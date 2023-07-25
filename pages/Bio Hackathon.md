@@ -1,2 +1,26 @@
-- Slides: [For participants: Hackathon Intro Day Summary Slide Talk + Hackathon Topics - Google Slides](https://docs.google.com/presentation/d/1Wj-FT7jGcKiCRsBwdhNhe21u7FnmUOLsfWfl06MequA/edit#slide=id.g1e50407671d_0_35)
--
+- Shared info:
+	- ![Hackathon_Info_Sheet_EXTERNAL_to_be_PRINTED_for_hackers_2.pdf](../assets/Hackathon_Info_Sheet_EXTERNAL_to_be_PRINTED_for_hackers_2_1690290045561_0.pdf)
+	- ![For participants_ Hackathon Intro Day Summary Slide Talk + Hackathon Topics.pdf](../assets/For_participants_Hackathon_Intro_Day_Summary_Slide_Talk_+_Hackathon_Topics_1690290069328_0.pdf)
+	- ![Gmail - [URGENT] LLMs for Bio Hackathon Mega Info Email.pdf](../assets/Gmail_-_[URGENT]_LLMs_for_Bio_Hackathon_Mega_Info_Email_1690290131237_0.pdf)
+- Datasets:
+	- Hyperfine Project Ideas
+		- Retrain segmentation algorithm on generated lesion and submit to the challenge (this should improve ranking).
+		- Downgrade the data by adding noise and reducing resolution as a simple transformation to low-field-like appearance.
+		- Use LLM to train (or finetune opensource LLM model from Meta) on large scale radiology report dataset (e.g.: https://physionet.org/content/mimic-cxr/2.0.0/). I wish we had one for MRI.
+			- take weeks to review application...
+		- Develop system to retrieve reports with specific queries about the findings. This will be much more powerful than query search.
+		- Use labeled dataset for lesion simulation and generation
+			- **Multimodal MRI infarct segmentation in acute and sub-acute stroke.**: https://isles22.grand-challenge.org/dataset/
+			- **Single channel T1-weighted lesion segmentation in acute, sub-acute and chronic stroke (ATLAS challenge)**: https://atlas.grand-challenge.org/
+		- Insert the lesion into another dataset
+			- Insert the lesion into another dataset: https://www.humanconnectome.org/study/hcp-young-adult/document/1200-subjects-data-release (200GB +)
+				- In Amazon credientials
+	- Identifeye Project Ideas (open-ended)
+		- We are currently focusing on fundus images - and our first application is Diabetic Retinopathy and in the pipeline we have a big focus on cardiovascular.
+		- Some of the most straight forward from the public databases:
+		- MESSIDOR/MESSIDOR-2/IDRiD and Kaggle DR set for DR
+		- DRIVE and STARE for a variety but they're often used for vessel segmentation
+		- AIROGS and REFUGE for glaucoma
+		- AREDS for AMD
+		- UKB is great but access is not trivial to get access to
+		- If you want something easy and straightforward to obtain, start with the DR and maybe DRIVE and STARE
