@@ -26,6 +26,7 @@
 	- [[Train your own dataset using nnUNet]]
 	- [Biomedisa](https://biomedisa.de/)
 	- [davidiommi/Pytorch--3D-Medical-Images-Segmentation--SALMON: Segmentation deep learning ALgorithm based on MONai toolbox: single and multi-label segmentation software developed by QIMP team-Vienna. (github.com)](https://github.com/davidiommi/Pytorch--3D-Medical-Images-Segmentation--SALMON)
+	- [liuquande/SAML: [MICCAI'20] Shape-aware Meta-learning for Generalizing Prostate MRI Segmentation to Unseen Domains & A Well-organized Multi-site Dataset (github.com)](https://github.com/liuquande/SAML)
 	- ![image.png](../assets/image_1680231283494_0.png)
 		- ![AStar UCAnet](../assets/ISCAS_2023_UCAnet.pdf)
 - # Prostate Segmentation
