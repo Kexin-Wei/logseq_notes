@@ -13,12 +13,12 @@
 			- **Multimodal MRI infarct segmentation in acute and sub-acute stroke.**: https://isles22.grand-challenge.org/dataset/
 			- **Single channel T1-weighted lesion segmentation in acute, sub-acute and chronic stroke (ATLAS challenge)**: https://atlas.grand-challenge.org/
 		- Insert the lesion into another dataset
-			- Insert the lesion into another dataset: https://www.humanconnectome.org/study/hcp-young-adult/document/1200-subjects-data-release (200GB +)
-				- In Amazon credientials
+			- Insert the lesion into another dataset: https://www.humanconnectome.org/study/hcp-young-adult/document/1200-subjects-data-release
+				- Download [ConnectomeDB (humanconnectome.org)](https://db.humanconnectome.org/data/projects/HCP_1200)
 	- Identifeye Project Ideas (open-ended)
 		- We are currently focusing on fundus images - and our first application is Diabetic Retinopathy and in the pipeline we have a big focus on cardiovascular.
 		- Some of the most straight forward from the public databases:
-		- MESSIDOR/MESSIDOR-2/IDRiD and Kaggle DR set for DR
+		- MESSIDOR/MESSIDOR-2/IDRiD and Kaggle DR set for DR (ok)
 		- DRIVE and STARE for a variety but they're often used for vessel segmentation
 		- AIROGS and REFUGE for glaucoma
 		- AREDS for AMD
