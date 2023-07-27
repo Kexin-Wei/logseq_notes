@@ -20,15 +20,13 @@
 			- The proton density weighted image was acquired prior to the DCE time series using the same sequence with different echo and repetition times and a different flip angle.
 			- The DWI series were acquired with a single-shot echo planar imaging sequence with a resolution of 2 mm in-plane and 3.6 mm slice thickness and with diffusion-encoding gradients in three directions. Three b-values were acquired (50, 400, and 800), and subsequently, the ADC map was calculated by the scanner software. All images were acquired without an endorectal coil.
 		- https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2
-- # Tools #👩‍💻software
+- # General Segmentation #👩‍💻software
 	- [[SAM Segment Anything Model]]
 	- [[TotalSegmentator]]
 	- [[Train your own dataset using nnUNet]]
-	- [Biomedisa](https://biomedisa.de/)
-	- [davidiommi/Pytorch--3D-Medical-Images-Segmentation--SALMON: Segmentation deep learning ALgorithm based on MONai toolbox: single and multi-label segmentation software developed by QIMP team-Vienna. (github.com)](https://github.com/davidiommi/Pytorch--3D-Medical-Images-Segmentation--SALMON)
-	- [liuquande/SAML: [MICCAI'20] Shape-aware Meta-learning for Generalizing Prostate MRI Segmentation to Unseen Domains & A Well-organized Multi-site Dataset (github.com)](https://github.com/liuquande/SAML)
-	- ![image.png](../assets/image_1680231283494_0.png)
-		- ![AStar UCAnet](../assets/ISCAS_2023_UCAnet.pdf)
+	- [Biomedisa](https://biomedisa.de/): for biology not medical
+	- [davidiommi/Pytorch--3D-Medical-Images-Segmentation--SALMON: Segmentation deep learning ALgorithm based on MONai toolbox: single and multi-label segmentation software developed by QIMP team-Vienna. (github.com)](https://github.com/davidiommi/Pytorch--3D-Medical-Images-Segmentation--SALMON): based on Monai label, hard to implement
+	- [bowang-lab/MedSAM: The official repository for MedSAM: Segment Anything in Medical Images. (github.com)](https://github.com/bowang-lab/MedSAM)
 - # Prostate Segmentation
 	- ((64238f0e-d27f-42c4-8f37-ab486ddffd02))
 	- Manually Segmentation Software #👩‍💻software
@@ -40,7 +38,11 @@
 		- 3D Slicer
 		- ITK-Snap
 	- Segmentator: [Demo (deepinfer.org)](http://www.deepinfer.org/models/prostate-segmenter/)
+	  collapsed:: true
 		- Only 1 type of MRI is segmented, mainly the centre part (50%)
 		- Using docker, each time only one image and need a new container
 		- ![image.png](../assets/image_1680253719469_0.png)
 		-
+	- [liuquande/SAML: [MICCAI'20] Shape-aware Meta-learning for Generalizing Prostate MRI Segmentation to Unseen Domains & A Well-organized Multi-site Dataset (github.com)](https://github.com/liuquande/SAML): shaped better, potential alternative
+	- ![AStar UCAnet](../assets/ISCAS_2023_UCAnet.pdf)
+		- ![image.png](../assets/image_1680231283494_0.png)
