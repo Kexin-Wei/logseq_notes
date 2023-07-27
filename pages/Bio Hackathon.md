@@ -2,6 +2,9 @@
 	- ![Hackathon_Info_Sheet_EXTERNAL_to_be_PRINTED_for_hackers_2.pdf](../assets/Hackathon_Info_Sheet_EXTERNAL_to_be_PRINTED_for_hackers_2_1690290045561_0.pdf)
 	- ![For participants_ Hackathon Intro Day Summary Slide Talk + Hackathon Topics.pdf](../assets/For_participants_Hackathon_Intro_Day_Summary_Slide_Talk_+_Hackathon_Topics_1690290069328_0.pdf)
 	- ![Gmail - [URGENT] LLMs for Bio Hackathon Mega Info Email.pdf](../assets/Gmail_-_[URGENT]_LLMs_for_Bio_Hackathon_Mega_Info_Email_1690290131237_0.pdf)
+- Ideas
+	- LLAVA a multimodal image text LLM [https://llava-vl.github.io/](https://llava-vl.github.io/)
+	-
 - Datasets:
 	- Hyperfine Project Ideas
 		- Retrain segmentation algorithm on generated lesion and submit to the challenge (this should improve ranking).
@@ -20,6 +23,7 @@
 				- Download [ConnectomeDB (humanconnectome.org)](https://db.humanconnectome.org/data/projects/HCP_1200)
 				- *HCP_S1200_GroupAvg_v1*
 	- Identifeye Project Ideas (open-ended)
+	  collapsed:: true
 		- We are currently focusing on fundus images - and our first application is Diabetic Retinopathy and in the pipeline we have a big focus on cardiovascular.
 		- Some of the most straight forward from the public databases:
 		- MESSIDOR/MESSIDOR-2/IDRiD and Kaggle DR set for DR
@@ -30,3 +34,16 @@
 		- AREDS for AMD
 		- UKB is great but access is not trivial to get access to
 		- If you want something easy and straightforward to obtain, start with the DR and maybe DRIVE and STARE
+	- image caption datasets
+		- [allenai/medicat: Dataset of medical images, captions, subfigure-subcaption annotations, and inline textual references (github.com)](https://github.com/allenai/medicat)
+		- [razorx89/roco-dataset: Radiology Objects in COntext (ROCO): A Multimodal Image Dataset (github.com)](https://github.com/razorx89/roco-dataset)
+			- [ImageCLEFmedical Caption | ImageCLEF / LifeCLEF - Multimedia Retrieval in CLEF](https://www.imageclef.org/2023/medical/caption)
+	- [PMC-VQA](https://paperswithcode.com/dataset/pmc-vqa): **PMC-VQA** is a large-scale medical visual question-answering dataset that contains 227k VQA pairs of 149k images that cover various modalities or diseases. The question-answer pairs are generated from PMC-OA.
+		- from hugging face [xmcmic/PMC-VQA · Datasets at Hugging Face](https://huggingface.co/datasets/xmcmic/PMC-VQA)
+		- ```
+		  from datasets import load_dataset
+		  dataset = load_dataset("xmcmic/PMC-VQA")
+		  ```
+	- [Papers with Code - OVQA Dataset](https://paperswithcode.com/dataset/ovqa): OVQA contains 19,020 medical visual question and answer pairs generated from 2,001 medical images collected from 2,212 EMRs in Orthopedics.
+		- [OVQA Dataset](http://47.94.174.82/)
+			- waiting  permit
