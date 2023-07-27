@@ -6,19 +6,25 @@
 	- Hyperfine Project Ideas
 		- Retrain segmentation algorithm on generated lesion and submit to the challenge (this should improve ranking).
 		- Downgrade the data by adding noise and reducing resolution as a simple transformation to low-field-like appearance.
-		- Use LLM to train (or finetune opensource LLM model from Meta) on large scale radiology report dataset (e.g.: https://physionet.org/content/mimic-cxr/2.0.0/). I wish we had one for MRI.
-			- take weeks to review application...
+		- Use LLM to train (or finetune opensource LLM model from Meta) on large scale radiology report dataset (e.g.: https://physionet.org/content/mimic-cxr/2.0.0/). I wish we had one for MRI.: [MIMIC-CXR-JPG - chest radiographs with structured labels v2.0.0 (physionet.org)](https://physionet.org/content/mimic-cxr-jpg/2.0.0/)
+			- 500GB... [mimic-cxr-…ionet.org – Bucket details – Cloud Storage – Google Cloud console](https://console.cloud.google.com/storage/browser/mimic-cxr-jpg-2.0.0.physionet.org;tab=objects?prefix=&forceOnObjectsSortingFiltering=false)
 		- Develop system to retrieve reports with specific queries about the findings. This will be much more powerful than query search.
 		- Use labeled dataset for lesion simulation and generation
 			- **Multimodal MRI infarct segmentation in acute and sub-acute stroke.**: https://isles22.grand-challenge.org/dataset/
+				- *ISLES-2022*
 			- **Single channel T1-weighted lesion segmentation in acute, sub-acute and chronic stroke (ATLAS challenge)**: https://atlas.grand-challenge.org/
+				- *ATLAS_R2.0_encrypted.tar*
+				- [Python Tools at the end](https://atlas.grand-challenge.org/Data/)
 		- Insert the lesion into another dataset
 			- Insert the lesion into another dataset: https://www.humanconnectome.org/study/hcp-young-adult/document/1200-subjects-data-release
 				- Download [ConnectomeDB (humanconnectome.org)](https://db.humanconnectome.org/data/projects/HCP_1200)
+				- *HCP_S1200_GroupAvg_v1*
 	- Identifeye Project Ideas (open-ended)
 		- We are currently focusing on fundus images - and our first application is Diabetic Retinopathy and in the pipeline we have a big focus on cardiovascular.
 		- Some of the most straight forward from the public databases:
-		- MESSIDOR/MESSIDOR-2/IDRiD and Kaggle DR set for DR (ok)
+		- MESSIDOR/MESSIDOR-2/IDRiD and Kaggle DR set for DR
+			- *diabetic-retinopathy-detection*
+			- *MESSIDOR*
 		- DRIVE and STARE for a variety but they're often used for vessel segmentation
 		- AIROGS and REFUGE for glaucoma
 		- AREDS for AMD
