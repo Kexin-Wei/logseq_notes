@@ -2,9 +2,9 @@
 	- ![Hackathon_Info_Sheet_EXTERNAL_to_be_PRINTED_for_hackers_2.pdf](../assets/Hackathon_Info_Sheet_EXTERNAL_to_be_PRINTED_for_hackers_2_1690290045561_0.pdf)
 	- ![For participants_ Hackathon Intro Day Summary Slide Talk + Hackathon Topics.pdf](../assets/For_participants_Hackathon_Intro_Day_Summary_Slide_Talk_+_Hackathon_Topics_1690290069328_0.pdf)
 	- ![Gmail - [URGENT] LLMs for Bio Hackathon Mega Info Email.pdf](../assets/Gmail_-_[URGENT]_LLMs_for_Bio_Hackathon_Mega_Info_Email_1690290131237_0.pdf)
+	- ![FINAL_ Compiled Hackathon Intro Day Summary Slide Talk + Hackathon Topics.pdf](../assets/FINAL_Compiled_Hackathon_Intro_Day_Summary_Slide_Talk_+_Hackathon_Topics_1690524622671_0.pdf)
 - Ideas
 	- LLAVA a multimodal image text LLM [https://llava-vl.github.io/](https://llava-vl.github.io/)
-	-
 - Datasets:
 	- Hyperfine Project Ideas
 		- Retrain segmentation algorithm on generated lesion and submit to the challenge (this should improve ranking).
@@ -46,4 +46,3 @@
 		  ```
 	- [Papers with Code - OVQA Dataset](https://paperswithcode.com/dataset/ovqa): OVQA contains 19,020 medical visual question and answer pairs generated from 2,001 medical images collected from 2,212 EMRs in Orthopedics.
 		- [OVQA Dataset](http://47.94.174.82/)
-			- waiting  permit
