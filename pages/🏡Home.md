@@ -34,7 +34,6 @@
 	- [[MRI Magnetic Resonance Imaging]]
 	- [[🫀Prostate]]
 - 🩻 Medical Image
-  collapsed:: true
 	- [[CT  Computed Tomography Image]]
 	- Ultrasound
 		- [[Ultrasound Basic]]
@@ -64,7 +63,7 @@
 		  • Interleaving segmentation and registration
 - 🧠AI
 	- [[Large Language Model LLM]]
-	- [[Bio Hackathon]]
+	- [[Bio Hackathon: LLMs Model for Bio]]
 	- [DL in image registration](https://www.youtube.com/watch?v=c4dvyTBvysQ https://www.youtube.com/watch?v=O3TmEcaN5Ww)
 	- [[🗣️Natural Language Processing]]
 - 🥼Science Theory
