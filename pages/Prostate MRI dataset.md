@@ -1,0 +1,23 @@
+- [Prostate158 - Training data](https://github.com/kbressem/prostate158)
+	- [Prostate158 - Training data | Zenodo](https://zenodo.org/record/6481141)
+	- [Prostate158 - test data | Zenodo](https://zenodo.org/record/6592345)
+	- Permission is granted to view and use the Prostate158 dataset free of charge for personal, non-commercial research purposes only. Any commercial use, sale, or other form of monetization is prohibited.
+- [Promise12](https://promise12.grand-challenge.org/)
+	- New* [PROMISE12: Data from the MICCAI Grand Challenge: Prostate MR Image Segmentation 2012 | Zenodo](https://zenodo.org/record/8026660)
+	- Teams (research groups, companies, etc.) who are developing a segmentation algorithm can register and [download](http://promise12.grand-challenge.org/Download) multi-center, multi-vendor training data from this website to train their algorithms. Test data will also be supplied.
+- [ProstateX](https://prostatex.grand-challenge.org/)
+	- New* [SPIE-AAPM-NCI PROSTATEx Challenges (PROSTATEx) - The Cancer Imaging Archive (TCIA) Public Access - Cancer Imaging Archive Wiki](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=23691656)
+	- Studies include T2-weighted (T2W), proton density-weighted (PD-W), dynamic contrast-enhanced (DCE), and diffusion-weighted (DW) imaging.
+	- The images were acquired on two different types of Siemens 3T MR scanners, the MAGNETOM Trio and Skyra.
+	- T2-weighted images were acquired using a turbo spin echo sequence and had a resolution of around 0.5 mm in-plane and a slice thickness of 3.6 mm.
+	- The DCE time series were acquired using a 3-D turbo flash gradient echo sequence with a resolution of around 1.5 mm in-plane, a slice thickness of 4 mm and a temporal resolution of 3.5 s.
+	- The proton density weighted image was acquired prior to the DCE time series using the same sequence with different echo and repetition times and a different flip angle.
+	- The DWI series were acquired with a single-shot echo planar imaging sequence with a resolution of 2 mm in-plane and 3.6 mm slice thickness and with diffusion-encoding gradients in three directions. Three b-values were acquired (50, 400, and 800), and subsequently, the ADC map was calculated by the scanner software. All images were acquired without an endorectal coil.
+- https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2
+- [Initiative for Collaborative Computer Vision Benchmarking (i2cvb.github.io)](https://i2cvb.github.io/#prostate-data)
+	- Download: [Original multi-parametric MRI images of prostate | Zenodo](https://zenodo.org/record/162231#.WAkvVrXPGPR)
+	- Commercial safe
+- [Prostate MRI and Ultrasound With Pathology and Coordinates of Tracked Biopsy (Prostate-MRI-US-Biopsy) - The Cancer Imaging Archive (TCIA) Public Access - Cancer Imaging Archive Wiki](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=68550661#68550661a4242a89e0534460802fc36144803a42)
+	- 77GB
+- [Prostate Cancer MRI | Kaggle](https://www.kaggle.com/datasets/sshikamaru/world-wide-covid-dataset?resource=download)
+-
