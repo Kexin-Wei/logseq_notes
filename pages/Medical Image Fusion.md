@@ -21,7 +21,10 @@
 	- [[@A Review : Image Fusion Techniques and Applications]]
 	- ~~No method mentioned [[@Real-Time Image Fusion Involving Diagnostic Ultrasound]]~~
 	- [[@Medical image fusion: A survey of the state of the art]]
-- Fusion Platforms and Softwares
+- Fusion Examples
+	- [Philips Media Gallery](https://www.usa.philips.com/healthcare/product/HCNOCTN150/fusion-and-navigation-image-fusion-and-needle-navigation)
+	- ![image.png](../assets/image_1691373515443_0.png)
+- Prostate Biopsy Device
 	- UroNav (Philips/InVivo, Gainesville, Fl)
 	  collapsed:: true
 		- ![image.png](../assets/image_1679549386335_0.png)
@@ -32,5 +35,8 @@
 	  collapsed:: true
 		- ![image.png](../assets/image_1679549446854_0.png)
 	- HI-RVS/Real-time Virtual Sonography (Hitachi) and Virtual Navigator (Esaote)
+		- Esaote
+			- ![image.png](../assets/image_1691373515443_0.png)
+			- ![image.png](../assets/image_1691372020415_0.png)
 	- BioJet (GeoScan Medical)
 	- BiopSee (PiMedical/ MedCom)
