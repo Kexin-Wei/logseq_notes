@@ -1,9 +1,8 @@
 - # Set environment variables
-  collapsed:: true
 	- bash script 
 	  ```bash
 	  export nnUNetPath=$PWD/../nnUNet_dataset
-	  export nnUNet_raw_data_base=$nnUNetPath/nnUNet_raw_data_base
+	  export nnUNet_raw=$nnUNetPath/nnUNet_raw_data_base
 	  export nnUNet_preprocessed=$nnUNetPath/nnUNet_preprocessed
 	  export RESULTS_FOLDER=$nnUNetPath/nnUNet_trained_models
 	  ```

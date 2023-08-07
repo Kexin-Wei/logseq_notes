@@ -28,14 +28,15 @@
 	- [[Train your own dataset using nnUNet]]
 	- [Biomedisa](https://biomedisa.de/)
 		- for biology not medical
-	- [davidiommi/Pytorch--3D-Medical-Images-Segmentation--SALMON: Segmentation deep learning ALgorithm based on MONai toolbox: single and multi-label segmentation software developed by QIMP team-Vienna. (github.com)](https://github.com/davidiommi/Pytorch--3D-Medical-Images-Segmentation--SALMON)
+	- [Github - SALMON: based on MONai](https://github.com/davidiommi/Pytorch--3D-Medical-Images-Segmentation--SALMON)
 		- based on Monai label, hard to implement
-	- [liuquande/SAML: [MICCAI'20] Shape-aware Meta-learning for Generalizing Prostate MRI Segmentation to Unseen Domains & A Well-organized Multi-site Dataset (github.com)](https://github.com/liuquande/SAML)
+	- [Github - SAML](https://github.com/liuquande/SAML)
 		- shaped better, potential alternative
-	- [bowang-lab/MedSAM: The official repository for MedSAM: Segment Anything in Medical Images. (github.com)](https://github.com/bowang-lab/MedSAM)
+	- [Github MedSAM](https://github.com/bowang-lab/MedSAM)
 		- seem only good for box
-	- [Segmentations and measurements from prostate MRI - dcmqi-guide (gitbook.io)](https://qiicr.gitbook.io/dcmqi-guide/use-cases/prostate)
+	- [Github dcmqi](https://qiicr.gitbook.io/dcmqi-guide/use-cases/prostate)
 	- [GitHub - OscarPellicer/prostate_lesion_detection: Model for the detection, segmentation, and classification of prostate lesions from mpMRI, using ProstateX data and Retina U-Net](https://github.com/OscarPellicer/prostate_lesion_detection)
 	- [GitHub - OnofreyLab/prostate_atlas_segm_miccai2022: Atlas-based Semantic Segmentation of Prostate Zones - MICCAI 2022](https://github.com/OnofreyLab/prostate_atlas_segm_miccai2022/tree/main)
 	- [GitHub - amanbasu/3d-prostate-segmentation: Segmentation of prostate from MRI scans](https://github.com/amanbasu/3d-prostate-segmentation)
 	- [GitHub - sulaimanvesal/ProstateMRISegmentation: PyTorch Implementation for: Deep Learning-Based Model For Prostate-MRI Segmentation](https://github.com/sulaimanvesal/ProstateMRISegmentation)
+-
