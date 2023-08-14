@@ -16,8 +16,9 @@
 			- [IGTL](http://openigtlink.org/users/)
 			- [Plus](https://plustoolkit.github.io/)
 	- [[Neovim]]
+	- [[Python Code Encryption]]
 - 🤖Robot
-  collapsed:: true
+	- [[Soft Tissue Deformation]]
 	- [[Soft Robot]]
 	- [[🤖Robot Control]]
 	- [[Continuum Mechanism]]
@@ -34,6 +35,7 @@
 	- [[MRI Magnetic Resonance Imaging]]
 	- [[🫀Prostate]]
 - 🩻 Medical Image
+  collapsed:: true
 	- [[CT  Computed Tomography Image]]
 	- Ultrasound
 		- [[Ultrasound Basic]]

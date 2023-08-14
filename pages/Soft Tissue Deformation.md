@@ -4,3 +4,5 @@
 	- FEM Finite Element Method
 - Statistical Model
 	- training data, so can real-time
+- [Fast Volume-Preserving Free Form Deformation](http://gamma.cs.unc.edu/FFD/)
+-
