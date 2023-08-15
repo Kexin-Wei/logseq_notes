@@ -1,5 +1,4 @@
 - 💻️Software Development
-  collapsed:: true
 	- [[C++]]
 	- [[CMake]]
 	- [[CUDA]]
@@ -18,6 +17,7 @@
 	- [[Neovim]]
 	- [[Python Code Encryption]]
 - 🤖Robot
+  collapsed:: true
 	- [[Soft Tissue Deformation]]
 	- [[Soft Robot]]
 	- [[🤖Robot Control]]

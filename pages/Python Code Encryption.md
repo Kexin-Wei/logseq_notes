@@ -1,7 +1,10 @@
-- https://blog.csdn.net/weixin_43508499/article/details/124390983
-- https://www.zhihu.com/question/299880517
-- https://nuitka.net/doc/user-manual.html
-- https://zongxp.blog.csdn.net/article/details/120522664?spm=1001.2101.3001.6650.6&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-6-120522664-blog-120224243.235%5Ev38%5Epc_relevant_sort_base1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-6-120522664-blog-120224243.235%5Ev38%5Epc_relevant_sort_base1&utm_relevant_index=9&ydreferer=aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0V5ZXNsZWZ0X2JlaW5nL2FydGljbGUvZGV0YWlscy8xMjAyMjQyNDM%3D
-- https://www.alibabacloud.com/help/zh/ecs/user-guide/deploy-a-pytorch-deep-learning-model-on-a-security-enhanced-instance
-- https://zhuanlan.zhihu.com/p/558946479
-- https://www.zhihu.com/question/52660083/answer/2396941715
+- [Summary](https://zongxp.blog.csdn.net/article/details/120522664?spm=1001.2101.3001.6650.6&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-6-120522664-blog-120224243.235%5Ev38%5Epc_relevant_sort_base1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-6-120522664-blog-120224243.235%5Ev38%5Epc_relevant_sort_base1&utm_relevant_index=9&ydreferer=aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0V5ZXNsZWZ0X2JlaW5nL2FydGljbGUvZGV0YWlscy8xMjAyMjQyNDM%3D)
+- Nuitka
+	- https://www.zhihu.com/question/299880517
+	- https://nuitka.net/doc/user-manual.html
+- [On server](https://www.alibabacloud.com/help/zh/ecs/user-guide/deploy-a-pytorch-deep-learning-model-on-a-security-enhanced-instance)
+- [模型可训不可见](https://zhuanlan.zhihu.com/p/558946479)
+- Pyinstaller
+	- https://www.zhihu.com/question/52660083/answer/2396941715
+- Model Encryption
+	- https://blog.csdn.net/weixin_43508499/article/details/124390983
