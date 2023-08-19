@@ -5,4 +5,4 @@
 - Statistical Model
 	- training data, so can real-time
 - [Fast Volume-Preserving Free Form Deformation](http://gamma.cs.unc.edu/FFD/)
--
+- [SOFA – Inverse Model for Soft-Robot Control (sofa-framework.org)](https://www.sofa-framework.org/applications/gallery/inverse-model-for-soft-robot-control/)

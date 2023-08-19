@@ -44,6 +44,7 @@
 		- [[🔊HIFU Monitoring]]
 		- [[Micro Ultrasound]]
 		- [[Ultrasound Devices]]
+		- [[Ultrasound Quality Assessment]]
 	- Medical Image Analysis
 		- [[Online Library of Medical Image Analysis]]
 		- [[Medical Image Fusion]]
@@ -92,8 +93,9 @@
 		- [[Ibn Khaldun]]
 		- [[Nelson Mandela]]
 - 💶Economics
+  collapsed:: true
 	- [[Investment Type]]
-	- 110- your age = stock, rest in bonds
+	- 110 - your age = stock, rest in bonds
 	- Stock: half local, half overseas
 - 🗺️Languages Learning
   collapsed:: true
