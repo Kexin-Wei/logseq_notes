@@ -1,4 +1,5 @@
 - 💻️Software Development
+  collapsed:: true
 	- [[C++]]
 	- [[CMake]]
 	- [[CUDA]]
@@ -17,7 +18,6 @@
 	- [[Neovim]]
 	- [[Python Code Encryption]]
 - 🤖Robot
-  collapsed:: true
 	- [[Soft Tissue Deformation]]
 	- [[Soft Robot]]
 	- [[🤖Robot Control]]
@@ -301,6 +301,7 @@
 	- [[German PhD Guide]]
 	- [[Search PhD by Uni]]
 - Learning website to if you can't find help
+  collapsed:: true
 	- https://scienceexchange.caltech.edu/
 	- https://brilliant.org/?utm_medium=sponsor&utm_source=youtube&utm_campaign=upandatom_170123
 - Logseq

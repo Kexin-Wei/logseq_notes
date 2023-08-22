@@ -1,0 +1,5 @@
+- Use XML format
+- A robot has <link> and <joint>
+- [<link> Definition](http://wiki.ros.org/urdf/XML/link)
+- #👩‍💻software URDF
+	- [Python URDF Loader](https://github.com/clemense/yourdfpy/tree/main)

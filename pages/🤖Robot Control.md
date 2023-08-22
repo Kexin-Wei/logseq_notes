@@ -1,4 +1,5 @@
 - References:
+  collapsed:: true
 	- ⭐️[Alll in one online book](https://motion.cs.illinois.edu/RoboticSystems/)
 	- Parallel Robot
 		- [[@taghirad2013parallel]]
@@ -10,6 +11,7 @@
 - [[DoFs Degree of Freedoms Calculation]]
 - [[Robot Kinematics]]
 - [[Robot Path Tracking]]
+- [[URDF: Define the robot]]
 - # Software
 - [[ROS + Gazebo Installation]]
 - Robot Control Software #👩‍💻software
