@@ -34,3 +34,5 @@
 		- [robotics - python](https://github.com/petercorke/robotics-toolbox-python) : only serial robot, kinematics, dynamics,  good visualization
 		- [Klampt](https://github.com/krishauser/Klampt): tree-structured articulated robots, kinematics, dynamics, motion planning
 		- [DART](http://dartsim.github.io/): more for c++
+		- [Trimesh](https://github.com/mikedh/trimesh): mesh loading
+		- [pyrender](https://github.com/mmatl/pyrender): render

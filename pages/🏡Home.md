@@ -1,5 +1,4 @@
 - 💻️Software Development
-  collapsed:: true
 	- [[C++]]
 	- [[CMake]]
 	- [[CUDA]]
