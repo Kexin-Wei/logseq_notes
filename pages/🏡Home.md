@@ -1,11 +1,10 @@
 - 💻️Software Development
 	- [[C++]]
-	- [[CMake]]
 	- [[CUDA]]
 	- [[Docker]]
 	- [[VTK & ITK]]
 		- [[NURBS]]
-	- [[Qt]]
+	- [[Rust]]
 	- [[Agile Management]]
 	- Medical Related Open Source
 	  collapsed:: true

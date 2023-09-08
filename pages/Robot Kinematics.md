@@ -349,4 +349,5 @@
 		- then $T=T_{end}$ check for all the matrix elements, e.g., $T[0][0] = T_{end}[0][0]$
 		- solve it numerically or analytically depend on the application situation
 - Parallel Robot
-	-
+	- ![image.png](../assets/image_1694012207870_0.png)
+	- ![image.png](../assets/image_1694012240457_0.png)

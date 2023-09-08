@@ -1,4 +1,6 @@
 - [c++ faq - The Definitive C++ Book Guide and List - Stack Overflow](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
+- # [[CMake]]
+- # [[Qt]]
 - # Grammar
 	- [Pointer vs Reference Tutorial](https://www.geeksforgeeks.org/different-ways-to-use-const-with-reference-to-a-pointer-in-c/)
 	- [Abstract Classes And Pure Virtual Functions | C++ Tutorial - YouTube](https://www.youtube.com/watch?v=wE0_F4LpGVc)
@@ -17,3 +19,4 @@
 	- C++ Intellisense. For auto completion, errors prompts.
 	- CMake. For auto completion of CMakeLists.txt
 	- CMake Tools, by Microsoft. Official configuration tool, to configure, then build to run.
+-
