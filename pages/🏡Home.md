@@ -1,4 +1,5 @@
 - 💻️Software Development
+  collapsed:: true
 	- [[C++]]
 	- [[CUDA]]
 	- [[Docker]]
@@ -16,6 +17,7 @@
 	- [[Neovim]]
 	- [[Python Code Encryption]]
 - 🤖Robot
+  collapsed:: true
 	- [[Soft Tissue Deformation]]
 	- [[Soft Robot]]
 	- [[🤖Robot Control]]
@@ -33,7 +35,6 @@
 	- [[MRI Magnetic Resonance Imaging]]
 	- [[🫀Prostate]]
 - 🩻 Medical Image
-  collapsed:: true
 	- [[CT  Computed Tomography Image]]
 	- Ultrasound
 		- [[Ultrasound Basic]]

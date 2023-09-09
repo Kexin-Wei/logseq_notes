@@ -1,4 +1,4 @@
-- # Dataset
+# Dataset
 	- Brain
 		- [2012 MICCAI Multi-Atlas Labeling Challenge Data](http://www.neuromorphometrics.com/2012_MICCAI_Challenge_Data.html)
 			- 30 manually labeled MRI brain scans, 25 unique subjects, 5 subjects scanned twice.
@@ -39,4 +39,3 @@
 	- [GitHub - OnofreyLab/prostate_atlas_segm_miccai2022: Atlas-based Semantic Segmentation of Prostate Zones - MICCAI 2022](https://github.com/OnofreyLab/prostate_atlas_segm_miccai2022/tree/main)
 	- [GitHub - amanbasu/3d-prostate-segmentation: Segmentation of prostate from MRI scans](https://github.com/amanbasu/3d-prostate-segmentation)
 	- [GitHub - sulaimanvesal/ProstateMRISegmentation: PyTorch Implementation for: Deep Learning-Based Model For Prostate-MRI Segmentation](https://github.com/sulaimanvesal/ProstateMRISegmentation)
--
