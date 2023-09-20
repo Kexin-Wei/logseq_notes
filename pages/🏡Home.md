@@ -17,7 +17,6 @@
 	- [[Neovim]]
 	- [[Python Code Encryption]]
 - 🤖Robot
-  collapsed:: true
 	- [[Soft Tissue Deformation]]
 	- [[Soft Robot]]
 	- [[🤖Robot Control]]
@@ -27,6 +26,7 @@
 	- [[📈Signal Processing]]
 	- [[✈️SLAM]]
 - 🏥Medical Knowledge
+  collapsed:: true
 	- [[BBN Blood Brain Barrier]]
 	- [[Anatomy Views of Human]]
 	- [[Kidney Anatomy]]
@@ -304,4 +304,5 @@
 	- https://scienceexchange.caltech.edu/
 	- https://brilliant.org/?utm_medium=sponsor&utm_source=youtube&utm_campaign=upandatom_170123
 - Logseq
+  collapsed:: true
 	- [[Logseq + Zotero Setting]]
