@@ -1,16 +1,3 @@
-- Python Package for Kinematics #👩‍💻software
-	- [moble/quaternionic: Interpret numpy arrays as quaternionic arrays with numba acceleration (github.com)](https://github.com/moble/quaternionic): evolved from the [quaternion](https://github.com/moble/quaternion) package, numpy adaptive
-	- [quaternion](https://github.com/moble/quaternion/) (core written in C; very fast; adds quaternion `dtype` to numpy; named [numpy-quaternion](https://pypi.org/project/numpy-quaternion/) on pypi due to name conflict)
-	- [clifford](https://github.com/pygae/clifford) (very powerful; more general geometric algebras)
-	- [rowan](https://github.com/glotzerlab/rowan) (many features; similar approach to this package; no acceleration or overloading)
-	- [pyquaternion](http://kieranwynn.github.io/pyquaternion/) (many features; pure python; no acceleration or overloading)
-	- [quaternions](https://github.com/mjsobrep/quaternions) (basic pure python package; no acceleration; specialized for rotations only)
-	- [scipy.spatial.transform.Rotation.as_quat](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.transform.Rotation.as_quat.html) (quaternion output for `Rotation` object)
-	- [mathutils](https://gitlab.com/ideasman42/blender-mathutils) (a Blender package with python bindings)
-	- [Quaternion](https://pypi.org/project/Quaternion/) (extremely limited capabilities; unmaintained)
-	- Also note that there is some capability to do symbolic manipulations of quaternions in these packages:
-		- [galgebra](https://github.com/pygae/galgebra) (more general geometric algebras; analogous to `clifford`, but for symbolic calculations)
-		- [sympy.algebras.quaternion](https://docs.sympy.org/latest/modules/algebras.html)
 - Rigid body transformation = Rotation + Translation
   collapsed:: true
 	- [Matrices and Transformation](https://www.youtube.com/watch?v=HgQzOmnBGCo)
@@ -331,6 +318,7 @@
 			  end
 			  ```
 - DH Parameters
+  collapsed:: true
 	- [Denavit–Hartenberg parameters - Wikipedia](https://en.wikipedia.org/wiki/Denavit%E2%80%93Hartenberg_parameters)
 	- ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/DHParameter.png/519px-DHParameter.png)
 		- *d*: offset along previous *z* to the common normal
@@ -351,3 +339,16 @@
 - Parallel Robot
 	- ![image.png](../assets/image_1694012207870_0.png)
 	- ![image.png](../assets/image_1694012240457_0.png)
+- Python Package for Kinematics #👩‍💻software
+	- [moble/quaternionic: Interpret numpy arrays as quaternionic arrays with numba acceleration (github.com)](https://github.com/moble/quaternionic): evolved from the [quaternion](https://github.com/moble/quaternion) package, numpy adaptive
+	- [quaternion](https://github.com/moble/quaternion/) (core written in C; very fast; adds quaternion `dtype` to numpy; named [numpy-quaternion](https://pypi.org/project/numpy-quaternion/) on pypi due to name conflict)
+	- [clifford](https://github.com/pygae/clifford) (very powerful; more general geometric algebras)
+	- [rowan](https://github.com/glotzerlab/rowan) (many features; similar approach to this package; no acceleration or overloading)
+	- [pyquaternion](http://kieranwynn.github.io/pyquaternion/) (many features; pure python; no acceleration or overloading)
+	- [quaternions](https://github.com/mjsobrep/quaternions) (basic pure python package; no acceleration; specialized for rotations only)
+	- [scipy.spatial.transform.Rotation.as_quat](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.transform.Rotation.as_quat.html) (quaternion output for `Rotation` object)
+	- [mathutils](https://gitlab.com/ideasman42/blender-mathutils) (a Blender package with python bindings)
+	- [Quaternion](https://pypi.org/project/Quaternion/) (extremely limited capabilities; unmaintained)
+	- Also note that there is some capability to do symbolic manipulations of quaternions in these packages:
+		- [galgebra](https://github.com/pygae/galgebra) (more general geometric algebras; analogous to `clifford`, but for symbolic calculations)
+		- [sympy.algebras.quaternion](https://docs.sympy.org/latest/modules/algebras.html)

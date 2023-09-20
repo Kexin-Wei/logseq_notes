@@ -1,14 +1,9 @@
 - References:
-  collapsed:: true
 	- ⭐️[Alll in one online book](https://motion.cs.illinois.edu/RoboticSystems/)
-	- Parallel Robot
-		- [[@taghirad2013parallel]]
-		- [[@The Degree of Freedom of Parallel Robots: A Group-Theoretic Approach]] 
-		  Chebyshev-Grübler kinematic Kutzbach-Hervé(CGKH) Formula
-		- [[@Modeling Parallel Robot Kinematics for 3T2R and 3T3R Tasks Using Reciprocal Sets of Euler Angles]]
-		- [[@Dynamics of Parallel Robots: From Rigid Bodies to Flexible Elements]]
+	- [Robot Academy](https://robotacademy.net.au/)
 - # Theory
 - [[DoFs Degree of Freedoms Calculation]]
+- [[Redundant robot]]
 - [[Robot Kinematics]]
 - [[Robot Path Tracking]]
 - [[URDF: Define the robot]]
