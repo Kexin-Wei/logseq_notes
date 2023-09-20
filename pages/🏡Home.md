@@ -27,7 +27,6 @@
 	- [[📈Signal Processing]]
 	- [[✈️SLAM]]
 - 🏥Medical Knowledge
-  collapsed:: true
 	- [[BBN Blood Brain Barrier]]
 	- [[Anatomy Views of Human]]
 	- [[Kidney Anatomy]]
@@ -35,6 +34,7 @@
 	- [[MRI Magnetic Resonance Imaging]]
 	- [[🫀Prostate]]
 - 🩻 Medical Image
+  collapsed:: true
 	- [[CT  Computed Tomography Image]]
 	- Ultrasound
 		- [[Ultrasound Basic]]
