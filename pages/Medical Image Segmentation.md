@@ -4,6 +4,9 @@
 			- 30 manually labeled MRI brain scans, 25 unique subjects, 5 subjects scanned twice.
 	- [[Prostate MRI dataset]]
 	  id:: 64238f0e-d27f-42c4-8f37-ab486ddffd02
+- # Segmentation Algorithm
+	- Region Grow
+		- [Segmentation/segmentation_methods.ipynb at main · gilzeevi25/Segmentation (github.com)](https://github.com/gilzeevi25/Segmentation/blob/main/segmentation_methods.ipynb)
 - # Segmentation Tool #👩‍💻software
 	- Manually Segmentation Software #👩‍💻software
 	  collapsed:: true

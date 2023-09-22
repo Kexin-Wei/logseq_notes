@@ -21,11 +21,11 @@ title:: Image Registration
 		- Multi-modality Registration
 			- [[US-MRI Image Registration]]
 	- By [[Homogeneous Transformation]]
-# Purpose
+- # Purpose
 	- map $J(x)$ to $I(x)$ using projection $T$
 	- Goal: $T=\text{arg} \min\sum_k \text{sim} (I(x), J[T(x)])$
 		- $\text{sim}()$ is the similarity criterion
-# Steps
+- # Steps
 	- [[Feature-based Image Registration Steps]]
 	- Transformation of the Moved Image
 	- Interpolation of images

@@ -5,11 +5,13 @@
 	- J: no of joints
 	- IMPORTANT: independent joints
 - Example
+  collapsed:: true
 	- ![Application-2: Schematic of a two-DOF robotic arm in 2D space | Download  Scientific Diagram](https://www.researchgate.net/publication/322412560/figure/fig1/AS:668978112385031@1536508219685/Application-2-Schematic-of-a-two-DOF-robotic-arm-in-2D-space.jpg){:height 297, :width 363}
 	  id:: 64b23f3a-e979-4877-9518-a7db8c8c7e11
 		- DoFs = 3*(3-1-2)+2 = 2
 	- ![image.png](../assets/image_1689405251183_0.png)
 - Solution of complex robot system
+  collapsed:: true
 	- ![AppendixACalculationoftheNumberofDegreesofFreedomofRobotswithClosedChains.pdf](../assets/AppendixACalculationoftheNumberofDegreesofFreedomofRobotswithClosedChains_1689403149849_0.pdf)
 	- For the robot above, this applies
 		- ![image.png](../assets/image_1689403695069_0.png){:height 417, :width 429}

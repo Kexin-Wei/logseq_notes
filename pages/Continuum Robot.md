@@ -1,5 +1,5 @@
-- # Type [2](((6466b60f-985d-4768-b8b6-b90f8157b931)))
-  collapsed:: true
+# Type [2](((6466b60f-985d-4768-b8b6-b90f8157b931)))
+collapsed:: true
 	- ![image.png](../assets/image_1684817424050_0.png)
 	- Tendon-Based
 		- ![image.png](../assets/image_1684454269122_0.png){:height 225, :width 525}

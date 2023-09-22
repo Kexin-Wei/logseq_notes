@@ -1,6 +1,6 @@
 - #📺️youtube
 - Categories
-	- Systematical Biopsy
+	- [[Systematical Biopsy]]
 	- Targeted Biopsy
 	- TRUSBx: Transrectal Ultrasound Guided Biopsy, infection from rectum
 	- [TPBx: Transperineal Prostate Biopsy](https://www.youtube.com/watch?v=JUIpUXSSOs0)
