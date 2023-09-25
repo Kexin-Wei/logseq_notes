@@ -31,3 +31,4 @@
 		- [DART](http://dartsim.github.io/): more for c++
 		- [Trimesh](https://github.com/mikedh/trimesh): mesh loading
 		- [pyrender](https://github.com/mmatl/pyrender): render
+		- [DqRobotics](https://dqrobotics.github.io/): kinematics and control
