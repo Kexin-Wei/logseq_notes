@@ -9,6 +9,8 @@
 		- ![image.png](../assets/image_1695632918640_0.png)
 	- [Free-hand transperineal prostate biopsy provides acceptable cancer detection and minimizes risk of infection: evolving experience with a 10-sector template - ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S1078143918303545?via%3Dihub)
 		- ![image.png](../assets/image_1695633816876_0.png)
+	- [Full article: Cancer detection rates of different prostate biopsy regimens in patients with renal failure (tandfonline.com)](https://www.tandfonline.com/doi/full/10.3109/0886022X.2014.915195)
+		- ![image.png](../assets/image_1695688872813_0.png)
 - China
   collapsed:: true
 	- ![image.png](../assets/image_1695107539198_0.png){:height 441, :width 804}
@@ -49,3 +51,4 @@
 	- Ristau BT, Allaway M, Cendo D et al: Free-hand transperineal prostate biopsy provides acceptable cancer detection an
 	- Ukimura O, Coleman JA, de la Taille A et al: Contemporary role of systematic prostate biopsies: Indications, techniques, and implications for patient care. Eur Urol 2013; 63: 214
 	- Presti JC, Jr., O'Dowd GJ, Miller MC et al: Extended peripheral zone biopsy schemes increase cancer detection rates and minimize variance in prostate specific antigen and age related cancer rates: Results of a community multi-practice study. J Urol 2003; 169: 125
+	- Hoşcan, Mustafa Burak, et al. "Cancer detection rates of different prostate biopsy regimens in patients with renal failure." *Renal Failure* 36.6 (2014): 895-898.
