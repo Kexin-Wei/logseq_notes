@@ -9,3 +9,4 @@
 - [[@Time Synchronization Accuracy Verification for Multi-Sensor System]] #📑READ
 - [Sensors Time Synchronization | Stereolabs](https://www.stereolabs.com/docs/sensors/time-synchronization/) #📑READ
 - [Serial Communication](https://www.codrey.com/embedded-systems/serial-communication-basics/) #📑READ
+-
