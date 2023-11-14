@@ -11,8 +11,8 @@
 	  ![image.png](../assets/image_1699603724651_0.png)
 	- Slice thickness
 	  [Slice position and accuracy - Questions and Answers ​in MRI (mriquestions.com)](https://mriquestions.com/slice-parameters.html)
-	  [CT Slice Thickness - Support - 3D Slicer Community](https://discourse.slicer.org/t/ct-slice-thickness/6460/2)
-	  ![image.png](../assets/image_1699930906314_0.png)
+	  [Tag (0018,0050) Slice Thickness does not correspond to what I calculate in the image - Support - 3D Slicer Community](https://discourse.slicer.org/t/tag-0018-0050-slice-thickness-does-not-correspond-to-what-i-calculate-in-the-image/27438)
+	  ![image.png](../assets/image_1699931070817_0.png)
 	- Slice distance calculation [How to calculate space between dicom slices for MPR? - Stack Overflow](https://stackoverflow.com/questions/14930222/how-to-calculate-space-between-dicom-slices-for-mpr)
 	  ![image.png](../assets/image_1699605530451_0.png)
 	- should not use spacing between slices (0018,0088) and slice location (0020,1041)
