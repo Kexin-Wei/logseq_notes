@@ -17,6 +17,7 @@
 	- [[Neovim]]
 	- [[Python Code Encryption]]
 - 🤖Robot
+  collapsed:: true
 	- [[Soft Tissue Deformation]]
 	- [[Soft Robot]]
 	- [[🤖Robot Control]]
