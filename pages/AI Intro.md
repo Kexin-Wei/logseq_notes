@@ -5,11 +5,10 @@ Status: Find one to kill the time
 
 In any case, you will need to get started with reading up on machine learning. i would suggest you first briefly start with neural networks, followed by deep convolutional neural networks just to get used to the idea of deep learning and subsequently focus on picking up reinforcement learning. As this machine learning field heavily requires you to be able to do programming, I would suggest that you try to implement the models you learnt and get familiar with the various packages of pytorch, tensorflow, fastai.
 - # CV
-- [https://www.youtube.com/watch?v=NfnWJUyUJYU](https://www.youtube.com/watch?v=NfnWJUyUJYU)
-- [Course | DEV290x | edX](https://courses.edx.org/courses/course-v1:Microsoft+DEV290x+1T2020a/course/)
+	- [https://www.youtube.com/watch?v=NfnWJUyUJYU](https://www.youtube.com/watch?v=NfnWJUyUJYU)
+	- [Course | DEV290x | edX](https://courses.edx.org/courses/course-v1:Microsoft+DEV290x+1T2020a/course/)
 - # NLP
-  
-  cn2224n
+	- cn2224n
 - # NN
 	- [Neural networks and deep learning](http://neuralnetworksanddeeplearning.com/chap1.html)
 	- TOC
