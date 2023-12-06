@@ -26,12 +26,10 @@
 	- [[📈Signal Processing]]
 	- [[✈️SLAM]]
 - 🏥Medical Knowledge
-  collapsed:: true
 	- [[BBN Blood Brain Barrier]]
 	- [[Anatomy Views of Human]]
 	- [[Kidney Anatomy]]
 	- [[Laparoscopic Surgery]]
-	- [[MRI Magnetic Resonance Imaging]]
 	- [[🫀Prostate]]
 - 🩻 Medical Image
 	- [[CT  Computed Tomography Image]]
@@ -43,6 +41,11 @@
 		- [[Micro Ultrasound]]
 		- [[Ultrasound Devices]]
 		- [[Ultrasound Quality Assessment]]
+	- MRI
+		- [[MRI Introduction]]
+		- [[MRI Mechanism]]
+		- [[MRI Sequences]]
+		  id:: 6433a570-426e-4873-a4ed-96def66974dd
 	- Medical Image Analysis
 		- [[Online Library of Medical Image Analysis]]
 		- [[Medical Image Fusion]]
