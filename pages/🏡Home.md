@@ -31,6 +31,7 @@
 	- [[Kidney Anatomy]]
 	- [[Laparoscopic Surgery]]
 	- [[🫀Prostate]]
+	- [[🧠Brain Computer Interface]]
 - 🩻 Medical Image
 	- [[CT  Computed Tomography Image]]
 	- Ultrasound
