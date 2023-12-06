@@ -45,55 +45,53 @@ In any case, you will need to get started with reading up on machine learning. i
   
   Coursera
 - # DL
-  
-  [Fundamental Recap](https://deeplizard.com/learn/video/gZmobeGL0Yg)
-- ## [Fastai](https://course.fast.ai/)
-  
-  use Colab: fast set up, free | ahah, too slow, 👋🏻
-  
-  use GCP again
-- use WSL in windows
-- 3 tips
-	- can't get app-key, find [solution](https://stackoverflow.com/questions/46673717/gpg-cant-connect-to-the-agent-ipc-connect-call-failed)
-	    
-	    ```bash
-	    sudo apt remove gpg
-	    sudo apt-get update -y
-	    sudo apt-get install -y gnupg1
-	    ```
-	- fresh hand following the tutorial, get cricked out because of ssh update after the buildung the instance. find solution [here](https://stackoverflow.com/questions/26193535/error-gcloud-compute-ssh-usr-bin-ssh-exited-with-return-code-255#:~:text=If%20you%20have%20installed%20gcloud%20without%20sudo%2C%20you%20can%20omit%20sudo%20.&text=255%20is%20the%20interactive%20ssh,executed%20in%20the%20ssh%20session.&text=Go%20to%20your%20google%20cloud,tab%20and%20click%20on%20edit.). MAKE SURE THE INSTANCE IS RUNNING!!!
-	    
-	    `gcloud compute config -ssh`
-	- get error like:
-	    
-	    ```bash
-	    # error type 1
-	    External IP address was not found; defaulting to using IAP tunneling.
-	    ERROR: (gcloud.compute.start-iap-tunnel) Error while connecting [4033: u'not authorized'].
-	    kex_exchange_identification: Connection closed by remote host
-	    ERROR: (gcloud.compute.ssh) [/usr/bin/ssh] exited with return code [255].
-	    
-	    # error type 2
-	    ssh: connect to host 34.**.**.167 port 22: Resource temporarily unavailable
-	    ERROR: (gcloud.compute.ssh) [/usr/bin/ssh] exited with return code [255].
-	    ```
-	    
-	    try this :([quelle](https://stackoverflow.com/questions/26193535/error-gcloud-compute-ssh-usr-bin-ssh-exited-with-return-code-255#:~:text=If%20you%20have%20installed%20gcloud%20without%20sudo%2C%20you%20can%20omit%20sudo%20.&text=255%20is%20the%20interactive%20ssh,executed%20in%20the%20ssh%20session.&text=Go%20to%20your%20google%20cloud,tab%20and%20click%20on%20edit.))
-	    
-	    ![NN%20&%20DL%20&%20CV%2080d9c190127242249d4df3d075e17e3b/Untitled.png](NN%20&%20DL%20&%20CV%2080d9c190127242249d4df3d075e17e3b/Untitled.png)
-- ## CNN
-- A great [intro](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
-- Tips from stanford
-	- [Tip 1](https://cs231n.github.io/neural-networks-1/)
-	- [Tip 2](https://cs231n.github.io/neural-networks-2/)
-	- [Tip 3](https://cs231n.github.io/neural-networks-3/)
-- Loss Function
-	- [keras](https://neptune.ai/blog/keras-loss-functions)
-	- [choose](https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-i-hyper-parameter-8129009f131b)
-- [GIF](https://github.com/vdumoulin/conv_arithmetic) for better understanding
-- [CNN Architecture](https://medium.com/@RaghavPrabhu/cnn-architectures-lenet-alexnet-vgg-googlenet-and-resnet-7c81c017b848#:~:text=VGG%2D16%20is%20a%20simpler,2%20with%20stride%20of%202.&text=The%20winner%20of%20ILSVRC%202014,also%20known%20as%20Inception%20Module.)
-- [LeNet - 5](https://medium.com/towards-artificial-intelligence/the-architecture-implementation-of-lenet-5-eef03a68d1f7)
-- ### Softmax or Sigmoid
-  
-  maybe [answer](https://stats.stackexchange.com/questions/233658/softmax-vs-sigmoid-function-in-logistic-classifier)
+	- [Fundamental Recap](https://deeplizard.com/learn/video/gZmobeGL0Yg)
+	- ## [Fastai](https://course.fast.ai/)
+	  
+	  use Colab: fast set up, free | ahah, too slow, 👋🏻
+	  
+	  use GCP again
+	- use WSL in windows
+	- 3 tips
+		- can't get app-key, find [solution](https://stackoverflow.com/questions/46673717/gpg-cant-connect-to-the-agent-ipc-connect-call-failed)
+		    
+		    ```bash
+		    sudo apt remove gpg
+		    sudo apt-get update -y
+		    sudo apt-get install -y gnupg1
+		    ```
+		- fresh hand following the tutorial, get cricked out because of ssh update after the buildung the instance. find solution [here](https://stackoverflow.com/questions/26193535/error-gcloud-compute-ssh-usr-bin-ssh-exited-with-return-code-255#:~:text=If%20you%20have%20installed%20gcloud%20without%20sudo%2C%20you%20can%20omit%20sudo%20.&text=255%20is%20the%20interactive%20ssh,executed%20in%20the%20ssh%20session.&text=Go%20to%20your%20google%20cloud,tab%20and%20click%20on%20edit.). MAKE SURE THE INSTANCE IS RUNNING!!!
+		    
+		    `gcloud compute config -ssh`
+		- get error like:
+		    
+		    ```bash
+		    # error type 1
+		    External IP address was not found; defaulting to using IAP tunneling.
+		    ERROR: (gcloud.compute.start-iap-tunnel) Error while connecting [4033: u'not authorized'].
+		    kex_exchange_identification: Connection closed by remote host
+		    ERROR: (gcloud.compute.ssh) [/usr/bin/ssh] exited with return code [255].
+		    
+		    # error type 2
+		    ssh: connect to host 34.**.**.167 port 22: Resource temporarily unavailable
+		    ERROR: (gcloud.compute.ssh) [/usr/bin/ssh] exited with return code [255].
+		    ```
+		    
+		    try this :([quelle](https://stackoverflow.com/questions/26193535/error-gcloud-compute-ssh-usr-bin-ssh-exited-with-return-code-255#:~:text=If%20you%20have%20installed%20gcloud%20without%20sudo%2C%20you%20can%20omit%20sudo%20.&text=255%20is%20the%20interactive%20ssh,executed%20in%20the%20ssh%20session.&text=Go%20to%20your%20google%20cloud,tab%20and%20click%20on%20edit.))
+		- ![Untitled.png](../assets/Untitled_1701880755987_0.png)
+	- ## CNN
+		- A great [intro](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
+		- Tips from stanford
+			- [Tip 1](https://cs231n.github.io/neural-networks-1/)
+			- [Tip 2](https://cs231n.github.io/neural-networks-2/)
+			- [Tip 3](https://cs231n.github.io/neural-networks-3/)
+		- Loss Function
+			- [keras](https://neptune.ai/blog/keras-loss-functions)
+			- [choose](https://towardsdatascience.com/a-guide-to-an-efficient-way-to-build-neural-network-architectures-part-i-hyper-parameter-8129009f131b)
+		- [GIF](https://github.com/vdumoulin/conv_arithmetic) for better understanding
+		- [CNN Architecture](https://medium.com/@RaghavPrabhu/cnn-architectures-lenet-alexnet-vgg-googlenet-and-resnet-7c81c017b848#:~:text=VGG%2D16%20is%20a%20simpler,2%20with%20stride%20of%202.&text=The%20winner%20of%20ILSVRC%202014,also%20known%20as%20Inception%20Module.)
+		- [LeNet - 5](https://medium.com/towards-artificial-intelligence/the-architecture-implementation-of-lenet-5-eef03a68d1f7)
+		- ### Softmax or Sigmoid
+		  
+		  maybe [answer](https://stats.stackexchange.com/questions/233658/softmax-vs-sigmoid-function-in-logistic-classifier)
 - # RL
