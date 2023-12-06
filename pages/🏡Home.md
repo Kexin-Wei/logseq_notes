@@ -67,7 +67,7 @@
 		  • Registration can aid segmentation
 		  • Interleaving segmentation and registration
 - 🧠AI
-  collapsed:: true
+	- [[AI Intro]]
 	- [[Download Google Drive in Colab or Jupyter]]
 	- [[Large Language Model LLM]]
 	- [[Bio Hackathon: LLMs Model for Bio]]
