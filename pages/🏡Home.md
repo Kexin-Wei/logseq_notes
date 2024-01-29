@@ -1,5 +1,4 @@
 - 💻️Software Development
-  collapsed:: true
 	- [[C++]]
 	- [[CUDA]]
 	- [[Docker]]
@@ -34,6 +33,7 @@
 	- [[🫀Prostate]]
 	- [[🧠Brain Computer Interface]]
 - 🩻 Medical Image
+  collapsed:: true
 	- [[CT  Computed Tomography Image]]
 	- Ultrasound
 		- [[Ultrasound Basic]]
@@ -47,7 +47,6 @@
 		- [[MRI Introduction]]
 		- [[MRI Mechanism]]
 		- [[MRI Sequences]]
-		  id:: 6433a570-426e-4873-a4ed-96def66974dd
 	- Medical Image Analysis
 		- [[Online Library of Medical Image Analysis]]
 		- [[Medical Image Fusion]]
@@ -68,6 +67,7 @@
 		  • Registration can aid segmentation
 		  • Interleaving segmentation and registration
 - 🧠AI
+  collapsed:: true
 	- [[AI Intro]]
 	- [[Download Google Drive in Colab or Jupyter]]
 	- [[Large Language Model LLM]]
