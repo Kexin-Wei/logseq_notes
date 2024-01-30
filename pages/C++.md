@@ -19,4 +19,3 @@
 	- C++ Intellisense. For auto completion, errors prompts.
 	- CMake. For auto completion of CMakeLists.txt
 	- CMake Tools, by Microsoft. Official configuration tool, to configure, then build to run.
--
