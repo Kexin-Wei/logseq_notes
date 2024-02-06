@@ -11,8 +11,16 @@
 		- ![image.png](../assets/image_1695633816876_0.png)
 	- [Full article: Cancer detection rates of different prostate biopsy regimens in patients with renal failure (tandfonline.com)](https://www.tandfonline.com/doi/full/10.3109/0886022X.2014.915195)
 		- ![image.png](../assets/image_1695688872813_0.png)
+	- https://www.scielo.br/j/ibju/a/4Ss43JnGsGZGSkMrXMXmBZr/?lang=en&format=pdf
+		- ![output.png](../assets/output_1707201847211_0.png)
+		  id:: 65c1d508-c4fa-4c08-9353-7c625a7b1400
+	- https://www.nature.com/articles/pcan200942
+		- ![image.png](../assets/image_1707201857326_0.png)
+	- Kuru TH, Wadhwa K, Chang RT, et al. Definitions of terms, processes and  a minimum dataset for transperineal prostate biopsies: a standardization  approach of the Ginsburg study group for enhanced prosta
+		- ![image (2).png](../assets/image_(2)_1707201864923_0.png)
+	- Pathological Concordance between Prostate Biopsies and Radical Prostatectomy Using Transperineal Sector Mapping Biopsies: Validation and Comparison with Transrectal Biopsies.
+		- ![image (1).png](../assets/image_(1)_1707201871796_0.png)
 - China
-  collapsed:: true
 	- ![image.png](../assets/image_1695107539198_0.png){:height 441, :width 804}
 	- ![image.png](../assets/image_1695108707627_0.png){:height 825, :width 386}
 	  id:: 65094e5f-9ada-4b9e-b00e-6ac2133f0e4e
@@ -23,12 +31,10 @@
 		- ![image.png](../assets/image_1695107792549_0.png){:height 344, :width 364}
 		- ![image.png](../assets/image_1695108115769_0.png)
 - Singapore
-  collapsed:: true
 	- A 2006 systematic review showed that 12 is the minimum number of cores for systematic biopsies, with > 12  cores not increasing cancer detection rate significantly
 	- Additional cores should be obtained from suspect areas identified by DRE or on pre-biopsy MRI; multiple cores  (3–5) should be taken from each MRI-visible lesion
 	- ![image.png](../assets/image_1695363421950_0.png)
 - American
-  collapsed:: true
 	- A systematic biopsy should include a minimum of 12 cores, distributed throughout the prostate, with thorough sampling of the peripheral zone. ((650d3be0-1f49-4cc9-9ab7-c02241460ec2))
 	- In performing a biopsy, these goals appear to be best achieved through a 12-core systematic sampling methodology that incorporates apical and far-lateral cores in the template distribution. ((650d3bef-63ab-4b5d-9387-5298e5290279))
 	- The NCCN panel suggests an “extended-pattern 12-core biopsy” that includes the standard sextant; peripheral base, mid-gland, and apex; and lesion-directed palpable nodules or suspicious images.
