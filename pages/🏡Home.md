@@ -2,8 +2,7 @@
 	- [[C++]]
 	- [[CUDA]]
 	- [[Docker]]
-	- [[VTK & ITK]]
-		- [[NURBS]]
+	- [[Visualization]]
 	- [[Rust]]
 	- [[Agile Management]]
 	- Medical Related Open Source
@@ -33,7 +32,6 @@
 	- [[🫀Prostate]]
 	- [[🧠Brain Computer Interface]]
 - 🩻 Medical Image
-  collapsed:: true
 	- [[CT  Computed Tomography Image]]
 	- Ultrasound
 		- [[Ultrasound Basic]]

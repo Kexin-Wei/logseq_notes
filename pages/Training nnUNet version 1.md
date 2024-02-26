@@ -1,4 +1,4 @@
-- ## Training examples
+## Training examples
 	- [Example 1 - prostate](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/inference_example_Prostate.md)
 	- [Example 2 - liver](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/training_example_Hippocampus.md)
 	- [Training Benchmark](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/expected_epoch_times.md)
@@ -14,10 +14,8 @@
 		  ```
 - ## 2. Prepare dataset
 	- [Dataset Conversion for MSD dataset](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/dataset_conversion.md)
-	  collapsed:: true
 		- MSD: [Medical Segmentation Decathlon](http://medicaldecathlon.com/)
 		- Need to modify path for bash shell and **windows** platform, see [Github repo](https://github.com/Kexin-Wei/nnUNet)
-		  collapsed:: true
 			- ```python
 			  def split_4d_nifti(filename, output_folder, add_zeros=False):
 			      img_itk = sitk.ReadImage(filename)
@@ -40,10 +38,8 @@
 			                      sitk.WriteImage(img_itk_new, join(output_folder, file_base[:-7] + "_%04.0d.nii.gz" % i))             
 			  ```
 	- From other dataset
-	  collapsed:: true
 		- [data_format_inference.md](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/data_format_inference.md)
 	- `dataset.json`
-	  collapsed:: true
 		- **NEW:** There now is a utility with which you can generate the dataset.json automatically. You can find it [here](https://github.com/MIC-DKFZ/nnUNet/blob/master/nnunet/dataset_conversion/utils.py) (look for the function `generate_dataset_json`). See [Task120](https://github.com/MIC-DKFZ/nnUNet/blob/master/nnunet/dataset_conversion/Task120_Massachusetts_RoadSegm.py) for an example on how to use it. And read its documentation!
 			- [Task120_Massachusetts_RoadSegm.py](https://github.com/MIC-DKFZ/nnUNet/blob/master/nnunet/dataset_conversion/Task120_Massachusetts_RoadSegm.py)
 			- [Task076_Fluo_N3DH_SIM.py](https://github.com/MIC-DKFZ/nnUNet/blob/master/nnunet/dataset_conversion/Task076_Fluo_N3DH_SIM.py)
