@@ -1,0 +1,5 @@
+- PI-RADS
+	- [Introduction to PI-RADS (youtube.com)](https://www.youtube.com/watch?v=7CRP5V-niAI)
+	- ![image.png](../assets/image_1709012885588_0.png)
+	- ![image.png](../assets/image_1709014303812_0.png){:height 448, :width 938}
+	- ![image.png](../assets/image_1709014414778_0.png)
