@@ -2,6 +2,8 @@
 	- ![image.png](../assets/image_1682986516652_0.png){:height 559, :width 478}
 - [[How to set up a library - CMake]]
 - [[_declspec(dllexport) and _declspec(dllimport)]]
+- # Tool
+	- [cpm-cmake/CPM.cmake: 📦 CMake's missing package manager. A small CMake script for setup-free, cross-platform, reproducible dependency management. (github.com)](https://github.com/cpm-cmake/CPM.cmake)
 - References
   collapsed:: true
 	- * [An Introduction to Modern CMake · Modern CMake (cliutils.gitlab.io)](https://cliutils.gitlab.io/modern-cmake/)
