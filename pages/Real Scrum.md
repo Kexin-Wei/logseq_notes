@@ -92,7 +92,6 @@
 		- helps the Scrum team to remove impediments
 		- work with the developers to maximizes productivity and delivery
 		- Addition
-		  collapsed:: true
 			- He needs to assist the PO:
 				- When the PO encounters problems in sorting out the Product Backlog in the early stage, the Scrum Master provides technical guidance and assistance so that the PO can successfully create and refine the Product Backlog (PB).
 				- Facilitate the communication between the PO and the team so that the developers can understand the Product Backlog Item (PBI).
