@@ -1,12 +1,23 @@
-- [c++ faq - The Definitive C++ Book Guide and List - Stack Overflow](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)
-- # [[CMake]]
-- # [[Qt]]
+### [[Environment Set Up in Windows]]
+- ### [[Code Review]]
 - # Grammar
-	- [Pointer vs Reference Tutorial](https://www.geeksforgeeks.org/different-ways-to-use-const-with-reference-to-a-pointer-in-c/)
-	- [Abstract Classes And Pure Virtual Functions | C++ Tutorial - YouTube](https://www.youtube.com/watch?v=wE0_F4LpGVc)
-	- [std::variant - cppreference.com](https://en.cppreference.com/w/cpp/utility/variant)
-- # [[Environment Set Up in Windows]]
-- # [[Code Review]]
-- # C++ UnitTest
+	- General
+		- [Pointer vs Reference Tutorial](https://www.geeksforgeeks.org/different-ways-to-use-const-with-reference-to-a-pointer-in-c/)
+		- [Abstract Classes And Pure Virtual Functions](https://www.youtube.com/watch?v=wE0_F4LpGVc)
+	- std library
+		- [std::variant](https://en.cppreference.com/w/cpp/utility/variant)
+		- [std::visit](https://en.cppreference.com/w/cpp/utility/variant/visit)
+- # Threading
+	-
+- # C++ Unit Test
+	- What is an unit test
+		- Maintainable
+		- Readable
+		- Trustworthy
 	- [[GoogleTest Framework]]
 	- [[Qt UnitTest]]
+- # C++ code analysis
+	- [Cppcheck - A tool for static C/C++ code analysis](https://cppcheck.sourceforge.io/)
+	-
+- Reference
+	- [c++ faq - The Definitive C++ Book Guide and List - Stack Overflow](https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list)

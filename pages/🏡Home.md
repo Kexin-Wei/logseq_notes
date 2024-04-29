@@ -1,21 +1,21 @@
 - 💻️Software Development
 	- [[C++]]
+	- [[CMake]]
+	- [[Qt]]
 	- [[CUDA]]
 	- [[Docker]]
 	- [[Visualization]]
 	- [[Rust]]
 	- [[Agile Management]]
+	- [[Neovim]]
+	- [[Python Code Encryption]]
 	- Medical Related Open Source
-	  collapsed:: true
 		- List of them #👩‍💻software
 			- [Building Solutions on Open Source Technologies (kitware.com)](https://www.kitware.com/open-source/)
 			- [For Users (openigtlink.org)](http://openigtlink.org/users/)
 			- [IGTL](http://openigtlink.org/users/)
 			- [Plus](https://plustoolkit.github.io/)
-	- [[Neovim]]
-	- [[Python Code Encryption]]
 - 🤖Robot
-  collapsed:: true
 	- [[Soft Tissue Deformation]]
 	- [[Soft Robot]]
 	- [[🤖Robot Control]]
@@ -67,7 +67,6 @@
 		  • Registration can aid segmentation
 		  • Interleaving segmentation and registration
 - 🧠AI
-  collapsed:: true
 	- [[AI Intro]]
 	- [[Download Google Drive in Colab or Jupyter]]
 	- [[Large Language Model LLM]]
@@ -75,7 +74,6 @@
 	- [DL in image registration](https://www.youtube.com/watch?v=c4dvyTBvysQ https://www.youtube.com/watch?v=O3TmEcaN5Ww)
 	- [[🗣️Natural Language Processing]]
 - 🥼Science Theory
-  collapsed:: true
 	- [[⚡️Electric Engineering]]
 	  :LOGBOOK:
 	  * State "DONE" from "TODO" [2022-10-03 Mon 08:22]
