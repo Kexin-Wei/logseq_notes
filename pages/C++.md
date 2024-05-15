@@ -2,6 +2,7 @@
 - ### [[Code Review]]
 - # Grammar
 	- General
+		- Constructor vs Destructor
 		- [Pointer vs Reference Tutorial](https://www.geeksforgeeks.org/different-ways-to-use-const-with-reference-to-a-pointer-in-c/)
 		- [Abstract Classes And Pure Virtual Functions](https://www.youtube.com/watch?v=wE0_F4LpGVc)
 	- std library
