@@ -15,7 +15,7 @@
 		- Maintainable
 		- Readable
 		- Trustworthy
-	- [[GoogleTest Framework]]
+	- [[GoogleTest]]
 	- [[Qt UnitTest]]
 - # C++ code analysis
 	- [Cppcheck - A tool for static C/C++ code analysis](https://cppcheck.sourceforge.io/)
