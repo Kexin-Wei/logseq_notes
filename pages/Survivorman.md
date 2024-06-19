@@ -5,4 +5,9 @@
 	- [Desert Christmas cactus - eat fruit after removing stinks](https://en.wikipedia.org/wiki/Cylindropuntia_leptocaulis)
 	- [Bark Scorpion  - remove stink](https://en.wikipedia.org/wiki/Arizona_bark_scorpion)
 	- [Barrel Cactus - flower](https://en.wikipedia.org/wiki/Barrel_cactus)
--
+- ## Life Support
+	- Make Fire
+		- ![Cover fire flames with Dry Bushes](../assets/image_1718804222501_0.png){:height 275, :width 345}
+- ## Medicine
+	- [Creosote bush - repeel bugs and fungus](https://en.wikipedia.org/wiki/Larrea_tridentata)
+	-
