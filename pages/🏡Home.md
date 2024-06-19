@@ -1,4 +1,5 @@
 - 💻️Software Development
+  collapsed:: true
 	- [[C++]]
 	- [[CMake]]
 	- [[Qt]]
@@ -8,6 +9,7 @@
 	- [[Rust]]
 	- [[Agile Management]]
 	- [[Neovim]]
+	  collapsed:: true
 	- [[Python Code Encryption]]
 	- Medical Related Open Source
 		- List of them #👩‍💻software
@@ -16,6 +18,7 @@
 			- [IGTL](http://openigtlink.org/users/)
 			- [Plus](https://plustoolkit.github.io/)
 - 🤖Robot
+  collapsed:: true
 	- [[Soft Tissue Deformation]]
 	- [[Soft Robot]]
 	- [[🤖Robot Control]]
@@ -25,7 +28,6 @@
 	- [[📈Signal Processing]]
 	- [[✈️SLAM]]
 - 🏥Medical Knowledge
-  collapsed:: true
 	- [[BBN Blood Brain Barrier]]
 	- [[Anatomy Views of Human]]
 	- [[Kidney Anatomy]]
@@ -67,13 +69,17 @@
 		  • Registration can aid segmentation
 		  • Interleaving segmentation and registration
 - 🧠AI
+  collapsed:: true
 	- [[AI Intro]]
 	- [[Download Google Drive in Colab or Jupyter]]
 	- [[Large Language Model LLM]]
 	- [[Bio Hackathon: LLMs Model for Bio]]
 	- [DL in image registration](https://www.youtube.com/watch?v=c4dvyTBvysQ https://www.youtube.com/watch?v=O3TmEcaN5Ww)
 	- [[🗣️Natural Language Processing]]
+- ⛺️Survivor
+	- [[Survivorman]]
 - 🥼Science Theory
+  collapsed:: true
 	- [[⚡️Electric Engineering]]
 	  :LOGBOOK:
 	  * State "DONE" from "TODO" [2022-10-03 Mon 08:22]
