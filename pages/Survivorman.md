@@ -1,6 +1,5 @@
 # Bookmark 
-
-{{video https://www.youtube.com/watch?v=U6hU7d3yW10&t=1386s}}
+[s1e2](https://www.youtube.com/watch?v=U6hU7d3yW10&t=1386s)
 - ## Eatable
 	- [Desert Christmas cactus - eat fruit after removing stinks](https://en.wikipedia.org/wiki/Cylindropuntia_leptocaulis)
 	- [Bark Scorpion  - remove stink](https://en.wikipedia.org/wiki/Arizona_bark_scorpion)
@@ -9,5 +8,5 @@
 	- Make Fire
 		- ![Cover fire flames with Dry Bushes](../assets/image_1718804222501_0.png){:height 275, :width 345}
 - ## Medicine
-	- [Creosote bush - repeel bugs and fungus](https://en.wikipedia.org/wiki/Larrea_tridentata)
+	- [Creosote bush - repeal bugs and fungus](https://en.wikipedia.org/wiki/Larrea_tridentata)
 	-
