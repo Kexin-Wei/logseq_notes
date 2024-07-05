@@ -4,18 +4,21 @@
 	- [cppiceberg](https://fouronnes.github.io/cppiceberg/)
 	- [abseil / C++ Quickstart With CMake](https://abseil.io/docs/cpp/quickstart-cmake.html)
 	- [Boost C++ Libraries](https://www.boost.org/)
-	- General
-		- Constructor vs Destructor
+	- Constructor
+	- Destructor
+		- [Destructors, C++ FAQ (isocpp.org)](https://isocpp.org/wiki/faq/dtors)
+		- [Destructors - cppreference.com](https://en.cppreference.com/w/cpp/language/destructor)
+		- [When to Use Virtual Destructors in C++? - GeeksforGeeks](https://www.geeksforgeeks.org/when-to-use-virtual-destructors-in-cpp/)
+	- Pointer
 		- [Pointer vs Reference Tutorial](https://www.geeksforgeeks.org/different-ways-to-use-const-with-reference-to-a-pointer-in-c/)
-		- [Abstract Classes And Pure Virtual Functions](https://www.youtube.com/watch?v=wE0_F4LpGVc)
 	- std library
 		- [std::variant](https://en.cppreference.com/w/cpp/utility/variant)
 		- [std::visit](https://en.cppreference.com/w/cpp/utility/variant/visit)
 	- template
 	- virtuality
 		- [Virtuality (gotw.ca)](http://www.gotw.ca/publications/mill18.htm)
-	- Destructors
-		- [Destructors - cppreference.com](https://en.cppreference.com/w/cpp/language/destructor)
+	- polymorphism and inheritance
+		- [Abstract Classes And Pure Virtual Functions](https://www.youtube.com/watch?v=wE0_F4LpGVc)
 - # Threading
 	-
 - # C++ Unit Test
