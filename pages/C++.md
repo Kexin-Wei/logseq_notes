@@ -2,6 +2,8 @@
 - ### [[Code Review]]
 - # Grammar
 	- [cppiceberg](https://fouronnes.github.io/cppiceberg/)
+	- [abseil / C++ Quickstart With CMake](https://abseil.io/docs/cpp/quickstart-cmake.html)
+	- [Boost C++ Libraries](https://www.boost.org/)
 	- General
 		- Constructor vs Destructor
 		- [Pointer vs Reference Tutorial](https://www.geeksforgeeks.org/different-ways-to-use-const-with-reference-to-a-pointer-in-c/)
