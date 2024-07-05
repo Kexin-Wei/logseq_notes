@@ -12,6 +12,10 @@
 		- [std::variant](https://en.cppreference.com/w/cpp/utility/variant)
 		- [std::visit](https://en.cppreference.com/w/cpp/utility/variant/visit)
 	- template
+	- virtuality
+		- [Virtuality (gotw.ca)](http://www.gotw.ca/publications/mill18.htm)
+	- Destructors
+		- [Destructors - cppreference.com](https://en.cppreference.com/w/cpp/language/destructor)
 - # Threading
 	-
 - # C++ Unit Test
