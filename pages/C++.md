@@ -20,6 +20,69 @@
 		- [Virtuality (gotw.ca)](http://www.gotw.ca/publications/mill18.htm)
 	- polymorphism and inheritance
 		- [Abstract Classes And Pure Virtual Functions](https://www.youtube.com/watch?v=wE0_F4LpGVc)
+	- explicit
+		- To prevent auto implicit conversion
+			- implicit conversion
+			  collapsed:: true
+				- ```c++
+				  int x = 5;
+				  double y = x;  // Implicit conversion from int to double
+				  
+				  int a = 10;
+				  double b = 3.14;
+				  double result = a + b;  // Implicit conversion of 'a' to double before addition
+				  ```
+			- explicit conversion
+			  collapsed:: true
+				- ```c++
+				  double x = 3.14;
+				  int y = (int)x;  // C-style cast
+				  
+				  double x = 3.14;
+				  int y = static_cast<int>(x);  // Static cast (recommended for most cases)
+				  
+				  Base* basePtr = new Derived();
+				  Derived* derivedPtr = dynamic_cast<Derived*>(basePtr); // Dynamic cast (for polymorphic types):
+				  
+				  const int x = 5;
+				  int* ptr = const_cast<int*>(&x); // Const cast (to add or remove const qualifier)
+				  
+				  int* ptr = new int(42);
+				  long addr = reinterpret_cast<long>(ptr); // Reinterpret cast (for low-level reinterpretation of bit patterns)
+				  ```
+			- ```c++
+			  class MyString {
+			  public:
+			      explicit MyString(int size) { /* ... */ }
+			      MyString(const char* str) { /* ... */ }
+			  };
+			  
+			  void printString(const MyString& s) { /* ... */ }
+			  
+			  int main() {
+			      printString(10);  // Compile error: no implicit conversion allowed
+			      printString("Hello");  // Still OK
+			      printString(MyString(10));  // OK, explicit conversion
+			  }
+			  ```
+		- Inheritance explicit
+			- ```c++
+			       B
+			      / \
+			     A   C
+			      \ /
+			       D
+			       
+			  class D : public C {
+			  public:
+			      explicit D(const A& a) : C() {
+			          // Constructor implementation
+			      }
+			      
+			      // Other constructors...
+			  };
+			  
+			  ```
 - # Threading
 	-
 - # C++ Unit Test

@@ -1,5 +1,4 @@
 - 💻️Software Development
-  collapsed:: true
 	- [[C++]]
 	- [[CMake]]
 	- [[Qt]]
@@ -28,6 +27,7 @@
 	- [[📈Signal Processing]]
 	- [[✈️SLAM]]
 - 🏥Medical Knowledge
+  collapsed:: true
 	- [[BBN Blood Brain Barrier]]
 	- [[Anatomy Views of Human]]
 	- [[Kidney Anatomy]]
