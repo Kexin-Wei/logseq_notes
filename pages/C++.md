@@ -73,15 +73,21 @@
 			      \ /
 			       D
 			       
-			  class D : public C {
+			  class C : public B {
 			  public:
-			      explicit D(const A& a) : C() {
+			      explicit C(/* some parameters */) {
 			          // Constructor implementation
 			      }
-			      
-			      // Other constructors...
+			      // ...
 			  };
 			  
+			  class D : public C {
+			  public:
+			      D(const A& a) : C(/* necessary arguments */) {
+			          // Constructor implementation
+			      }
+			      // ...
+			  };
 			  ```
 - # Threading
 	-
