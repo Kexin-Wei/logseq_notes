@@ -1,0 +1,2 @@
+- [The different types of testing in software | Atlassian](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing)
+- [Trunk-based Development | Atlassian](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development)

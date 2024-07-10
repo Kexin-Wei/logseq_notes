@@ -1,4 +1,5 @@
 - 💻️Software Development
+	- [[Software Management]]
 	- [[C++]]
 	- [[CMake]]
 	- [[Qt]]
