@@ -68,10 +68,10 @@
 		  ```
 		-
 - ## Enum
-  collapsed:: true
 	- [Enum Classes in C++ and Their Advantage over Enum DataType - GeeksforGeeks](https://www.geeksforgeeks.org/enum-classes-in-c-and-their-advantage-over-enum-datatype/)
 	- [Enum vs Enum Class in C++ · Suneet Agrawal (agrawalsuneet.github.io)](https://agrawalsuneet.github.io/blogs/enum-vs-enum-class-in-c++/)
 	- Enum just int inside
+	  collapsed:: true
 		- ```C++
 		  #include <iostream>
 		  
@@ -94,6 +94,7 @@
 		  }
 		  ```
 	- Enum Class is safer
+	  collapsed:: true
 		- ```C++
 		  #include <iostream>
 		  
