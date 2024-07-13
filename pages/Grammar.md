@@ -242,3 +242,8 @@
 		      // ...
 		  };
 		  ```
+- ## Lambda
+	- [Lambda expressions (since C++11) - cppreference.com](https://en.cppreference.com/w/cpp/language/lambda)
+	- ```C++
+	  auto glambda = [](auto a, auto&& b) { return a < b; };
+	  ```

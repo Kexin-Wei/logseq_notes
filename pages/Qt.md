@@ -1,5 +1,13 @@
-- Private Signal
-	- ![image.png](../assets/image_1720688011771_0.png){:height 151, :width 444}
+- Signal
+	- lambda
+		- ```C++
+		  connect(
+		      sender, &Sender::valueChanged,
+		      [=]( **const** QString &newValue ) { receiver->updateValue( "senderValue", newValue ); }
+		  );
+		  ```
+	- Private Signal
+		- ![image.png](../assets/image_1720688011771_0.png){:height 151, :width 444}
 - Event
 	- Qt has `nativeEvent` and normal event, after `nativeEvent` the result will pass to normal event
 		- `nativeEvent` control from system level
