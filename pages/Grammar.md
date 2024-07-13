@@ -132,8 +132,9 @@
 		  ```
 		-
 - ## Pointer
-  collapsed:: true
 	- [Pointer vs Reference Tutorial](https://www.geeksforgeeks.org/different-ways-to-use-const-with-reference-to-a-pointer-in-c/)
+	- shared pointer
+		- [shared_ptr in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/shared_ptr-in-cpp/)
 - ## td library
   collapsed:: true
 	- [std::variant](https://en.cppreference.com/w/cpp/utility/variant)
