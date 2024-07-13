@@ -2,12 +2,14 @@
 - [abseil / C++ Quickstart With CMake](https://abseil.io/docs/cpp/quickstart-cmake.html)
 - [Boost C++ Libraries](https://www.boost.org/)
 - ## Constructor
-  collapsed:: true
-	- [The rule of three/five/zero - cppreference.com](https://en.cppreference.com/w/cpp/language/rule_of_three) #unread
+	- [The rule of three/five/zero - cppreference.com](https://en.cppreference.com/w/cpp/language/rule_of_three)
+	- delete operator
+	- assign operator
 - ## Destructor
 	- [Destructors, C++ FAQ (isocpp.org)](https://isocpp.org/wiki/faq/dtors)
 	- [Destructors - cppreference.com](https://en.cppreference.com/w/cpp/language/destructor)
 	- virtual destructor in derived class
+	  id:: 66911c62-c3e6-45c2-92b3-b4a9ce4addda
 	  collapsed:: true
 		- [When to Use Virtual Destructors in C++? - GeeksforGeeks](https://www.geeksforgeeks.org/when-to-use-virtual-destructors-in-cpp/)
 		- **Output**
@@ -168,6 +170,13 @@
 		-
 - ## Virtuality
 	- [Virtuality (gotw.ca)](http://www.gotw.ca/publications/mill18.htm)
+	- virtual function
+		- child class
+		- pure virtual function
+			- child class
+	- pure virtual class
+		- child class
+	- ((66911c62-c3e6-45c2-92b3-b4a9ce4addda))
 - ## Polymorphism and Inheritance
   collapsed:: true
 	- [Abstract Classes And Pure Virtual Functions](https://www.youtube.com/watch?v=wE0_F4LpGVc)
