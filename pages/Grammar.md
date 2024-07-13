@@ -167,7 +167,6 @@
 		  ```
 		-
 - ## Virtuality
-  collapsed:: true
 	- [Virtuality (gotw.ca)](http://www.gotw.ca/publications/mill18.htm)
 - ## Polymorphism and Inheritance
   collapsed:: true
