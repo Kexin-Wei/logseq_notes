@@ -2,7 +2,9 @@
 	- 110 - your age = stock, rest in bonds
 	- Stock: half local, half overseas
 - Find a Good Stock
-	-
+	- 3+1 Profit Index
+		- $\text{Net Profit Margin}=\text{Net Profit} / \text{Revenue}$: higher better
+		- $\text{Current Ratio} = \text{Current Assests}$
 - Investment Type
 	- [Simple but helpful explanations](https://smartasset.com/investing/types-of-investment)
 	- [[ETF(Exchange-Traded Fund)]]
