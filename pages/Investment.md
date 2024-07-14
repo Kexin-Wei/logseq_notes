@@ -14,6 +14,7 @@
 		- Advantages
 			- Brand reputation: apple or hermes
 			- User stickiness: whatsapp
+			- Parent or irreplaceable
 - Investment Type
 	- [Simple but helpful explanations](https://smartasset.com/investing/types-of-investment)
 	- [[ETF(Exchange-Traded Fund)]]
