@@ -20,8 +20,10 @@
 	- Stock prices rise, volatility rises --> VIX > 30%~500%
 	- The market's stock returns will become extremely dispersed
 		- ![image.png](../assets/image_1720929455507_0.png)
+- Tech company
 	- AI --> ((66934923-88fa-41dc-9a56-a45621513e19))
-		- ![image.png](../assets/image_1720929579145_0.png)
+		- ![image.png](../assets/image_1720929579145_0.png){:height 258, :width 346}
+	- ![image.png](../assets/image_1720929800216_0.png)
 - Investment Type
 	- [Simple but helpful explanations](https://smartasset.com/investing/types-of-investment)
 	- [[ETF(Exchange-Traded Fund)]]
