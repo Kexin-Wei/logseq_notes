@@ -17,7 +17,7 @@
 			- Parent or irreplaceable
 - Identify a bubble
 	- Stock prices rise, volatility rises --> VIX > 30%~500%
-	-
+	- The market's stock returns will become extremely dispersed
 	-
 - Investment Type
 	- [Simple but helpful explanations](https://smartasset.com/investing/types-of-investment)
