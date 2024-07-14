@@ -1,0 +1,8 @@
+- How to Invest
+	- 110 - your age = stock, rest in bonds
+	- Stock: half local, half overseas
+- Find a Good Stock
+	-
+- Investment Type
+	- [Simple but helpful explanations](https://smartasset.com/investing/types-of-investment)
+	- [[ETF(Exchange-Traded Fund)]]

@@ -1,4 +1,5 @@
 - 💻️Software Development
+  collapsed:: true
 	- [[Software Management]]
 	- [[C++]]
 	- [[CMake]]
@@ -101,10 +102,7 @@
 		- [[Ibn Khaldun]]
 		- [[Nelson Mandela]]
 - 💶Economics
-  collapsed:: true
-	- [[Investment Type]]
-	- 110 - your age = stock, rest in bonds
-	- Stock: half local, half overseas
+	- [[Investment]]
 - 🗺️Languages Learning
   collapsed:: true
 	- IPA
