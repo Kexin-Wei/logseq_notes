@@ -12,13 +12,16 @@
 		- Price Level
 			- $\text{Price to Earn Ratio}=\text{Share Price}/\text{Earnings per Share}$
 		- Advantages
+		  id:: 66934923-88fa-41dc-9a56-a45621513e19
 			- Brand reputation: apple or hermes
 			- User stickiness: whatsapp
 			- Parent or irreplaceable
 - Identify a bubble
 	- Stock prices rise, volatility rises --> VIX > 30%~500%
 	- The market's stock returns will become extremely dispersed
-	-
+		- ![image.png](../assets/image_1720929455507_0.png)
+	- AI --> ((66934923-88fa-41dc-9a56-a45621513e19))
+		- ![image.png](../assets/image_1720929579145_0.png)
 - Investment Type
 	- [Simple but helpful explanations](https://smartasset.com/investing/types-of-investment)
 	- [[ETF(Exchange-Traded Fund)]]
