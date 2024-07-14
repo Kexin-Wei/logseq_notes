@@ -23,7 +23,10 @@
 - Tech company
 	- AI --> ((66934923-88fa-41dc-9a56-a45621513e19))
 		- ![image.png](../assets/image_1720929579145_0.png){:height 258, :width 346}
-	- ![image.png](../assets/image_1720929800216_0.png)
+	- QQQ relates to tech
+		- ![image.png](../assets/image_1720929800216_0.png){:height 274, :width 469}
+	- Profit shrink
+		- ![image.png](../assets/image_1720929959148_0.png){:height 226, :width 468}
 - Investment Type
 	- [Simple but helpful explanations](https://smartasset.com/investing/types-of-investment)
 	- [[ETF(Exchange-Traded Fund)]]
