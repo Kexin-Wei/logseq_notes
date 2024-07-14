@@ -10,7 +10,10 @@
 			- $\text{Current Ratio} = \text{Current Assets} / \text{Current Liabilities}$
 			- better >1.5, at least > 1
 		- Price Level
-			- $\text{Price to Earn Ratio}=\text{Share Price}/\text{}$
+			- $\text{Price to Earn Ratio}=\text{Share Price}/\text{Earnings per Share}$
+		- Advantages
+			- Brand reputation: apple or hermes
+			- User stickiness: whatsapp
 - Investment Type
 	- [Simple but helpful explanations](https://smartasset.com/investing/types-of-investment)
 	- [[ETF(Exchange-Traded Fund)]]
