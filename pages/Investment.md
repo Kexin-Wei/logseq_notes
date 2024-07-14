@@ -15,6 +15,9 @@
 			- Brand reputation: apple or hermes
 			- User stickiness: whatsapp
 			- Parent or irreplaceable
+- Identify a bubble
+	- Stock prices rise, volatility rises
+	-
 - Investment Type
 	- [Simple but helpful explanations](https://smartasset.com/investing/types-of-investment)
 	- [[ETF(Exchange-Traded Fund)]]
