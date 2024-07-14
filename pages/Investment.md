@@ -3,8 +3,14 @@
 	- Stock: half local, half overseas
 - Find a Good Stock
 	- 3+1 Profit Index
-		- $\text{Net Profit Margin}=\text{Net Profit} / \text{Revenue}$: higher better
-		- $\text{Current Ratio} = \text{Current Assests}$
+		- Profitability
+			- $\text{Net Profit Margin}=\text{Net Profit} / \text{Revenue}$
+			- higher better
+		- Finance Health
+			- $\text{Current Ratio} = \text{Current Assets} / \text{Current Liabilities}$
+			- better >1.5, at least > 1
+		- Price Level
+			- $\text{Price to Earn Ratio}=\text{Share Price}/\text{}$
 - Investment Type
 	- [Simple but helpful explanations](https://smartasset.com/investing/types-of-investment)
 	- [[ETF(Exchange-Traded Fund)]]
