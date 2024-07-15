@@ -220,10 +220,9 @@
 		- pure virtual function
 			- child class
 			- ![image.png](../assets/image_1721011037067_0.png){:height 424, :width 567}
-		- pure virtual class
+		- abstrpure virtual class
 			- child class
 		- ((66911c62-c3e6-45c2-92b3-b4a9ce4addda))
-	-
 - ## Explicit
   id:: 668cd6b9-7368-48c8-b610-13c4fe6cd7ab
   collapsed:: true
