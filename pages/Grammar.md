@@ -168,18 +168,62 @@
 		  };
 		  ```
 		-
-- ## Virtuality
-	- [Virtuality (gotw.ca)](http://www.gotw.ca/publications/mill18.htm)
-	- virtual function
-		- child class
+- ## Polymorphism and Inheritance
+	- [Abstract Classes And Pure Virtual Functions](https://www.youtube.com/watch?v=wE0_F4LpGVc)
+	- ### Virtuality
+		- [Virtuality (gotw.ca)](http://www.gotw.ca/publications/mill18.htm)
+		- #### virtual function
+		  collapsed:: true
+			- More see [virtual function specifier - cppreference.com](https://en.cppreference.com/w/cpp/language/virtual)
+			- They are always defined in the base class and overridden in a derived class.
+			- They are mainly used to achieve [Runtime polymorphism](https://www.geeksforgeeks.org/polymorphism-in-c/).
+			- A class may have a [virtual destructor](https://www.geeksforgeeks.org/virtual-destructor/) but it cannot have a virtual constructor.
+			- ```C++
+			  struct Base
+			  {
+			      virtual void f()
+			      {
+			          std::cout << "base\n";
+			      }
+			  };
+			   
+			  struct Derived : Base
+			  {
+			      void f() override // 'override' is optional
+			      {
+			          std::cout << "derived\n";
+			      }
+			  };
+			   
+			  int main()
+			  {
+			      Base b;
+			      Derived d;
+			   
+			      // virtual function call through reference
+			      Base& br = b; // the type of br is Base&
+			      Base& dr = d; // the type of dr is Base& as well
+			      br.f(); // prints "base"
+			      dr.f(); // prints "derived"
+			   
+			      // virtual function call through pointer
+			      Base* bp = &b; // the type of bp is Base*
+			      Base* dp = &d; // the type of dp is Base* as well
+			      bp->f(); // prints "base"
+			      dp->f(); // prints "derived"
+			   
+			      // non-virtual function call
+			      br.Base::f(); // prints "base"
+			      dr.Base::f(); // prints "base"
+			  }
+			  ```
 		- pure virtual function
 			- child class
-	- pure virtual class
-		- child class
-	- ((66911c62-c3e6-45c2-92b3-b4a9ce4addda))
-- ## Polymorphism and Inheritance
-  collapsed:: true
-	- [Abstract Classes And Pure Virtual Functions](https://www.youtube.com/watch?v=wE0_F4LpGVc)
+			- ![image.png](../assets/image_1721011037067_0.png){:height 424, :width 567}
+		- pure virtual class
+			- child class
+		- ((66911c62-c3e6-45c2-92b3-b4a9ce4addda))
+	-
 - ## Explicit
   id:: 668cd6b9-7368-48c8-b610-13c4fe6cd7ab
   collapsed:: true
@@ -256,3 +300,4 @@
 	- ```C++
 	  auto glambda = [](auto a, auto&& b) { return a < b; };
 	  ```
+- ## Friend Class
