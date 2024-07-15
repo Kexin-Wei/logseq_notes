@@ -220,7 +220,8 @@
 		- pure virtual function
 			- child class
 			- ![image.png](../assets/image_1721011037067_0.png){:height 424, :width 567}
-		- abstrpure virtual class
+		- abstract class
+			- A class that *contains* a pure virtual function is known as an abstract class.
 			- child class
 		- ((66911c62-c3e6-45c2-92b3-b4a9ce4addda))
 - ## Explicit
