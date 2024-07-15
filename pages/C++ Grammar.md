@@ -304,6 +304,35 @@
 	  ```
 - ## Friend Class
 - ## [[Singleton]]
+- ## Covariance
+	- [Covariance and contravariance in C++ – Arthur O'Dwyer – Stuff mostly about C++ (quuxplusone.github.io)](https://quuxplusone.github.io/blog/2019/01/20/covariance-and-contravariance/)
+	- ```C++
+	  struct Animal {
+	      virtual void make_noise() = 0;
+	      virtual ~Animal() = default;
+	  };
+	  
+	  struct Cat : Animal {
+	      void make_noise() override { puts("meow"); }
+	  };
+	  
+	  struct Horse : Animal {
+	      void make_noise() override { puts("neigh"); }
+	      virtual void ride() { puts("okay sure"); }
+	  };
+	  
+	  struct AnimalBreeder {
+	      virtual Animal *produce() = 0;
+	  };
+	  
+	  struct CatBreeder : AnimalBreeder {
+	      Cat *produce() override { return new Cat; } // covariant return types.
+	  };
+	  
+	  struct HorseBreeder : AnimalBreeder {
+	      Horse *produce() override { return new Horse; } // covariant return types.
+	  };
+	  ```
 - ## inline
 	- [Inline Functions in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/inline-functions-cpp/)
 	- inline only a request to the compiler, not a command.
