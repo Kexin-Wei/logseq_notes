@@ -304,3 +304,13 @@
 	  ```
 - ## Friend Class
 - ## [[Singleton]]
+- ## inline
+	- [Inline Functions in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/inline-functions-cpp/)
+	- inline only a request to the compiler, not a command.
+	- The compiler can ignore the request for inline.
+	- **The compiler may not perform inlining in such circumstances as: **
+		- If a function contains a loop. (*for, while and do-while*)
+		- If a function contains static variables.
+		- If a function is recursive.
+		- If a function return type is other than void, and the return statement doesn’t exist in a function body.
+		- If a function contains a switch or goto statement.
