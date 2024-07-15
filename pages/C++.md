@@ -1,6 +1,9 @@
 ## [[Environment Set Up in Windows]]
 - ## [[Code Review]]
 - # [[Grammar]]
+  :LOGBOOK:
+  CLOCK: [2024-07-15 Mon 14:06:52]--[2024-07-15 Mon 14:06:52] =>  00:00:00
+  :END:
 - # Threading
 	-
 - # C++ Unit Test

@@ -220,9 +220,11 @@
 		- pure virtual function
 			- child class
 			- ![image.png](../assets/image_1721011037067_0.png){:height 424, :width 567}
-		- abstract class
+		- Abstract class
 			- A class that *contains* a pure virtual function is known as an abstract class.
 			- child class
+		- Override
+			- [Abstract class - cppreference.com](https://en.cppreference.com/w/cpp/language/abstract_class)
 		- ((66911c62-c3e6-45c2-92b3-b4a9ce4addda))
 - ## Explicit
   id:: 668cd6b9-7368-48c8-b610-13c4fe6cd7ab
