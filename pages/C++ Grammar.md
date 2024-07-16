@@ -343,3 +343,4 @@
 		- If a function is recursive.
 		- If a function return type is other than void, and the return statement doesn’t exist in a function body.
 		- If a function contains a switch or goto statement.
+- [Liskov substitution principle - Wikipedia](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
