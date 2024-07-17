@@ -37,7 +37,6 @@
 	- [[🫀Prostate]]
 	- [[🧠Brain Computer Interface]]
 - 🩻 Medical Image
-  collapsed:: true
 	- [[CT  Computed Tomography Image]]
 	- Ultrasound
 		- [[Ultrasound Basic]]
