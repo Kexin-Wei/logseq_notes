@@ -6,5 +6,4 @@
 - [[C-Mode Color Doppler]]
 - [[THI Tissue Harmonic Imaging]]
 - [[DTHI Differential Tissue Harmonic Imaging]]
-- [[DICOM]]
 - [[Elastography]]
