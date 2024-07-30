@@ -19,7 +19,7 @@
 			- [IGTL](http://openigtlink.org/users/)
 			- [Plus](https://plustoolkit.github.io/)
 - 🤖Robot
-  collapsed:: true
+	- [[Corporate Explorer]]
 	- [[Soft Tissue Deformation]]
 	- [[Soft Robot]]
 	- [[🤖Robot Control]]
@@ -79,6 +79,7 @@
 	- [DL in image registration](https://www.youtube.com/watch?v=c4dvyTBvysQ https://www.youtube.com/watch?v=O3TmEcaN5Ww)
 	- [[🗣️Natural Language Processing]]
 - ⛺️Survivor
+  collapsed:: true
 	- [[Survivorman]]
 - 🥼Science Theory
   collapsed:: true
