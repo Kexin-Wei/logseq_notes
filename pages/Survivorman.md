@@ -1,5 +1,5 @@
-# Bookmark 
-[s1e2](https://www.youtube.com/watch?v=U6hU7d3yW10&t=1386s)
+# Bookmark
+	- [s1e2](https://www.youtube.com/watch?v=U6hU7d3yW10&t=1386s) #PICKME
 - ## Eatable
 	- [Desert Christmas cactus - eat fruit after removing stinks](https://en.wikipedia.org/wiki/Cylindropuntia_leptocaulis)
 	- [Bark Scorpion  - remove stink](https://en.wikipedia.org/wiki/Arizona_bark_scorpion)
