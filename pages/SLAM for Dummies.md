@@ -1,2 +1,1 @@
-- ![SLAM for Dummies](slam_for_dummies.pdf)
-	- TODO Read this pdf
+- ![SLAM for Dummies](slam_for_dummies.pdf) #🙋🏻PICKME

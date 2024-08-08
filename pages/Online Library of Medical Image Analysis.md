@@ -1,8 +1,8 @@
-- # Dataset #👩‍💻software
+# Dataset #software
 	- [Abdomen organs in CT](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789)
 		- [Other Possible Datasets](https://www.synapse.org/#)
 	- [Github Prostate Ultrasound Image Dataset](https://github.com/nurbalbayrak/prostate_volume_estimation)
-- # 3D Slicer Plugin for Medical Image Analysis #👩‍💻software
+- # 3D Slicer Plugin for Medical Image Analysis #software
 	- [Segmentation](https://slicer.readthedocs.io/en/latest/user_guide/image_segmentation.html#segmentation-modules)
 		- [SegmentEditorExtraEffects](https://github.com/lassoan/SlicerSegmentEditorExtraEffects): Adds 8 more effects to Segment Editor.
 		- [SurfaceWrapSolidify](https://github.com/sebastianandress/Slicer-SurfaceWrapSolidify): fill in internal holes in a segmented image region or retrieve the largest cavity inside a segmentation.
@@ -32,7 +32,7 @@
 			- [Segmentation Youtube Video Tutorial](https://www.youtube.com/watch?v=ucnvE16pkmI&t=23s)
 			- limited options in 3d Slicer, only have brain tumor, lung, and spleen
 		- [RVesselX](https://github.com/R-Vessel-X/SlicerRVXLiverSegmentation): Semi-automatic **liver** parenchyma and vessels segmentation.
-- # General #👩‍💻software for medical Image Analysis
+- # General #software for medical Image Analysis
 	- [MIRTK](https://mirtk.github.io/index.html): The main application of the MIRTK is in adult and neonatal brain MR image registration as well as the reconstruction of cortical surface meshes
 	- [TotalSegmentator](https://github.com/wasserth/TotalSegmentator)
 		- based on model structure [nnUNet](https://github.com/MIC-DKFZ/nnUNet)

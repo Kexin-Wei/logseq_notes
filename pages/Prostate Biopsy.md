@@ -1,4 +1,4 @@
-- #📺️youtube
+- #youtube
 - Categories
 	- [[Systematic Biopsy]]
 	- Targeted Biopsy

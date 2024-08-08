@@ -2,7 +2,7 @@
 - [abseil / C++ Quickstart With CMake](https://abseil.io/docs/cpp/quickstart-cmake.html)
 - [Boost C++ Libraries](https://www.boost.org/)
 - ## Constructor
-	- [The rule of three/five/zero - cppreference.com](https://en.cppreference.com/w/cpp/language/rule_of_three) #TRYCODE
+	- [The rule of three/five/zero - cppreference.com](https://en.cppreference.com/w/cpp/language/rule_of_three) #💻️TRYCODE
 	- delete operator
 	- assign operator
 - ## Destructor
@@ -136,7 +136,7 @@
 		-
 - ## Pointer
 	- [Pointer vs Reference Tutorial](https://www.geeksforgeeks.org/different-ways-to-use-const-with-reference-to-a-pointer-in-c/)
-	- shared pointer #TRYCODE
+	- shared pointer #💻️TRYCODE
 		- [shared_ptr in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/shared_ptr-in-cpp/)
 - ## td library
   collapsed:: true

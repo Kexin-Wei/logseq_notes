@@ -339,7 +339,7 @@
 - Parallel Robot
 	- ![image.png](../assets/image_1694012207870_0.png)
 	- ![image.png](../assets/image_1694012240457_0.png)
-- Python Package for Kinematics #👩‍💻software
+- Python Package for Kinematics #software
 	- [moble/quaternionic: Interpret numpy arrays as quaternionic arrays with numba acceleration (github.com)](https://github.com/moble/quaternionic): evolved from the [quaternion](https://github.com/moble/quaternion) package, numpy adaptive
 	- [quaternion](https://github.com/moble/quaternion/) (core written in C; very fast; adds quaternion `dtype` to numpy; named [numpy-quaternion](https://pypi.org/project/numpy-quaternion/) on pypi due to name conflict)
 	- [clifford](https://github.com/pygae/clifford) (very powerful; more general geometric algebras)

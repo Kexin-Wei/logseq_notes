@@ -19,7 +19,7 @@
 			- |Method|Result|
 			  |--|--|
 			  | ![image.png](../assets/image_1684311949778_0.png) | ![image.png](../assets/image_1684291705959_0.png){:height 557, :width 685} |
-			- https://plastimatch.org/ #👩‍💻software
+			- https://plastimatch.org/ #software
 			  collapsed:: true
 				- BSD License: commercial okay
 				- CT, MRI, PET

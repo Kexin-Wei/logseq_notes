@@ -10,7 +10,6 @@
 - # Company & Design
 	- [Manufacturers - Focused Ultrasound Foundation (fusfoundation.org)](https://www.fusfoundation.org/the-technology/manufacturers/) #📑READ
 	- ## HIFU Device Design
-	  collapsed:: true
 		- [Delta III](https://www.dornier.com/products-item/dornier-delta-3/) #abdomen
 		  collapsed:: true
 		  ![](/../assets/delta3.gif)
@@ -28,7 +27,7 @@
 				- With the help of ultrasound and X-ray imaging, the shock wave generator is positioned so that the shock waves are concentrated on the stone. X-rays and/or ultrasounds are also used to check the success of the treatment during and after the procedure.
 		- [Alpius 900](http://www.alpinion.com/en/product/product_view_alpius900.do?productKey=KEY.1505083248000000219) #abdomen
 		  ![](/../assets/alpius.png){:height 289, :width 440}
-		- [Sonablate HIFU](https://www.sonablate.com/sonablate-hifu) #🫀Prostate
+		- [Sonablate HIFU](https://www.sonablate.com/sonablate-hifu) #Prostate
 		  collapsed:: true
 		  ![Sonablate HIFU](https://assets.website-files.com/6241b7c638141908d1b379b6/62684b58fcb9f7ce6fe863e6_Sonablate_console.png){:height 409, :width 407}
 			- [Sonacare Medical's HIFU Treatment for Prostate Cancer - YouTube](https://www.youtube.com/watch?v=wsHH2u8EIZc&t=101s)
@@ -37,7 +36,6 @@
 		- [Non-Invasive Prostate Treatment | Focal One](https://focalone.com/)
 		  ![Focal One Product Details](https://focalone.com/wp-content/uploads/2022/01/Focal-One-3-4-jvp-V2-1012x1024.png){:height 385, :width 387}
 	- ## HIFU Transducer
-	  collapsed:: true
 		- [Therapy Transducers – Sonic Concepts, Inc.](https://sonicconcepts.com/therapy-transducers/)
 		  collapsed:: true
 		  ![Transducer1](https://sonicconcepts.com/wp-content/uploads/2016/03/H-SeriesDeepHIFUTransducers-020-960-84.jpg){:height 243, :width 252}

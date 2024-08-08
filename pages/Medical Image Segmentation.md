@@ -7,8 +7,8 @@
 - # Segmentation Algorithm
 	- Region Grow
 		- [Segmentation/segmentation_methods.ipynb at main · gilzeevi25/Segmentation (github.com)](https://github.com/gilzeevi25/Segmentation/blob/main/segmentation_methods.ipynb)
-- # Segmentation Tool #👩‍💻software
-	- Manually Segmentation Software #👩‍💻software
+- # Segmentation Tool #software
+	- Manually Segmentation Software #software
 	  collapsed:: true
 		- ~~[MedSeg (amazonaws.com)](http://htmlsegmentation.s3.eu-north-1.amazonaws.com/index.html)~~
 		- ~~[BioImage Suite Web](https://bioimagesuiteweb.github.io/webapp/)~~

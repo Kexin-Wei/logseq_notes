@@ -51,7 +51,7 @@ file-path:: file://D:/Dropbox/Study/ZoteroFiles/powell_the bobyqa algorithm for 
   hl-page:: 2
   hl-color:: yellow
   id:: 63be3195-d978-40f3-8fd7-dedfbb29d4dd
-- In these cases, if F is twice differentiable, one cannot expect ∇2Qk to become a good approximation to ∇2F (x∗), #F being far too small. 
+- In these cases, if F is twice differentiable, one cannot expect ∇2Qk to become a good approximation to ∇2F (x∗), F being far too small.
   ls-type:: annotation
   hl-page:: 3
   hl-color:: yellow
