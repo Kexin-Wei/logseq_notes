@@ -32,6 +32,7 @@
 		  ```
 		- ![1280X1280.PNG](../assets/1280X1280_1721709862812_0.PNG){:height 245, :width 510}
 	- Voxel space to physical space
+		- [nrrd-iomf.pdf (uchicago.edu)](https://people.cs.uchicago.edu/~glk/unlinked/nrrd-iomf.pdf)
 		- ![output.png](../assets/output_1721709834880_0.png){:height 184, :width 723}
 - # DICOM
 	- Reference
