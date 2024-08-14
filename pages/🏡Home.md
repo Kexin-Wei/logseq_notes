@@ -101,6 +101,7 @@
 		- [[Ibn Khaldun]]
 		- [[Nelson Mandela]]
 - 💶Economics
+  collapsed:: true
 	- [[Investment]]
 - 🗺️Languages Learning
   collapsed:: true
