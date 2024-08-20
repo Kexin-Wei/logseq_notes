@@ -121,12 +121,7 @@
 				- DONE Unit 3
 				- TODO Unit 4
 - # Book
-- 👩🏻‍⚕️Doktoratsstudium
-  collapsed:: true
-	- [[How to find a prof]]
-	- [[English PhD Guide]]
-	- [[German PhD Guide]]
-	- [[Search PhD by Uni]]
+	- collapsed:: true
 - # Tool
 	- Learning website to if you can't find help
 	  collapsed:: true

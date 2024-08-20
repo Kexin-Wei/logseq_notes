@@ -1,4 +1,5 @@
 # Dataset
+collapsed:: true
 	- Brain
 		- [2012 MICCAI Multi-Atlas Labeling Challenge Data](http://www.neuromorphometrics.com/2012_MICCAI_Challenge_Data.html)
 			- 30 manually labeled MRI brain scans, 25 unique subjects, 5 subjects scanned twice.
