@@ -17,3 +17,14 @@
 	- Time
 	- Energy
 	- Importance
+- Everyday Tasks
+	- Do planed task
+	- Handle Emergency
+	- Plan
+- Work task goal
+	- 5楼视野：目的和原则
+	- 4楼视野：愿景
+	- 3楼视野：目标
+	- 2楼视野：关注点及责任范围
+	- 1楼视野：当前项目
+	- 地面：当前行动。
