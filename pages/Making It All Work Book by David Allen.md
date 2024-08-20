@@ -1,6 +1,10 @@
 - Definitions
 	- 工作流程图
 		- ![image.png](../assets/image_1724162313628_0.png){:height 402, :width 294}
+	- Task Type
+		- Next
+		- Time
+		- Waiting / Someday / Trash
 - Calendar
 	- 需要在指定时间执行的行动
 	- 需要在指定日期执行的行动
