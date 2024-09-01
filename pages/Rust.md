@@ -1,2 +1,4 @@
-- [Ok & Error](https://www.sheshbabu.com/posts/rust-error-handling/)
--
+- use cargo to manage package
+	- `cargo new PR
+- Trouble shooting
+	- [Ok & Error](https://www.sheshbabu.com/posts/rust-error-handling/)

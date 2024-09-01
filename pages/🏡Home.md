@@ -1,6 +1,5 @@
 # Tech
 	- 💻️Software Development
-	  collapsed:: true
 		- [[Software Management]]
 		- [[C++]]
 		- [[CMake]]
