@@ -45,9 +45,9 @@
 		  )
 		  ```
 - # CMake Library
-	- [[CMake: How to set up Qt]]
-	- [[CMake: How to set up VTK]]
-	- Sources code provided
+	- ## [[CMake: How to set up Qt]]
+	- ## [[CMake: How to set up VTK]]
+	- ## Sources code provided
 	  collapsed:: true
 		- ```CMake
 		  # Sources code provided
@@ -65,7 +65,7 @@
 		  FILE(GLOB SISL_SOURCES "src/*.c" "include/*.h")
 		  add_library(sisl ${SISL_SOURCES})
 		  ```
-	- Static Library
+	- ## Static Library
 	  collapsed:: true
 		- ```CMake
 		  # Static library
@@ -98,7 +98,8 @@
 		  
 		  )
 		  ```
-	- Special Cases
+	- ## Special Cases
+	  collapsed:: true
 		- On Windows, a .dll and its .lib import library may be imported together:
 			- ```CMake
 			  add_library(bar SHARED IMPORTED)
@@ -170,6 +171,8 @@
 			      set_property(TARGET emtrackerlib PROPERTY IMPORTED_IMPLIB ${CMAKE_CURRENT_SOURCE_DIR}/lib/ATC3DG.lib)
 			  endif()
 			  ```
+	- ## Add library from git
+		- [引入外部项目 | CMakeTutorial (brightxiaohan.github.io)](https://brightxiaohan.github.io/CMakeTutorial/ImportExternalProject/)
 - # CMake Rare Cases
 	- [[_declspec(dllexport) and _declspec(dllimport)]]
 - # Tool
