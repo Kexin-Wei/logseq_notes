@@ -346,8 +346,38 @@
 	- **Pointer**
 	- **Literal class types**: Classes that have at least one non-static data member of a literal type, and all of their constructors, copy/move constructors, and assignment operators are `constexpr`
 		- `constexpr` constructor
-			- """C++
+			- ```C++
+			  class Point {
+			  public:
+			      constexpr Point(int x, int y) : x(x), y(y) {}
 			  
-			  """
-			-
+			      constexpr int getX() const { return x; }
+			      constexpr int getY() const { return y; }
+			  
+			  private:
+			      int x, y;
+			  };
+			  
+			  constexpr Point p(1, 2); // p is a compile-time constant
+			  ```
+		- non `constexpr` constructor
+		  can perform any valid *C++ operations*, including *dynamic memory allocation* and *I/O*
+			- ```C++
+			  class Point {
+			  public:
+			      Point(int x, int y) : x(x), y(y) {
+			          // This constructor is not constexpr
+			          // It can contain any valid C++ statements
+			          std::cout << "Point created at (" << x << ", " << y << ")" << std::endl;
+			      }
+			  
+			      int getX() const { return x; }
+			      int getY() const { return y; }
+			  
+			  private:
+			      int x, y;
+			  };
+			  
+			  Point p(1, 2); // p is a runtime object, not a compile-time constant
+			  ```
 - [Liskov substitution principle - Wikipedia](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
