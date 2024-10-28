@@ -344,6 +344,10 @@
 	- Benefits:
 		- **Performance **: reduce runtime overhead
 		- **Type Safety**: enforces that certain expressions are constant at compile time
+		- **Improved Readability**: explicit to intend as constant expression
+		- **Flexibility in Code**
+			- Functions declared as `constexpr` can operate both at compile time and runtime
+			- **Usage in Templates**: `constexpr` values can be used as non-type template parameters for greater optimization opportunities during compilation
 	- Including Types:
 		- **Fundamental types**: `bool`, `char`, `wchar_t`, `char8_t`, `char16_t`, `char32_t`, `short`, `int`, `long`, `long long`, `float`, `double`, `long double`, and `void*`.
 		- **Enumeration**
