@@ -224,6 +224,52 @@
 		- Override
 			- [Abstract class - cppreference.com](https://en.cppreference.com/w/cpp/language/abstract_class)
 		- ((66911c62-c3e6-45c2-92b3-b4a9ce4addda))
+- ## Lambda
+	- [Lambda expressions (since C++11) - cppreference.com](https://en.cppreference.com/w/cpp/language/lambda)
+	- ```C++
+	  auto glambda = [](auto a, auto&& b) { return a < b; };
+	  ```
+- ## Friend Class
+- ## [[Singleton]]
+- ## Covariance
+	- [Covariance and contravariance in C++ – Arthur O'Dwyer – Stuff mostly about C++ (quuxplusone.github.io)](https://quuxplusone.github.io/blog/2019/01/20/covariance-and-contravariance/)
+	- ```C++
+	  struct Animal {
+	      virtual void make_noise() = 0;
+	      virtual ~Animal() = default;
+	  };
+	  
+	  struct Cat : Animal {
+	      void make_noise() override { puts("meow"); }
+	  };
+	  
+	  struct Horse : Animal {
+	      void make_noise() override { puts("neigh"); }
+	      virtual void ride() { puts("okay sure"); }
+	  };
+	  
+	  struct AnimalBreeder {
+	      virtual Animal *produce() = 0;
+	  };
+	  
+	  struct CatBreeder : AnimalBreeder {
+	      Cat *produce() override { return new Cat; } // covariant return types.
+	  };
+	  
+	  struct HorseBreeder : AnimalBreeder {
+	      Horse *produce() override { return new Horse; } // covariant return types.
+	  };
+	  ```
+- ## inline
+	- [Inline Functions in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/inline-functions-cpp/)
+	- inline only a request to the compiler, not a command.
+	- The compiler can ignore the request for inline.
+	- **The compiler may not perform inlining in such circumstances as: **
+		- If a function contains a loop. (*for, while and do-while*)
+		- If a function contains static variables.
+		- If a function is recursive.
+		- If a function return type is other than void, and the return statement doesn’t exist in a function body.
+		- If a function contains a switch or goto statement.
 - ## Explicit
   id:: 668cd6b9-7368-48c8-b610-13c4fe6cd7ab
 	- To prevent auto implicit conversion
@@ -294,50 +340,5 @@
 		      // ...
 		  };
 		  ```
-- ## Lambda
-	- [Lambda expressions (since C++11) - cppreference.com](https://en.cppreference.com/w/cpp/language/lambda)
-	- ```C++
-	  auto glambda = [](auto a, auto&& b) { return a < b; };
-	  ```
-- ## Friend Class
-- ## [[Singleton]]
-- ## Covariance
-	- [Covariance and contravariance in C++ – Arthur O'Dwyer – Stuff mostly about C++ (quuxplusone.github.io)](https://quuxplusone.github.io/blog/2019/01/20/covariance-and-contravariance/)
-	- ```C++
-	  struct Animal {
-	      virtual void make_noise() = 0;
-	      virtual ~Animal() = default;
-	  };
-	  
-	  struct Cat : Animal {
-	      void make_noise() override { puts("meow"); }
-	  };
-	  
-	  struct Horse : Animal {
-	      void make_noise() override { puts("neigh"); }
-	      virtual void ride() { puts("okay sure"); }
-	  };
-	  
-	  struct AnimalBreeder {
-	      virtual Animal *produce() = 0;
-	  };
-	  
-	  struct CatBreeder : AnimalBreeder {
-	      Cat *produce() override { return new Cat; } // covariant return types.
-	  };
-	  
-	  struct HorseBreeder : AnimalBreeder {
-	      Horse *produce() override { return new Horse; } // covariant return types.
-	  };
-	  ```
-- ## inline
-	- [Inline Functions in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/inline-functions-cpp/)
-	- inline only a request to the compiler, not a command.
-	- The compiler can ignore the request for inline.
-	- **The compiler may not perform inlining in such circumstances as: **
-		- If a function contains a loop. (*for, while and do-while*)
-		- If a function contains static variables.
-		- If a function is recursive.
-		- If a function return type is other than void, and the return statement doesn’t exist in a function body.
-		- If a function contains a switch or goto statement.
+- ##
 - [Liskov substitution principle - Wikipedia](https://en.wikipedia.org/wiki/Liskov_substitution_principle)

@@ -1,2 +1,1 @@
 - [[🏡Home]]
-- {{renderer :tocgen2, [[cmake]], calc(100vh - 135px)}}
