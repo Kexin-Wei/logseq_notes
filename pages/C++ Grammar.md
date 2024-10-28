@@ -340,5 +340,14 @@
 		      // ...
 		  };
 		  ```
-- ##
+- ## constexpr
+	- **Fundamental types**: `bool`, `char`, `wchar_t`, `char8_t`, `char16_t`, `char32_t`, `short`, `int`, `long`, `long long`, `float`, `double`, `long double`, and `void*`.
+	- **Enumeration**
+	- **Pointer**
+	- **Literal class types**: Classes that have at least one non-static data member of a literal type, and all of their constructors, copy/move constructors, and assignment operators are `constexpr`
+		- `constexpr` constructor
+			- """C++
+			  
+			  """
+			-
 - [Liskov substitution principle - Wikipedia](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
