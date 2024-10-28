@@ -338,4 +338,6 @@
  :default-home {:page "🏡Home"}
  :feature/enable-whiteboards? false
  :ui/auto-expand-block-refs? false
+ :editor/logical-outdenting? true
+ :ui/show-full-blocks? true
  }
