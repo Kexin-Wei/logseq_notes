@@ -348,6 +348,8 @@
 		- **Flexibility in Code**
 			- Functions declared as `constexpr` can operate both at compile time and runtime
 			- **Usage in Templates**: `constexpr` values can be used as non-type template parameters for greater optimization opportunities during compilation
+		- **Static Initialization**: Objects initialized with `constexpr` constructors undergo static initialization
+		-
 	- Including Types:
 		- **Fundamental types**: `bool`, `char`, `wchar_t`, `char8_t`, `char16_t`, `char32_t`, `short`, `int`, `long`, `long long`, `float`, `double`, `long double`, and `void*`.
 		- **Enumeration**
