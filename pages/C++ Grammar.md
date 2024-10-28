@@ -138,12 +138,10 @@
 	- [Pointer vs Reference Tutorial](https://www.geeksforgeeks.org/different-ways-to-use-const-with-reference-to-a-pointer-in-c/)
 	- shared pointer #💻️TRYCODE
 		- [shared_ptr in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/shared_ptr-in-cpp/)
-- ## td library
-  collapsed:: true
+- ## std library
 	- [std::variant](https://en.cppreference.com/w/cpp/utility/variant)
 	- [std::visit](https://en.cppreference.com/w/cpp/utility/variant/visit)
 - ## Template
-  collapsed:: true
 	- In class / struct / function
 		- ```C++
 		  template <typename T>
