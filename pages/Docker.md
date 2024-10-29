@@ -29,7 +29,8 @@
 		  wsl --unregister docker-desktop
 		  wsl --import docker-desktop E:\docker-desktop\distro E:\docker-desktop\docker-desktop.tar --version 2
 		  ```
-		- 2. move linux container
+		- 2. move linux container `data-root`
+		- 3. move windows container `data-root` to same folder
 	-
 - # Docker in VS Code
 	- [Tutorial: Get started with Docker apps in Visual Studio Code | Microsoft Learn](https://learn.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial?WT.mc_id=vscode_docker_aka_helppanel)
