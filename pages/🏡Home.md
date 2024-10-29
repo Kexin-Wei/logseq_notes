@@ -1,5 +1,5 @@
 # Tech
-	- 💻️Software Development
+	- ## 💻️Software Development
 		- [[Software Management]]
 		- [[C++]]
 		- [[CMake]]
@@ -18,7 +18,7 @@
 				- [For Users (openigtlink.org)](http://openigtlink.org/users/)
 				- [IGTL](http://openigtlink.org/users/)
 				- [Plus](https://plustoolkit.github.io/)
-	- 🤖Robot
+	- ## 🤖Robot
 	  collapsed:: true
 		- [[Corporate Explorer]]
 		- [[Soft Tissue Deformation]]
@@ -29,7 +29,7 @@
 		- [[🏃Motion Tracking]]
 		- [[📈Signal Processing]]
 		- [[✈️SLAM]]
-	- 🏥Medical Knowledge
+	- ## 🏥Medical Knowledge
 	  collapsed:: true
 		- [[BBN Blood Brain Barrier]]
 		- [[Anatomy Views of Human]]
@@ -37,7 +37,7 @@
 		- [[Laparoscopic Surgery]]
 		- [[Prostate]]
 		- [[🧠Brain Computer Interface]]
-	- 🩻 Medical Image
+	- ## 🩻 Medical Image
 	  collapsed:: true
 		- [[Medical Image]]
 		- [[CT  Computed Tomography Image]]
@@ -59,7 +59,7 @@
 			- [[Medical Image Interpolation]]
 			- [[Medical Image Segmentation]]
 			- [[MRI-US Prostate Registration]]
-	- 🖥️ Image Processing
+	- ## 🖥️ Image Processing
 	  collapsed:: true
 		- [[Installation of Image Processing Repo]]
 		- [[Corner Detection]]
@@ -72,7 +72,7 @@
 			- • Segmentation can aid registration
 			  • Registration can aid segmentation
 			  • Interleaving segmentation and registration
-	- 🧠AI
+	- ## 🧠AI
 	  collapsed:: true
 		- [[AI Intro]]
 		- [[Download Google Drive in Colab or Jupyter]]
@@ -81,10 +81,10 @@
 		- [DL in image registration](https://www.youtube.com/watch?v=c4dvyTBvysQ https://www.youtube.com/watch?v=O3TmEcaN5Ww)
 		- [[🗣️Natural Language Processing]]
 - # World
-	- ⛺️Survivor
+	- ## ⛺️Survivor
 	  collapsed:: true
 		- [[Survivorman]]
-	- 🥼Science Theory
+	- ## 🥼Science Theory
 	  collapsed:: true
 		- [[⚡️Electric Engineering]]
 		  :LOGBOOK:
@@ -92,7 +92,7 @@
 		  :END:
 		- [[🌍️Physics]]
 		- [[🔢Mathematics]]
-	- 🏛️Bite of History
+	- ## 🏛️Bite of History
 	  collapsed:: true
 		- Ten must known people
 			- [[Mahatma Gandhi]]
@@ -105,10 +105,10 @@
 			- [[Queen Elizabeth I]]
 			- [[Ibn Khaldun]]
 			- [[Nelson Mandela]]
-	- 💶Economics
+	- ## 💶Economics
 	  collapsed:: true
 		- [[Investment]]
-	- 🗺️Languages Learning
+	- ## 🗺️Languages Learning
 	  collapsed:: true
 		- IPA
 			- [IPA Chart](https://www.ipachart.com/)
@@ -123,11 +123,11 @@
 	- [[Making It All Work Book by David Allen]]
 	  collapsed:: true
 - # Tool
-	- Learning website to if you can't find help
+	- ## Learning website to if you can't find help
 	  collapsed:: true
 		- https://scienceexchange.caltech.edu/
 		- https://brilliant.org/?utm_medium=sponsor&utm_source=youtube&utm_campaign=upandatom_170123
-	- Logseq
+	- ## Logseq
 	  collapsed:: true
 		- [[Logseq + Zotero Setting]]
 	- #software
