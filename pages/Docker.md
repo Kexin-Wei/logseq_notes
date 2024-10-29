@@ -14,8 +14,12 @@
 			  curl http://server:80
 			  ```
 - # Docker in Windows 11 Pro
-	- enable Windows feature
-		-
+	- ## Enable Windows feature
+	  collapsed:: true
+		- red for windows container
+		- green for linux container
+		- ![image.png](../assets/image_1730206360300_0.png)
+	-
 - # Docker in VS Code
 	- [Tutorial: Get started with Docker apps in Visual Studio Code | Microsoft Learn](https://learn.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial?WT.mc_id=vscode_docker_aka_helppanel)
 	- [VS Code Docker Extension - YouTube](https://www.youtube.com/playlist?list=PLReL099Y5nRf3XEK2f8G8FpMi3XSGPcSZ)
