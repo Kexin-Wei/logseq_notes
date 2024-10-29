@@ -20,13 +20,16 @@
 		- green for linux container
 		- ![image.png](../assets/image_1730206360300_0.png)
 	- Move Docker to Other Places
-		- ```bash
+		- [Reference]([How to Change Docker Data Root Path on Windows 10](https://kontext.tech/article/1216/how-to-change-docker-data-root-path-on-windows-10))
+		- 1. move distro
+		  ```bash
 		  wsl -l -v
 		  wsl --shutdown docker-desktop
 		  wsl --export docker-desktop E:\docker-desktop\docker-desktop.tar
 		  wsl --unregister docker-desktop
 		  wsl --import docker-desktop E:\docker-desktop\distro E:\docker-desktop\docker-desktop.tar --version 2
 		  ```
+		- 2. move linux container
 	-
 - # Docker in VS Code
 	- [Tutorial: Get started with Docker apps in Visual Studio Code | Microsoft Learn](https://learn.microsoft.com/en-us/visualstudio/docker/tutorials/docker-tutorial?WT.mc_id=vscode_docker_aka_helppanel)
