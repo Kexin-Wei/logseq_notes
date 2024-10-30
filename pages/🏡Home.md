@@ -3,6 +3,7 @@
 		- [[Software Management]]
 		- [[C++]]
 		- [[CMake]]
+		- [[Git]]
 		- [[Qt]]
 		- [[CUDA]]
 		- [[Docker]]
@@ -13,6 +14,7 @@
 		  collapsed:: true
 		- [[Python Code Encryption]]
 		- Medical Related Open Source
+		  collapsed:: true
 			- List of them #software
 				- [Building Solutions on Open Source Technologies (kitware.com)](https://www.kitware.com/open-source/)
 				- [For Users (openigtlink.org)](http://openigtlink.org/users/)
