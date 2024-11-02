@@ -44,7 +44,7 @@
 			  };
 			  ```
 			  NB: See [Fowler's definition](https://martinfowler.com/bliki/DependencyAndAssociation.html) - the key is that `Bar` is semantically related to `Foo` rather than just a dependency (like an `int` or `string`).
-		- **Dependency** (weakest relationship) - uses another
+		- **Dependency** (weakest relationship) - uses another class temporaily
 - # Threading
 	-
 - # C++ Unit Test
