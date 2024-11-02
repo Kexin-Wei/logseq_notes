@@ -70,7 +70,6 @@
 	- [Enum Classes in C++ and Their Advantage over Enum DataType - GeeksforGeeks](https://www.geeksforgeeks.org/enum-classes-in-c-and-their-advantage-over-enum-datatype/)
 	- [Enum vs Enum Class in C++ · Suneet Agrawal (agrawalsuneet.github.io)](https://agrawalsuneet.github.io/blogs/enum-vs-enum-class-in-c++/)
 	- Enum just int inside
-	  collapsed:: true
 		- ```C++
 		  #include <iostream>
 		  
@@ -93,7 +92,6 @@
 		  }
 		  ```
 	- Enum Class is safer
-	  collapsed:: true
 		- ```C++
 		  #include <iostream>
 		  
@@ -136,11 +134,9 @@
 	- shared pointer #💻️TRYCODE
 		- [shared_ptr in C++ - GeeksforGeeks](https://www.geeksforgeeks.org/shared_ptr-in-cpp/)
 - ## std library
-  collapsed:: true
 	- [std::variant](https://en.cppreference.com/w/cpp/utility/variant)
 	- [std::visit](https://en.cppreference.com/w/cpp/utility/variant/visit)
 - ## Template
-  collapsed:: true
 	- In class / struct / function
 		- ```C++
 		  template <typename T>
