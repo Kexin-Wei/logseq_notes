@@ -21,7 +21,7 @@
 		- [SL: The Standard Library](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sl-the-standard-library)
 - ## Class UML
 	- Association vs Composition vs Aggregation
-		- ![image.png](../assets/image_1721626097937_0.png)
+		-
 		- **Composition** (strongest relationship) - When parent is destroyed, child also
 			- ```
 			  public class Foo {
