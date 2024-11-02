@@ -35,7 +35,7 @@
 			    private Bar bar = new Bar(); 
 			  }
 			  ```
-		- **Aggregation** - (has a)When `Foo` dies, `Bar` may live on.
+		- **Aggregation** (has a relationship) - child exists indepently
 			- ```
 			  public class Foo { 
 			    private Bar bar; 
