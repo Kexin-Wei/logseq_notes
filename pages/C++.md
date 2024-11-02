@@ -1,5 +1,5 @@
 ## [[Environment Set Up in Windows]]
-- Code Review
+- # Code Review
 	- Code Review in Short
 	  id:: 65c2e6e1-32bc-4221-a821-aa644802806d
 		- The code is well-designed.
@@ -22,7 +22,7 @@
 	- Reference
 		- [The Standard of Code Review | eng-practices (google.github.io)](https://google.github.io/eng-practices/review/reviewer/standard.html)
 - # [[C++ Grammar]]
-- C++ Guidelines
+- # C++ Guidelines
 	- [C++ Core Guidelines (isocpp.github.io)](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines) #🙋🏻PICKME
 		- [In: Introduction](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-introduction) ✔️
 		- [P: Philosophy](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-philosophy)

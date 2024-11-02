@@ -1,7 +1,4 @@
-- [cppiceberg](https://fouronnes.github.io/cppiceberg/)
-- [abseil / C++ Quickstart With CMake](https://abseil.io/docs/cpp/quickstart-cmake.html)
-- [Boost C++ Libraries](https://www.boost.org/)
-- ## Constructor
+## Constructor
 	- [The rule of three/five/zero - cppreference.com](https://en.cppreference.com/w/cpp/language/rule_of_three) #💻️TRYCODE
 	- delete operator
 	- assign operator
