@@ -7,7 +7,6 @@
 	- [Destructors - cppreference.com](https://en.cppreference.com/w/cpp/language/destructor)
 	- virtual destructor in derived class
 	  id:: 66911c62-c3e6-45c2-92b3-b4a9ce4addda
-	  collapsed:: true
 		- [When to Use Virtual Destructors in C++? - GeeksforGeeks](https://www.geeksforgeeks.org/when-to-use-virtual-destructors-in-cpp/)
 		- **Output**
 			- ```
