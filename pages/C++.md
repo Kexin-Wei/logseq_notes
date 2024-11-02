@@ -29,13 +29,13 @@
 			  };
 			  ```
 			  NB: See [Fowler's definition](https://martinfowler.com/bliki/DependencyAndAssociation.html) - the key is that `Bar` is semantically related to `Foo` rather than just a dependency (like an `int` or `string`).
-		- **Composition** - I own an object and I am responsible for its lifetime. When `Foo` dies, so does `Bar`
+		- **Composition** (strongest relationship) - When parent is destroyed, child also
 			- ```
 			  public class Foo {
 			    private Bar bar = new Bar(); 
 			  }
 			  ```
-		- **Aggregation** - I have an object which I've borrowed from someone else. When `Foo` dies, `Bar` may live on.
+		- **Aggregation** - (has a)When `Foo` dies, `Bar` may live on.
 			- ```
 			  public class Foo { 
 			    private Bar bar; 
