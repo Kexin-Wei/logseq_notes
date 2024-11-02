@@ -22,13 +22,6 @@
 - ## Class UML
 	- Association vs Composition vs Aggregation
 		- ![image.png](../assets/image_1721626097937_0.png)
-		- **Association** - I have a relationship with an object. `Foo` uses `Bar`
-			- ```
-			  public class Foo {         
-			    private Bar bar;
-			  };
-			  ```
-			  NB: See [Fowler's definition](https://martinfowler.com/bliki/DependencyAndAssociation.html) - the key is that `Bar` is semantically related to `Foo` rather than just a dependency (like an `int` or `string`).
 		- **Composition** (strongest relationship) - When parent is destroyed, child also
 			- ```
 			  public class Foo {
@@ -44,6 +37,13 @@
 			    }
 			  }
 			  ```
+		- **Association** - I have a relationship with an object. `Foo` uses `Bar`
+			- ```
+			  public class Foo {         
+			    private Bar bar;
+			  };
+			  ```
+			  NB: See [Fowler's definition](https://martinfowler.com/bliki/DependencyAndAssociation.html) - the key is that `Bar` is semantically related to `Foo` rather than just a dependency (like an `int` or `string`).
 - # Threading
 	-
 - # C++ Unit Test
