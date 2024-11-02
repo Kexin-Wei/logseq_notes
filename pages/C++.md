@@ -21,7 +21,7 @@
 		- [SL: The Standard Library](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#sl-the-standard-library)
 - ## Class UML
 	- Association vs Composition vs Aggregation
-		-
+		- ![image.png](../assets/image_1730558141306_0.png){:height 676, :width 301}
 		- **Composition** (strongest relationship) - When parent is destroyed, child also
 			- ```
 			  public class Foo {
@@ -37,13 +37,14 @@
 			    }
 			  }
 			  ```
-		- **Association** - I have a relationship with an object. `Foo` uses `Bar`
+		- **Association** (basic relationship) -  know each other but don't own each other. `Foo` uses `Bar`
 			- ```
 			  public class Foo {         
 			    private Bar bar;
 			  };
 			  ```
 			  NB: See [Fowler's definition](https://martinfowler.com/bliki/DependencyAndAssociation.html) - the key is that `Bar` is semantically related to `Foo` rather than just a dependency (like an `int` or `string`).
+		- **Dependency** (weakest relationship) - uses another
 - # Threading
 	-
 - # C++ Unit Test
