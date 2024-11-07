@@ -17,9 +17,8 @@
 			- [QAbstractNativeEventFilter Class | Qt Core 6.7.1](https://doc.qt.io/qt-6/qabstractnativeeventfilter.html)
 	- Qt EventLoop
 		- [Qt事件循环及QEventLoop的使用_qt qeventloop-CSDN博客](https://blog.csdn.net/kupepoem/article/details/121844578)
-		- [Understanding Qt's Event Loop and Signals/Slots - deKonvoluted]
+		- [Understanding Qt's Event Loop and Signals/Slots - deKonvoluted](https://dekonvoluted.github.io/programming/2018/09/16/qt-event-loop.html)
 		  id:: 672cd568-83b1-4f18-a5d3-1da4c52e1195
-		  (https://dekonvoluted.github.io/programming/2018/09/16/qt-event-loop.html)
 		-
 	- Threading
 		- `QMutexLocker`: better and simpler version of `QMutex`
