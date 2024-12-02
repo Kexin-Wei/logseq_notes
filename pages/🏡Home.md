@@ -13,6 +13,7 @@
 		- [[Neovim]]
 		  collapsed:: true
 		- [[Python Code Encryption]]
+		- [ROS](logseq://graph/Kexin-Wei.github.io?page=ROS)
 		- Medical Related Open Source
 		  collapsed:: true
 			- List of them #software
