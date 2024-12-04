@@ -30,7 +30,7 @@
 - ![image.png](../assets/image_1733300939828_0.png)
 - ```bash
   ros2 pkg create A_NEW_PACKAGE
-  ros2 run A_PACKAGE A_NODE
+  ros2 run A_PACKAGE A_NODE -r __node:=A_NEW_NAME
   ros2 node list
   ros2 node info /A_NODE
   ```
