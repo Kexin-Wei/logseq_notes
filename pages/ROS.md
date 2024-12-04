@@ -12,9 +12,18 @@
 - [Quality of Service QoS](https://docs.ros.org/en/foxy/Concepts/About-Quality-of-Service-Settings.html)
 - Add source in Ubuntu `.bashrc`
   ```bash
+  # ros jazzy evn set up
+  source /opt/ros/jazzy/setup.bash # ros command
+  source /usr/share/colcon_cd/function/colcon_cd-argcomplete.bash #colcon autocomplete
+  source ~/ros2_ws/install/setup.bash # workspace command
   ```
 - File structure
 	- WS
 		- src
 			- my_package
 				- package.xml
+- create c++ or python package
+  ```bash
+  ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy
+  ros2
+  ```
