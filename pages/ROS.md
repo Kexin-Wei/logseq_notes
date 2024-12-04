@@ -25,5 +25,6 @@
 - create c++ or python package
   ```bash
   ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy
-  ros2
+  ros2 pkg create my_cpp_pkg --build-type ament_cmake --dependencies rclcpp
   ```
+-
