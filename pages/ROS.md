@@ -10,3 +10,8 @@
 - Workspace
 	- ![image.png](../assets/image_1686261313552_0.png)
 - [Quality of Service QoS](https://docs.ros.org/en/foxy/Concepts/About-Quality-of-Service-Settings.html)
+- File structure
+	- WS
+		- src
+			- my_package
+				- package.xml
