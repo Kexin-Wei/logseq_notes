@@ -27,4 +27,5 @@
   ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy
   ros2 pkg create my_cpp_pkg --build-type ament_cmake --dependencies rclcpp
   ```
+- ![image.png](../assets/image_1733300939828_0.png)
 -
