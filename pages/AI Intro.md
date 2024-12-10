@@ -1,4 +1,6 @@
-# NN & DL & CV
+# AI MAP
+	- ![f42e7c30-4c5d-49c7-ab10-24c3f777cb55_3072x2304-1.jpg](../assets/f42e7c30-4c5d-49c7-ab10-24c3f777cb55_3072x2304-1_1733811700361_0.jpg)
+- # NN & DL & CV
 	- Due: April 25, 2020 5:22 AM
 	  Status: Find one to kill the time
 	  
@@ -81,6 +83,6 @@
 		- [CNN Architecture](https://medium.com/@RaghavPrabhu/cnn-architectures-lenet-alexnet-vgg-googlenet-and-resnet-7c81c017b848#:~:text=VGG%2D16%20is%20a%20simpler,2%20with%20stride%20of%202.&text=The%20winner%20of%20ILSVRC%202014,also%20known%20as%20Inception%20Module.)
 		- [LeNet - 5](https://medium.com/towards-artificial-intelligence/the-architecture-implementation-of-lenet-5-eef03a68d1f7)
 		- ### Softmax or Sigmoid
-		  
-		  maybe [answer](https://stats.stackexchange.com/questions/233658/softmax-vs-sigmoid-function-in-logistic-classifier)
+			- maybe [answer](https://stats.stackexchange.com/questions/233658/softmax-vs-sigmoid-function-in-logistic-classifier)
 - # RL
+	- [Sutton's Book](http://incompleteideas.net/book/the-book-2nd.html)
