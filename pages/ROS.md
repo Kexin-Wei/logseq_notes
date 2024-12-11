@@ -37,7 +37,7 @@
   
   colcon build --packages-select A_PACKAGE --symlink-install
   
-  ros2 show interface show example_interfaces/msg/String
+  
   
   ros2 topic list
   ros2 topic info /A_TOPIC
@@ -49,4 +49,8 @@
   
   # rename a topic
   ros2 run my_cpp_pkg robot_news_station --ros-args -r __node:=my_station -r robot_news:=my_news
+  
+  # show interface
+  ros2 show interface show example_interfaces/msg/String
+  ros2 interface show geometry_msgs/msg/Twist
   ```
