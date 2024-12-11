@@ -33,4 +33,6 @@
   ros2 run A_PACKAGE A_NODE -r __node:=A_NEW_NAME
   ros2 node list
   ros2 node info /A_NODE
+  
+  colcon build --packages-select A_PACKAGE --symlink-install
   ```
