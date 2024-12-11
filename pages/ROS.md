@@ -30,6 +30,7 @@
 - ![image.png](../assets/image_1733300939828_0.png){:height 463, :width 778}
 - ```bash
   ros2 pkg create A_NEW_PACKAGE
+  # rename a node
   ros2 run A_PACKAGE A_NODE -r __node:=A_NEW_NAME
   ros2 node list
   ros2 node info /A_NODE
@@ -45,4 +46,7 @@
   
   # publish directly
   ros2 topic pub -r 10 /robot_news example_interfaces/msg/String "{data: 'hello from termina'}"
+  
+  # rename a topic
+  ros2 run my_cpp_pkg robot_news_station --ros-args -r __node:=my_station -r robot_news:=my_news
   ```
