@@ -27,7 +27,7 @@
   ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy
   ros2 pkg create my_cpp_pkg --build-type ament_cmake --dependencies rclcpp
   ```
-- ![image.png](../assets/image_1733300939828_0.png)
+- ![image.png](../assets/image_1733300939828_0.png){:height 463, :width 778}
 - ```bash
   ros2 pkg create A_NEW_PACKAGE
   ros2 run A_PACKAGE A_NODE -r __node:=A_NEW_NAME
@@ -35,4 +35,9 @@
   ros2 node info /A_NODE
   
   colcon build --packages-select A_PACKAGE --symlink-install
+  
+  ros2 topic list
+  ros2 topic info /A_TOPIC
+  ros2 topic hz /A_TOPIC
+  ros2 topic bw /A_TOPIC
   ```
