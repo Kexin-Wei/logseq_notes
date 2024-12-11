@@ -36,6 +36,8 @@
   
   colcon build --packages-select A_PACKAGE --symlink-install
   
+  ros2 show interface show example_interfaces/msg/String
+  
   ros2 topic list
   ros2 topic info /A_TOPIC
   ros2 topic hz /A_TOPIC
