@@ -1,41 +1,43 @@
 # AI MAP
 	- ![f42e7c30-4c5d-49c7-ab10-24c3f777cb55_3072x2304-1.jpg](../assets/f42e7c30-4c5d-49c7-ab10-24c3f777cb55_3072x2304-1_1733811700361_0.jpg)
--
-- # NN & DL & CV
-	- Due: April 25, 2020 5:22 AM
-	  Status: Find one to kill the time
-	  
-	  In any case, you will need to get started with reading up on machine learning. i would suggest you first briefly start with neural networks, followed by deep convolutional neural networks just to get used to the idea of deep learning and subsequently focus on picking up reinforcement learning. As this machine learning field heavily requires you to be able to do programming, I would suggest that you try to implement the models you learnt and get familiar with the various packages of pytorch, tensorflow, fastai.
-- # CV
-	- [https://www.youtube.com/watch?v=NfnWJUyUJYU](https://www.youtube.com/watch?v=NfnWJUyUJYU)
-	- [Course | DEV290x | edX](https://courses.edx.org/courses/course-v1:Microsoft+DEV290x+1T2020a/course/)
-- # NLP
-	- cn2224n
-- # NN
-	- [Neural networks and deep learning](http://neuralnetworksanddeeplearning.com/chap1.html)
-	- TOC
-		- [x]  [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
-		- [x]  [What this book is about](http://neuralnetworksanddeeplearning.com/about.html)
-		- [x]  [On the exercises and problems](http://neuralnetworksanddeeplearning.com/exercises_and_problems.html)
-		- [x]  [Using neural nets to recognize handwritten digits](http://neuralnetworksanddeeplearning.com/chap1.html)
-		- [x]  [How the backpropagation algorithm works](http://neuralnetworksanddeeplearning.com/chap2.html) / 3
-		- [x]  [Improving the way neural networks learn](http://neuralnetworksanddeeplearning.com/chap3.html) - 3/6
-		- [x]  [A visual proof that neural nets can compute any function](http://neuralnetworksanddeeplearning.com/chap4.html) - 0/6
-		- [x]  [Why are deep neural networks hard to train?](http://neuralnetworksanddeeplearning.com/chap5.html) - 0/4
+- # Unsupervised Learning
+	- ## PCA
+- # Supervised Learning
+	- ## NN & DL & CV
+		- Due: April 25, 2020 5:22 AM
+		  Status: Find one to kill the time
 		  
-		  give up here since of the old code
-		  
-		  [Deep learning](http://neuralnetworksanddeeplearning.com/chap6.html) - 0/6
-		  
-		  [Appendix: Is there a *simple* algorithm for intelligence?](http://neuralnetworksanddeeplearning.com/sai.html)
-		  
-		  [Acknowledgements](http://neuralnetworksanddeeplearning.com/acknowledgements.html)
-		  
-		  [Frequently Asked Questions](http://neuralnetworksanddeeplearning.com/faq.html)
-	- ### Hyper Parameter Choosing
-		- [Hyperopt Documentation](http://hyperopt.github.io/hyperopt/)
-		- [Random search for hyper-parameter optimization](https://dl.acm.org/doi/10.5555/2188385.2188395)
-		- [Practical recommendations for gradient-based training of deep architectures](https://arxiv.org/abs/1206.5533)
+		  In any case, you will need to get started with reading up on machine learning. i would suggest you first briefly start with neural networks, followed by deep convolutional neural networks just to get used to the idea of deep learning and subsequently focus on picking up reinforcement learning. As this machine learning field heavily requires you to be able to do programming, I would suggest that you try to implement the models you learnt and get familiar with the various packages of pytorch, tensorflow, fastai.
+	- ## CV
+		- [https://www.youtube.com/watch?v=NfnWJUyUJYU](https://www.youtube.com/watch?v=NfnWJUyUJYU)
+		- [Course | DEV290x | edX](https://courses.edx.org/courses/course-v1:Microsoft+DEV290x+1T2020a/course/)
+	- ## NLP
+		- cn2224n
+	- # NN
+		- [Neural networks and deep learning](http://neuralnetworksanddeeplearning.com/chap1.html)
+		- TOC
+			- [x]  [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
+			- [x]  [What this book is about](http://neuralnetworksanddeeplearning.com/about.html)
+			- [x]  [On the exercises and problems](http://neuralnetworksanddeeplearning.com/exercises_and_problems.html)
+			- [x]  [Using neural nets to recognize handwritten digits](http://neuralnetworksanddeeplearning.com/chap1.html)
+			- [x]  [How the backpropagation algorithm works](http://neuralnetworksanddeeplearning.com/chap2.html) / 3
+			- [x]  [Improving the way neural networks learn](http://neuralnetworksanddeeplearning.com/chap3.html) - 3/6
+			- [x]  [A visual proof that neural nets can compute any function](http://neuralnetworksanddeeplearning.com/chap4.html) - 0/6
+			- [x]  [Why are deep neural networks hard to train?](http://neuralnetworksanddeeplearning.com/chap5.html) - 0/4
+			  
+			  give up here since of the old code
+			  
+			  [Deep learning](http://neuralnetworksanddeeplearning.com/chap6.html) - 0/6
+			  
+			  [Appendix: Is there a *simple* algorithm for intelligence?](http://neuralnetworksanddeeplearning.com/sai.html)
+			  
+			  [Acknowledgements](http://neuralnetworksanddeeplearning.com/acknowledgements.html)
+			  
+			  [Frequently Asked Questions](http://neuralnetworksanddeeplearning.com/faq.html)
+		- ### Hyper Parameter Choosing
+			- [Hyperopt Documentation](http://hyperopt.github.io/hyperopt/)
+			- [Random search for hyper-parameter optimization](https://dl.acm.org/doi/10.5555/2188385.2188395)
+			- [Practical recommendations for gradient-based training of deep architectures](https://arxiv.org/abs/1206.5533)
 - # ML
 	- Coursera
 - # DL
