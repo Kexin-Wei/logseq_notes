@@ -38,7 +38,7 @@
   colcon build --packages-select A_PACKAGE --symlink-install
   
   
-  
+  # topic
   ros2 topic list
   ros2 topic info /A_TOPIC
   ros2 topic hz /A_TOPIC
@@ -50,7 +50,11 @@
   # rename a topic
   ros2 run my_cpp_pkg robot_news_station --ros-args -r __node:=my_station -r robot_news:=my_news
   
-  # show interface
+  # interface
   ros2 show interface show example_interfaces/msg/String
   ros2 interface show geometry_msgs/msg/Twist
+  
+  # service
+  ros2 service list
+  ros2 service call /add_two_ints example_interfaces/srv/AddTwoInts  "{a: 2,b: 4}"
   ```
