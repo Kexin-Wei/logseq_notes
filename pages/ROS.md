@@ -49,16 +49,12 @@
 	  ros2 run my_cpp_pkg robot_news_station --ros-args -r __node:=my_station -r robot_news:=my_news
 	  ```
 - # Services
-	- : one time function
-- ```bash
-  
-  
-  
-  
-  # service
-  ros2 service list
-  ros2 service call /add_two_ints example_interfaces/srv/AddTwoInts  "{a: 2,b: 4}"
-  ```
+	- one time function
+	- ```bash
+	  # service
+	  ros2 service list
+	  ros2 service call /add_two_ints example_interfaces/srv/AddTwoInts  "{a: 2,b: 4}"
+	  ```
 - # Interface
 	- ```bash
 	  ```
