@@ -1,6 +1,5 @@
-- Node: every program / threading
-- Topic & message: how nodes communicate with each other
-- Services: one time function
+# Environment set up
+	-
 - Ros remap node name from `launch`
 	- ![image.png](../assets/image_1686260428021_0.png)
 - Package
@@ -27,7 +26,10 @@
   ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy
   ros2 pkg create my_cpp_pkg --build-type ament_cmake --dependencies rclcpp
   ```
-- ![image.png](../assets/image_1733300939828_0.png){:height 463, :width 778}
+- Node
+- Node: every program / threading
+- Topic & message: how nodes communicate with each other
+- Services: one time function
 - ```bash
   ros2 pkg create A_NEW_PACKAGE
   colcon build --packages-select A_PACKAGE --symlink-install
