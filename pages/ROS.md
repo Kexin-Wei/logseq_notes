@@ -60,7 +60,7 @@
 	  # interface
 	  ros2 show interface show example_interfaces/msg/String
 	  ros2 interface show geometry_msgs/msg/Twist
-	  ros2 interface package
+	  ros2 interface package service_msgs
 	  ```
 - # Tips
 	- Ros remap node name from `launch`
