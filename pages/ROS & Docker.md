@@ -14,4 +14,23 @@
 	  newgrp docker
 	  ```
 	- check docker `docker run hello-world`
-	-
+	- start docker service `sudo systemctl start docker`
+- Configure workspace
+	- ```bash
+	  cd ~/
+	  mkdir ros2_ws
+	  cd ros2_ws
+	  mkdir src
+	  ```
+	- create `.devcontainer` folder with two files, `devcontainer.json` and `Dockerfile`
+		- ```
+		  ws
+		  ├── .devcontainer
+		  │   ├── devcontainer.json
+		  │   └── Dockerfile
+		  ├── src
+		      ├── package1
+		      └── package2
+		  ```
+		- ```json
+		  ```
