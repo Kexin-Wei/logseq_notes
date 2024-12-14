@@ -63,8 +63,7 @@
 		  ros2 interface show geometry_msgs/msg/Twist
 		  ros2 interface package service_msgs
 		  ```
-- # ROS & Docker
-	- [Setup ROS 2 with VSCode and Docker [community-contributed] — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Setup-ROS-2-with-VSCode-and-Docker-Container.html)
+- # [[ROS & Docker]]
 - # ROS in Raspberry Pi
 	- [ROS 2 on Raspberry Pi — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Installing-on-Raspberry-Pi.html)
 - # Tips
