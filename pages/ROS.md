@@ -67,7 +67,7 @@
 		- ```bash
 		  # parameter
 		  ros2 param get /A_NODE PARAMETER
-		  ros2 param set /A_NODE 
+		  ros2 param set /A_NODE PARAMETER VALUE
 		  ```
 - # [[ROS & Docker]]
 - # ROS in Raspberry Pi
