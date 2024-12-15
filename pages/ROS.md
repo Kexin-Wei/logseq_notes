@@ -40,8 +40,8 @@
 		  # topic
 		  ros2 topic list
 		  ros2 topic info /A_TOPIC
-		  ros2 topic hz /A_TOPIC
-		  ros2 topic bw /A_TOPIC
+		  ros2 topic hz /A_TOPIC # frequency
+		  ros2 topic bw /A_TOPIC # bandwidth
 		  
 		  # publish directly
 		  ros2 topic pub -r 10 /robot_news example_interfaces/msg/String "{data: 'hello from termina'}"
