@@ -53,13 +53,6 @@
 			          "console_scripts": [ # editing here to add node
 			              "my_node = my_py_pkg.my_first_py_node:main",
 			              "robot_news_station = my_py_pkg.robot_news_station:main",
-			              "a_listener = my_py_pkg.a_listener:main",
-			              "number_publisher = my_py_pkg.number_publisher:main",
-			              "add_two_ints_server = my_py_pkg.add_two_ints_server:main",
-			              "add_two_ints_client_no_oop = my_py_pkg.add_two_ints_client_no_oop:main",
-			              "add_two_ints_client = my_py_pkg.add_two_ints_client:main",
-			              "hardware_status_publisher = my_py_pkg.hardware_status_publisher:main",
-			              "battery_node = my_py_pkg.battery_node:main",
 			          ],
 			      },
 			  )
@@ -93,8 +86,82 @@
 			  
 			  ```
 		- Cpp package setup
+		  collapsed:: true
 			- `CMakeLists.txt`
 			  ```CMake
+			  cmake_minimum_required(VERSION 3.8)
+			  project(my_cpp_pkg)
+			  
+			  set(CMAKE_CXX_STANDARD 17)
+			  set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
+			  
+			  if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+			    add_compile_options(-Wall -Wextra -Wpedantic)
+			  endif()
+			  
+			  # find dependencies!!!!
+			  find_package(ament_cmake REQUIRED)
+			  find_package(rclcpp REQUIRED)
+			  find_package(example_interfaces REQUIRED)
+			  find_package(std_msgs REQUIRED)
+			  find_package(std_srvs REQUIRED)
+			  find_package(my_robot_interfaces REQUIRED)
+			  
+			  if(BUILD_TESTING)
+			    find_package(ament_lint_auto REQUIRED)
+			    # the following line skips the linter which checks for copyrights
+			    # comment the line when a copyright and license is added to all source files
+			    set(ament_cmake_copyright_FOUND TRUE)
+			    # the following line skips cpplint (only works in a git repo)
+			    # comment the line when this package is in a git repo and when
+			    # a copyright and license is added to all source files
+			    set(ament_cmake_cpplint_FOUND TRUE)
+			    ament_lint_auto_find_test_dependencies()
+			  endif()
+			  
+			  # !!!! add node here
+			  add_executable(my_cpp_node src/my_first_cpp_node.cpp)
+			  ament_target_dependencies(my_cpp_node rclcpp)
+			  
+			  add_executable(robot_news_station src/robot_news_station.cpp)
+			  ament_target_dependencies(robot_news_station rclcpp example_interfaces)
+			  
+			  # !!! dont forget to install
+			  install(TARGETS 
+			    my_cpp_node
+			    robot_news_station
+			    DESTINATION lib/${PROJECT_NAME}
+			  )
+			  ament_package()
+			  
+			  ```
+			- `package.xml`
+			  ```:wxml
+			  <?xml version="1.0"?>
+			  <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+			  <package format="3">
+			    <name>my_cpp_pkg</name>
+			    <version>0.0.0</version>
+			    <description>TODO: Package description</description>
+			    <maintainer email="kristin@todo.todo">kristin</maintainer>
+			    <license>TODO: License declaration</license>
+			  
+			    <buildtool_depend>ament_cmake</buildtool_depend>
+			  
+			    // add package dependencies here
+			    <depend>rclcpp</depend>
+			    <depend>my_robot_interfaces</depend>
+			    <depend>example_interfaces</depend>
+			    <depend>turtlesim</depend>
+			  
+			    <test_depend>ament_lint_auto</test_depend>
+			    <test_depend>ament_lint_common</test_depend>
+			  
+			    <export>
+			      <build_type>ament_cmake</build_type>
+			    </export>
+			  </package>
+			  
 			  ```
 	- ## Node
 		- every program / threading
