@@ -196,6 +196,17 @@
 		- Create service interface
 			- package tree
 				- ```bash
+				  ├── CMakeLists.txt
+				  ├── package.xml
+				  ├── msg
+				  │   ├── HardwareStatus.msg
+				  │   └── LedStatus.msg
+				  └── srv
+				      ├── ComputeRectangleArea.srv
+				      └── SetLed.srv
+				  ```
+			- `CMakeLists.txt`
+				- ```CMake
 				  ```
 	- ## Interface
 		- ```bash
