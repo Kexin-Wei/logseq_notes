@@ -207,6 +207,72 @@
 				  ```
 			- `CMakeLists.txt`
 				- ```CMake
+				  cmake_minimum_required(VERSION 3.8)
+				  project(my_robot_interfaces)
+				  
+				  if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+				    add_compile_options(-Wall -Wextra -Wpedantic)
+				  endif()
+				  
+				  # find dependencies
+				  find_package(ament_cmake REQUIRED)
+				  # uncomment the following section in order to fill in
+				  # further dependencies manually.
+				  # find_package(<dependency> REQUIRED)
+				  find_package(rosidl_default_generators REQUIRED) # !!! add this package here
+				  
+				  
+				  if(BUILD_TESTING)
+				    find_package(ament_lint_auto REQUIRED)
+				    # the following line skips the linter which checks for copyrights
+				    # comment the line when a copyright and license is added to all source files
+				    set(ament_cmake_copyright_FOUND TRUE)
+				    # the following line skips cpplint (only works in a git repo)
+				    # comment the line when this package is in a git repo and when
+				    # a copyright and license is added to all source files
+				    set(ament_cmake_cpplint_FOUND TRUE)
+				    ament_lint_auto_find_test_dependencies()
+				  endif()
+				  
+				  # !!! add service here
+				  rosidl_generate_interfaces(${PROJECT_NAME}
+				    "msg/HardwareStatus.msg"
+				    "msg/LedStatus.msg"
+				    "srv/ComputeRectangleArea.srv"
+				    "srv/SetLed.srv"
+				  )
+				  # !!! add this line
+				  ament_export_dependencies(rosidl_default_runtime)
+				  
+				  ament_package()
+				  
+				  ```
+				- `package.xml`
+				  ```xml
+				  <?xml version="1.0"?>
+				  <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+				  <package format="3">
+				    <name>my_robot_interfaces</name>
+				    <version>0.0.0</version>
+				    <description>TODO: Package description</description>
+				    <maintainer email="wkx611@outlook.com">kristin</maintainer>
+				    <license>TODO: License declaration</license>
+				  
+				    <buildtool_depend>ament_cmake</buildtool_depend>
+				    
+				    // !!! add these three packages here
+				    <build_depend>rosidl_default_generators</build_depend>
+				    <exec_depend>rosidl_default_runtime</exec_depend>
+				    <member_of_group>rosidl_interface_packages</member_of_group>
+				  
+				    <test_depend>ament_lint_auto</test_depend>
+				    <test_depend>ament_lint_common</test_depend>
+				  
+				    <export>
+				      <build_type>ament_cmake</build_type>
+				    </export>
+				  </package>
+				  
 				  ```
 	- ## Interface
 		- ```bash
