@@ -13,7 +13,7 @@
 		- [[Neovim]]
 		  collapsed:: true
 		- [[Python Code Encryption]]
-		- [ROS](logseq://graph/Kexin-Wei.github.io?page=ROS)
+		- [[ROS]]
 		- Medical Related Open Source
 		  collapsed:: true
 			- List of them #software
@@ -118,9 +118,7 @@
 				- DONE Unit 3
 				- TODO Unit 4
 - # Book
-  collapsed:: true
 	- [[Making It All Work Book by David Allen]]
-	  collapsed:: true
 - # Tool
 	- ## Learning website to if you can't find help
 	  collapsed:: true

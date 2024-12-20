@@ -58,4 +58,3 @@
 		- Run `source /opt/ros/foxy/setup.bash` and `ros2 run demo_nodes_cpp talker` in Raspberry Pi and Run `source /opt/ros/foxy/setup.bash` and `ros2 run demo_nodes_py listener` in Dev Machine.
 		  > add source to file : `echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc`
 		- Install colcon at both sides, `echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc`
-- [[ROS]]

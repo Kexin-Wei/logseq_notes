@@ -10,7 +10,7 @@
 - # ROS Visualization
 	- run urdf demo
 		- ```bash
-		  /opt/ros/jazzy/share/urdf_tutorial/urdf$ ros2 launch urdf_tutorial display.launch.py model:=08-macroed.urdf.xacro 
+		  ros2 launch urdf_tutorial display.launch.py model:=/opt/ros/jazzy/share/urdf_tutorial/urdf/08-macroed.urdf.xacro 
 		  ```
 - # [[ROS & Docker]]
 - # ROS in Raspberry Pi
