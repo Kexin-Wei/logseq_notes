@@ -14,6 +14,13 @@
 		  ```
 		- Models, TFs
 	- visualize TFs
+		- ```bash
+		  # install package
+		  sudo apt install ros-jazzy-tf2-tools
+		  
+		  # run when demo running
+		  ros2 run tf2_tools view_frames # generate frams.gv and pdf in current diretory
+		  ```
 		-
 - # [[ROS & Docker]]
 - # ROS in Raspberry Pi
