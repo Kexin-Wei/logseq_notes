@@ -1,5 +1,6 @@
 # Tech
 	- ## 💻️Software Development
+	  collapsed:: true
 		- [[Software Management]]
 		- [[C++]]
 		- [[CMake]]
@@ -22,6 +23,7 @@
 				- [IGTL](http://openigtlink.org/users/)
 				- [Plus](https://plustoolkit.github.io/)
 	- ## 🤖Robot
+	  collapsed:: true
 		- [[Corporate Explorer]]
 		- [[Soft Tissue Deformation]]
 		- [[Soft Robot]]
@@ -32,6 +34,7 @@
 		- [[📈Signal Processing]]
 		- [[✈️SLAM]]
 	- ## 🏥Medical Knowledge
+	  collapsed:: true
 		- [[BBN Blood Brain Barrier]]
 		- [[Anatomy Views of Human]]
 		- [[Kidney Anatomy]]
@@ -39,6 +42,7 @@
 		- [[Prostate]]
 		- [[🧠Brain Computer Interface]]
 	- ## 🩻 Medical Image
+	  collapsed:: true
 		- [[Medical Image]]
 		- [[CT  Computed Tomography Image]]
 		- Ultrasound
@@ -60,6 +64,7 @@
 			- [[Medical Image Segmentation]]
 			- [[MRI-US Prostate Registration]]
 	- ## 🖥️ Image Processing
+	  collapsed:: true
 		- [[Installation of Image Processing Repo]]
 		- [[Corner Detection]]
 		- [[Homogeneous Transformation]]
@@ -72,6 +77,7 @@
 			  • Registration can aid segmentation
 			  • Interleaving segmentation and registration
 	- ## 🧠AI
+	  collapsed:: true
 		- [[AI Intro]]
 		- [[Download Google Drive in Colab or Jupyter]]
 		- [[Large Language Model LLM]]
@@ -118,6 +124,7 @@
 				- DONE Unit 3
 				- TODO Unit 4
 - # Book
+  collapsed:: true
 	- [[Making It All Work Book by David Allen]]
 - # Tool
 	- ## Learning website to if you can't find help
