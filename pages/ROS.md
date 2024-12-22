@@ -24,6 +24,7 @@
 	- ```bash
 	  ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro a_car.urdf)"
 	  ros2 run joint_state_publisher_gui joint_state_publisher_gui
+	  ros2 run rviz2 rviz2
 	  ```
 - # [[ROS & Docker]]
 - # ROS in Raspberry Pi
