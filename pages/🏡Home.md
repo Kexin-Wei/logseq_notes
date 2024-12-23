@@ -77,7 +77,6 @@
 			  • Registration can aid segmentation
 			  • Interleaving segmentation and registration
 	- ## 🧠AI
-	  collapsed:: true
 		- [[AI Intro]]
 		- [[Download Google Drive in Colab or Jupyter]]
 		- [[Large Language Model LLM]]
@@ -110,7 +109,6 @@
 			- [[Ibn Khaldun]]
 			- [[Nelson Mandela]]
 	- ## 💶Economics
-	  collapsed:: true
 		- [[Investment]]
 	- ## 🗺️Languages Learning
 	  collapsed:: true
