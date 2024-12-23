@@ -18,7 +18,6 @@
 	  colcon build --packages-select A_PACKAGE --symlink-install
 	  ```
 	- Python package setup
-	  collapsed:: true
 		- `setup.py`
 		  ```python
 		  from setuptools import find_packages, setup
@@ -77,7 +76,6 @@
 		  
 		  ```
 	- Cpp package setup
-	  collapsed:: true
 		- `CMakeLists.txt`
 		  ```CMake
 		  cmake_minimum_required(VERSION 3.8)
