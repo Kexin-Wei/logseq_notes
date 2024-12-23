@@ -43,6 +43,7 @@
 		- [Fundamental Recap](https://deeplizard.com/learn/video/gZmobeGL0Yg)
 		- [[Fastai]]
 		- Good Handon Lesson [Dive into Deep Learning](https://d2l.ai/)
+			-
 		- ### CNN
 		  collapsed:: true
 			- A great [intro](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
@@ -60,3 +61,4 @@
 				- maybe [answer](https://stats.stackexchange.com/questions/233658/softmax-vs-sigmoid-function-in-logistic-classifier)
 	- ## RL
 		- [Sutton's Book](http://incompleteideas.net/book/the-book-2nd.html)
+-
