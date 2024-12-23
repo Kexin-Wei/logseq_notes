@@ -42,7 +42,9 @@
 	- ## DL
 		- [Fundamental Recap](https://deeplizard.com/learn/video/gZmobeGL0Yg)
 		- [[Fastai]]
+		- Good Handon Lesson [Dive into Deep Learning](https://d2l.ai/)
 		- ### CNN
+		  collapsed:: true
 			- A great [intro](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
 			- Tips from stanford
 				- [Tip 1](https://cs231n.github.io/neural-networks-1/)
