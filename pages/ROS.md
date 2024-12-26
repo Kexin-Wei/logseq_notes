@@ -26,6 +26,12 @@
 	  ros2 run joint_state_publisher_gui joint_state_publisher_gui
 	  ros2 run rviz2 rviz2
 	  ```
+	- Gazebo
+		- ```bash
+		  ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro /home/<user>/my_robot_ws/src/my_robot_description/urdf/my_robot.urdf.xacro)"
+		  ros2 launch ros_gz_sim gz_sim.launch.py gz_args:="empty.sdf -r"
+		  ros2 run ros_gz_sim create -topic robot_description
+		  ```
 - # [[ROS & Docker]]
 - # ROS in Raspberry Pi
 	- [ROS 2 on Raspberry Pi — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Installing-on-Raspberry-Pi.html)
