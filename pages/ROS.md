@@ -28,8 +28,11 @@
 	  ```
 	- Gazebo
 		- ```bash
+		  # terminal 1
 		  ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro /home/<user>/my_robot_ws/src/my_robot_description/urdf/my_robot.urdf.xacro)"
+		  # terminal 2
 		  ros2 launch ros_gz_sim gz_sim.launch.py gz_args:="empty.sdf -r"
+		  # terminal 3
 		  ros2 run ros_gz_sim create -topic robot_description
 		  ```
 - # [[ROS & Docker]]
