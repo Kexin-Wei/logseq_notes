@@ -1,4 +1,7 @@
-# Environment set up
+# Install
+	- follow the document of the corresponding version
+	-
+- # Environment set up
 	- Add source in Ubuntu `.bashrc`
 	  ```bash
 	  # ros jazzy evn set up
