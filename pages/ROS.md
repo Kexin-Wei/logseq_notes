@@ -7,12 +7,16 @@
 		  sudo apt update
 		  sudo apt install python3-colcon-common-extensions
 		  ```
-	-
+	- install gazebo
+		- ```bash
+		  sudo apt install ros-humble-gazebo* # humble only, Jazzy look online
+		  ```
 - # Environment set up
 	- Add source in Ubuntu `.bashrc`
 	  ```bash
 	  # ros jazzy evn set up
 	  source /opt/ros/jazzy/setup.bash # ros command
+	  source /usr/share/gazebo/setup.bash  # gazebo
 	  source /usr/share/colcon_cd/function/colcon_cd-argcomplete.bash #colcon autocomplete
 	  source ~/ros2_ws/install/setup.bash # workspace command
 	  ```
