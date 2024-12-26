@@ -35,6 +35,14 @@
 		  # terminal 3
 		  ros2 run ros_gz_sim create -topic robot_description
 		  ```
+		- ```bash
+		      <include 
+		       file="$(find-pkg-share ros_gz_sim)/launch/gz_sim.launch.py">
+		      <arg name="gz_args" value="empty.sdf -r" />
+		      </include>
+		      
+		      <node pkg="ros_gz_sim" exec="create" args="-topic robot_description" />
+		  ```
 - # [[ROS & Docker]]
 - # ROS in Raspberry Pi
 	- [ROS 2 on Raspberry Pi — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Installing-on-Raspberry-Pi.html)
