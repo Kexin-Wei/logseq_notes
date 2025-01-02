@@ -28,6 +28,9 @@
 		- Complete this course as we progress through the module [Coursera Link](https://www.coursera.org/learn/learn-ai-agents#modules)
 		- Recommended Course No.1 :[https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/)
 		- Recommended Course No.2 : [https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
-	- ![image.png](../assets/image_1735817745738_0.png)
-	- ![image.png](../assets/image_1735817794611_0.png)
-	-
+	- AI Agent vs Agentic AI
+		- ![image.png](../assets/image_1735817745738_0.png){:height 242, :width 456}
+		- ![image.png](../assets/image_1735817794611_0.png){:height 235, :width 458}
+		- **Agentic AI** refers to advanced AI systems that demonstrate a higher degree of independence, initiative, and adaptability. While traditional AI agents operate within predefined 
+		  frameworks, agentic AI pushes the boundaries by showcasing characteristics that make them appear more "agent-like," often capable of pursuing open-ended goals.
+		-
