@@ -31,11 +31,12 @@
 		- Recommended Course No.2 : [https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
 	- [The best post](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/agents_101_guide.md)
 	- AI Agent vs Agentic AI
-	  collapsed:: true
 		- ![image.png](../assets/image_1735817745738_0.png){:height 242, :width 456}
 		- ![image.png](../assets/image_1735817794611_0.png){:height 235, :width 458}
 		- **Agentic AI** refers to advanced AI systems that demonstrate a higher degree of independence, initiative, and adaptability. While traditional AI agents operate within ==predefined frameworks==, agentic AI pushes the boundaries by showcasing characteristics that make them appear more "agent-like," often capable of pursuing open-ended goals.
+		- ![image.png](../assets/image_1735823783290_0.png){:height 269, :width 463}
 	- Multi agent
+	  collapsed:: true
 		- ![image.png](../assets/image_1735822679261_0.png)
 		- Examples
 			- [BabyAGI](https://github.com/yoheinakajima/babyagi)
@@ -61,3 +62,6 @@
 					  priorities accordingly.
 				- ![image.png](../assets/image_1735822809952_0.png)
 			- [Other agents](https://www.promptingguide.ai/research/llm-agents#notable-llm-based-agents)
+- Notes for Blog
+	- Agentic AI is a plus version of AI Agent, which focuses more in RL area
+	- Multi Agent is another human brain that available anytime. You may consider it as a personal assistant.
