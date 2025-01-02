@@ -39,7 +39,10 @@
 		- LLM agent components
 			- ![image.png](../assets/image_1735823901190_0.png){:height 221, :width 438}
 			- Brain (Agent): LLM / action model
-			- Memory:
+			- Memory: short-term memory and long term memory
+			- Planning: plan formulation + plan reflection
+				- Plant formulation: break down large task using chain of thought method or tree of thought method, or decision tree
+				-
 	- Multi agent
 		- ![image.png](../assets/image_1735822679261_0.png)
 		- Examples
