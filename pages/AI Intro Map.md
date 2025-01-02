@@ -1,8 +1,6 @@
 # AI MAP
 	- ![f42e7c30-4c5d-49c7-ab10-24c3f777cb55_3072x2304-1.jpg](../assets/f42e7c30-4c5d-49c7-ab10-24c3f777cb55_3072x2304-1_1733811700361_0.jpg)
 - # Unsupervised Learning
-	- ## PCA
-		-
 - # Supervised Learning
 	- ## NN & DL & CV
 		- Due: April 25, 2020 5:22 AM
@@ -11,12 +9,14 @@
 		  In any case, you will need to get started with reading up on machine learning. i would suggest you first briefly start with neural networks, followed by deep convolutional neural networks just to get used to the idea of deep learning and subsequently focus on picking up reinforcement learning. As this machine learning field heavily requires you to be able to do programming, I would suggest that you try to implement the models you learnt and get familiar with the various packages of pytorch, tensorflow, fastai.
 	- ## CV
 		- [https://www.youtube.com/watch?v=NfnWJUyUJYU](https://www.youtube.com/watch?v=NfnWJUyUJYU)
-		- [Course | DEV290x | edX](https://courses.edx.org/courses/course-v1:Microsoft+DEV290x+1T2020a/course/)
+		- [Course | DEV290x | edX](https://courses.edx.org/courses/course-v1:Microsoft+DEV290x+1T2020a/course/) #🙋🏻PICKME
 	- ## NLP
 		- cn2224n
+		- Udemy NLP Course #🙋🏻PICKME
 	- ## NN
 		- [Neural networks and deep learning](http://neuralnetworksanddeeplearning.com/chap1.html)
 		- TOC
+		  collapsed:: true
 			- [x]  [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
 			- [x]  [What this book is about](http://neuralnetworksanddeeplearning.com/about.html)
 			- [x]  [On the exercises and problems](http://neuralnetworksanddeeplearning.com/exercises_and_problems.html)
@@ -42,8 +42,7 @@
 	- ## DL
 		- [Fundamental Recap](https://deeplizard.com/learn/video/gZmobeGL0Yg)
 		- [[Fastai]]
-		- Good Handon Lesson [Dive into Deep Learning](https://d2l.ai/)
-			-
+		- Good Handon Lesson [Dive into Deep Learning](https://d2l.ai/) #🙋🏻PICKME
 		- ### CNN
 		  collapsed:: true
 			- A great [intro](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
@@ -61,4 +60,3 @@
 				- maybe [answer](https://stats.stackexchange.com/questions/233658/softmax-vs-sigmoid-function-in-logistic-classifier)
 	- ## RL
 		- [Sutton's Book](http://incompleteideas.net/book/the-book-2nd.html)
-	-
