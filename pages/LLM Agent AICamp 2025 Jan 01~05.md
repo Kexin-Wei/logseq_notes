@@ -6,7 +6,6 @@
 - Day 0
 	- [Record](https://us02web.zoom.us/rec/share/CnrPxgdVv0O69geR_q85gSxFFMrxm3hYw8BssnLDOKnR9LJz3zh7AlcmyDHe80bH.d7fq7K4NAosfm_WY) Passcode: at=.%TT5
 	- Handout notes
-	  collapsed:: true
 		- ### Session 0 : Foundations of AI Agents
 		- ### What is an AI Agent?
 		  
@@ -31,14 +30,12 @@
 		- Recommended Course No.2 : [https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
 	- [The best post](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/agents_101_guide.md)
 	- AI Agent vs Agentic AI
-	  collapsed:: true
 		- ![image.png](../assets/image_1735817745738_0.png){:height 242, :width 456}
 		- ![image.png](../assets/image_1735817794611_0.png){:height 235, :width 458}
 		- **Agentic AI** refers to advanced AI systems that demonstrate a higher degree of independence, initiative, and adaptability. While traditional AI agents operate within ==predefined frameworks==, agentic AI pushes the boundaries by showcasing characteristics that make them appear more "agent-like," often capable of pursuing open-ended goals.
 		- ![image.png](../assets/image_1735823783290_0.png){:height 269, :width 463}
 		- A basic LLM with a [retrieval augmented generation (RAG)](https://www.superannotate.com/blog/rag-explained) system can easily fetch the needed information from legal databases.
 	- LLM agent components
-	  collapsed:: true
 		- ![image.png](../assets/image_1735823901190_0.png){:height 221, :width 438}
 		- Brain (Agent): LLM / action model
 		- Memory: short-term memory and long term memory
@@ -52,7 +49,6 @@
 	- Examples
 		- ![image.png](../assets/image_1735822809952_0.png)
 		- [BabyAGI](https://github.com/yoheinakajima/babyagi)
-		  collapsed:: true
 			- GPT-4 (Agent Core):
 				- OpenAI's GPT-4 serves as the core of the system, enabling it to 
 				  complete tasks, generate new tasks based on completed results, and 
