@@ -81,5 +81,5 @@
 	- What service it provides out of LLM features? decision making, planning, coding
 	- How it manages to do that
 		- break down task
-		- use tool
-		- store
+		- use tool or contact other agent
+		- store query or persona
