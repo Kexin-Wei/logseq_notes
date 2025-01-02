@@ -83,6 +83,7 @@
 			- [[Bio Hackathon: LLMs Model for Bio]]
 		- [DL in image registration](https://www.youtube.com/watch?v=c4dvyTBvysQ https://www.youtube.com/watch?v=O3TmEcaN5Ww)
 		- [[🗣️Natural Language Processing]]
+		- [[Self Driving Car]]
 - # World
 	- ## ⛺️Survivor
 	  collapsed:: true
