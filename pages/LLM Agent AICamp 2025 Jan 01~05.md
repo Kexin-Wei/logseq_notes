@@ -37,6 +37,27 @@
 		- **Agentic AI** refers to advanced AI systems that demonstrate a higher degree of independence, initiative, and adaptability. While traditional AI agents operate within ==predefined frameworks==, agentic AI pushes the boundaries by showcasing characteristics that make them appear more "agent-like," often capable of pursuing open-ended goals.
 	- Multi agent
 		- ![image.png](../assets/image_1735822679261_0.png)
-		- Example
-			- ![image.png](../assets/image_1735822809952_0.png)
-			-
+		- Examples
+			- [BabyAGI](https://github.com/yoheinakajima/babyagi)
+				- GPT-4 (Agent Core):
+					- OpenAI's GPT-4 serves as the core of the system, enabling it to 
+					  complete tasks, generate new tasks based on completed results, and 
+					  prioritize tasks in real-time. It leverages the powerful text-based 
+					  language model capabilities of GPT-4.
+				- Pinecone(Memory Module):
+					- Pinecone is utilized for efficient storage and retrieval of 
+					  task-related data, including task descriptions, constraints, and 
+					  results. It provides robust search and storage capabilities for 
+					  high-dimensional vector data, enhancing the system's efficiency.
+				- LangChain Framework (Tooling Module):
+					- The LangChain framework enhances the system's capabilities, 
+					  particularly in task completion and decision-making processes. It allows
+					  the AI agent to be data-aware and interact with its environment, 
+					  contributing to a more powerful and differentiated system.
+				- Task Management (Planning Module):
+					- The system maintains a task list using a deque data structure, 
+					  enabling it to manage and prioritize tasks autonomously. It dynamically 
+					  generates new tasks based on completed results and adjusts task 
+					  priorities accordingly.
+				- ![image.png](../assets/image_1735822809952_0.png)
+			- [Other agents](https://www.promptingguide.ai/research/llm-agents#notable-llm-based-agents)
