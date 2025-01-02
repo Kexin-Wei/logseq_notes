@@ -2,4 +2,9 @@
 	- [5 Day Curriculum](https://docs.google.com/document/d/e/2PACX-1vS2Y4T1AlbEZg48HL8i1ODzNn0-zTQQt8DwzOuUj8gHnjwFq3G7Fdww6xJdh_4Yi8Il1bTuDHKIlWim/pub)
 	- [5 Day checklist](https://docs.google.com/document/d/e/2PACX-1vTkajey208fMutPynoKg7AE-RJsSpWgCQCFKgdzxGfPF0qjZwLXLARJCGpEqovqtly1xrWLKzAoG7qF/pub)
 	- [Daily submission form](https://docs.google.com/forms/d/e/1FAIpQLSfOP3QRWvTnuYJ--PqnxyCFvcOn8D_oEYZq3LYHCH6aRyZQsQ/viewform)
--
+	- [Presentation](https://docs.google.com/presentation/d/e/2PACX-1vQ2SVHmzSxgVv31-TUs4Zqrvd-vnP00MjZUvWkhqC5WS9xc_hhI1aEYO1VHfbbXESXymWlCsN9XP0tT/pub?start=false&loop=false&delayms=3000#slide=id.g32272e011e2_0_10)
+- Day 0
+	- [Record](https://us02web.zoom.us/rec/share/CnrPxgdVv0O69geR_q85gSxFFMrxm3hYw8BssnLDOKnR9LJz3zh7AlcmyDHe80bH.d7fq7K4NAosfm_WY) Passcode: at=.%TT5
+	- ![image.png](../assets/image_1735817745738_0.png)
+	- ![image.png](../assets/image_1735817794611_0.png)
+	-
