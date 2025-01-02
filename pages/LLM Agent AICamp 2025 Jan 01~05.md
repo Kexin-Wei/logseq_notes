@@ -31,48 +31,50 @@
 		- Recommended Course No.2 : [https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
 	- [The best post](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/agents_101_guide.md)
 	- AI Agent vs Agentic AI
+	  collapsed:: true
 		- ![image.png](../assets/image_1735817745738_0.png){:height 242, :width 456}
 		- ![image.png](../assets/image_1735817794611_0.png){:height 235, :width 458}
 		- **Agentic AI** refers to advanced AI systems that demonstrate a higher degree of independence, initiative, and adaptability. While traditional AI agents operate within ==predefined frameworks==, agentic AI pushes the boundaries by showcasing characteristics that make them appear more "agent-like," often capable of pursuing open-ended goals.
 		- ![image.png](../assets/image_1735823783290_0.png){:height 269, :width 463}
 		- A basic LLM with a [retrieval augmented generation (RAG)](https://www.superannotate.com/blog/rag-explained) system can easily fetch the needed information from legal databases.
-		- LLM agent components
-		  collapsed:: true
-			- ![image.png](../assets/image_1735823901190_0.png){:height 221, :width 438}
-			- Brain (Agent): LLM / action model
-			- Memory: short-term memory and long term memory
-			- Planning: plan formulation + plan reflection
-				- Plant formulation: break down large task using [chain of thought method](https://www.superannotate.com/blog/chain-of-thought-cot-prompting) or [tree of thought method](https://github.com/princeton-nlp/tree-of-thought-llm), or decision tree
-				  ![image.png](../assets/image_1735824178312_0.png)
-				- Plan reflection: review and feedback, methods: [ReAct](https://arxiv.org/abs/2210.03629) and [Reflexion](https://arxiv.org/abs/2303.11366)
-			- Tool: databases, querying, coding
-	- Multi agent
+	- LLM agent components
 	  collapsed:: true
+		- ![image.png](../assets/image_1735823901190_0.png){:height 221, :width 438}
+		- Brain (Agent): LLM / action model
+		- Memory: short-term memory and long term memory
+		- Planning: plan formulation + plan reflection
+			- Plant formulation: break down large task using [chain of thought method](https://www.superannotate.com/blog/chain-of-thought-cot-prompting) or [tree of thought method](https://github.com/princeton-nlp/tree-of-thought-llm), or decision tree
+			  ![image.png](../assets/image_1735824178312_0.png)
+			- Plan reflection: review and feedback, methods: [ReAct](https://arxiv.org/abs/2210.03629) and [Reflexion](https://arxiv.org/abs/2303.11366)
+		- Tool: databases, querying, coding
+	- Multi agent
 		- ![image.png](../assets/image_1735822679261_0.png)
-		- Examples
-			- [BabyAGI](https://github.com/yoheinakajima/babyagi)
-				- GPT-4 (Agent Core):
-					- OpenAI's GPT-4 serves as the core of the system, enabling it to 
-					  complete tasks, generate new tasks based on completed results, and 
-					  prioritize tasks in real-time. It leverages the powerful text-based 
-					  language model capabilities of GPT-4.
-				- Pinecone(Memory Module):
-					- Pinecone is utilized for efficient storage and retrieval of 
-					  task-related data, including task descriptions, constraints, and 
-					  results. It provides robust search and storage capabilities for 
-					  high-dimensional vector data, enhancing the system's efficiency.
-				- LangChain Framework (Tooling Module):
-					- The LangChain framework enhances the system's capabilities, 
-					  particularly in task completion and decision-making processes. It allows
-					  the AI agent to be data-aware and interact with its environment, 
-					  contributing to a more powerful and differentiated system.
-				- Task Management (Planning Module):
-					- The system maintains a task list using a deque data structure, 
-					  enabling it to manage and prioritize tasks autonomously. It dynamically 
-					  generates new tasks based on completed results and adjusts task 
-					  priorities accordingly.
-				- ![image.png](../assets/image_1735822809952_0.png)
-			- [Other agents](https://www.promptingguide.ai/research/llm-agents#notable-llm-based-agents)
+	- Examples
+		- [BabyAGI](https://github.com/yoheinakajima/babyagi)
+		  collapsed:: true
+			- GPT-4 (Agent Core):
+				- OpenAI's GPT-4 serves as the core of the system, enabling it to 
+				  complete tasks, generate new tasks based on completed results, and 
+				  prioritize tasks in real-time. It leverages the powerful text-based 
+				  language model capabilities of GPT-4.
+			- Pinecone(Memory Module):
+				- Pinecone is utilized for efficient storage and retrieval of 
+				  task-related data, including task descriptions, constraints, and 
+				  results. It provides robust search and storage capabilities for 
+				  high-dimensional vector data, enhancing the system's efficiency.
+			- LangChain Framework (Tooling Module):
+				- The LangChain framework enhances the system's capabilities, 
+				  particularly in task completion and decision-making processes. It allows
+				  the AI agent to be data-aware and interact with its environment, 
+				  contributing to a more powerful and differentiated system.
+			- Task Management (Planning Module):
+				- The system maintains a task list using a deque data structure, 
+				  enabling it to manage and prioritize tasks autonomously. It dynamically 
+				  generates new tasks based on completed results and adjusts task 
+				  priorities accordingly.
+			- ![image.png](../assets/image_1735822809952_0.png)
+		- [Other agents](https://www.promptingguide.ai/research/llm-agents#notable-llm-based-agents)
+		- [And some other agents](https://github.com/kaushikb11/awesome-llm-agents)
 - Notes for Blog
 	- Agentic AI is a plus version of AI Agent, which focuses more in RL area
 	- Multi Agent is another human brain that available anytime. You may consider it as a personal assistant.
