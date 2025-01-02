@@ -1,1 +1,1 @@
-- ![SLAM for Dummies](slam_for_dummies.pdf) #🙋🏻PICKME
+- ![SLAM for Dummies](slam_for_dummies.pdf)
