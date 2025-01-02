@@ -61,4 +61,4 @@
 				- maybe [answer](https://stats.stackexchange.com/questions/233658/softmax-vs-sigmoid-function-in-logistic-classifier)
 	- ## RL
 		- [Sutton's Book](http://incompleteideas.net/book/the-book-2nd.html)
--
+	-

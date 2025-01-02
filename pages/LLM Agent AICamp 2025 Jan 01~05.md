@@ -37,3 +37,6 @@
 		- **Agentic AI** refers to advanced AI systems that demonstrate a higher degree of independence, initiative, and adaptability. While traditional AI agents operate within ==predefined frameworks==, agentic AI pushes the boundaries by showcasing characteristics that make them appear more "agent-like," often capable of pursuing open-ended goals.
 	- Multi agent
 		- ![image.png](../assets/image_1735822679261_0.png)
+		- Example
+			- ![image.png](../assets/image_1735822809952_0.png)
+			-
