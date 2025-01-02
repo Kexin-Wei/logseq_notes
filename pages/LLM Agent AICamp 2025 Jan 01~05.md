@@ -31,7 +31,6 @@
 		- Recommended Course No.2 : [https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
 	- [The best post](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/agents_101_guide.md)
 	- AI Agent vs Agentic AI
-	  collapsed:: true
 		- ![image.png](../assets/image_1735817745738_0.png){:height 242, :width 456}
 		- ![image.png](../assets/image_1735817794611_0.png){:height 235, :width 458}
 		- **Agentic AI** refers to advanced AI systems that demonstrate a higher degree of independence, initiative, and adaptability. While traditional AI agents operate within ==predefined frameworks==, agentic AI pushes the boundaries by showcasing characteristics that make them appear more "agent-like," often capable of pursuing open-ended goals.
@@ -74,17 +73,9 @@
 					  priorities accordingly.
 				- ![image.png](../assets/image_1735822809952_0.png)
 			- [Other agents](https://www.promptingguide.ai/research/llm-agents#notable-llm-based-agents)
-	- What it can do
-		- **Advanced problem solving**
-			- LLM agents can handle and execute complex tasks efficiently. They can generate project plans, write code, run benchmarks, create summaries, etc. These tasks show their ability to plan and execute tasks that require a high level of cognitive engagement.
-		- **Self-reflection and improvement**
-			- LLM agents are able to analyze their own output, identify any issues, and make necessary improvements. This [self-reflection](https://blog.langchain.dev/reflection-agents/) ability allows them to engage in a cycle of criticism and rewriting, continuously enhancing their performance across a variety of tasks such as coding, writing text, and answering complex questions.
-		- **Tool use:**
-			- LLM agents can evaluate their own output, ensuring the accuracy and correctness of their work. For instance, they might run unit tests on their code or use web searches to verify the accuracy of the information in their text. This critical evaluation helps them recognize errors and suggest necessary corrections.
-		- **Multi-agent framework**
-			- In a [multi-agent LLM](https://www.superannotate.com/blog/multi-agent-llms) framework, one agent can generate outputs, and another can critique and provide feedback, resulting in advanced performance.
 - Notes for Blog
 	- Agentic AI is a plus version of AI Agent, which focuses more in RL area
 	- Multi Agent is another human brain that available anytime. You may consider it as a personal assistant.
 	- What service it provides out of LLM features?
-		- decision making, planning, code
+		- decision making, planning, coding
+		-
