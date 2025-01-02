@@ -41,8 +41,10 @@
 			- Brain (Agent): LLM / action model
 			- Memory: short-term memory and long term memory
 			- Planning: plan formulation + plan reflection
-				- Plant formulation: break down large task using chain of thought method or tree of thought method, or decision tree
-				-
+				- Plant formulation: break down large task using [chain of thought method](https://www.superannotate.com/blog/chain-of-thought-cot-prompting) or [tree of thought method](https://github.com/princeton-nlp/tree-of-thought-llm), or decision tree
+				  ![image.png](../assets/image_1735824178312_0.png)
+				- Plan reflection: review and feedback, methods: [ReAct](https://arxiv.org/abs/2210.03629) and [Reflexion](https://arxiv.org/abs/2303.11366)
+			- Tool: databases, querying, coding
 	- Multi agent
 		- ![image.png](../assets/image_1735822679261_0.png)
 		- Examples
