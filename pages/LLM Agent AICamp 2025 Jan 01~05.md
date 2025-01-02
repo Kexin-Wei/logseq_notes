@@ -50,6 +50,7 @@
 	- Multi agent
 		- ![image.png](../assets/image_1735822679261_0.png)
 	- Examples
+		- ![image.png](../assets/image_1735822809952_0.png)
 		- [BabyAGI](https://github.com/yoheinakajima/babyagi)
 		  collapsed:: true
 			- GPT-4 (Agent Core):
@@ -72,12 +73,13 @@
 				  enabling it to manage and prioritize tasks autonomously. It dynamically 
 				  generates new tasks based on completed results and adjusts task 
 				  priorities accordingly.
-			- ![image.png](../assets/image_1735822809952_0.png)
 		- [Other agents](https://www.promptingguide.ai/research/llm-agents#notable-llm-based-agents)
 		- [And some other agents](https://github.com/kaushikb11/awesome-llm-agents)
 - Notes for Blog
 	- Agentic AI is a plus version of AI Agent, which focuses more in RL area
 	- Multi Agent is another human brain that available anytime. You may consider it as a personal assistant.
-	- What service it provides out of LLM features?
-		- decision making, planning, coding
-		-
+	- What service it provides out of LLM features? decision making, planning, coding
+	- How it manages to do that
+		- break down task
+		- use tool
+		- store
