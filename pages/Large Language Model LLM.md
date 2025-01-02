@@ -1,2 +1,3 @@
 - [大模型训练之微调篇 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/625896377)
 - [[LLM Agent AICamp 2025 Jan 01~05]]
+- LLM Engineer Handbook
