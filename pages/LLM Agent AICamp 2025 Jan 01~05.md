@@ -35,8 +35,12 @@
 		- ![image.png](../assets/image_1735817794611_0.png){:height 235, :width 458}
 		- **Agentic AI** refers to advanced AI systems that demonstrate a higher degree of independence, initiative, and adaptability. While traditional AI agents operate within ==predefined frameworks==, agentic AI pushes the boundaries by showcasing characteristics that make them appear more "agent-like," often capable of pursuing open-ended goals.
 		- ![image.png](../assets/image_1735823783290_0.png){:height 269, :width 463}
+		- A basic LLM with a [retrieval augmented generation (RAG)](https://www.superannotate.com/blog/rag-explained) system can easily fetch the needed information from legal databases.
+		- LLM agent components
+			- ![image.png](../assets/image_1735823901190_0.png){:height 221, :width 438}
+			- Brain (Agent): LLM / action model
+			- Memory:
 	- Multi agent
-	  collapsed:: true
 		- ![image.png](../assets/image_1735822679261_0.png)
 		- Examples
 			- [BabyAGI](https://github.com/yoheinakajima/babyagi)
