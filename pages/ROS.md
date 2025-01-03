@@ -40,11 +40,11 @@
 		  # run when demo running
 		  ros2 run tf2_tools view_frames # generate frams.gv and pdf in current diretory
 		  ```
-	- ```bash
-	  ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro a_car.urdf)"
-	  ros2 run joint_state_publisher_gui joint_state_publisher_gui
-	  ros2 run rviz2 rviz2
-	  ```
+		- ```bash
+		  ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro a_car.urdf)"
+		  ros2 run joint_state_publisher_gui joint_state_publisher_gui
+		  ros2 run rviz2 rviz2
+		  ```
 	- Gazebo (harmonic)
 		- ```bash
 		  # terminal 1
@@ -63,6 +63,10 @@
 		      <node pkg="ros_gz_sim" exec="create" args="-topic robot_description" />
 		  ```
 - # [[ROS & Docker]]
+- # ROS2 & Navigation 2
+	- ```bash
+	  # install
+	  ```
 - # ROS in Raspberry Pi
 	- [ROS 2 on Raspberry Pi — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Installing-on-Raspberry-Pi.html)
 - # Tips
