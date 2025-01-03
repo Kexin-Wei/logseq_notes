@@ -86,6 +86,11 @@
 		  # launch gazebo
 		  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
 		  
+		  # open robot controller
+		  ros2 run turtlebot3_teleop teleop_keyboard
+		  
+		  # launch rviz
+		  ros2 launch  turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
 		  
 		  # save map
 		  ros2 run nav2_map_server map_saver_cli -f maps/map_house
