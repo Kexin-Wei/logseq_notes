@@ -5,305 +5,278 @@
 import numpy as np
 ```
 - ## `np.r_[]`, `np.c_[]`
-  
-  
-  ```python
-  np.r_[-1:1:6j, [0]*3, 5, 6]
-  ```
-  
-    [-1.  -0.6 -0.2  0.2  0.6  1.   0.   0.   0.   5.   6. ]
-    [[1 4]
-     [2 5]
-     [3 6]]
-  
-  
-  
-  ```python
-  np.c_[[1,2,3],[4,5,6]]
-  ```
-  
-  
-  
-  
-    array([[1, 4],
-           [2, 5],
-           [3, 6]])
+	- ```python
+	  np.r_[-1:1:6j, [0]*3, 5, 6]
+	  ```
+	  
+	    [-1.  -0.6 -0.2  0.2  0.6  1.   0.   0.   0.   5.   6. ]
+	    [[1 4]
+	     [2 5]
+	     [3 6]]
+	  
+	  
+	  
+	  ```python
+	  np.c_[[1,2,3],[4,5,6]]
+	  ```
+	  
+	  
+	  
+	  
+	    array([[1, 4],
+	           [2, 5],
+	           [3, 6]])
 - ## `np.hstack()`
-  
-  
-  ```python
-  a = np.array((1,2,3))
-  b = np.array((4,5,6))
-  np.hstack((a,b))
-  ```
-  
-  
-  
-  
-    array([1, 2, 3, 4, 5, 6])
-  
-  
-  
-  
-  ```python
-  a = np.array([[1],[2],[3]])
-  b = np.array([[4],[5],[6]])
-  np.hstack((a,b))
-  ```
-  
-  
-  
-  
-    array([[1, 4],
-           [2, 5],
-           [3, 6]])
+	- ```python
+	  a = np.array((1,2,3))
+	  b = np.array((4,5,6))
+	  np.hstack((a,b))
+	  ```
+	  
+	  
+	  
+	  
+	    array([1, 2, 3, 4, 5, 6])
+	  
+	  
+	  
+	  
+	  ```python
+	  a = np.array([[1],[2],[3]])
+	  b = np.array([[4],[5],[6]])
+	  np.hstack((a,b))
+	  ```
+	  
+	  
+	  
+	  
+	    array([[1, 4],
+	           [2, 5],
+	           [3, 6]])
 - ## `np.argwhere()` vs `np.where()`
-  
-  `np.argwhere()` return index
-  
-  `np.where()` return index in tuple, use the index direct on other array
-  
-  
-  ```python
-  np.argwhere(np.arange(6).reshape(2,3)>1)
-  ```
-  
-  
-  
-  
-    array([[0, 2],
-           [1, 0],
-           [1, 1],
-           [1, 2]], dtype=int64)
-  
-  
-  
-  
-  ```python
-  np.where([[True, False], [True, True]],
-         [[1, 2], [3, 4]],
-         [[9, 8], [7, 6]])
-  ```
-  
-  
-  
-  
-    array([[1, 8],
-           [3, 4]])
+	- `np.argwhere()` return index
+	  
+	  `np.where()` return index in tuple, use the index direct on other array
+	  
+	  
+	  ```python
+	  np.argwhere(np.arange(6).reshape(2,3)>1)
+	  ```
+	  
+	  
+	  
+	  
+	    array([[0, 2],
+	           [1, 0],
+	           [1, 1],
+	           [1, 2]], dtype=int64)
+	  
+	  
+	  
+	  
+	  ```python
+	  np.where([[True, False], [True, True]],
+	         [[1, 2], [3, 4]],
+	         [[9, 8], [7, 6]])
+	  ```
+	  
+	  
+	  
+	  
+	    array([[1, 8],
+	           [3, 4]])
 - ## `np.intersect1d()`
-  
-  select common element from 2 1d array
-  
-  
-  ```python
-  np.intersect1d([1, 3, 4, 3], [3, 1, 2, 1])
-  ```
-  
-  
-  
-  
-    array([1, 3])
+	- select common element from 2 1d array
+	  
+	  
+	  ```python
+	  np.intersect1d([1, 3, 4, 3], [3, 1, 2, 1])
+	  ```
+	  
+	  
+	  
+	  
+	    array([1, 3])
 - ## `np.unique()`
-  
-  axis apply able
-  
-  
-  ```python
-  a = np.array([[1, 0, 0], [1, 0, 0], [2, 3, 4]])
-  np.unique(a, axis=0)
-  ```
-  
-  
-  
-  
-    array([[1, 0, 0],
-           [2, 3, 4]])
-- ### unique row in array, find same row in array
-  
-  
-  ```python
-  a = np.array([1,1,1,2,3,4,1,2,3,2,3,4]).reshape(-1,3)
-  temp1 = [tuple(row) for row in np.sort(a,axis=1)]
-  temp2,counts = np.unique(temp1,axis=0,return_counts=True)
-  print(temp1)
-  print(temp2)
-  print(counts) # duplicate times for temp2's row in temp1
-  ```
-  
-    [(1, 1, 1), (2, 3, 4), (1, 2, 3), (2, 3, 4)]
-    [[1 1 1]
-     [1 2 3]
-     [2 3 4]]
-    [1 1 2]
+	- axis apply able
+	  
+	  
+	  ```python
+	  a = np.array([[1, 0, 0], [1, 0, 0], [2, 3, 4]])
+	  np.unique(a, axis=0)
+	  ```
+	  
+	  
+	  
+	  
+	    array([[1, 0, 0],
+	           [2, 3, 4]])
+	- ### unique row in array, find same row in array
+	- ```python
+	  a = np.array([1,1,1,2,3,4,1,2,3,2,3,4]).reshape(-1,3)
+	  temp1 = [tuple(row) for row in np.sort(a,axis=1)]
+	  temp2,counts = np.unique(temp1,axis=0,return_counts=True)
+	  print(temp1)
+	  print(temp2)
+	  print(counts) # duplicate times for temp2's row in temp1
+	  ```
+	  
+	    [(1, 1, 1), (2, 3, 4), (1, 2, 3), (2, 3, 4)]
+	    [[1 1 1]
+	     [1 2 3]
+	     [2 3 4]]
+	    [1 1 2]
 - ## `np.linalg.det()`
-  
-  can handle all $\dots \times \dots \times n\times n$ multi-dimensional array
-  
-  
-  ```python
-  a = np.array([ [[1, 2], [3, 4]], [[1, 2], [2, 1]], [[1, 3], [3, 1]] ])
-  a.shape
-  (3, 2, 2)
-  np.linalg.det(a).shape
-  ```
-  
-  
-  
-  
-    (3,)
+	- can handle all $\dots \times \dots \times n\times n$ multi-dimensional array
+	  
+	  
+	  ```python
+	  a = np.array([ [[1, 2], [3, 4]], [[1, 2], [2, 1]], [[1, 3], [3, 1]] ])
+	  a.shape
+	  (3, 2, 2)
+	  np.linalg.det(a).shape
+	  ```
+	  
+	  
+	  
+	  
+	    (3,)
 - ## `np.all()`
-  
-  
-  ```python
-  np.all([[True,False],[True,True]], axis=0)
-  ```
-  
-  
-  
-  
-    array([ True, False])
+	- ```python
+	  np.all([[True,False],[True,True]], axis=0)
+	  ```
+	  
+	  
+	  
+	  
+	    array([ True, False])
 - ## `np.cross()`
-  
-  
-  ```python
-  x = np.array([[1,2,3], [4,5,6]])
-  y = np.array([[4,5,6], [1,2,3]])
-  np.cross(x, y)
-  ```
-  
-  
-  
-  
-    array([[-3,  6, -3],
-           [ 3, -6,  3]])
-  
-  
-  
-  
-  ```python
-  np.cross(x, y, axisc=0)
-  ```
-  
-  
-  
-  
-    array([[-3,  3],
-           [ 6, -6],
-           [-3,  3]])
+	- ```python
+	  x = np.array([[1,2,3], [4,5,6]])
+	  y = np.array([[4,5,6], [1,2,3]])
+	  np.cross(x, y)
+	  ```
+	  
+	  
+	  
+	  
+	    array([[-3,  6, -3],
+	           [ 3, -6,  3]])
+	  
+	  
+	  
+	  
+	  ```python
+	  np.cross(x, y, axisc=0)
+	  ```
+	  
+	  
+	  
+	  
+	    array([[-3,  3],
+	           [ 6, -6],
+	           [-3,  3]])
 - ## `np.isin()`
-  
-  find elements not in sub-array
-  
-  
-  ```python
-  x = np.array([1,3,5,7])
-  y = np.arange(9)
-  y[np.isin(y,x,invert=True)]
-  ```
-  
-  
-  
-  
-    array([0, 2, 4, 6, 8])
+	- find elements not in sub-array
+	  
+	  
+	  ```python
+	  x = np.array([1,3,5,7])
+	  y = np.arange(9)
+	  y[np.isin(y,x,invert=True)]
+	  ```
+	  
+	  
+	  
+	  
+	    array([0, 2, 4, 6, 8])
 - ## `np.flatten()` & `np.squeeze()`
-  
-  
-  ```python
-  x = np.array([[[0], [1], [2]]])
-  
-  print(x)
-  print(x.flatten())
-  print(np.squeeze(x))
-  print(np.squeeze(x, axis=0))
-  ```
-  
-    [[[0]
-      [1]
-      [2]]]
-    [0 1 2]
-    [0 1 2]
-    [[0]
-     [1]
-     [2]]
+	- ```python
+	  x = np.array([[[0], [1], [2]]])
+	  
+	  print(x)
+	  print(x.flatten())
+	  print(np.squeeze(x))
+	  print(np.squeeze(x, axis=0))
+	  ```
+	  
+	    [[[0]
+	      [1]
+	      [2]]]
+	    [0 1 2]
+	    [0 1 2]
+	    [[0]
+	     [1]
+	     [2]]
 - ## `np.linalg.norm()` :unitfy the vector
-  
-  
-  ```python
-  x = np.arange(6).reshape(-1,2)
-  
-  x = x / np.linalg.norm(x,axis=-1)[:,None]
-  np.linalg.norm(x,axis=-1)
-  ```
-  
-  
-  
-  
-    array([1., 1., 1.])
-- ## `np.linalg.det()` 
-  
-  
-  ```python
-  a = np.array([ [[1, 2], [3, 4]], [[1, 2], [2, 1]], [[1, 3], [3, 1]] ])
-  b = np.linalg.det(a)
-  print(a.shape)
-  print(b.shape)
-  print(b)
-  ```
-  
-    (3, 2, 2)
-    (3,)
-    [-2. -3. -8.]
+	- ```python
+	  x = np.arange(6).reshape(-1,2)
+	  
+	  x = x / np.linalg.norm(x,axis=-1)[:,None]
+	  np.linalg.norm(x,axis=-1)
+	  ```
+	  
+	  
+	  
+	  
+	    array([1., 1., 1.])
+- ## `np.linalg.det()`
+	- ```python
+	  a = np.array([ [[1, 2], [3, 4]], [[1, 2], [2, 1]], [[1, 3], [3, 1]] ])
+	  b = np.linalg.det(a)
+	  print(a.shape)
+	  print(b.shape)
+	  print(b)
+	  ```
+	  
+	    (3, 2, 2)
+	    (3,)
+	    [-2. -3. -8.]
 - ## `np.einsum()`
 - ### multi-dimensional tensor product
-  
-  
-  ```python
-  a = np.random.rand(6,4,3)
-  # aj tensor product ak
-  aj_t_k = np.einsum('ijl,ikn->ijkln',a,a)
-  # ak tensor produce aj
-  ak_t_j = np.einsum('ijl,ikn->ijknl',a,a)
-  print(aj_t_k[2,1,2])
-  print(ak_t_j[2,2,1])
-  ```
-  
-    [[0.37252991 0.43198341 0.45613034]
-     [0.17406449 0.20184412 0.21312677]
-     [0.04924295 0.05710183 0.0602937 ]]
-    [[0.37252991 0.43198341 0.45613034]
-     [0.17406449 0.20184412 0.21312677]
-     [0.04924295 0.05710183 0.0602937 ]]
+	- ```python
+	  a = np.random.rand(6,4,3)
+	  # aj tensor product ak
+	  aj_t_k = np.einsum('ijl,ikn->ijkln',a,a)
+	  # ak tensor produce aj
+	  ak_t_j = np.einsum('ijl,ikn->ijknl',a,a)
+	  print(aj_t_k[2,1,2])
+	  print(ak_t_j[2,2,1])
+	  ```
+	  
+	    [[0.37252991 0.43198341 0.45613034]
+	     [0.17406449 0.20184412 0.21312677]
+	     [0.04924295 0.05710183 0.0602937 ]]
+	    [[0.37252991 0.43198341 0.45613034]
+	     [0.17406449 0.20184412 0.21312677]
+	     [0.04924295 0.05710183 0.0602937 ]]
 - ### set diagnoal for multi-dimensional matrix
-  
-  
-  ```python
-  a = np.zeros((6,4,4,3,3))
-  np.einsum('...jj->...j',a)[...] = np.arange(3)[None,None,None,:]
-  print(a[0,0,0],'\n',a[3,2,1])
-  ```
-  
-    [[0. 0. 0.]
-     [0. 1. 0.]
-     [0. 0. 2.]] 
-     [[0. 0. 0.]
-     [0. 1. 0.]
-     [0. 0. 2.]]
+	- ```python
+	  a = np.zeros((6,4,4,3,3))
+	  np.einsum('...jj->...j',a)[...] = np.arange(3)[None,None,None,:]
+	  print(a[0,0,0],'\n',a[3,2,1])
+	  ```
+	  
+	    [[0. 0. 0.]
+	     [0. 1. 0.]
+	     [0. 0. 2.]] 
+	     [[0. 0. 0.]
+	     [0. 1. 0.]
+	     [0. 0. 2.]]
 - ## `np.repeat()` & `np.tile()`
-  
-  
-  ```python
-  x = np.array([[1,2],[3,4]])
-  print(np.repeat(x,2).reshape(2,-1))
-  print(np.repeat(x, [1, 2], axis=1))
-  print(np.tile(x,(1,2)))
-  ```
-  
-    [[1 1 2 2]
-     [3 3 4 4]]
-    [[1 2 2]
-     [3 4 4]]
-    [[1 2 1 2]
-     [3 4 3 4]]
+	- ```python
+	  x = np.array([[1,2],[3,4]])
+	  print(np.repeat(x,2).reshape(2,-1))
+	  print(np.repeat(x, [1, 2], axis=1))
+	  print(np.tile(x,(1,2)))
+	  ```
+	  
+	    [[1 1 2 2]
+	     [3 3 4 4]]
+	    [[1 2 2]
+	     [3 4 4]]
+	    [[1 2 1 2]
+	     [3 4 3 4]]
 - # Matplotlib
   
   
@@ -311,27 +284,23 @@ import numpy as np
   import matplotlib.pyplot as plt
   ```
 - ## Plot without break code
-  
-  
-  ```python
-  plt.show(block=False)
-  ```
+	- ```python
+	  plt.show(block=False)
+	  ```
 - ## 3D plot
-  
-  
-  ```python
-  fig = plt.figure()
-  ax = plt.axes(projection='3d')
-  ps = np.random.rand(4,3)*10
-  ax.scatter(ps[:,0],ps[:,1],ps[:,2],marker='^',c='#1E46DA')
-  ```
-  
-  
-  
-  
-    <mpl_toolkits.mplot3d.art3d.Path3DCollection at 0x2510cf1adc8>
-  
-  ​ ![image.png](../assets/image_1735869931212_0.png)
+	- ```python
+	  fig = plt.figure()
+	  ax = plt.axes(projection='3d')
+	  ps = np.random.rand(4,3)*10
+	  ax.scatter(ps[:,0],ps[:,1],ps[:,2],marker='^',c='#1E46DA')
+	  ```
+	  
+	  
+	  
+	  
+	    <mpl_toolkits.mplot3d.art3d.Path3DCollection at 0x2510cf1adc8>
+	  
+	  ​ ![image.png](../assets/image_1735869931212_0.png)
 - ## Multiple 3D Subplot
   
   
@@ -405,7 +374,7 @@ import numpy as np
   
   
   ​    
-  ![png](Python_Notes_files/Python_Notes_57_0.png)
+  ![image.png](../assets/image_1735869995465_0.png) ![png](Python_Notes_files/Python_Notes_57_0.png)
   ​
 - ## Draw line segments
   
@@ -430,7 +399,7 @@ import numpy as np
   
   
   
-  ![png](Python_Notes_files/Python_Notes_59_1.png)
+  ![image.png](../assets/image_1735870008004_0.png) 
   ​
 - ## Draw vector
   
@@ -448,11 +417,8 @@ import numpy as np
   
     <mpl_toolkits.mplot3d.art3d.Line3DCollection at 0x1c951cea448>
   
-  
-  
-  
   ​    
-  ![png](Python_Notes_files/Python_Notes_61_1.png)
+  ![image.png](../assets/image_1735870021416_0.png) 
   ​
 - # Json
   
