@@ -24,6 +24,7 @@
 	  
 	  # nav2
 	  export TURTLEBOT3_MODEL=waffle
+	  export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp # a fix
 	  ```
 - # [[ROS Concepts]]
 - # ROS Visualization
@@ -80,7 +81,15 @@
 		- ```bash
 		  sudo apt install ros-<ros2-distro>-rmw-cyclonedds-cpp
 		  ```
-	-
+	- Run turtle bot to get map
+		- ```bash
+		  # launch gazebo
+		  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+		  
+		  
+		  # save map
+		  ros2 run nav2_map_server map_saver_cli -f maps/map_house
+		  ```
 - # ROS in Raspberry Pi
 	- [ROS 2 on Raspberry Pi — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Installing-on-Raspberry-Pi.html)
 - # Tips
