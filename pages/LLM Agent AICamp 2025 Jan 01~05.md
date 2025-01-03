@@ -74,7 +74,12 @@
 			- [Other agents](https://www.promptingguide.ai/research/llm-agents#notable-llm-based-agents)
 			- [And some other agents](https://github.com/kaushikb11/awesome-llm-agents)
 		- ### Multi agent
-			-
+			- Sequential
+				- ![image.png](../assets/image_1735872333973_0.png)
+				- Feedback mechanism
+					- If the second agent finds that the research done on the topic is not sufficient to write, it will again ask the first agent to provide more information. Similarly, if the third agent finds that the article written is not good to publish it will go back to the second agent and give its feedback on the article and ask it to write again. This way, we have a more reliable and efficient system.
+			- Hierarchical
+				- ![image.png](../assets/image_1735872385656_0.png)
 - # Day 1
 	-
 - # Notes for Blog
