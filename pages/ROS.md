@@ -14,11 +14,16 @@
 - # Environment set up
 	- Add source in Ubuntu `.bashrc`
 	  ```bash
-	  # ros jazzy evn set up
-	  source /opt/ros/jazzy/setup.bash # ros command
-	  source /usr/share/gazebo/setup.bash  # gazebo
-	  source /usr/share/colcon_cd/function/colcon_cd-argcomplete.bash #colcon autocomplete
-	  source ~/ros2_ws/install/setup.bash # workspace command
+	  # ros2
+	  source /opt/ros/humble/setup.bash
+	  source /usr/share/colcon_cd/function/colcon_cd-argcomplete.bash
+	  source ~/ros2_ws/install/setup.bash
+	  
+	  # gazebo
+	  source /usr/share/gazebo/setup.bash
+	  
+	  # nav2
+	  export TURTLEBOT3_MODEL=waffle
 	  ```
 - # [[ROS Concepts]]
 - # ROS Visualization

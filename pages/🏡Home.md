@@ -14,7 +14,6 @@
 		- [[Neovim]]
 		  collapsed:: true
 		- [[Python Code Encryption]]
-		- [[ROS]]
 		- Medical Related Open Source
 		  collapsed:: true
 			- List of them #software
@@ -23,7 +22,7 @@
 				- [IGTL](http://openigtlink.org/users/)
 				- [Plus](https://plustoolkit.github.io/)
 	- ## 🤖Robot
-	  collapsed:: true
+		- [[ROS]]
 		- [[Corporate Explorer]]
 		- [[Soft Tissue Deformation]]
 		- [[Soft Robot]]
@@ -34,7 +33,6 @@
 		- [[📈Signal Processing]]
 		- [[✈️SLAM]]
 	- ## 🏥Medical Knowledge
-	  collapsed:: true
 		- [[BBN Blood Brain Barrier]]
 		- [[Anatomy Views of Human]]
 		- [[Kidney Anatomy]]
