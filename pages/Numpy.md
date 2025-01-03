@@ -278,11 +278,9 @@ import numpy as np
 	    [[1 2 1 2]
 	     [3 4 3 4]]
 - # Matplotlib
-  
-  
-  ```python
-  import matplotlib.pyplot as plt
-  ```
+	- ```python
+	  import matplotlib.pyplot as plt
+	  ```
 - ## Plot without break code
 	- ```python
 	  plt.show(block=False)
@@ -302,200 +300,180 @@ import numpy as np
 	  
 	  ​ ![image.png](../assets/image_1735869931212_0.png)
 - ## Multiple 3D Subplot
-  
-  
-  ```python
-  def create_axs(subplot_n,block=False):
-    r = int(np.floor(np.sqrt(subplot_n)))
-    c = int(subplot_n/r)
-    fig = plt.figure(figsize=plt.figaspect(0.5))
-    axs = {}
-    for i in range(subplot_n):
-        axs[i] = fig.add_subplot(r, c, i+1, projection='3d')
-    return axs
-  ```
+	- ```python
+	  def create_axs(subplot_n,block=False):
+	    r = int(np.floor(np.sqrt(subplot_n)))
+	    c = int(subplot_n/r)
+	    fig = plt.figure(figsize=plt.figaspect(0.5))
+	    axs = {}
+	    for i in range(subplot_n):
+	        axs[i] = fig.add_subplot(r, c, i+1, projection='3d')
+	    return axs
+	  ```
 - ## Equal Axis for 3D plot
-  
-  require matplotlib 3.5
-  
-  
-  ```python
-  def plt_equal(ax):
-    ax.set_box_aspect((1, 1, 1))  # IMPORTANT - this is the new, key line
-    set_axes_equal(ax)  # IMPORTANT - this is also required
-    
-  def set_axes_equal(ax: plt.Axes):
-        """Set 3D plot axes to equal scale.
-  
-        Make axes of 3D plot have equal scale so that spheres appear as
-        spheres and cubes as cubes.  Required since `ax.axis('equal')`
-        and `ax.set_aspect('equal')` don't work on 3D.
-        """
-        limits = np.array([
-            ax.get_xlim3d(),
-            ax.get_ylim3d(),
-            ax.get_zlim3d(),
-        ])
-        origin = np.mean(limits, axis=1)
-        radius = 0.5 * np.max(np.abs(limits[:, 1] - limits[:, 0]))
-        _set_axes_radius(ax, origin, radius)
-  
-  def _set_axes_radius(ax, origin, radius):
-    x, y, z = origin
-    ax.set_xlim3d([x - radius, x + radius])
-    ax.set_ylim3d([y - radius, y + radius])
-    ax.set_zlim3d([z - radius, z + radius]) 
-  
-  ```
-  
-  
-  ```python
-  from mpl_toolkits.mplot3d.art3d import Line3DCollection
-  fig = plt.figure()
-  ax = fig.add_subplot(projection='3d')
-  ps = np.random.rand(4,3)*10
-  ax.scatter(ps[:,0],ps[:,1],ps[:,2],marker='^',c='#1E46DA')
-  for i in range(4):  ax.text(ps[i, 0], ps[i, 1], ps[i, 2], f'{i + 1}')
-  plt_equal(ax)
-  ```
-  
-  ![image.png](../assets/image_1735869956805_0.png) 
-  ​
+	- require matplotlib 3.5
+	  
+	  
+	  ```python
+	  def plt_equal(ax):
+	    ax.set_box_aspect((1, 1, 1))  # IMPORTANT - this is the new, key line
+	    set_axes_equal(ax)  # IMPORTANT - this is also required
+	    
+	  def set_axes_equal(ax: plt.Axes):
+	        """Set 3D plot axes to equal scale.
+	  
+	        Make axes of 3D plot have equal scale so that spheres appear as
+	        spheres and cubes as cubes.  Required since `ax.axis('equal')`
+	        and `ax.set_aspect('equal')` don't work on 3D.
+	        """
+	        limits = np.array([
+	            ax.get_xlim3d(),
+	            ax.get_ylim3d(),
+	            ax.get_zlim3d(),
+	        ])
+	        origin = np.mean(limits, axis=1)
+	        radius = 0.5 * np.max(np.abs(limits[:, 1] - limits[:, 0]))
+	        _set_axes_radius(ax, origin, radius)
+	  
+	  def _set_axes_radius(ax, origin, radius):
+	    x, y, z = origin
+	    ax.set_xlim3d([x - radius, x + radius])
+	    ax.set_ylim3d([y - radius, y + radius])
+	    ax.set_zlim3d([z - radius, z + radius]) 
+	  
+	  ```
+	  
+	  
+	  ```python
+	  from mpl_toolkits.mplot3d.art3d import Line3DCollection
+	  fig = plt.figure()
+	  ax = fig.add_subplot(projection='3d')
+	  ps = np.random.rand(4,3)*10
+	  ax.scatter(ps[:,0],ps[:,1],ps[:,2],marker='^',c='#1E46DA')
+	  for i in range(4):  ax.text(ps[i, 0], ps[i, 1], ps[i, 2], f'{i + 1}')
+	  plt_equal(ax)
+	  ```
+	  
+	  ![image.png](../assets/image_1735869956805_0.png) 
+	  ​
 - ## Add Text
-  
-  
-  ```python
-  fig = plt.figure()
-  ax = plt.axes(projection='3d')
-  ps = np.random.rand(4,3)*10
-  ax.scatter(ps[:,0],ps[:,1],ps[:,2],marker='^',c='#1E46DA')
-  for i in range(4):  ax.text(ps[i, 0], ps[i, 1], ps[i, 2], f'{i + 1}')
-  ```
-  
-  
-  ​    
-  ![image.png](../assets/image_1735869995465_0.png) ![png](Python_Notes_files/Python_Notes_57_0.png)
-  ​
+	- ```python
+	  fig = plt.figure()
+	  ax = plt.axes(projection='3d')
+	  ps = np.random.rand(4,3)*10
+	  ax.scatter(ps[:,0],ps[:,1],ps[:,2],marker='^',c='#1E46DA')
+	  for i in range(4):  ax.text(ps[i, 0], ps[i, 1], ps[i, 2], f'{i + 1}')
+	  ```
+	  
+	  
+	  ​    
+	  ![image.png](../assets/image_1735869995465_0.png) ![png](Python_Notes_files/Python_Notes_57_0.png)
+	  ​
 - ## Draw line segments
-  
-  
-  ```python
-  from mpl_toolkits.mplot3d.art3d import Line3DCollection
-  
-  line_segs = np.random.rand(4,2,3)
-  
-  lc = Line3DCollection(line_segs.reshape(-1, 2, 3))
-  
-  fig = plt.figure()
-  ax = plt.axes(projection='3d')
-  ax.add_collection(lc)
-  ```
-  
-  
-  
-  
-    <mpl_toolkits.mplot3d.art3d.Line3DCollection at 0x2510cb51288>
-  
-  
-  
-  
-  ![image.png](../assets/image_1735870008004_0.png) 
-  ​
+	- ```python
+	  from mpl_toolkits.mplot3d.art3d import Line3DCollection
+	  
+	  line_segs = np.random.rand(4,2,3)
+	  
+	  lc = Line3DCollection(line_segs.reshape(-1, 2, 3))
+	  
+	  fig = plt.figure()
+	  ax = plt.axes(projection='3d')
+	  ax.add_collection(lc)
+	  ```
+	  
+	  
+	  
+	  
+	    <mpl_toolkits.mplot3d.art3d.Line3DCollection at 0x2510cb51288>
+	  
+	  
+	  
+	  
+	  ![image.png](../assets/image_1735870008004_0.png) 
+	  ​
 - ## Draw vector
-  
-  
-  ```python
-  v = np.random.rand(3)*2-1
-  p = np.random.rand(3)*20+10
-  fig = plt.figure()
-  ax = plt.axes(projection='3d')
-  ax.quiver(p[0],p[1],p[2],v[0],v[1],v[2])
-  ```
-  
-  
-  
-  
-    <mpl_toolkits.mplot3d.art3d.Line3DCollection at 0x1c951cea448>
-  
-  ​    
-  ![image.png](../assets/image_1735870021416_0.png) 
-  ​
+	- ```python
+	  v = np.random.rand(3)*2-1
+	  p = np.random.rand(3)*20+10
+	  fig = plt.figure()
+	  ax = plt.axes(projection='3d')
+	  ax.quiver(p[0],p[1],p[2],v[0],v[1],v[2])
+	  ```
+	  
+	  
+	  
+	  
+	    <mpl_toolkits.mplot3d.art3d.Line3DCollection at 0x1c951cea448>
+	  
+	  ​    
+	  ![image.png](../assets/image_1735870021416_0.png) 
+	  ​
 - # Json
-  
-  
-  ```python
-  import json
-  ```
+	- ```python
+	  import json
+	  ```
 - ## save and load
-  
-  numpy array is not allowed, need to use `.tolist()`
-  
-  
-  ```python
-  #save
-  data_dict ={1:[2,3,1],"this":["i","2","s"]}
-  with open('data.json','w') as f:
-    json.dump(data_dict,f)
-  
-  #load    
-  with open('data.json', 'r') as f:
-    data_dict = json.load(f)
-  ```
+	- numpy array is not allowed, need to use `.tolist()`
+	  
+	  
+	  ```python
+	  #save
+	  data_dict ={1:[2,3,1],"this":["i","2","s"]}
+	  with open('data.json','w') as f:
+	    json.dump(data_dict,f)
+	  
+	  #load    
+	  with open('data.json', 'r') as f:
+	    data_dict = json.load(f)
+	  ```
 - # Python General
 - ## Save dict key value to local
-  
-  
-  ```python
-  data_dict ={'s':[2,3,1],"this":["i","2","s"]}
-  for key, value in data_dict.items():
-    exec(key + '=np.array(value)')
-  print(s,this)
-  ```
-  
-    [2 3 1] ['i' '2' 's']
+	- ```python
+	  data_dict ={'s':[2,3,1],"this":["i","2","s"]}
+	  for key, value in data_dict.items():
+	    exec(key + '=np.array(value)')
+	  print(s,this)
+	  ```
+	  
+	    [2 3 1] ['i' '2' 's']
 - ## pass **kwargs
-  
-  
-  ```python
-  def child(**kwargs):
-    print('I am child, i found')
-    for key, value in kwargs.items():
-        print(f'{key}: {value}')
-        
-  def parent(**kwargs):
-    print('I am parent, i give')
-    for key, value in kwargs.items():
-        print(f'{key}: {value}')
-    child(**kwargs)
-  parent(a = 1, b="st",c=np.random.rand(3))
-  ```
-  
-    I am parent, i give
-    a: 1
-    b: st
-    c: [0.11453608 0.92654534 0.6779164 ]
-    I am child, i found
-    a: 1
-    b: st
-    c: [0.11453608 0.92654534 0.6779164 ]
+	- ```python
+	  def child(**kwargs):
+	    print('I am child, i found')
+	    for key, value in kwargs.items():
+	        print(f'{key}: {value}')
+	        
+	  def parent(**kwargs):
+	    print('I am parent, i give')
+	    for key, value in kwargs.items():
+	        print(f'{key}: {value}')
+	    child(**kwargs)
+	  parent(a = 1, b="st",c=np.random.rand(3))
+	  ```
+	  
+	    I am parent, i give
+	    a: 1
+	    b: st
+	    c: [0.11453608 0.92654534 0.6779164 ]
+	    I am child, i found
+	    a: 1
+	    b: st
+	    c: [0.11453608 0.92654534 0.6779164 ]
 - ## Load `.mat` file
-  
-  
-  ```python
-  import scipy.io
-  mat = scipy.io.loadmat('data.mat')
-  for k,v in mat.items():
-    exec(k+'=v')
-  ```
+	- ```python
+	  import scipy.io
+	  mat = scipy.io.loadmat('data.mat')
+	  for k,v in mat.items():
+	    exec(k+'=v')
+	  ```
 - ## Dict append value to key
-  
-  
-  ```python
-  dt = {}
-  for i in range(5):
-    for j in range(i):
-        dt.setdefault(i,[]).append(j)
-  print(dt)
-  ```
-  
-    {1: [0], 2: [0, 1], 3: [0, 1, 2], 4: [0, 1, 2, 3]}
+	- ```python
+	  dt = {}
+	  for i in range(5):
+	    for j in range(i):
+	        dt.setdefault(i,[]).append(j)
+	  print(dt)
+	  ```
+	  
+	    {1: [0], 2: [0, 1], 3: [0, 1, 2], 4: [0, 1, 2, 3]}

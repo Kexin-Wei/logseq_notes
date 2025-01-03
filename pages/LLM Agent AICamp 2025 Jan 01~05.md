@@ -4,18 +4,16 @@
 	- [Daily submission form](https://docs.google.com/forms/d/e/1FAIpQLSfOP3QRWvTnuYJ--PqnxyCFvcOn8D_oEYZq3LYHCH6aRyZQsQ/viewform)
 	- [Presentation](https://docs.google.com/presentation/d/e/2PACX-1vQ2SVHmzSxgVv31-TUs4Zqrvd-vnP00MjZUvWkhqC5WS9xc_hhI1aEYO1VHfbbXESXymWlCsN9XP0tT/pub?start=false&loop=false&delayms=3000#slide=id.g32272e011e2_0_10)
 - [My Idx Google Codespace](https://idx.google.com/u/0/aisg-5-day-ai-agent-6251115)
-- Day 0
-  collapsed:: true
+- # Day 0
 	- [Record](https://us02web.zoom.us/rec/share/CnrPxgdVv0O69geR_q85gSxFFMrxm3hYw8BssnLDOKnR9LJz3zh7AlcmyDHe80bH.d7fq7K4NAosfm_WY) Passcode: at=.%TT5
 	- Handout notes
-		- ### Session 0 : Foundations of AI Agents
-		- ### What is an AI Agent?
-		  
-		  Objective: Understand the basics of ai agents 
-		  
-		  *autonomous: designed to perform independently 
-		  
-		  An AI agent is an autonomous  system that interacts with its environment to achieve specific goals.
+		- Session 0 : Foundations of AI Agents
+		- What is an AI Agent?
+			- Objective: Understand the basics of ai agents 
+			  
+			  *autonomous: designed to perform independently 
+			  
+			  An AI agent is an autonomous  system that interacts with its environment to achieve specific goals.
 		- Good article from  [https://www.salesforce.com/agentforce/what-are-ai-agents/](https://www.salesforce.com/agentforce/what-are-ai-agents/)
 		- Video [Link](https://www.youtube.com/watch?v=hLJTcVHW8_I&t=219s)
 		- Research on our own and share any unique links
@@ -31,13 +29,13 @@
 		- Recommended Course No.1 :[https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/)
 		- Recommended Course No.2 : [https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
 	- [The best post](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/agents_101_guide.md)
-	- AI Agent vs Agentic AI
+	- ## AI Agent vs Agentic AI
 		- ![image.png](../assets/image_1735817745738_0.png){:height 242, :width 456}
 		- ![image.png](../assets/image_1735817794611_0.png){:height 235, :width 458}
 		- **Agentic AI** refers to advanced AI systems that demonstrate a higher degree of independence, initiative, and adaptability. While traditional AI agents operate within ==predefined frameworks==, agentic AI pushes the boundaries by showcasing characteristics that make them appear more "agent-like," often capable of pursuing open-ended goals.
 		- ![image.png](../assets/image_1735823783290_0.png){:height 269, :width 463}
 		- A basic LLM with a [retrieval augmented generation (RAG)](https://www.superannotate.com/blog/rag-explained) system can easily fetch the needed information from legal databases.
-	- LLM agent components
+	- ## LLM agent components
 		- ![image.png](../assets/image_1735823901190_0.png){:height 221, :width 438}
 		- Brain (Agent): LLM / action model
 		- Memory: short-term memory and long term memory
@@ -46,9 +44,9 @@
 			  ![image.png](../assets/image_1735824178312_0.png)
 			- Plan reflection: review and feedback, methods: [ReAct](https://arxiv.org/abs/2210.03629) and [Reflexion](https://arxiv.org/abs/2303.11366)
 		- Tool: databases, querying, coding
-	- Multi agent
+	- ## Multi agent
 		- ![image.png](../assets/image_1735822679261_0.png)
-	- Examples
+	- ## Examples
 		- ![image.png](../assets/image_1735822809952_0.png)
 		- [BabyAGI](https://github.com/yoheinakajima/babyagi)
 			- GPT-4 (Agent Core):
@@ -73,7 +71,9 @@
 				  priorities accordingly.
 		- [Other agents](https://www.promptingguide.ai/research/llm-agents#notable-llm-based-agents)
 		- [And some other agents](https://github.com/kaushikb11/awesome-llm-agents)
-- Notes for Blog
+- # Day 1
+	-
+- ## Notes for Blog
 	- Agentic AI is a plus version of AI Agent, which focuses more in RL area
 	- Multi Agent is another human brain that available anytime. You may consider it as a personal assistant.
 	- What service it provides out of LLM features? decision making, planning, coding
