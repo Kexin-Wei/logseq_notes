@@ -331,12 +331,7 @@ import numpy as np
   
     <mpl_toolkits.mplot3d.art3d.Path3DCollection at 0x2510cf1adc8>
   
-  
-  
-  
-  ​    
-  ![png](Python_Notes_files/Python_Notes_49_1.png)
-  ​
+  ​ ![image.png](../assets/image_1735869931212_0.png)
 - ## Multiple 3D Subplot
   
   
@@ -395,9 +390,7 @@ import numpy as np
   plt_equal(ax)
   ```
   
-  
-  ​    
-  ![png](Python_Notes_files/Python_Notes_55_0.png)
+  ![image.png](../assets/image_1735869956805_0.png) 
   ​
 - ## Add Text
   
