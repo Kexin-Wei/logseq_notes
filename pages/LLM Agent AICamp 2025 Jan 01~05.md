@@ -1,4 +1,4 @@
-- Materials:
+# Materials:
 	- [5 Day Curriculum](https://docs.google.com/document/d/e/2PACX-1vS2Y4T1AlbEZg48HL8i1ODzNn0-zTQQt8DwzOuUj8gHnjwFq3G7Fdww6xJdh_4Yi8Il1bTuDHKIlWim/pub)
 	- [5 Day checklist](https://docs.google.com/document/d/e/2PACX-1vTkajey208fMutPynoKg7AE-RJsSpWgCQCFKgdzxGfPF0qjZwLXLARJCGpEqovqtly1xrWLKzAoG7qF/pub)
 	- [Daily submission form](https://docs.google.com/forms/d/e/1FAIpQLSfOP3QRWvTnuYJ--PqnxyCFvcOn8D_oEYZq3LYHCH6aRyZQsQ/viewform)
@@ -73,7 +73,7 @@
 		- [And some other agents](https://github.com/kaushikb11/awesome-llm-agents)
 - # Day 1
 	-
-- ## Notes for Blog
+- # Notes for Blog
 	- Agentic AI is a plus version of AI Agent, which focuses more in RL area
 	- Multi Agent is another human brain that available anytime. You may consider it as a personal assistant.
 	- What service it provides out of LLM features? decision making, planning, coding
