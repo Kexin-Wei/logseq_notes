@@ -77,6 +77,7 @@
 			  • Registration can aid segmentation
 			  • Interleaving segmentation and registration
 	- ## 🧠AI
+	  collapsed:: true
 		- [[AI Intro Map]]
 		- [[Download Google Drive in Colab or Jupyter]]
 		- [[Large Language Model LLM]]
@@ -124,8 +125,8 @@
 				- DONE Unit 3
 				- TODO Unit 4
 - # Book
-  collapsed:: true
 	- [[Making It All Work Book by David Allen]]
+	- [[The Crowd]]
 - # Tool
 	- ## Learning website to if you can't find help
 	  collapsed:: true
