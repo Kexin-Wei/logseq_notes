@@ -66,6 +66,12 @@
 - # ROS2 & Navigation 2
 	- ```bash
 	  # install
+	  sudo apt install ros-<ros2-distro>-navigation2 ros-<ros2-distro>-nav2-bringup
+	  
+	  # install demo
+	  sudo apt install ros-<ros2-distro>-nav2-minimal-tb* # jazzy
+	  # or 
+	  sudo apt install ros-<ros2-distro>-turtlebot3-gazebo # humble
 	  ```
 - # ROS in Raspberry Pi
 	- [ROS 2 on Raspberry Pi — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Installing-on-Raspberry-Pi.html)
