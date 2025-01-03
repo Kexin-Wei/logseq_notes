@@ -82,6 +82,7 @@
 				- ![image.png](../assets/image_1735872385656_0.png){:height 189, :width 388}
 			- Human role
 				- ![image.png](../assets/image_1735872515729_0.png){:height 214, :width 398}
+				- So, we can give the publisher agent the ability to ask for human intervention if it is not sure about the article by giving it a tool. In the prompt, we can mention clearly that when we want human intervention, the agent can ask for human intervention only when needed.
 - # Day 1
 	-
 - # Notes for Blog
