@@ -128,6 +128,7 @@
 	- [[Making It All Work Book by David Allen]]
 	- [[The Crowd]]
 	- [[Antifragile]]
+	- [[Simple Europe History]]
 - # Tool
 	- ## Learning website to if you can't find help
 	  collapsed:: true
