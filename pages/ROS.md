@@ -98,7 +98,13 @@
 	- Use map to navigate
 		- Code
 		  ```bash
+		  # launch gazebo
+		  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+		  # launch navigation tool
+		  ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=maps/map_world.yaml 
 		  ```
+		- ![image.png](../assets/image_1735971899586_0.png)
+		-
 - # ROS in Raspberry Pi
 	- [ROS 2 on Raspberry Pi — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Installing-on-Raspberry-Pi.html)
 - # Tips
