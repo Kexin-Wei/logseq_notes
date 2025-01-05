@@ -85,6 +85,7 @@
 				- ![image.png](../assets/image_1735872515729_0.png){:height 214, :width 398}
 				- So, we can give the publisher agent the ability to ask for human intervention if it is not sure about the article by giving it a tool. In the prompt, we can mention clearly that when we want human intervention, the agent can ask for human intervention only when needed.
 - # Day 1
+  collapsed:: true
 	- Article:[https://medium.com/@pallavisinha12/understanding-llm-based-agents-and-their-multi-agent-architecture-299cf54ebae4](https://www.google.com/url?q=https://medium.com/@pallavisinha12/understanding-llm-based-agents-and-their-multi-agent-architecture-299cf54ebae4&sa=D&source=editors&ust=1736048889331840&usg=AOvVaw3tBoU6AQjWKwGTcqJiNiK_)
 	- built an AI with short term memory, stored as a variable and added to prompt as background knowledge
 - # Day 2
@@ -110,4 +111,4 @@
 		- use tool or contact other agent
 		- store query or persona
 	- Prompt template is very important in ReAct
-	-
+		- This limits the agent creativity ( and dont forget to set temperature low)
