@@ -89,6 +89,7 @@
 	- Article:[https://medium.com/@pallavisinha12/understanding-llm-based-agents-and-their-multi-agent-architecture-299cf54ebae4](https://www.google.com/url?q=https://medium.com/@pallavisinha12/understanding-llm-based-agents-and-their-multi-agent-architecture-299cf54ebae4&sa=D&source=editors&ust=1736048889331840&usg=AOvVaw3tBoU6AQjWKwGTcqJiNiK_)
 	- built an AI with short term memory, stored as a variable and added to prompt as background knowledge
 - # Day 2
+  collapsed:: true
 	- [ReAct Implementation](https://langchain-ai.github.io/langgraph/concepts/agentic_concepts/#react-implementation)
 	- [Agentic AI](https://markovate.com/blog/agentic-ai-architecture/)
 	- [Prompt enginnering](https://cloud.google.com/discover/what-is-prompt-engineering)
