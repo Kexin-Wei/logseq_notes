@@ -334,8 +334,10 @@
  :zotero/settings-v2 {"Mac" {:zotero-data-directory "/Users/kexinwei/Zotero", :zotero-linked-attachment-base-directory "/Users/kexinwei/GoogleDrive/ZoteroFiles", :type-id "6786528", :extra-tags ""}}
  :graph/settings {:journal? false}
  :feature/enable-flashcards? false
- :feature/enable-journals? false
+ :feature/enable-journals? true
  :default-home {:page "🏡Home"}
  :feature/enable-whiteboards? false
  :ui/auto-expand-block-refs? false
+ :editor/logical-outdenting? true
+ :ui/show-full-blocks? true
  }
