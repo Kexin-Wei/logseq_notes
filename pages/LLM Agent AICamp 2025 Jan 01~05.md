@@ -102,6 +102,7 @@
 	- Agentic AI is a plus version of AI Agent, which focuses more in RL area
 	- Multi Agent is another human brain that available anytime. You may consider it as a personal assistant.
 	- What service it provides out of LLM features? decision making, planning, coding
+	- Temperature: 0-1, how creative the ai responses, 0 = deterministic, 1 = creative
 	- How it manages to do that
 		- break down task
 		- use tool or contact other agent
