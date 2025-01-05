@@ -109,3 +109,5 @@
 		- break down task
 		- use tool or contact other agent
 		- store query or persona
+	- Prompt template is very important in ReAct
+	-
