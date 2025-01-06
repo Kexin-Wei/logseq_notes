@@ -1,5 +1,7 @@
-- [大模型训练之微调篇 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/625896377)
-- LLM Engineer Handbook #🙋🏻PICKME
+- Reference:
+	- [大模型训练之微调篇 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/625896377)
+	- LLM Engineer Handbook #🙋🏻PICKME
+- [[LLM AICamp 2025 Jan06-12]]
 - LLM Agent
 	- [[LLM Agent AICamp 2025 Jan 01~05]]
 	- [Coursera Learn AI Agents](https://www.coursera.org/learn/learn-ai-agents/) #🙋🏻PICKME
