@@ -1,9 +1,8 @@
 - Reference:
 	- [大模型训练之微调篇 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/625896377)
 	- LLM Engineer Handbook #🙋🏻PICKME
-- [[LLM AICamp 2025 Jan06-12]]
-- LLM Agent
-	- [[LLM Agent AICamp 2025 Jan 01~05]]
 	- [Coursera Learn AI Agents](https://www.coursera.org/learn/learn-ai-agents/) #🙋🏻PICKME
 	- [AI Agents in LangGraph](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/) #🙋🏻PICKME
 	- [Multi AI Agent Systems with crewAI](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
+- [[LLM AICamp 2025 Jan06-12]]
+- [[LLM Agent AICamp 2025 Jan 01~05]]
