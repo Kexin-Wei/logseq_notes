@@ -108,6 +108,7 @@
 	  ![image.png](../assets/image_1736178800716_0.png){:height 333, :width 472}
 	- ![image.png](../assets/image_1736179078117_0.png){:height 558, :width 748}
 	-
+	-
 - # Notes for Blog
 	- Agentic AI is a plus version of AI Agent, which focuses more in RL area
 	- Multi Agent is another human brain that available anytime. You may consider it as a personal assistant.
