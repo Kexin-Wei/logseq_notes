@@ -5,7 +5,6 @@
 	- [Presentation](https://docs.google.com/presentation/d/e/2PACX-1vQ2SVHmzSxgVv31-TUs4Zqrvd-vnP00MjZUvWkhqC5WS9xc_hhI1aEYO1VHfbbXESXymWlCsN9XP0tT/pub?start=false&loop=false&delayms=3000#slide=id.g32272e011e2_0_10)
 - [My Idx Google Codespace](https://idx.google.com/u/0/aisg-5-day-ai-agent-6251115)
 - # Day 0 Call Api
-  collapsed:: true
 	- [Record](https://us02web.zoom.us/rec/share/CnrPxgdVv0O69geR_q85gSxFFMrxm3hYw8BssnLDOKnR9LJz3zh7AlcmyDHe80bH.d7fq7K4NAosfm_WY) Passcode: at=.%TT5
 	- Handout notes
 		- Session 0 : Foundations of AI Agents
@@ -106,6 +105,7 @@
 	- ![image.png](../assets/image_1736077730572_0.png)
 - # Day 3 Multi-Agent
 	- ![image.png](../assets/image_1736178800716_0.png)
+	-
 - # Notes for Blog
 	- Agentic AI is a plus version of AI Agent, which focuses more in RL area
 	- Multi Agent is another human brain that available anytime. You may consider it as a personal assistant.
