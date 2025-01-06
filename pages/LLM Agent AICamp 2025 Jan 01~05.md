@@ -4,7 +4,8 @@
 	- [Daily submission form](https://docs.google.com/forms/d/e/1FAIpQLSfOP3QRWvTnuYJ--PqnxyCFvcOn8D_oEYZq3LYHCH6aRyZQsQ/viewform)
 	- [Presentation](https://docs.google.com/presentation/d/e/2PACX-1vQ2SVHmzSxgVv31-TUs4Zqrvd-vnP00MjZUvWkhqC5WS9xc_hhI1aEYO1VHfbbXESXymWlCsN9XP0tT/pub?start=false&loop=false&delayms=3000#slide=id.g32272e011e2_0_10)
 - [My Idx Google Codespace](https://idx.google.com/u/0/aisg-5-day-ai-agent-6251115)
-- # Day 0
+- # Day 0 Call Api
+  collapsed:: true
 	- [Record](https://us02web.zoom.us/rec/share/CnrPxgdVv0O69geR_q85gSxFFMrxm3hYw8BssnLDOKnR9LJz3zh7AlcmyDHe80bH.d7fq7K4NAosfm_WY) Passcode: at=.%TT5
 	- Handout notes
 		- Session 0 : Foundations of AI Agents
@@ -83,10 +84,12 @@
 			- Human role
 				- ![image.png](../assets/image_1735872515729_0.png){:height 214, :width 398}
 				- So, we can give the publisher agent the ability to ask for human intervention if it is not sure about the article by giving it a tool. In the prompt, we can mention clearly that when we want human intervention, the agent can ask for human intervention only when needed.
-- # Day 1
+- # Day 1 Agent with Memory
+  collapsed:: true
 	- Article:[https://medium.com/@pallavisinha12/understanding-llm-based-agents-and-their-multi-agent-architecture-299cf54ebae4](https://www.google.com/url?q=https://medium.com/@pallavisinha12/understanding-llm-based-agents-and-their-multi-agent-architecture-299cf54ebae4&sa=D&source=editors&ust=1736048889331840&usg=AOvVaw3tBoU6AQjWKwGTcqJiNiK_)
 	- built an AI with short term memory, stored as a variable and added to prompt as background knowledge
-- # Day 2
+- # Day 2 ReAct
+  collapsed:: true
 	- [ReAct Implementation](https://langchain-ai.github.io/langgraph/concepts/agentic_concepts/#react-implementation)
 	- [Agentic AI](https://markovate.com/blog/agentic-ai-architecture/)
 	- [Prompt enginnering](https://cloud.google.com/discover/what-is-prompt-engineering)
@@ -101,7 +104,8 @@
 	- ![image.png](../assets/image_1736056928626_0.png)
 	- ![image.png](../assets/image_1736077696785_0.png)
 	- ![image.png](../assets/image_1736077730572_0.png)
-- # Day 3
+- # Day 3 Multi-Agent
+	- ![image.png](../assets/image_1736178800716_0.png)
 - # Notes for Blog
 	- Agentic AI is a plus version of AI Agent, which focuses more in RL area
 	- Multi Agent is another human brain that available anytime. You may consider it as a personal assistant.
