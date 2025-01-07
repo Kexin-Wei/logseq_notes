@@ -104,6 +104,7 @@
 	- ![image.png](../assets/image_1736077696785_0.png)
 	- ![image.png](../assets/image_1736077730572_0.png)
 - # Day 3 Multi-Agent
+  collapsed:: true
 	- A sequential structure example
 	  ![image.png](../assets/image_1736178800716_0.png){:height 333, :width 472}
 	- ![image.png](../assets/image_1736179078117_0.png){:height 558, :width 748}

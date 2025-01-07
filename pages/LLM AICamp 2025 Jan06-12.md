@@ -1,0 +1,4 @@
+- References
+	- [7 -Day Challenge: Building Financial RAG Applications - Google Docs](https://docs.google.com/document/d/1l_ac__ZcPfBRCouDbXp6tWuOkWr3xZHz-omkcuLvj-8/edit?tab=t.0#heading=h.amts8o5sbb4h)
+	-
+-
