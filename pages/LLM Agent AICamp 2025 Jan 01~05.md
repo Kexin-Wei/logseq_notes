@@ -5,6 +5,7 @@
 	- [Presentation](https://docs.google.com/presentation/d/e/2PACX-1vQ2SVHmzSxgVv31-TUs4Zqrvd-vnP00MjZUvWkhqC5WS9xc_hhI1aEYO1VHfbbXESXymWlCsN9XP0tT/pub?start=false&loop=false&delayms=3000#slide=id.g32272e011e2_0_10)
 - [My Idx Google Codespace](https://idx.google.com/u/0/aisg-5-day-ai-agent-6251115)
 - # Day 0 Call Api
+  collapsed:: true
 	- [Record](https://us02web.zoom.us/rec/share/CnrPxgdVv0O69geR_q85gSxFFMrxm3hYw8BssnLDOKnR9LJz3zh7AlcmyDHe80bH.d7fq7K4NAosfm_WY) Passcode: at=.%TT5
 	- Handout notes
 		- Session 0 : Foundations of AI Agents
@@ -30,9 +31,11 @@
 		- Recommended Course No.2 : [https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
 	- [The best post](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/agents_101_guide.md)
 - # Day 1 Agent with Memory
+  collapsed:: true
 	- Article:[https://medium.com/@pallavisinha12/understanding-llm-based-agents-and-their-multi-agent-architecture-299cf54ebae4](https://www.google.com/url?q=https://medium.com/@pallavisinha12/understanding-llm-based-agents-and-their-multi-agent-architecture-299cf54ebae4&sa=D&source=editors&ust=1736048889331840&usg=AOvVaw3tBoU6AQjWKwGTcqJiNiK_)
 	- built an AI with short term memory, stored as a variable and added to prompt as background knowledge
 - # Day 2 ReAct
+  collapsed:: true
 	- [ReAct Implementation](https://langchain-ai.github.io/langgraph/concepts/agentic_concepts/#react-implementation)
 	- [Agentic AI](https://markovate.com/blog/agentic-ai-architecture/)
 	- [Prompt enginnering](https://cloud.google.com/discover/what-is-prompt-engineering)
@@ -45,11 +48,6 @@
 		- Fourth, the paper only looks at calling a single tool at the time, largely due to limitations in LLMs performance at the time. Our implementation allows for calling multiple tools at a time.
 		- Finally, the paper asked the LLM to explicitly generate a "Thought" step before deciding which tools to call. This is the "Reasoning" part of "ReAct". Our implementation does not do this by default, largely because LLMs have gotten much better and that is not as necessary. Of course, if you wish to prompt it do so, you certainly can.
 - # Day 3 Multi-Agent
-  collapsed:: true
-	- A sequential structure example
-	  ![image.png](../assets/image_1736178800716_0.png){:height 333, :width 472}
-	- ![image.png](../assets/image_1736179078117_0.png){:height 558, :width 748}
-	- ![image.png](../assets/image_1736180582618_0.png)
 - # Notes for Blog
 	- Agentic AI is a plus version of AI Agent, which focuses more in RL area
 	- Multi Agent is another human brain that available anytime. You may consider it as a personal assistant.
@@ -62,12 +60,14 @@
 	- Prompt template is very important in ReAct
 		- This limits the agent creativity ( and dont forget to set temperature low)
 	- ## AI Agent vs Agentic AI
+	  collapsed:: true
 		- ![image.png](../assets/image_1735817745738_0.png){:height 242, :width 456}
 		- ![image.png](../assets/image_1735817794611_0.png){:height 235, :width 458}
 		- **Agentic AI** refers to advanced AI systems that demonstrate a higher degree of independence, initiative, and adaptability. While traditional AI agents operate within ==predefined frameworks==, agentic AI pushes the boundaries by showcasing characteristics that make them appear more "agent-like," often capable of pursuing open-ended goals.
 		- ![image.png](../assets/image_1735823783290_0.png){:height 269, :width 463}
 		- A basic LLM with a [retrieval augmented generation (RAG)](https://www.superannotate.com/blog/rag-explained) system can easily fetch the needed information from legal databases.
 	- ## LLM agent components
+	  collapsed:: true
 		- ![image.png](../assets/image_1735823901190_0.png){:height 221, :width 438}
 		- Brain (Agent): LLM / action model
 		- Memory: short-term memory and long term memory
@@ -77,9 +77,12 @@
 			- Plan reflection: review and feedback, methods: [ReAct](https://arxiv.org/abs/2210.03629) and [Reflexion](https://arxiv.org/abs/2303.11366)
 		- Tool: databases, querying, coding
 	- ## Multi agent
+	  collapsed:: true
 		- ![image.png](../assets/image_1735822679261_0.png)
 	- ## Examples
+	  collapsed:: true
 		- ### Single Agent
+		  collapsed:: true
 			- ![image.png](../assets/image_1735822809952_0.png){:height 344, :width 482}
 			- [BabyAGI](https://github.com/yoheinakajima/babyagi)
 			  collapsed:: true
@@ -106,6 +109,7 @@
 			- [Other agents](https://www.promptingguide.ai/research/llm-agents#notable-llm-based-agents)
 			- [And some other agents](https://github.com/kaushikb11/awesome-llm-agents)
 		- ### Multi agent
+		  collapsed:: true
 			- Sequential
 				- ![image.png](../assets/image_1735872333973_0.png){:height 158, :width 455}
 				- Feedback mechanism
@@ -115,7 +119,13 @@
 			- Human role
 				- ![image.png](../assets/image_1735872515729_0.png){:height 214, :width 398}
 				- So, we can give the publisher agent the ability to ask for human intervention if it is not sure about the article by giving it a tool. In the prompt, we can mention clearly that when we want human intervention, the agent can ask for human intervention only when needed.
-		-
+	- ## ReAct
+	  collapsed:: true
 		- ![image.png](../assets/image_1736056928626_0.png)
 		- ![image.png](../assets/image_1736077696785_0.png){:height 384, :width 506}
-		- ![image.png](../assets/image_1736077730572_0.png)
+		- ![image.png](../assets/image_1736077730572_0.png){:height 370, :width 506}
+	- ## Multi agent
+		- A sequential structure example
+		  ![image.png](../assets/image_1736178800716_0.png){:height 333, :width 472}
+		- ![image.png](../assets/image_1736179078117_0.png){:height 558, :width 748}
+		- ![image.png](../assets/image_1736180582618_0.png)
