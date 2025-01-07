@@ -15,4 +15,6 @@
 	- Complete the course:[ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/).
 	- **
 - # Notes
-	-
+	- Simple RAG
+	  ![image.png](../assets/image_1736231981098_0.png){:height 293, :width 490}
+	- Complex RAG
