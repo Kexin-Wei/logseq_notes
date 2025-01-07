@@ -29,6 +29,38 @@
 		- Recommended Course No.1 :[https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/)
 		- Recommended Course No.2 : [https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
 	- [The best post](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/agents_101_guide.md)
+- # Day 1 Agent with Memory
+	- Article:[https://medium.com/@pallavisinha12/understanding-llm-based-agents-and-their-multi-agent-architecture-299cf54ebae4](https://www.google.com/url?q=https://medium.com/@pallavisinha12/understanding-llm-based-agents-and-their-multi-agent-architecture-299cf54ebae4&sa=D&source=editors&ust=1736048889331840&usg=AOvVaw3tBoU6AQjWKwGTcqJiNiK_)
+	- built an AI with short term memory, stored as a variable and added to prompt as background knowledge
+- # Day 2 ReAct
+	- [ReAct Implementation](https://langchain-ai.github.io/langgraph/concepts/agentic_concepts/#react-implementation)
+	- [Agentic AI](https://markovate.com/blog/agentic-ai-architecture/)
+	- [Prompt enginnering](https://cloud.google.com/discover/what-is-prompt-engineering)
+	- [ReAct implementation ](https://langchain-ai.github.io/langgraph/concepts/agentic_concepts/#react-implementation)
+	  collapsed:: true
+		- There are several differences between [this](https://arxiv.org/abs/2210.03629) paper and the pre-built [`create_react_agent`](https://langchain-ai.github.io/langgraph/reference/prebuilt/#langgraph.prebuilt.chat_agent_executor.create_react_agent) implementation:
+		- First, we use [tool-calling](https://langchain-ai.github.io/langgraph/concepts/agentic_concepts/#tool-calling) to have LLMs call tools, whereas the paper used prompting + parsing of raw output. This is because tool calling did not exist when the paper was written, but is generally better and more reliable.
+		- Second, we use messages to prompt the LLM, whereas the paper used string formatting. This is because at the time of writing, LLMs didn't even expose a message-based interface, whereas now that's the only interface they expose.
+		- Third, the paper required all inputs to the tools to be a single string. This was largely due to LLMs not being super capable at the time, and only really being able to generate a single input. Our implementation allows for using tools that require multiple inputs.
+		- Fourth, the paper only looks at calling a single tool at the time, largely due to limitations in LLMs performance at the time. Our implementation allows for calling multiple tools at a time.
+		- Finally, the paper asked the LLM to explicitly generate a "Thought" step before deciding which tools to call. This is the "Reasoning" part of "ReAct". Our implementation does not do this by default, largely because LLMs have gotten much better and that is not as necessary. Of course, if you wish to prompt it do so, you certainly can.
+- # Day 3 Multi-Agent
+  collapsed:: true
+	- A sequential structure example
+	  ![image.png](../assets/image_1736178800716_0.png){:height 333, :width 472}
+	- ![image.png](../assets/image_1736179078117_0.png){:height 558, :width 748}
+	- ![image.png](../assets/image_1736180582618_0.png)
+- # Notes for Blog
+	- Agentic AI is a plus version of AI Agent, which focuses more in RL area
+	- Multi Agent is another human brain that available anytime. You may consider it as a personal assistant.
+	- What service it provides out of LLM features? decision making, planning, coding
+	- Temperature: 0-1, how creative the ai responses, 0 = deterministic, 1 = creative
+	- How it manages to do that
+		- break down task
+		- use tool or contact other agent
+		- store query or persona
+	- Prompt template is very important in ReAct
+		- This limits the agent creativity ( and dont forget to set temperature low)
 	- ## AI Agent vs Agentic AI
 		- ![image.png](../assets/image_1735817745738_0.png){:height 242, :width 456}
 		- ![image.png](../assets/image_1735817794611_0.png){:height 235, :width 458}
@@ -83,40 +115,7 @@
 			- Human role
 				- ![image.png](../assets/image_1735872515729_0.png){:height 214, :width 398}
 				- So, we can give the publisher agent the ability to ask for human intervention if it is not sure about the article by giving it a tool. In the prompt, we can mention clearly that when we want human intervention, the agent can ask for human intervention only when needed.
-- # Day 1 Agent with Memory
-  collapsed:: true
-	- Article:[https://medium.com/@pallavisinha12/understanding-llm-based-agents-and-their-multi-agent-architecture-299cf54ebae4](https://www.google.com/url?q=https://medium.com/@pallavisinha12/understanding-llm-based-agents-and-their-multi-agent-architecture-299cf54ebae4&sa=D&source=editors&ust=1736048889331840&usg=AOvVaw3tBoU6AQjWKwGTcqJiNiK_)
-	- built an AI with short term memory, stored as a variable and added to prompt as background knowledge
-- # Day 2 ReAct
-  collapsed:: true
-	- [ReAct Implementation](https://langchain-ai.github.io/langgraph/concepts/agentic_concepts/#react-implementation)
-	- [Agentic AI](https://markovate.com/blog/agentic-ai-architecture/)
-	- [Prompt enginnering](https://cloud.google.com/discover/what-is-prompt-engineering)
-	- [ReAct implementation ](https://langchain-ai.github.io/langgraph/concepts/agentic_concepts/#react-implementation)
-	  collapsed:: true
-		- There are several differences between [this](https://arxiv.org/abs/2210.03629) paper and the pre-built [`create_react_agent`](https://langchain-ai.github.io/langgraph/reference/prebuilt/#langgraph.prebuilt.chat_agent_executor.create_react_agent) implementation:
-		- First, we use [tool-calling](https://langchain-ai.github.io/langgraph/concepts/agentic_concepts/#tool-calling) to have LLMs call tools, whereas the paper used prompting + parsing of raw output. This is because tool calling did not exist when the paper was written, but is generally better and more reliable.
-		- Second, we use messages to prompt the LLM, whereas the paper used string formatting. This is because at the time of writing, LLMs didn't even expose a message-based interface, whereas now that's the only interface they expose.
-		- Third, the paper required all inputs to the tools to be a single string. This was largely due to LLMs not being super capable at the time, and only really being able to generate a single input. Our implementation allows for using tools that require multiple inputs.
-		- Fourth, the paper only looks at calling a single tool at the time, largely due to limitations in LLMs performance at the time. Our implementation allows for calling multiple tools at a time.
-		- Finally, the paper asked the LLM to explicitly generate a "Thought" step before deciding which tools to call. This is the "Reasoning" part of "ReAct". Our implementation does not do this by default, largely because LLMs have gotten much better and that is not as necessary. Of course, if you wish to prompt it do so, you certainly can.
-	- ![image.png](../assets/image_1736056928626_0.png)
-	- ![image.png](../assets/image_1736077696785_0.png)
-	- ![image.png](../assets/image_1736077730572_0.png)
-- # Day 3 Multi-Agent
-  collapsed:: true
-	- A sequential structure example
-	  ![image.png](../assets/image_1736178800716_0.png){:height 333, :width 472}
-	- ![image.png](../assets/image_1736179078117_0.png){:height 558, :width 748}
-	- ![image.png](../assets/image_1736180582618_0.png)
-- # Notes for Blog
-	- Agentic AI is a plus version of AI Agent, which focuses more in RL area
-	- Multi Agent is another human brain that available anytime. You may consider it as a personal assistant.
-	- What service it provides out of LLM features? decision making, planning, coding
-	- Temperature: 0-1, how creative the ai responses, 0 = deterministic, 1 = creative
-	- How it manages to do that
-		- break down task
-		- use tool or contact other agent
-		- store query or persona
-	- Prompt template is very important in ReAct
-		- This limits the agent creativity ( and dont forget to set temperature low)
+		-
+		- ![image.png](../assets/image_1736056928626_0.png)
+		- ![image.png](../assets/image_1736077696785_0.png){:height 384, :width 506}
+		- ![image.png](../assets/image_1736077730572_0.png)
