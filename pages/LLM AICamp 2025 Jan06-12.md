@@ -18,3 +18,9 @@
 	- Simple RAG
 	  ![image.png](../assets/image_1736231981098_0.png){:height 293, :width 490}
 	- Complex RAG
+	  ![image.png](../assets/image_1736232015662_0.png){:height 309, :width 491}
+	- ## RAG Steps
+		- ![image.png](../assets/image_1736232075114_0.png)
+		- ![image.png](../assets/image_1736232088060_0.png)
+		- ![image.png](../assets/image_1736232104000_0.png)
+		- ![image.png](../assets/image_1736232113318_0.png)
