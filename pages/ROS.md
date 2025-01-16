@@ -117,6 +117,8 @@
 	  # open map generation
 	  ros2 launch slam_toolbox online_sync_launch.py use_sim_time:=True
 	  
+	  # open rviz2
+	  ros2 run rviz2 rviz2 
 	  ```
 - # ROS in Raspberry Pi
 	- [ROS 2 on Raspberry Pi — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Installing-on-Raspberry-Pi.html)
