@@ -39,7 +39,7 @@
 			- ![image.png](../assets/image_1737011193732_0.png)
 		- chatbot support by panel
 	- How to get an instruction tuned LLM
-		-
+		- ![image.png](../assets/image_1737014712140_0.png)
 	- Prompting techniques
 		- https://www.promptingguide.ai/techniques
 		- Zero-shot prompting: doesn't contain examples or demonstrations.
