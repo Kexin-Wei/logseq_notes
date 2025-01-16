@@ -38,6 +38,8 @@
 		  collapsed:: true
 			- ![image.png](../assets/image_1737011193732_0.png)
 		- chatbot support by panel
+	- How to get an instruction tuned LLM
+		-
 	- Prompting techniques
 		- https://www.promptingguide.ai/techniques
 		- Zero-shot prompting: doesn't contain examples or demonstrations.
@@ -63,4 +65,4 @@
 			  Negative
 			  ```
 		- Chain-of-Thought Prompting
-			-
+			- ![image.png](../assets/image_1737014582786_0.png)
