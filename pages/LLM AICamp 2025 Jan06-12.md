@@ -38,4 +38,6 @@
 		  collapsed:: true
 			- ![image.png](../assets/image_1737011193732_0.png)
 		- chatbot support by panel
-		-
+	- Prompting techiques
+		- Zero-shot prompting : descontain examples or demonstrations.
+			-
