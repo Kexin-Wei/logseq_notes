@@ -107,7 +107,9 @@
 			- ![image.png](../assets/image_1735971899586_0.png)
 		- Nav2 architecture
 			- ![image.png](../assets/image_1735978522549_0.png)
-		-
+	- ```
+	  ros2 launch nav2_bringup navigation_launch.py  use_sim_time:=True
+	  ```
 - # ROS in Raspberry Pi
 	- [ROS 2 on Raspberry Pi — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Installing-on-Raspberry-Pi.html)
 - # Tips
