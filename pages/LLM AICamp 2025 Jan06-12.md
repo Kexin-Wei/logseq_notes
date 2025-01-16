@@ -25,6 +25,7 @@
 	- What is temperature
 		- ![image.png](../assets/image_1737011428763_0.png)
 	- What is Role
+		- Langchain definition [Conceptual guide | 🦜️🔗 LangChain](https://python.langchain.com/v0.2/docs/concepts/#messages)
 		- ![image.png](../assets/image_1737011633007_0.png)
 	- NLP can be less or more replaced by llm with a good prompt
 		- print in json or html format and display
