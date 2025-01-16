@@ -38,6 +38,14 @@
 		  collapsed:: true
 			- ![image.png](../assets/image_1737011193732_0.png)
 		- chatbot support by panel
-	- Prompting techiques
-		- Zero-shot prompting : descontain examples or demonstrations.
-			-
+	- Prompting techniques
+		- Zero-shot prompting : doesn't contain examples or demonstrations.
+			- ```
+			  Prompt:
+			  Classify the text into neutral, negative or positive. 
+			  Text: I think the vacation is okay.
+			  Sentiment:
+			  
+			  Output:
+			  Neutral
+			  ```
