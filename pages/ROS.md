@@ -124,6 +124,8 @@
 		  # save map
 		  ros2 run nav2_map_server map_saver_cli -f maps/world_slambox
 		  ```
+		- add items freely and select correct topic / color map / durability
+			- ![image.png](../assets/image_1737036456022_0.png)
 - # ROS in Raspberry Pi
 	- [ROS 2 on Raspberry Pi — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Installing-on-Raspberry-Pi.html)
 - # Tips
