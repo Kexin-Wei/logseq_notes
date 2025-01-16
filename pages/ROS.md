@@ -103,7 +103,8 @@
 		  # launch navigation tool
 		  ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=maps/map_world.yaml 
 		  ```
-		- ![image.png](../assets/image_1735971899586_0.png)
+		- Put robot: 2D pose Estimate
+			- ![image.png](../assets/image_1735971899586_0.png)
 		- Nav2 architecture
 			- ![image.png](../assets/image_1735978522549_0.png)
 		-
