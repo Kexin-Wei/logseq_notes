@@ -107,19 +107,23 @@
 			- ![image.png](../assets/image_1735971899586_0.png)
 		- Nav2 architecture
 			- ![image.png](../assets/image_1735978522549_0.png)
-	- ```bash
-	  # start robot in gazebo
-	  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
-	  
-	  # open navigation
-	  ros2 launch nav2_bringup navigation_launch.py  use_sim_time:=True
-	  
-	  # open map generation
-	  ros2 launch slam_toolbox online_sync_launch.py use_sim_time:=True
-	  
-	  # open rviz2
-	  ros2 run rviz2 rviz2 
-	  ```
+	- Self-robot
+		- ```bash
+		  # start robot in gazebo
+		  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+		  
+		  # open navigation
+		  ros2 launch nav2_bringup navigation_launch.py  use_sim_time:=True
+		  
+		  # open map generation
+		  ros2 launch slam_toolbox online_sync_launch.py use_sim_time:=True
+		  
+		  # open rviz2
+		  ros2 run rviz2 rviz2 
+		  
+		  # save map
+		  ros2 run nav2_map_server map_saver_cli -f maps/world_slambox
+		  ```
 - # ROS in Raspberry Pi
 	- [ROS 2 on Raspberry Pi — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Installing-on-Raspberry-Pi.html)
 - # Tips
