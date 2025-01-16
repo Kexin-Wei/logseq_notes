@@ -72,4 +72,5 @@
 	- Avoid Prompt Injections
 		- ![image.png](../assets/image_1737015942872_0.png){:height 417, :width 458}
 		- add in system to forbid doing something but only something
-	- ![image.png](../assets/image_1737019853178_0.png)
+	- How to build an app
+		- ![image.png](../assets/image_1737019853178_0.png)
