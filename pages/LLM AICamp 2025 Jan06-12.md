@@ -70,3 +70,5 @@
 			- ![image.png](../assets/image_1737014582786_0.png)
 	- Avoid Prompt Injections
 		- ![image.png](../assets/image_1737015942872_0.png)
+		- add in system to forbid doing something but only something
+		-
