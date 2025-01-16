@@ -26,7 +26,7 @@
 		- ![image.png](../assets/image_1737011428763_0.png)
 	- What is Role
 		- Langchain definition [Conceptual guide | 🦜️🔗 LangChain](https://python.langchain.com/v0.2/docs/concepts/#messages)
-		- ![image.png](../assets/image_1737011633007_0.png)
+		- ![image.png](../assets/image_1737011633007_0.png){:height 511, :width 489}
 	- NLP can be less or more replaced by llm with a good prompt
 		- print in json or html format and display
 			- ![image.png](../assets/image_1737011159753_0.png){:height 234, :width 688}
@@ -69,5 +69,5 @@
 		  collapsed:: true
 			- ![image.png](../assets/image_1737014582786_0.png)
 	- Avoid Prompt Injections
-		- ![image.png](../assets/image_1737015942872_0.png)
+		- ![image.png](../assets/image_1737015942872_0.png){:height 417, :width 458}
 		- add in system to forbid doing something but only something
