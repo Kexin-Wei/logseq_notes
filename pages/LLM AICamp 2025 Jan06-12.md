@@ -26,4 +26,4 @@
 		- sentiment
 		- extract information
 		- doing multiple tasks
-		-
+		- translation
