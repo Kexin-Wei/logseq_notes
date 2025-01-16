@@ -54,6 +54,7 @@
 			  Neutral
 			  ```
 		- Few=shot prompting: provide demonstrations
+		  collapsed:: true
 			- ```
 			  Prompt:
 			  This is awesome! // Negative
@@ -65,4 +66,7 @@
 			  Negative
 			  ```
 		- Chain-of-Thought Prompting
+		  collapsed:: true
 			- ![image.png](../assets/image_1737014582786_0.png)
+	- Avoid Prompt Injections
+		- ![image.png](../assets/image_1737015942872_0.png)
