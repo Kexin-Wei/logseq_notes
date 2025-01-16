@@ -35,4 +35,7 @@
 		- doing multiple tasks
 		- translation
 		- correct grammar and show it out
+		  collapsed:: true
 			- ![image.png](../assets/image_1737011193732_0.png)
+		- chatbot support by panel
+		-
