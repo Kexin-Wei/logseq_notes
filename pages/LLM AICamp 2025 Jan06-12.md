@@ -23,4 +23,7 @@
 		- ![image.png](../assets/image_1736232104000_0.png)
 		- ![image.png](../assets/image_1736232113318_0.png)
 	- NLP can be less or more replaced by llm with a good prompt
-		- setiment
+		- sentiment
+		- extract information
+		- doing multiple tasks
+		-
