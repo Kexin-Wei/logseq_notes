@@ -23,7 +23,11 @@
 		- ![image.png](../assets/image_1736232104000_0.png)
 		- ![image.png](../assets/image_1736232113318_0.png)
 	- NLP can be less or more replaced by llm with a good prompt
+		- print in json or html format and display
+			- ![image.png](../assets/image_1737011159753_0.png){:height 234, :width 688}
 		- sentiment
 		- extract information
 		- doing multiple tasks
 		- translation
+		- correct grammar and show it out
+			- ![image.png](../assets/image_1737011193732_0.png)
