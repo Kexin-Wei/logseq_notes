@@ -38,6 +38,7 @@
 		  collapsed:: true
 			- ![image.png](../assets/image_1737011193732_0.png)
 		- chatbot support by panel
+		- checking output harmful  [Moderation - OpenAI API](https://platform.openai.com/docs/guides/moderation)
 	- How to get an instruction tuned LLM
 		- ![image.png](../assets/image_1737014712140_0.png)
 	- Prompting techniques
