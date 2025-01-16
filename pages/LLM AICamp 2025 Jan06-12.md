@@ -39,7 +39,9 @@
 			- ![image.png](../assets/image_1737011193732_0.png)
 		- chatbot support by panel
 	- Prompting techniques
-		- Zero-shot prompting : doesn't contain examples or demonstrations.
+		- https://www.promptingguide.ai/techniques
+		- Zero-shot prompting: doesn't contain examples or demonstrations.
+		  collapsed:: true
 			- ```
 			  Prompt:
 			  Classify the text into neutral, negative or positive. 
@@ -49,3 +51,16 @@
 			  Output:
 			  Neutral
 			  ```
+		- Few=shot prompting: provide demonstrations
+			- ```
+			  Prompt:
+			  This is awesome! // Negative
+			  This is bad! // Positive
+			  Wow that movie was rad! // Positive
+			  What a horrible show! //
+			  
+			  Output:
+			  Negative
+			  ```
+		- Chain-of-Thought Prompting
+			-
