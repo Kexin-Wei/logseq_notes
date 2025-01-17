@@ -86,3 +86,6 @@
 	- Vector database
 		- ![image.png](../assets/image_1737122936433_0.png){:height 406, :width 340}
 		- ![image.png](../assets/image_1737122955723_0.png){:height 311, :width 335}
+	- S
+		- ![image.png](../assets/image_1737123359880_0.png)
+	-
