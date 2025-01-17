@@ -33,6 +33,7 @@
 		- [[📈Signal Processing]]
 		- [[✈️SLAM]]
 	- ## 🏥Medical Knowledge
+	  collapsed:: true
 		- [[BBN Blood Brain Barrier]]
 		- [[Anatomy Views of Human]]
 		- [[Kidney Anatomy]]
