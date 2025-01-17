@@ -82,5 +82,7 @@
 		- Router Chain
 			- ![image.png](../assets/image_1737121784682_0.png){:height 334, :width 466}
 	- Embedding
-		- ![image.png](../assets/image_1737122882602_0.png){:height 380, :width 416}
-	-
+		- ![image.png](../assets/image_1737122882602_0.png){:height 405, :width 413}
+	- Vector database
+		- ![image.png](../assets/image_1737122936433_0.png){:height 406, :width 340}
+		- ![image.png](../assets/image_1737122955723_0.png){:height 311, :width 335}
