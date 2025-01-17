@@ -75,7 +75,9 @@
 	- How to build an app
 		- ![image.png](../assets/image_1737019853178_0.png){:height 309, :width 316}
 	- Different Memory
-	- Chains: Automation
+		- [How to migrate to LangGraph memory | 🦜️🔗 LangChain](https://python.langchain.com/docs/versions/migrating_memory/)
+		- ![image.png](../assets/image_1737121972408_0.png)
+	- Chains: Automation run
 		- Router Chain
 			- ![image.png](../assets/image_1737121784682_0.png){:height 334, :width 466}
 		-
