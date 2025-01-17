@@ -74,6 +74,8 @@
 		- add in system to forbid doing something but only something
 	- How to build an app
 		- ![image.png](../assets/image_1737019853178_0.png){:height 309, :width 316}
-	- Different Router Chain
-		- ![image.png](../assets/image_1737121784682_0.png){:height 334, :width 466}
+	- Different Memory
+	- Chains: Automation
+		- Router Chain
+			- ![image.png](../assets/image_1737121784682_0.png){:height 334, :width 466}
 		-
