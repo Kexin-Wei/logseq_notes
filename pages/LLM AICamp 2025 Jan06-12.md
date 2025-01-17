@@ -81,4 +81,6 @@
 	- Chains: Automation run
 		- Router Chain
 			- ![image.png](../assets/image_1737121784682_0.png){:height 334, :width 466}
-		-
+	- Embedding
+		- ![image.png](../assets/image_1737122882602_0.png){:height 380, :width 416}
+	-
