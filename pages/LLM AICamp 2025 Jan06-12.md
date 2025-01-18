@@ -105,6 +105,7 @@
 		  collapsed:: true
 			- ![image.png](../assets/image_1737123359880_0.png)
 		- ### Load material
+		  collapsed:: true
 			- Support format in langchain
 			  collapsed:: true
 				- PDF
@@ -125,7 +126,8 @@
 				- NLTKTextSplitter() - Implementation of splitting text that looks at sentences using
 				- NLTK (Natural Language Tool Kit)
 				- SpacyTextSplitter() - Implementation of splitting text that looks at sentences using Spacy
-		- ## Retrieval
+		- ### Retrieval
+		  collapsed:: true
 			- MMR
 				- ![image.png](../assets/image_1737212440928_0.png){:height 325, :width 284}
 			- LLM Aided Retrieval
