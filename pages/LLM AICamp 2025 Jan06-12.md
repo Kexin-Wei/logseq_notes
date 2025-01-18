@@ -14,21 +14,27 @@
 	- **Assignment**:
 		- Complete the course:[ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/).
 - # Notes
-	- Simple RAG
-	  ![image.png](../assets/image_1736231981098_0.png){:height 293, :width 490}
-	- Complex RAG
-	  ![image.png](../assets/image_1736232015662_0.png){:height 309, :width 491}
+	- ## RAG Types
+	  collapsed:: true
+		- Simple RAG
+		  ![image.png](../assets/image_1736231981098_0.png){:height 293, :width 490}
+		- Complex RAG
+		  ![image.png](../assets/image_1736232015662_0.png){:height 309, :width 491}
 	- ## RAG Steps
+	  collapsed:: true
 		- ![image.png](../assets/image_1736232075114_0.png)
 		- ![image.png](../assets/image_1736232088060_0.png)
 		- ![image.png](../assets/image_1736232104000_0.png)
 		- ![image.png](../assets/image_1736232113318_0.png)
-	- What is temperature
+	- ## What is temperature
+	  collapsed:: true
 		- ![image.png](../assets/image_1737011428763_0.png)
-	- What is Role
+	- ## What is Role
+	  collapsed:: true
 		- Langchain definition [Conceptual guide | 🦜️🔗 LangChain](https://python.langchain.com/v0.2/docs/concepts/#messages)
 		- ![image.png](../assets/image_1737011633007_0.png){:height 511, :width 489}
-	- NLP can be less or more replaced by llm with a good prompt
+	- ## NLP can be less or more replaced by llm with a good prompt
+	  collapsed:: true
 		- print in json or html format and display
 			- ![image.png](../assets/image_1737011159753_0.png){:height 234, :width 688}
 		- sentiment
@@ -40,9 +46,11 @@
 			- ![image.png](../assets/image_1737011193732_0.png)
 		- chatbot support by panel
 		- checking output harmful  [Moderation - OpenAI API](https://platform.openai.com/docs/guides/moderation)
-	- How to get an instruction tuned LLM
+	- ## How to get an instruction tuned LLM
+	  collapsed:: true
 		- ![image.png](../assets/image_1737014712140_0.png)
-	- Prompting techniques
+	- ## Prompting techniques
+	  collapsed:: true
 		- https://www.promptingguide.ai/techniques
 		- Zero-shot prompting: doesn't contain examples or demonstrations.
 		  collapsed:: true
@@ -70,22 +78,30 @@
 		- Chain-of-Thought Prompting
 		  collapsed:: true
 			- ![image.png](../assets/image_1737014582786_0.png)
-	- Avoid Prompt Injections
+	- ## Avoid Prompt Injections
+	  collapsed:: true
 		- ![image.png](../assets/image_1737015942872_0.png){:height 417, :width 458}
 		- add in system to forbid doing something but only something
-	- How to build an app
+	- ## How to build an app
+	  collapsed:: true
 		- ![image.png](../assets/image_1737019853178_0.png){:height 309, :width 316}
-	- Different Memory
+	- ## Different Memory
+	  collapsed:: true
 		- [How to migrate to LangGraph memory | 🦜️🔗 LangChain](https://python.langchain.com/docs/versions/migrating_memory/)
 		- ![image.png](../assets/image_1737121972408_0.png)
-	- Chains: Automation run
+	- ## Chains: Automation run
+	  collapsed:: true
 		- Router Chain
 			- ![image.png](../assets/image_1737121784682_0.png){:height 334, :width 466}
-	- Embedding
-		- ![image.png](../assets/image_1737122882602_0.png){:height 405, :width 413}
-	- Vector database
-		- ![image.png](../assets/image_1737122936433_0.png){:height 406, :width 340}
-		- ![image.png](../assets/image_1737122955723_0.png){:height 311, :width 335}
-	- Q&A Methods
-		- ![image.png](../assets/image_1737123359880_0.png)
-	- RAG
+	- ## RAG Retrieval Augmented Generation
+		- ### Embedding
+		  collapsed:: true
+			- ![image.png](../assets/image_1737122882602_0.png){:height 405, :width 413}
+		- ### Vector database
+		  collapsed:: true
+			- ![image.png](../assets/image_1737122936433_0.png){:height 406, :width 340}
+			- ![image.png](../assets/image_1737122955723_0.png){:height 311, :width 335}
+		- ### Q&A Methods
+		  collapsed:: true
+			- ![image.png](../assets/image_1737123359880_0.png)
+		- Load material
