@@ -110,4 +110,6 @@
 				- YouTube
 				- URL
 				- Notion
-			-
+			- Document splitting
+				- Chunk overlap
+					- ![image.png](../assets/image_1737191511602_0.png)
