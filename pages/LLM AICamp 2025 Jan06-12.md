@@ -95,11 +95,14 @@
 			- ![image.png](../assets/image_1737121784682_0.png){:height 334, :width 466}
 	- ## RAG Retrieval Augmented Generation
 		- ### Embedding
+		  collapsed:: true
 			- ![image.png](../assets/image_1737122882602_0.png){:height 405, :width 413}
 		- ### Vector database
+		  collapsed:: true
 			- ![image.png](../assets/image_1737122936433_0.png){:height 406, :width 340}
 			- ![image.png](../assets/image_1737122955723_0.png){:height 311, :width 335}
 		- ### Q&A Methods
+		  collapsed:: true
 			- ![image.png](../assets/image_1737123359880_0.png)
 		- ### Load material
 			- Support format in langchain
@@ -122,4 +125,7 @@
 				- NLTKTextSplitter() - Implementation of splitting text that looks at sentences using
 				- NLTK (Natural Language Tool Kit)
 				- SpacyTextSplitter() - Implementation of splitting text that looks at sentences using Spacy
-		-
+		- Retrieval
+			- MMR
+				- ![image.png](../assets/image_1737212440928_0.png){:height 325, :width 284}
+			-
