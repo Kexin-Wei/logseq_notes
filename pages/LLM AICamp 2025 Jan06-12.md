@@ -104,8 +104,10 @@
 		- ### Q&A Methods
 		  collapsed:: true
 			- ![image.png](../assets/image_1737123359880_0.png)
-		- Load material
-			- PDF
-			- Youtube
-			- URL
-			- Notion
+		- ### Load material
+			- Support format in langchain
+				- PDF
+				- YouTube
+				- URL
+				- Notion
+			-
