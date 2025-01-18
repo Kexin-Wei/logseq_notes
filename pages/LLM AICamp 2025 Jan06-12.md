@@ -88,4 +88,4 @@
 		- ![image.png](../assets/image_1737122955723_0.png){:height 311, :width 335}
 	- Q&A Methods
 		- ![image.png](../assets/image_1737123359880_0.png)
-	-
+	- RAG
