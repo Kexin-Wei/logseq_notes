@@ -11,6 +11,8 @@
 		- ```bash
 		  sudo apt install ros-humble-gazebo* # humble only, Jazzy look online
 		  ```
+	- Multiple version ROS
+		- ![image.png](../assets/image_1737189364274_0.png)
 - # Environment set up
 	- Add source in Ubuntu `.bashrc`
 	  ```bash
