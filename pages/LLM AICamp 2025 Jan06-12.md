@@ -125,4 +125,4 @@
 				- ![image.png](../assets/image_1737212501427_0.png){:height 314, :width 282}
 			-
 		- ### RetrievalQA
-			-
+			- ![image.png](../assets/image_1737213077761_0.png)
