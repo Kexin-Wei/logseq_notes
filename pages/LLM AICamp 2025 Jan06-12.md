@@ -125,7 +125,11 @@
 				- NLTKTextSplitter() - Implementation of splitting text that looks at sentences using
 				- NLTK (Natural Language Tool Kit)
 				- SpacyTextSplitter() - Implementation of splitting text that looks at sentences using Spacy
-		- Retrieval
+		- ## Retrieval
 			- MMR
 				- ![image.png](../assets/image_1737212440928_0.png){:height 325, :width 284}
+			- LLM Aided Retrieval
+				- ![image.png](../assets/image_1737212475081_0.png){:height 337, :width 282}
+			- Compression
+				- ![image.png](../assets/image_1737212501427_0.png){:height 314, :width 282}
 			-
