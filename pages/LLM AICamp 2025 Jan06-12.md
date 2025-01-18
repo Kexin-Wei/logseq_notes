@@ -106,10 +106,23 @@
 			- ![image.png](../assets/image_1737123359880_0.png)
 		- ### Load material
 			- Support format in langchain
+			  collapsed:: true
 				- PDF
 				- YouTube
 				- URL
 				- Notion
 			- Document splitting
+			  collapsed:: true
 				- Chunk overlap
+				  collapsed:: true
 					- ![image.png](../assets/image_1737191511602_0.png)
+				- CharacterTextSplitter()- Implementation of splitting text that looks at characters.
+				- MarkdownHeaderTextSplitter() - Implementation of splitting markdown files based on specified headers.
+				- TokenTextSplitter() - Implementation of splitting text that looks at tokens.
+				- Sentence TransformersTokenTextSplitter() - Implementation of splitting text that looks at tokens.
+				- RecursiveCharacterTextSplitter() - Implementation of splitting text that looks at characters. Recursively tries to split by different characters to find one that works.
+				- Language()- for CPP, Python, Ruby, Markdown etc
+				- NLTKTextSplitter() - Implementation of splitting text that looks at sentences using
+				- NLTK (Natural Language Tool Kit)
+				- SpacyTextSplitter() - Implementation of splitting text that looks at sentences using Spacy
+		-
