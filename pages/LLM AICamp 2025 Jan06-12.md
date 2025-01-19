@@ -83,6 +83,7 @@
 		- Router Chain
 			- ![image.png](../assets/image_1737121784682_0.png){:height 334, :width 466}
 	- ## RAG Retrieval Augmented Generation
+	  collapsed:: true
 		- ### Embedding
 		  collapsed:: true
 			- ![image.png](../assets/image_1737122882602_0.png){:height 405, :width 413}
@@ -125,10 +126,14 @@
 				- ![image.png](../assets/image_1737212501427_0.png){:height 314, :width 282}
 			-
 		- ### RetrievalQA
+		  collapsed:: true
 			- ![image.png](../assets/image_1737213077761_0.png)
-	- Tool and Funtions
+	- ## Tool and Funtions
+	  collapsed:: true
 		- LangChain components
 			- ![image.png](../assets/image_1737286778035_0.png){:height 326, :width 294}
 		- Pydantic
 			- ![image.png](../assets/image_1737287665745_0.png){:height 252, :width 302}
--
+	- ## Agent
+		- ![image.png](../assets/image_1737290420351_0.png)
+		-
