@@ -133,7 +133,7 @@
 	  collapsed:: true
 		- https://scienceexchange.caltech.edu/
 		- https://brilliant.org/?utm_medium=sponsor&utm_source=youtube&utm_campaign=upandatom_170123
-	- ## Logseq
+	- ## Zotero
 	  collapsed:: true
 		- [[Logseq + Zotero Setting]]
 	- #software
