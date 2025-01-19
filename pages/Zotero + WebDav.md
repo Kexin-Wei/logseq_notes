@@ -1,0 +1,2 @@
+- [Koofr with Zotero via WebDAV - Koofr blog](https://koofr.eu/blog/posts/koofr-with-zotero-via-webdav)
+- [kb:webdav_services [Zotero Documentation]](https://www.zotero.org/support/kb/webdav_services)
