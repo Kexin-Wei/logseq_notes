@@ -1,1 +1,2 @@
--
+- [How to get Scientific Papers for free : r/coolguides](https://www.reddit.com/r/coolguides/comments/xr7dr0/how_to_get_scientific_papers_for_free/)
+- ![how to find free paper.png](../assets/how_to_find_free_paper_1737295464684_0.png){:height 1483, :width 778}
