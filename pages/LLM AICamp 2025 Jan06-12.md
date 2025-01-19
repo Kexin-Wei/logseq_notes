@@ -129,5 +129,6 @@
 	- Tool and Funtions
 		- LangChain components
 			- ![image.png](../assets/image_1737286778035_0.png){:height 326, :width 294}
-		-
+		- Pydantic
+			- ![image.png](../assets/image_1737287665745_0.png){:height 252, :width 302}
 -
