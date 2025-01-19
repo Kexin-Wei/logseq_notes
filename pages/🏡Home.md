@@ -136,4 +136,5 @@
 	- ## Zotero
 		- [[Logseq + Zotero Setting]]
 		- [[Zotero + WebDav]]
+	- [[How to find free paper]]
 	- #software
