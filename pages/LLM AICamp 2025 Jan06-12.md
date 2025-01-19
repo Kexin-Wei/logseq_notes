@@ -83,19 +83,15 @@
 		- Router Chain
 			- ![image.png](../assets/image_1737121784682_0.png){:height 334, :width 466}
 	- ## RAG Retrieval Augmented Generation
-	  collapsed:: true
 		- ### Embedding
 		  collapsed:: true
 			- ![image.png](../assets/image_1737122882602_0.png){:height 405, :width 413}
 		- ### Vector database
-		  collapsed:: true
 			- ![image.png](../assets/image_1737122936433_0.png){:height 406, :width 340}
 			- ![image.png](../assets/image_1737122955723_0.png){:height 311, :width 335}
 		- ### Q&A Methods
-		  collapsed:: true
 			- ![image.png](../assets/image_1737123359880_0.png)
 		- ### Load material
-		  collapsed:: true
 			- Support format in langchain
 			  collapsed:: true
 				- PDF
@@ -117,7 +113,6 @@
 				- NLTK (Natural Language Tool Kit)
 				- SpacyTextSplitter() - Implementation of splitting text that looks at sentences using Spacy
 		- ### Retrieval
-		  collapsed:: true
 			- MMR
 				- ![image.png](../assets/image_1737212440928_0.png){:height 325, :width 284}
 			- LLM Aided Retrieval
@@ -126,7 +121,6 @@
 				- ![image.png](../assets/image_1737212501427_0.png){:height 314, :width 282}
 			-
 		- ### RetrievalQA
-		  collapsed:: true
 			- ![image.png](../assets/image_1737213077761_0.png)
 	- ## Tool and Funtions
 	  collapsed:: true
