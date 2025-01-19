@@ -1,0 +1,1 @@
+- [ZotFile - Advanced PDF management for Zotero](https://zotfile.com/)
