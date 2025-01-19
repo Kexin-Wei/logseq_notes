@@ -126,5 +126,8 @@
 			-
 		- ### RetrievalQA
 			- ![image.png](../assets/image_1737213077761_0.png)
-	- ![image.png](../assets/image_1737286778035_0.png)
+	- Tool and Funtions
+		- LangChain components
+			- ![image.png](../assets/image_1737286778035_0.png){:height 326, :width 294}
+		-
 -
