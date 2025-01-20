@@ -42,7 +42,6 @@
 	  collapsed:: true
 		- https://www.promptingguide.ai/techniques
 		- Zero-shot prompting: doesn't contain examples or demonstrations.
-		  collapsed:: true
 			- ```
 			  Prompt:
 			  Classify the text into neutral, negative or positive. 
@@ -53,7 +52,6 @@
 			  Neutral
 			  ```
 		- Few=shot prompting: provide demonstrations
-		  collapsed:: true
 			- ```
 			  Prompt:
 			  This is awesome! // Negative
@@ -65,7 +63,6 @@
 			  Negative
 			  ```
 		- Chain-of-Thought Prompting
-		  collapsed:: true
 			- ![image.png](../assets/image_1737014582786_0.png)
 	- ## Avoid Prompt Injections
 	  collapsed:: true
