@@ -37,8 +37,10 @@
 			- speak clearly, open the mouth
 			- don't go fast / slow, use natural speed
 	- ## Repeat Sentence
-		- 10-12 questions
-		- 30 marks to speaking, 30 marks to listening
 		- After audio, see recording and speak (NO Beep Sound)
 			- ![image.png](../assets/image_1737531099460_0.png){:height 261, :width 389}
+		- 10-12 questions
+		- 30 marks to speaking, 30 marks to listening
+		- Fluency 5 (90%), content 3, pronunciation 5 (clarity)
+		- 50 percent match at least but need fluent
 		-
