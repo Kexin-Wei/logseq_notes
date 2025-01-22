@@ -53,6 +53,7 @@
 		- ![image.png](../assets/image_1737535471130_0.png){:height 261, :width 389}
 		- Fluency 5 (100%), pronunciation 5 (100%), content 1%
 		- Give preference to fluency alone
+		- Need to speak more than 20s
 		- Template (2025)
 			- New skill
 				- {{video https://youtu.be/d3PQaSMiyyI?si=INF_04lbtB4viBAp}}
