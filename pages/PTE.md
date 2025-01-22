@@ -1,3 +1,4 @@
+- {{video https://youtu.be/8EAnOFiQiqg?si=K9bsrxINcrvVt655}}
 - General
 	- 2 h
 	- 20 Types of Questions
@@ -26,5 +27,7 @@
 		- Speak 2 lines if you are not confident of reading full
 			- ![image.png](../assets/image_1737530434361_0.png){:height 261, :width 389}
 		- Dont give preferences to "s" sounds
-		- When not sure of how to speak,
+		- When not sure of how to speak, either skip or speak in your own way
+		- Pitch issues: maintain 300 below for a girl and 130 above for a guy
+		-
 		-
