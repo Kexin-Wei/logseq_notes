@@ -102,8 +102,8 @@
 	- ## Write Essay
 		- Not a priority
 		- ![image.png](../assets/image_1737539091745_0.png){:height 261, :width 389}
-		- form 2 marks (200-300 words)
-		- content 0 marks
-		- development structure and coherence
-		- grammar 2 marks
-		- spelling 2 marks
+		- Marks
+			- ![image.png](../assets/image_1737539173717_0.png){:height 261, :width 389}
+		- Template
+			- ![image.png](../assets/image_1737539202811_0.png){:height 261, :width 389}
+		-
