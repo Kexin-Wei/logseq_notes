@@ -43,4 +43,4 @@
 		- 30 marks to speaking, 30 marks to listening
 		- Fluency 5 (90%), content 3, pronunciation 5 (clarity)
 		- 50 percent match at least but need fluent
-		-
+		- NO fumble or hesitate
