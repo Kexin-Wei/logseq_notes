@@ -75,4 +75,7 @@
 		- Template
 			- fill in the phrases in one by one
 			- ![image.png](../assets/image_1737538046388_0.png){:height 261, :width 389}
-		-
+			- If points not enough, just repeat
+		- ### Key Tips
+			- No fumble
+			-
