@@ -114,7 +114,7 @@
 	  collapsed:: true
 		- [[Investment]]
 	- ## 🗺️Languages Learning
-	  collapsed:: true
+		- [[PTE]]
 		- IPA
 			- [IPA Chart](https://www.ipachart.com/)
 		- 🇫🇷 French
@@ -130,6 +130,7 @@
 	- [[The Crowd]]
 	- [[Antifragile]]
 - # Tool
+  collapsed:: true
 	- ## Learning website to if you can't find help
 	  collapsed:: true
 		- https://scienceexchange.caltech.edu/
