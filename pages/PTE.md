@@ -99,4 +99,11 @@
 			- Spelling and grammar will lead to zero
 		- Copy 2 sentences, add comma and connector
 			- ![image.png](../assets/image_1737538913109_0.png){:height 261, :width 389}
-		-
+	- ## Write Essay
+		- Not a priority
+		- ![image.png](../assets/image_1737539091745_0.png){:height 261, :width 389}
+		- form 2 marks (200-300 words)
+		- content 0 marks
+		- development structure and coherence
+		- grammar 2 marks
+		- spelling 2 marks
