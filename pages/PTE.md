@@ -72,4 +72,6 @@
 		- 5s listen, 5s write, when listen dont write, when write dont listen
 		- Write 4-5 small phrases (not only keywords)
 		- Use template and just speak like read aloud
-		-
+		- Template
+			- ![image.png](../assets/image_1737538046388_0.png){:height 261, :width 389}
+			-
