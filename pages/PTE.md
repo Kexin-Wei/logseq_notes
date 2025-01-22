@@ -25,5 +25,6 @@
 			- ![image.png](../assets/image_1737530379742_0.png){:height 261, :width 389}
 		- Speak 2 lines if you are not confident of reading full
 			- ![image.png](../assets/image_1737530434361_0.png){:height 261, :width 389}
-		- Dont give preferences to "s"
+		- Dont give preferences to "s" sounds
+		- When not sure of how to speak,
 		-
