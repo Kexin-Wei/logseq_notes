@@ -3,10 +3,15 @@
 	- 20 Types of Questions
 	- Mic position: parallel to the mouth
 	- Mic 3 seconds will stop
-- Speaking and Writing
-	- 55 mins
-	- Can take notes
-- Reading
-	- 30 mins
-	- 5 question types
+	- Speaking and Writing
+		- 55 mins
+		- Can take notes
+	- Reading
+		- 30 mins
+		- 5 question types
+	- Listening
+		- 40 mins
+		- 8 question types
+- Speaking
+	- Personal Introduction: name, doing, why this test
 	-
