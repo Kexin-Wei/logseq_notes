@@ -15,12 +15,11 @@
 		- 8 question types
 - # Speaking
 	- ## Read Aloud
-		- Personal Introduction: name, doing, why this test
-		- 6-7 questions
 		- Reading time + speaking time
 			- ![image.png](../assets/image_1737530098189_0.png){:height 302, :width 484}
-		- 35 masks to speaking
-		- 35 masks to reading
+		- Personal Introduction: name, doing, why this test
+		- 6-7 questions
+		- 35 masks to speaking, 35 masks to reading
 		- Fluency (90%)> content > pronunciation
 		- Skills
 			- Skip difficult words
@@ -38,4 +37,8 @@
 			- speak clearly, open the mouth
 			- don't go fast / slow, use natural speed
 	- ## Repeat Sentence
+		- 10-12 questions
+		- 30 marks to speaking, 30 marks to listening
+		- After audio, see recording and speak (NO Beep Sound)
+			- ![image.png](../assets/image_1737531099460_0.png){:height 261, :width 389}
 		-
