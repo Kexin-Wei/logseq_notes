@@ -92,11 +92,11 @@
 	- ## Summarize written text
 		- ![image.png](../assets/image_1737538664239_0.png){:height 261, :width 389}
 		- 1 sentence
-		- 5-75 words
+		- 40-50 words
 		- 1-2 questions
 		- contributes marks to writing and reading
 		- 4-5 marks max
 			- Spelling and grammar will lead to zero
-		- Copy 2 sentences, add connector
-			- ![image.png](../assets/image_1737538913109_0.png)
+		- Copy 2 sentences, add comma and connector
+			- ![image.png](../assets/image_1737538913109_0.png){:height 261, :width 389}
 		-
