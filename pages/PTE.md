@@ -2,4 +2,11 @@
 	- 2 h
 	- 20 Types of Questions
 	- Mic position: parallel to the mouth
+	- Mic 3 seconds will stop
+- Speaking and Writing
+	- 55 mins
+	- Can take notes
+- Reading
+	- 30 mins
+	- 5 question types
 	-
