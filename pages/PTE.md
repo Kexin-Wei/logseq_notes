@@ -29,5 +29,10 @@
 		- Dont give preferences to "s" sounds
 		- When not sure of how to speak, either skip or speak in your own way
 		- Pitch issues: maintain 300 below for a girl and 130 above for a guy
+	- Key tips
+		- fluently
+		- no fumble
+		- give natural pauses for comma and full stop
+		- speak clearly, open the mouth
 		-
-		-
+	-
