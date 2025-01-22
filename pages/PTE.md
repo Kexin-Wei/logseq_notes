@@ -61,4 +61,4 @@
 			- Don't use template
 			- Speak long sentence
 			- Content related to image
-			-
+			- ![image.png](../assets/image_1737536809313_0.png){:height 261, :width 389}
