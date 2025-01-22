@@ -86,4 +86,11 @@
 		- max 1-2 marks
 		- not a high priority
 		- ![image.png](../assets/image_1737538537519_0.png){:height 261, :width 389}
-		- Speak
+		- Speak the answer if you know else repeat the question
+			- ![image.png](../assets/image_1737538601951_0.png){:height 261, :width 389}
+- # Writing
+	- ## Summarize written text
+		- ![image.png](../assets/image_1737538664239_0.png){:height 261, :width 389}
+		- 1 sentence
+		-
+		-
