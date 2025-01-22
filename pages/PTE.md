@@ -53,5 +53,6 @@
 		- ![image.png](../assets/image_1737535471130_0.png){:height 261, :width 389}
 		- Fluency 5 (100%), pronunciation 5 (100%), content 1%
 		- Give preference to fluency alone
-		- Template
-			- ![image.png](../assets/image_1737535859795_0.png)
+		- Template (2025)
+			- {{video https://youtu.be/d3PQaSMiyyI?si=INF_04lbtB4viBAp}}
+			-
