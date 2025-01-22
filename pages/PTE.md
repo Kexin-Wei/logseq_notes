@@ -73,5 +73,6 @@
 		- Write 4-5 small phrases (not only keywords)
 		- Use template and just speak like read aloud
 		- Template
+			- fill in the phrases in one by one
 			- ![image.png](../assets/image_1737538046388_0.png){:height 261, :width 389}
-			-
+		-
