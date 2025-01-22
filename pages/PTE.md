@@ -14,4 +14,5 @@
 		- 8 question types
 - Speaking
 	- Personal Introduction: name, doing, why this test
-	-
+	- ![image.png](../assets/image_1737530098189_0.png){:height 302, :width 484}
+	- R
