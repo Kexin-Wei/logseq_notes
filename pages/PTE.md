@@ -96,6 +96,7 @@
 		- 1-2 questions
 		- contributes marks to writing and reading
 		- 4-5 marks max
-			- Spelling
-			-
+			- Spelling and grammar will lead to zero
+		- Copy 2 sentences, add connector
+			- ![image.png](../assets/image_1737538913109_0.png)
 		-
