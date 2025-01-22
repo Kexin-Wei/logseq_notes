@@ -1,5 +1,5 @@
 - {{video https://youtu.be/8EAnOFiQiqg?si=K9bsrxINcrvVt655}}
-- General
+- # General
 	- 2 h
 	- 20 Types of Questions
 	- Mic position: parallel to the mouth
@@ -13,26 +13,29 @@
 	- Listening
 		- 40 mins
 		- 8 question types
-- Speaking
-	- Personal Introduction: name, doing, why this test
-	- 6-7 questions
-	- Reading time + speaking time
-		- ![image.png](../assets/image_1737530098189_0.png){:height 302, :width 484}
-	- 35 masks to speaking
-	- 35 masks to reading
-	- Fluency (90%)> content > pronunciation
-	- Skills
-		- Skip difficult words
-			- ![image.png](../assets/image_1737530379742_0.png){:height 261, :width 389}
-		- Speak 2 lines if you are not confident of reading full
-			- ![image.png](../assets/image_1737530434361_0.png){:height 261, :width 389}
-		- Dont give preferences to "s" sounds
-		- When not sure of how to speak, either skip or speak in your own way
-		- Pitch issues: maintain 300 below for a girl and 130 above for a guy
-	- Key tips
-		- fluently
-		- no fumble
-		- give natural pauses for comma and full stop
-		- speak clearly, open the mouth
+- # Speaking
+	- ## Read Aloud
+		- Personal Introduction: name, doing, why this test
+		- 6-7 questions
+		- Reading time + speaking time
+			- ![image.png](../assets/image_1737530098189_0.png){:height 302, :width 484}
+		- 35 masks to speaking
+		- 35 masks to reading
+		- Fluency (90%)> content > pronunciation
+		- Skills
+			- Skip difficult words
+				- ![image.png](../assets/image_1737530379742_0.png){:height 261, :width 389}
+			- Speak 2 lines if you are not confident of reading full
+				- ![image.png](../assets/image_1737530434361_0.png){:height 261, :width 389}
+			- Dont give preferences to "s" sounds
+			- When not sure of how to speak, either skip or speak in your own way
+			- Pitch issues: maintain 300 below for a girl and 130 above for a guy
+		- ### Key tips
+			- fluently
+			- no fumble
+			- skip difficult words
+			- give natural pauses for comma and full stop
+			- speak clearly, open the mouth
+			- don't go fast / slow, use natural speed
+	- ## Repeat Sentence
 		-
-	-
