@@ -54,5 +54,6 @@
 		- Fluency 5 (100%), pronunciation 5 (100%), content 1%
 		- Give preference to fluency alone
 		- Template (2025)
-			- {{video https://youtu.be/d3PQaSMiyyI?si=INF_04lbtB4viBAp}}
+			- New skill
+				- {{video https://youtu.be/d3PQaSMiyyI?si=INF_04lbtB4viBAp}}
 			-
