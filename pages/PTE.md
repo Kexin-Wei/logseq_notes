@@ -64,4 +64,9 @@
 			- Speak long sentence
 			- Content related to image
 	- ## Re-tell Lecture
+		- 1-2 questions
+		- 8-10 marks to speaking
+		- 8-10 marks to listening
+		- After lecture will given 10s
+			- ![image.png](../assets/image_1737537642951_0.png){:height 261, :width 389}
 		-
