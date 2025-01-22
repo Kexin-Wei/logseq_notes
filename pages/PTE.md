@@ -18,6 +18,9 @@
 	- Reading time + speaking time
 		- ![image.png](../assets/image_1737530098189_0.png){:height 302, :width 484}
 	- 35 masks to speaking
-		- Fluency > content > pronunciation
-		-
 	- 35 masks to reading
+	- Fluency (90%)> content > pronunciation
+	- Skills
+		- Skip difficult words
+			- ![image.png](../assets/image_1737530379742_0.png)
+		-
