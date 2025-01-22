@@ -48,4 +48,8 @@
 			- NO fumble or hesitate
 			- Maintain speaking speed and pauses
 	- ## Describe Image
+		- 4-6 questions
+		- 8-10 marks to speaking
+		- ![image.png](../assets/image_1737535471130_0.png){:height 261, :width 389}
+		- Fluency 5 (100%), pronunciation 5 (100%), content 1%
 		-
