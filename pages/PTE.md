@@ -1,4 +1,5 @@
 - General
 	- 2 h
 	- 20 Types of Questions
-	- Mic position
+	- Mic position: parallel to the mouth
+	-
