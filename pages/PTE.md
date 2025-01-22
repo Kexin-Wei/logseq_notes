@@ -54,3 +54,4 @@
 		- Fluency 5 (100%), pronunciation 5 (100%), content 1%
 		- Give preference to fluency alone
 		- Template
+			- ![image.png](../assets/image_1737535859795_0.png)
