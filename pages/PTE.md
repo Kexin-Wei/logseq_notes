@@ -92,5 +92,10 @@
 	- ## Summarize written text
 		- ![image.png](../assets/image_1737538664239_0.png){:height 261, :width 389}
 		- 1 sentence
-		-
+		- 5-75 words
+		- 1-2 questions
+		- contributes marks to writing and reading
+		- 4-5 marks max
+			- Spelling
+			-
 		-
