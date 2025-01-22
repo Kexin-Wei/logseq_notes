@@ -78,4 +78,12 @@
 			- If points not enough, just repeat
 		- ### Key Tips
 			- No fumble
-			-
+			- normal speed
+			- listen or write, not at the same time
+			- Write phrases instead of words
+	- ## Answer short question
+		- 5-8 questions
+		- max 1-2 marks
+		- not a high priority
+		- ![image.png](../assets/image_1737538537519_0.png){:height 261, :width 389}
+		- Speak
