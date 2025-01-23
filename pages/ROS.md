@@ -36,7 +36,31 @@
 	- [Installation Tutorial for Humble](https://moveit.picknik.ai/humble/doc/tutorials/getting_started/getting_started.html#)
 	- [List of Tutorials](https://moveit.picknik.ai/humble/doc/tutorials/tutorials.html)
 	- Useful packages
-		- [moveit/moveit_visual_tools: Helper functions for displaying and debugging MoveIt! data in Rviz via published markers](https://github.com/moveit/moveit_visual_tools/tree/ros2)
+		- ## Moveit_visual_tools
+			- [moveit/moveit_visual_tools: Helper functions for displaying and debugging MoveIt! data in Rviz via published markers](https://github.com/moveit/moveit_visual_tools/tree/ros2)
+			- Can draw text
+				- ```c++
+				  // create a closure for visualization
+				  auto const draw_title = [&moveit_visual_tools](auto text) {
+				    auto const text_pose = [] {
+				      auto msg = Eigen::Isometry3d::Identity();
+				      msg.translation().z() = 1.0;
+				      return msg;
+				    }();
+				    moveit_visual_tools.publishText(text_pose, text,
+				                                    rviz_visual_tools::WHITE,
+				                                    rviz_visual_tools::XLARGE);
+				  };
+				  ```
+			- Can print log
+				- ```C++
+				  auto const prompt = [&moveit_visual_tools](auto text) {
+				    moveit_visual_tools.prompt(text);
+				  };
+				  ```
+			- Can draw trajectory
+				- ```C++
+				  ```
 - # ROS in Raspberry Pi
 	- [ROS 2 on Raspberry Pi — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Installing-on-Raspberry-Pi.html)
 - # Tips
