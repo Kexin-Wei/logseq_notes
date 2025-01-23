@@ -144,3 +144,5 @@
 			- Subject -> Object -> Subject
 			- Noun -> pronoun
 			- Full name -> short name
+	- ## Reading fill in the blanks
+		-
