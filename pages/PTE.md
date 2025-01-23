@@ -126,4 +126,6 @@
 			- after to, v1 comes
 			- after a / an , singular noun comes
 			- after singular noun, verb will + s
-			- after has, v
+			- after has, v3 comes
+			- after be, v3 comes
+			- after is/ was/ were/ are/ am,
