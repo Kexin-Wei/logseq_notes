@@ -134,5 +134,8 @@
 			- *One of the* ends in plural
 			- after *has been*, v3 comes
 	- ## Multiple Choice
+		- 1-2 question, max 1 mark
 		- Skip
+		- Click and next
+	- ## Reorder the paragraph
 		-
