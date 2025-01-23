@@ -166,4 +166,5 @@
 			- Elimination method: dont look answer, fill the blanks yourself, find the best fit
 			- Work on bottom up approach
 			- Stop relying on intuition
-			- Improve fast reading
+			- Improve fast reading : 18 -200 words per min
+			- Grammar is the key
