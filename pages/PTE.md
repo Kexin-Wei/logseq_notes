@@ -140,4 +140,7 @@
 	- ## Reorder the paragraph
 		- 2 questions, 5-6 marks
 		- Not a priority
-		-
+		- Strategy
+			- Subject -> Object -> Subject
+			- Noun -> pronoun
+			- Full name -> short name
