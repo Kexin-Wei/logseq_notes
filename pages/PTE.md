@@ -130,4 +130,5 @@
 			- after be, v3 comes
 			- after is/  was / were / are / am, v3 comes
 			- after is / was / were / are / am, ving comes
+			- Adverb ends in ly
 			-
