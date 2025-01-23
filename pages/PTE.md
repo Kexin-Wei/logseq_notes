@@ -163,4 +163,4 @@
 				- keep an eye on
 				- {{video https://www.youtube.com/watch?v=HeIgbIyJPCE&t=0s}}
 			- Reading newspaper / articles
-	-
+			- Elimination method
