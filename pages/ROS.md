@@ -38,6 +38,10 @@
 	- Useful packages
 		- ## Moveit_visual_tools
 			- [moveit/moveit_visual_tools: Helper functions for displaying and debugging MoveIt! data in Rviz via published markers](https://github.com/moveit/moveit_visual_tools/tree/ros2)
+			- Call render
+				- ```C++
+				  moveit_visual_tools.trigger();
+				  ```
 			- Can draw text
 				- ```c++
 				  // create a closure for visualization
@@ -59,6 +63,15 @@
 				  };
 				  ```
 			- Can draw trajectory
+				- ```C++
+				  auto const draw_trajectory_tool_path =
+				    [&moveit_visual_tools,
+				     jmg = move_group_interface.getRobotModel()->getJointModelGroup(
+				       "panda_arm")](auto const trajectory) {
+				    moveit_visual_tools.publishTrajectoryLine(trajectory, jmg);
+				  };
+				  ```
+			- Need to add a spinner to call
 				- ```C++
 				  ```
 - # ROS in Raspberry Pi
