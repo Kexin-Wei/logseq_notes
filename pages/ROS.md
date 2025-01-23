@@ -73,6 +73,13 @@
 				  ```
 			- Need to add a spinner to call
 				- ```C++
+				  rclcpp::executors::SingleThreadedExecutor executor;
+				      executor.add_node(node);
+				      auto spinner = std::thread([&executor]() { executor.spin(); });
+				  
+				  // later on 
+				  rclcpp::shutdown();
+				  spinner.join();
 				  ```
 - # ROS in Raspberry Pi
 	- [ROS 2 on Raspberry Pi — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Installing-on-Raspberry-Pi.html)
