@@ -34,7 +34,8 @@
 - # [[ROS2 & Navigation 2]]
 - # ROS2 & Moveit2
 	- [Installation Tutorial for Humble](https://moveit.picknik.ai/humble/doc/tutorials/getting_started/getting_started.html#)
-	- https://moveit.picknik.ai/humble/doc/tutorials/tutorials.html
+	- [List of Tutorials](https://moveit.picknik.ai/humble/doc/tutorials/tutorials.html)
+	-
 - # ROS in Raspberry Pi
 	- [ROS 2 on Raspberry Pi — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Installing-on-Raspberry-Pi.html)
 - # Tips
