@@ -149,4 +149,18 @@
 		- 5 questions, 20- 30 marks
 		- Strategy
 			- Learn to improve collocation knowledge
+				- make a decision
+				- take a break
+				- catch someone's attention
+				- make a mistake
+				- pay attention
+				- break the ice
+				- miss the bus
+				- hit the road
+				- Give someone a hand
+				- make an effort
+				- catch your breath
+				- keep an eye on
+				- {{video https://www.youtube.com/watch?v=HeIgbIyJPCE&t=0s}}
+				-
 			-
