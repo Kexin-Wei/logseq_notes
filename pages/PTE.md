@@ -113,4 +113,5 @@
 			  Another interesting point is that____ . This is mainly due to the fact that ___. To quote an example, the research conducted by department of the American society also reflects on the similar line, and hence, it can be said that the proposition is convincingly justified. 
 			  I see that there is equally potential evidence to support the arguments I have provided, and hence, my opinion is that the topic of the statement does reflect on the justification that is provided here.
 		- Simple sentence, complex sentence and compound sentence
-		-
+- # Reading
+	- ##
