@@ -177,3 +177,7 @@
 			- Try to solve in less than 2.5 min
 			- Watch day 1 to 30 reading fib tips
 			- Watch 10 grammar shortcut
+	- ## Multiple choice
+		- Skip
+		- Click and move on
+		- 2 mins left maybe do
