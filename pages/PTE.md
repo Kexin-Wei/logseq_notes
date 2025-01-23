@@ -122,4 +122,7 @@
 			- Grammar skills and shortcuts
 			- Vocabulary
 			- Collocations
-		-
+		- Grammar
+			- after to, v1 comes
+			- after a / an , singular noun comes
+			-
