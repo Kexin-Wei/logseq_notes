@@ -138,4 +138,6 @@
 		- Skip
 		- Click and next
 	- ## Reorder the paragraph
+		- 2 questions, 5-6 marks
+		- Not a priority
 		-
