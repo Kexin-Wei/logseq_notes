@@ -114,4 +114,12 @@
 			  I see that there is equally potential evidence to support the arguments I have provided, and hence, my opinion is that the topic of the statement does reflect on the justification that is provided here.
 		- Simple sentence, complex sentence and compound sentence
 - # Reading
-	- ##
+	- ## Reading and Writing Fill in the Blanks
+		- ![image.png](../assets/image_1737597333715_0.png){:height 261, :width 389}
+		- 5-6 questions, 25-30 marks
+		- Strategy
+			- Reading skills
+			- Grammar skills and shortcuts
+			- Vocabulary
+			- Collocations
+		-
