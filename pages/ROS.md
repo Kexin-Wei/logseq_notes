@@ -50,7 +50,15 @@
 			  
 			  # add in CMakeLists.txt
 			  find_package(moveit_visual_tools REQUIRED)
+			  ament_target_dependencies(
+			    hello_moveit
+			    "moveit_ros_planning_interface"
+			    "moveit_visual_tools"
+			    "rclcpp"
+			  )
 			  
+			  # add in cpp
+			  #include <moveit_visual_tools/moveit_visual_tools.h>
 			  ```
 			- Call render
 				- ```C++
