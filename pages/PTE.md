@@ -164,4 +164,4 @@
 				- {{video https://www.youtube.com/watch?v=HeIgbIyJPCE&t=0s}}
 			- Reading newspaper / articles
 			- Elimination method: dont look answer, fill the blanks yourself, find the best fit
-			- Wo
+			- Work on bottom up approach
