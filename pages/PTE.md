@@ -163,4 +163,5 @@
 				- keep an eye on
 				- {{video https://www.youtube.com/watch?v=HeIgbIyJPCE&t=0s}}
 			- Reading newspaper / articles
-			- Elimination method
+			- Elimination method: dont look answer, fill the blanks yourself, find the best fit
+			- Wo
