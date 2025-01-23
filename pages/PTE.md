@@ -168,3 +168,12 @@
 			- Stop relying on intuition
 			- Improve fast reading : 18 -200 words per min
 			- Grammar is the key
+		- Tips
+			- Grammar is must
+			- Reading skill is must
+			- Grammar approach
+			- Clue based approach
+			- Collocation is a must
+			- Try to solve in less than 2.5 min
+			- Watch day 1 to 30 reading fib tips
+			- Watch 10 grammar shortcut
