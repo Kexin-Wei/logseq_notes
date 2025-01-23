@@ -35,9 +35,23 @@
 - # ROS2 & Moveit2
 	- [Installation Tutorial for Humble](https://moveit.picknik.ai/humble/doc/tutorials/getting_started/getting_started.html#)
 	- [List of Tutorials](https://moveit.picknik.ai/humble/doc/tutorials/tutorials.html)
+	- ```bash
+	  ros2 pkg create \
+	   --build-type ament_cmake \
+	   --dependencies moveit_ros_planning_interface rclcpp \
+	   --node-name hello_moveit hello_moveit
+	  ```
 	- Useful packages
 		- ## Moveit_visual_tools
 			- [moveit/moveit_visual_tools: Helper functions for displaying and debugging MoveIt! data in Rviz via published markers](https://github.com/moveit/moveit_visual_tools/tree/ros2)
+			- ```bash
+			  # add in package.xml
+			  <depend>moveit_visual_tools</depend>
+			  
+			  # add in CMakeLists.txt
+			  find_package(moveit_visual_tools REQUIRED)
+			  
+			  ```
 			- Call render
 				- ```C++
 				  moveit_visual_tools.trigger();
