@@ -129,4 +129,5 @@
 			- after has, v3 comes
 			- after be, v3 comes
 			- after is/  was / were / are / am, v3 comes
+			- after is / was / were / are / am, ving comes
 			-
