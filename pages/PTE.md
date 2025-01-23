@@ -181,3 +181,6 @@
 		- Skip
 		- Click and move on
 		- 2 mins left maybe do
+- # Listening
+	- ## Summarize spoken text
+	-
