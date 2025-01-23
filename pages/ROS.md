@@ -82,7 +82,11 @@
 				  spinner.join();
 				  ```
 			- `PlanningSceneInterface` add collision
-				-
+				- ```C++
+				  // Add the collision object to the scene
+				  moveit::planning_interface::PlanningSceneInterface planning_scene_interface;
+				  planning_scene_interface.applyCollisionObject(collision_object);
+				  ```
 - # ROS in Raspberry Pi
 	- [ROS 2 on Raspberry Pi — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Installing-on-Raspberry-Pi.html)
 - # Tips
