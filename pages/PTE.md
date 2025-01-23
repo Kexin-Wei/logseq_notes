@@ -145,4 +145,8 @@
 			- Noun -> pronoun
 			- Full name -> short name
 	- ## Reading fill in the blanks
-		-
+		- ![image.png](../assets/image_1737599842930_0.png){:height 261, :width 389}
+		- 5 questions, 20- 30 marks
+		- Strategy
+			- Learn to improve collocation knowledge
+			-
