@@ -128,4 +128,5 @@
 			- after singular noun, verb will + s
 			- after has, v3 comes
 			- after be, v3 comes
-			- after is/ was/ were/ are/ am,
+			- after is/  was / were / are / am, v3 comes
+			-
