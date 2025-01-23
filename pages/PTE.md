@@ -124,12 +124,13 @@
 			- Collocations
 		- Grammar
 			- after *to*, v1 comes
-			- after "a / an", singular noun comes
+			- after *a / an*, singular noun comes
 			- after singular noun, verb will + s
-			- after "has", v3 comes
-			- after "be", v3 comes
-			- after "is /  was / were / are / am", v3 comes
-			- after "is / was / were / are / am", ving comes
+			- after *has*, v3 comes
+			- after *be*, v3 comes
+			- after *is /  was / were / are / am*, v3 comes
+			- after *is / was / were / are / am*, ving comes
 			- Adverb ends in ly
-			- "One of the" ends in plural
-			- after "has been", v3 comes
+			- *One of the* ends in plural
+			- after *has been*, v3 comes
+		-
