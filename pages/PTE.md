@@ -125,4 +125,5 @@
 		- Grammar
 			- after to, v1 comes
 			- after a / an , singular noun comes
-			-
+			- after singular noun, verb will + s
+			- after has, v
