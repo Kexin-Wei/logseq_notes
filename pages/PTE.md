@@ -206,6 +206,17 @@
 			  In the end, the speaker left important note on ___. 
 			  ```
 	- ## Multiple Choice: choose multiple answer
-		- Select one
+		- Select one answer and move on
+	- ## Fill in the blanks
+		- ![image.png](../assets/image_1737691820059_0.png){:height 261, :width 389}
+		- 12 - 15 marks
+			- Every blank contribute to 2 marks
+		- 2 - 3 questions
+		- Strategy
+			- Listening skills
+			- Grammar
+			- Spelling
+		-
+		-
 	-
 	-
