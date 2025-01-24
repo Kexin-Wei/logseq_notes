@@ -246,3 +246,7 @@
 				- meow, meaw
 			- Capital or small letter doesn't matter
 			- Full stop or comma no marks
+- # 2025 Changes
+	- Pitch problem ( above 130(m), above 200 (f))
+	-
+	-
