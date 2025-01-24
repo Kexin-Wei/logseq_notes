@@ -236,4 +236,10 @@
 		- 3 - 4 questions
 		- 40 - 45 marks to listening and writing
 		- Evaluation
-			-
+			- Every correct word gives 1 mark
+		- Strategy
+			- Sequence doesn't matter
+			- Add extra words
+				- go goes market markets everyday every day eat eats mango a the an
+			- Add extra spellings if not sure
+				-
