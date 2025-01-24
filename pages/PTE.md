@@ -229,3 +229,7 @@
 		- ![image.png](../assets/image_1737692516413_0.png){:height 261, :width 389}
 		- 12 - 15 marks
 		- In doubt dont select
+		- 2 -3 questions, 12 - 15 marks to listening and reading
+		- Strategy
+			- listen and read constantly
+			-
