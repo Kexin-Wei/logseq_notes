@@ -257,3 +257,6 @@
 		- Giving more point to content
 		- Related to the question
 		- using complex and compound sentences
+	- Conjunction
+		- Fill in the blanks
+	-
