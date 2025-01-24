@@ -259,4 +259,7 @@
 		- using complex and compound sentences
 	- Conjunction
 		- Fill in the blanks
-	- Many colocation blanks
+	- Many collocation blanks
+		- 12 - 20 collocation
+	- 1 difficult write from dictation out of 3/4
+	-
