@@ -226,4 +226,6 @@
 		- ![image.png](../assets/image_1737692455100_0.png){:height 261, :width 389}
 		- If know, select, if not, select and move on
 	- ## Highlight incorrect words
-		-
+		- ![image.png](../assets/image_1737692516413_0.png){:height 261, :width 389}
+		- 12 - 15 marks
+		- In doubt dont select
