@@ -184,6 +184,19 @@
 - # Listening
 	- ## Summarise spoken text
 		- ![image.png](../assets/image_1737691013063_0.png){:height 261, :width 389}
-		- 150-70 words
+		- 1-2 question, 6-8 marks,
+		- 50-70 words
+		- Evaluation
+			- Form
+			- Grammar
+			- Spelling
+		- Strategy (same as retell lecture)
+			- Listen then write, not the same time
+			- Use template
+			- Use phrases
+			- No spelling mistakes
+			- 60 - 70 words
+		- Template
+			- The talk was about__.
 		-
 	-
