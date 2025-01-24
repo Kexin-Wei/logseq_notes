@@ -262,4 +262,7 @@
 	- Many collocation blanks
 		- 12 - 20 collocation
 	- 1 difficult write from dictation out of 3/4
-	-
+		- 13 - 14 words
+	- Reading section lengthy
+		- Reading fill in the blanks
+	- Tab button doesn't work
