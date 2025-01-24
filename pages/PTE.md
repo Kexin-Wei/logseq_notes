@@ -205,6 +205,7 @@
 			  Furthermore, the speaker provided imperative information on_. 
 			  In the end, the speaker left important note on ___. 
 			  ```
-		-
+	- ## Multiple Choice: choose multiple answer
+		- Select one
 	-
 	-
