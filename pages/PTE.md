@@ -183,6 +183,7 @@
 		- Click and move on
 		- 2 mins left maybe do
 - # Listening
+  collapsed:: true
 	- ## Summarise spoken text
 		- ![image.png](../assets/image_1737691013063_0.png){:height 261, :width 389}
 		- 1-2 question, 6-8 marks,
@@ -241,7 +242,7 @@
 			- Sequence doesn't matter
 			- Add extra words
 				- go goes market markets everyday every day eat eats mango a the an
-				- singular, plural, v1, v2, vs, a, an the
+				- singular, plural, v1, v2, vs, a, an, the, the
 			- Add extra spellings if not sure
 			- Capital or small letter doesn't matter
 			- Full stop or comma no marks
