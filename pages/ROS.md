@@ -114,6 +114,10 @@
 		- Clone these repositories in `src` and run `rosdep update && rosdep install --ignore-src --from-paths . -y`
 			- [UniversalRobots/Universal_Robots_ROS2_Gazebo_Simulation](https://github.com/UniversalRobots/Universal_Robots_ROS2_Gazebo_Simulation)
 			- [UniversalRobots/Universal_Robots_ROS2_Description: ROS2 URDF description for Universal Robots](https://github.com/UniversalRobots/Universal_Robots_ROS2_Description)
+		- use gazebo rviz simulation as a base
+			- ```bash
+			  ros2 launch ur_simulation_gazebo ur_sim_moveit.launch.py
+			  ```
 		-
 - # ROS in Raspberry Pi
 	- [ROS 2 on Raspberry Pi — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Installing-on-Raspberry-Pi.html)
