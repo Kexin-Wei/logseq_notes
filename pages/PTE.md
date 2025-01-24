@@ -197,6 +197,6 @@
 			- No spelling mistakes
 			- 60 - 70 words
 		- Template
-			- The talk was about__.
+			- The talk was about ___. Firstly, the speaker talked about ___. Later, the speaker said ___. Furthermore, the speaker provided imperative information on ____. In the end, the speaker left important note on ____.
 		-
 	-
