@@ -58,6 +58,7 @@
 				- {{video https://youtu.be/d3PQaSMiyyI?si=INF_04lbtB4viBAp}}
 				- ![image.png](../assets/image_1737536809313_0.png){:height 261, :width 389}
 				- Identify 3 things in 20s, write sentences in 20s
+				-
 		- ### Key Tips
 			- Need to speak more than 20s
 			- Don't use template
@@ -197,6 +198,13 @@
 			- No spelling mistakes
 			- 60 - 70 words
 		- Template
-			- The talk was about ___. Firstly, the speaker talked about ___. Later, the speaker said ___. Furthermore, the speaker provided imperative information on ____. In the end, the speaker left important note on ____.
+			- ```txt
+			  The talk was about _. 
+			  Firstly, the speaker talked about_. 
+			  Later, the speaker said. 
+			  Furthermore, the speaker provided imperative information on_. 
+			  In the end, the speaker left important note on ___. 
+			  ```
 		-
+	-
 	-
