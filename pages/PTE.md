@@ -216,12 +216,8 @@
 			- Listening skills
 			- Grammar
 			- Spelling
-		- provides
-		- tours
-		- designed
-		- raised
-		-
-		- steam
-		-
+	- ## Highlight correct summary
+		- ![image.png](../assets/image_1737692309008_0.png){:height 261, :width 389}
+		- Click one and move on
 	-
 	-
