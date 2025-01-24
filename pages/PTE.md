@@ -266,3 +266,5 @@
 	- Reading section lengthy
 		- Reading fill in the blanks
 	- Tab button doesn't work
+	- Trial question are back
+		- Affect the score, try it
