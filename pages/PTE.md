@@ -182,5 +182,8 @@
 		- Click and move on
 		- 2 mins left maybe do
 - # Listening
-	- ## Summarize spoken text
+	- ## Summarise spoken text
+		- ![image.png](../assets/image_1737691013063_0.png){:height 261, :width 389}
+		- 150-70 words
+		-
 	-
