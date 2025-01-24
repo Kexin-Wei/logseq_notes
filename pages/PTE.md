@@ -232,4 +232,8 @@
 		- 2 -3 questions, 12 - 15 marks to listening and reading
 		- Strategy
 			- listen and read constantly
+	- ## Write from dictation
+		- 3 - 4 questions
+		- 40 - 45 marks to listening and writing
+		- Evaluation
 			-
