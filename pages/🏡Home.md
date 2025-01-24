@@ -22,7 +22,6 @@
 				- [IGTL](http://openigtlink.org/users/)
 				- [Plus](https://plustoolkit.github.io/)
 	- ## 🤖Robot
-	  collapsed:: true
 		- [[ROS]]
 		- [[Corporate Explorer]]
 		- [[Soft Tissue Deformation]]
