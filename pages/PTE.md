@@ -241,5 +241,8 @@
 			- Sequence doesn't matter
 			- Add extra words
 				- go goes market markets everyday every day eat eats mango a the an
+				- singular, plural, v1, v2, vs, a, an the
 			- Add extra spellings if not sure
-				-
+			- Capital or small letter doesn't matter
+			- Full stop or comma no marks
+		-
