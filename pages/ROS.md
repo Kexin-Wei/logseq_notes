@@ -41,75 +41,76 @@
 	   --dependencies moveit_ros_planning_interface rclcpp \
 	   --node-name hello_moveit hello_moveit
 	  ```
-	- Useful packages
-		- ## Moveit_visual_tools
-			- [moveit/moveit_visual_tools: Helper functions for displaying and debugging MoveIt! data in Rviz via published markers](https://github.com/moveit/moveit_visual_tools/tree/ros2)
-			- ```bash
-			  # add in package.xml
-			  <depend>moveit_visual_tools</depend>
-			  
-			  # add in CMakeLists.txt
-			  find_package(moveit_visual_tools REQUIRED)
-			  ament_target_dependencies(
-			    hello_moveit
-			    "moveit_ros_planning_interface"
-			    "moveit_visual_tools"
-			    "rclcpp"
-			  )
-			  
-			  # add in cpp
-			  #include <moveit_visual_tools/moveit_visual_tools.h>
+	- ## Moveit_visual_tools
+		- [moveit/moveit_visual_tools: Helper functions for displaying and debugging MoveIt! data in Rviz via published markers](https://github.com/moveit/moveit_visual_tools/tree/ros2)
+		- ```bash
+		  # add in package.xml
+		  <depend>moveit_visual_tools</depend>
+		  
+		  # add in CMakeLists.txt
+		  find_package(moveit_visual_tools REQUIRED)
+		  ament_target_dependencies(
+		    hello_moveit
+		    "moveit_ros_planning_interface"
+		    "moveit_visual_tools"
+		    "rclcpp"
+		  )
+		  
+		  # add in cpp
+		  #include <moveit_visual_tools/moveit_visual_tools.h>
+		  ```
+		- Call render
+			- ```C++
+			  moveit_visual_tools.trigger();
 			  ```
-			- Call render
-				- ```C++
-				  moveit_visual_tools.trigger();
-				  ```
-			- Can draw text
-				- ```c++
-				  // create a closure for visualization
-				  auto const draw_title = [&moveit_visual_tools](auto text) {
-				    auto const text_pose = [] {
-				      auto msg = Eigen::Isometry3d::Identity();
-				      msg.translation().z() = 1.0;
-				      return msg;
-				    }();
-				    moveit_visual_tools.publishText(text_pose, text,
-				                                    rviz_visual_tools::WHITE,
-				                                    rviz_visual_tools::XLARGE);
-				  };
-				  ```
-			- Can print log
-				- ```C++
-				  auto const prompt = [&moveit_visual_tools](auto text) {
-				    moveit_visual_tools.prompt(text);
-				  };
-				  ```
-			- Can draw trajectory
-				- ```C++
-				  auto const draw_trajectory_tool_path =
-				    [&moveit_visual_tools,
-				     jmg = move_group_interface.getRobotModel()->getJointModelGroup(
-				       "panda_arm")](auto const trajectory) {
-				    moveit_visual_tools.publishTrajectoryLine(trajectory, jmg);
-				  };
-				  ```
-			- Need to add a spinner to call
-				- ```C++
-				  rclcpp::executors::SingleThreadedExecutor executor;
-				      executor.add_node(node);
-				      auto spinner = std::thread([&executor]() { executor.spin(); });
-				  
-				  // later on 
-				  rclcpp::shutdown();
-				  spinner.join();
-				  ```
-			- `PlanningSceneInterface` add collision
-				- ```C++
-				  // Add the collision object to the scene
-				  moveit::planning_interface::PlanningSceneInterface planning_scene_interface;
-				  planning_scene_interface.applyCollisionObject(collision_object);
-				  ```
-	-
+		- Can draw text
+			- ```c++
+			  // create a closure for visualization
+			  auto const draw_title = [&moveit_visual_tools](auto text) {
+			    auto const text_pose = [] {
+			      auto msg = Eigen::Isometry3d::Identity();
+			      msg.translation().z() = 1.0;
+			      return msg;
+			    }();
+			    moveit_visual_tools.publishText(text_pose, text,
+			                                    rviz_visual_tools::WHITE,
+			                                    rviz_visual_tools::XLARGE);
+			  };
+			  ```
+		- Can print log
+			- ```C++
+			  auto const prompt = [&moveit_visual_tools](auto text) {
+			    moveit_visual_tools.prompt(text);
+			  };
+			  ```
+		- Can draw trajectory
+			- ```C++
+			  auto const draw_trajectory_tool_path =
+			    [&moveit_visual_tools,
+			     jmg = move_group_interface.getRobotModel()->getJointModelGroup(
+			       "panda_arm")](auto const trajectory) {
+			    moveit_visual_tools.publishTrajectoryLine(trajectory, jmg);
+			  };
+			  ```
+		- Need to add a spinner to call
+			- ```C++
+			  rclcpp::executors::SingleThreadedExecutor executor;
+			      executor.add_node(node);
+			      auto spinner = std::thread([&executor]() { executor.spin(); });
+			  
+			  // later on 
+			  rclcpp::shutdown();
+			  spinner.join();
+			  ```
+		- `PlanningSceneInterface` add collision
+			- ```C++
+			  // Add the collision object to the scene
+			  moveit::planning_interface::PlanningSceneInterface planning_scene_interface;
+			  planning_scene_interface.applyCollisionObject(collision_object);
+			  ```
+	- ## Universal Robots
+		- [Github link](https://github.com/UniversalRobots)
+		-
 - # ROS in Raspberry Pi
 	- [ROS 2 on Raspberry Pi — ROS 2 Documentation: Jazzy documentation](http://docs.ros.org/en/jazzy/How-To-Guides/Installing-on-Raspberry-Pi.html)
 - # Tips
