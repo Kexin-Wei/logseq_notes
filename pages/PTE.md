@@ -248,5 +248,9 @@
 			- Full stop or comma no marks
 - # 2025 Changes
 	- Pitch problem ( above 130(m), above 200 (f))
-	-
+		- Increase pitch (shouting)
+		- Audio analyse App
+	- Template banning
+		- DI
+		- Retell lecture
 	-
