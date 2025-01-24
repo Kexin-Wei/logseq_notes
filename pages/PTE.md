@@ -75,7 +75,7 @@
 		- Use template and just speak like read aloud
 		- Template
 			- fill in the phrases in one by one
-			- ![image.png](../assets/image_1737538046388_0.png){:height 261, :width 389}
+			- ![image.png](../assets/image_1737714849884_0.png){:height 261, :width 389}
 			- If points not enough, just repeat
 		- ### Key Tips
 			- No fumble
@@ -253,4 +253,7 @@
 	- Template banning
 		- DI
 		- Retell lecture
-	-
+	- Writing
+		- Giving more point to content
+		- Related to the question
+		- using complex and compound sentences
