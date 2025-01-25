@@ -37,5 +37,11 @@
 		- **AQS **【螢火蟲全部!】刷2遍 (一刷全部，標記錯題，二刷錯題)
 		- **FIB_Q** 【螢火蟲單字!】Quizlet單字聽寫模式刷1遍
 	- ![image.png](../assets/image_1737807669566_0.png)
-	- ## WFD
+	- ## WFD ⭐️
 		- [PTE - Listening Write From Dictation 终极练习技巧（2019）](https://www.youtube.com/watch?v=99BPVyFmvzk)
+	- ## SST ⭐️
+	- ## FIB
+	- ## RA ⭐️
+	- ## RS ⭐️
+	- ## DI ⭐️
+	-
