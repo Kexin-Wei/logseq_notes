@@ -1,7 +1,8 @@
-# [[Famous Indian Brother Tutorial]]
+- ![image.png](../assets/image_1737807246510_0.png)
+- # [[Famous Indian Brother Tutorial]]
 	- {{video https://youtu.be/8EAnOFiQiqg?si=K9bsrxINcrvVt655}}
 - # [[Personal Plan of PTE]]
-- # 2025 Changes
+- # 2025 Changes in PTE
 	- {{video https://youtu.be/HhUKq-tDKsk?si=ItJ8zQWxufco08dX}}
 	- Pitch problem ( above 130(m), above 200 (f))
 		- Increase pitch (shouting)
