@@ -1,11 +1,10 @@
 - Date: 2025
 - # General Guide
-  collapsed:: true
 	- 口语：RA，RS, DI, RL
 	- 写作： SWT. WE. FIB_RW(阅读)，SST（听力），WFD（听力）
 	- 阅读： RO，FIB_R, FIB_RW, RA(口语)，SWT（写作），HIW（听力
 	- 听力：SST, FIB_L, HIW, WFD, RS(口语), RL(口语)
-	- ![image.png](../assets/image_1737807073076_0.png)
+	- ![image.png](../assets/image_1737808330962_0.png)
 - # First mock test (right after turtorial)
   collapsed:: true
 	- ![image.png](../assets/image_1737806347029_0.png){:height 261, :width 462}
@@ -41,7 +40,7 @@
 		- [PTE - Listening Write From Dictation 终极练习技巧（2019）](https://www.youtube.com/watch?v=99BPVyFmvzk)
 	- ## SST ⭐️
 	- ## FIB - W
-	- ## RA ⭐️
+	- ## RA ⭐️ > 80
 	- ## RS ⭐️
 	- ## DI ⭐️ 📃
 	- ## SRT 📃
