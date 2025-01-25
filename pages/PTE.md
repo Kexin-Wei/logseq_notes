@@ -268,3 +268,5 @@
 	- Tab button doesn't work
 	- Trial question are back
 		- Affect the score, try it
+- [[Personal Record using ptexj.com]]
+-
