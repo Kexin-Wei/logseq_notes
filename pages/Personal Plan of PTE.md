@@ -1,6 +1,6 @@
 - Date: 2025
 - General Guide
-	- **WFD**→**SST**→**RS, RA**→**DI, RL**→**RO , FIB_R&W , FIB_R**→**WE, SWT**→**FIB_L**, **ASQ**
+  collapsed:: true
 	- 口语：RA，RS, DI, RL
 	- 写作： SWT. WE. FIB_RW(阅读)，SST（听力），WFD（听力）
 	- 阅读： RO，FIB_R, FIB_RW, RA(口语)，SWT（写作），HIW（听力
@@ -19,5 +19,5 @@
 		- ![image.png](../assets/image_1737806452856_0.png){:height 261, :width 462}
 	- AI Suggestion Plan
 		- ![image.png](../assets/image_1737806551928_0.png)
--
+- One month
 -
