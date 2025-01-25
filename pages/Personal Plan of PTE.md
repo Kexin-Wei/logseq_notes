@@ -1,4 +1,12 @@
-# First mock test
+- Date: 2025
+- General Guide
+	- 口语：RA，RS, DI, RL
+	- 写作： SWT. WE. FIB_RW(阅读)，SST（听力），WFD（听力）
+	- 阅读： RO，FIB_R, FIB_RW, RA(口语)，SWT（写作），HIW（听力
+	- 听力：SST, FIB_L, HIW, WFD, RS(口语), RL(口语)
+	- ![image.png](../assets/image_1737807073076_0.png)
+- # First mock test
+  collapsed:: true
 	- ![image.png](../assets/image_1737806347029_0.png){:height 261, :width 462}
 	- ## Speaking
 		- ![image.png](../assets/image_1737806367679_0.png){:height 261, :width 462}
