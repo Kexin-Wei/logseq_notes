@@ -1,3 +1,6 @@
+- References
+	- [PTE 9炸自學指南: 兩個月備考攻略 (上) - 太陽彼得。闖。澳洲](https://sunpeteraustralia.com/pte/)
+	- [PTE 9炸自學指南: 兩個月備考攻略 (下) - 太陽彼得。闖。澳洲](https://sunpeteraustralia.com/pte-2/)
 - ![image.png](../assets/image_1737807246510_0.png)
 - # [[Famous Indian Brother Tutorial]]
 	- {{video https://youtu.be/8EAnOFiQiqg?si=K9bsrxINcrvVt655}}

@@ -1,5 +1,6 @@
 - Date: 2025
 - General Guide
+	- **WFD**→**SST**→**RS, RA**→**DI, RL**→**RO , FIB_R&W , FIB_R**→**WE, SWT**→**FIB_L**, **ASQ**
 	- 口语：RA，RS, DI, RL
 	- 写作： SWT. WE. FIB_RW(阅读)，SST（听力），WFD（听力）
 	- 阅读： RO，FIB_R, FIB_RW, RA(口语)，SWT（写作），HIW（听力
