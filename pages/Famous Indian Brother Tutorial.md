@@ -1,0 +1,252 @@
+# General
+collapsed:: true
+	- 2 h
+	- 20 Types of Questions
+	- Mic position: parallel to the mouth
+	- Mic 3 seconds will stop
+	- Speaking and Writing
+		- 55 mins
+		- Can take notes
+	- Reading
+		- 30 mins
+		- 5 question types
+	- Listening
+		- 40 mins
+		- 8 question types
+- # Speaking
+  collapsed:: true
+	- ## Read Aloud
+		- Reading time + speaking time
+			- ![image.png](../assets/image_1737530098189_0.png){:height 302, :width 484}
+		- Personal Introduction: name, doing, why this test
+		- 6-7 questions
+		- 35 masks to speaking, 35 masks to reading
+		- Fluency (90%)> content > pronunciation
+		- Skills
+			- Skip difficult words
+				- ![image.png](../assets/image_1737530379742_0.png){:height 261, :width 389}
+			- Speak 2 lines if you are not confident of reading full
+				- ![image.png](../assets/image_1737530434361_0.png){:height 261, :width 389}
+			- Dont give preferences to "s" sounds
+			- When not sure of how to speak, either skip or speak in your own way
+			- Pitch issues: maintain 300 below for a girl and 130 above for a guy
+		- ### Key tips
+			- fluently
+			- no fumble
+			- skip difficult words
+			- give natural pauses for comma and full stop
+			- speak clearly, open the mouth
+			- don't go fast / slow, use natural speed
+	- ## Repeat Sentence
+		- After audio, see recording and speak (NO Beep Sound)
+			- ![image.png](../assets/image_1737531099460_0.png){:height 261, :width 389}
+		- 10-12 questions
+		- 30 marks to speaking, 30 marks to listening
+		- Fluency 5 (90%), content 3, pronunciation 5 (clarity)
+		- 50 percent match at least but need fluent
+		- ### Key Tips
+			- repeat at 60 percent of content, don't try to speak everything
+			- NO fumble or hesitate
+			- Maintain speaking speed and pauses
+	- ## Describe Image
+		- 4-6 questions
+		- 8-10 marks to speaking
+		- ![image.png](../assets/image_1737535471130_0.png){:height 261, :width 389}
+		- Fluency 5 (100%), pronunciation 5 (100%), content 1%
+		- Give preference to fluency alone
+		- Template (2025)
+			- New skill
+				- {{video https://youtu.be/d3PQaSMiyyI?si=INF_04lbtB4viBAp}}
+				- ![image.png](../assets/image_1737536809313_0.png){:height 261, :width 389}
+				- Identify 3 things in 20s, write sentences in 20s
+				-
+		- ### Key Tips
+			- Need to speak more than 20s
+			- Don't use template
+			- Speak long sentence
+			- Content related to image
+	- ## Re-tell Lecture
+		- 1-2 questions
+		- 8-10 marks to speaking
+		- 8-10 marks to listening
+		- After lecture will given 10s
+			- ![image.png](../assets/image_1737537642951_0.png){:height 261, :width 389}
+		- 5s listen, 5s write, when listen dont write, when write dont listen
+		- Write 4-5 small phrases (not only keywords)
+		- Use template and just speak like read aloud
+		- Template
+			- fill in the phrases in one by one
+			- ![image.png](../assets/image_1737714849884_0.png){:height 261, :width 389}
+			- If points not enough, just repeat
+		- ### Key Tips
+			- No fumble
+			- normal speed
+			- listen or write, not at the same time
+			- Write phrases instead of words
+	- ## Answer short question
+		- 5-8 questions
+		- max 1-2 marks
+		- not a high priority
+		- ![image.png](../assets/image_1737538537519_0.png){:height 261, :width 389}
+		- Speak the answer if you know else repeat the question
+			- ![image.png](../assets/image_1737538601951_0.png){:height 261, :width 389}
+- # Writing
+  collapsed:: true
+	- ## Summarize written text
+		- ![image.png](../assets/image_1737538664239_0.png){:height 261, :width 389}
+		- 1 sentence
+		- 40-50 words
+		- 1-2 questions
+		- contributes marks to writing and reading
+		- 4-5 marks max
+			- Spelling and grammar will lead to zero
+		- Copy 2 sentences, add comma and connector
+			- ![image.png](../assets/image_1737538913109_0.png){:height 261, :width 389}
+	- ## Write Essay
+		- Not a priority
+		- ![image.png](../assets/image_1737539091745_0.png){:height 261, :width 389}
+		- Marks
+			- Form grammar spelling
+			- ![image.png](../assets/image_1737539173717_0.png){:height 261, :width 389}
+		- Template
+			- ![image.png](../assets/image_1737539202811_0.png){:height 261, :width 389}
+			- Although such topics, in all likelihood, never will yield a consensual agreement, a constructive dialogue on ___can lead to thought-provoking discussions. My view is that, irrespective of the numerous arguments that exist on either side, _____. Through the course of this essay, I shall put forth my points and calculations by considering both sides of the argument. 
+			  There are a number of reasons in favor of my viewpoint.
+			- Firstly _______. This is because ______. For example, _____. In conclusion, the aforementioned discussion constructively justifies my stance. 
+			  Another interesting point is that____ . This is mainly due to the fact that ___. To quote an example, the research conducted by department of the American society also reflects on the similar line, and hence, it can be said that the proposition is convincingly justified. 
+			  I see that there is equally potential evidence to support the arguments I have provided, and hence, my opinion is that the topic of the statement does reflect on the justification that is provided here.
+		- Simple sentence, complex sentence and compound sentence
+- # Reading
+  collapsed:: true
+	- ## Reading and Writing Fill in the Blanks
+		- ![image.png](../assets/image_1737597333715_0.png){:height 261, :width 389}
+		- 5-6 questions, 25-30 marks
+		- Strategy
+			- Reading skills
+			- Grammar skills and shortcuts
+			- Vocabulary
+			- Collocations
+		- Grammar
+			- after *to*, v1 comes
+			- after *a / an*, singular noun comes
+			- after singular noun, verb will + s
+			- after *has*, v3 comes
+			- after *be*, v3 comes
+			- after *is /  was / were / are / am*, v3 comes
+			- after *is / was / were / are / am*, ving comes
+			- Adverb ends in ly
+			- *One of the* ends in plural
+			- after *has been*, v3 comes
+	- ## Multiple Choice
+		- 1-2 question, max 1 mark
+		- Skip
+		- Click and next
+	- ## Reorder the paragraph
+		- 2 questions, 5-6 marks
+		- Not a priority
+		- Strategy
+			- Subject -> Object -> Subject
+			- Noun -> pronoun
+			- Full name -> short name
+	- ## Reading fill in the blanks
+		- ![image.png](../assets/image_1737599842930_0.png){:height 261, :width 389}
+		- 5 questions, 20- 30 marks
+		- Strategy
+			- Learn to improve collocation knowledge
+				- make a decision
+				- take a break
+				- catch someone's attention
+				- make a mistake
+				- pay attention
+				- break the ice
+				- miss the bus
+				- hit the road
+				- Give someone a hand
+				- make an effort
+				- catch your breath
+				- keep an eye on
+				- {{video https://www.youtube.com/watch?v=HeIgbIyJPCE&t=0s}}
+			- Reading newspaper / articles
+			- Elimination method: dont look answer, fill the blanks yourself, find the best fit
+			- Work on bottom up approach
+			- Stop relying on intuition
+			- Improve fast reading : 18 -200 words per min
+			- Grammar is the key
+		- Tips
+			- Grammar is must
+			- Reading skill is must
+			- Grammar approach
+			- Clue based approach
+			- Collocation is a must
+			- Try to solve in less than 2.5 min
+			- Watch day 1 to 30 reading fib tips
+			- Watch 10 grammar shortcut
+	- ## Multiple choice
+		- Skip
+		- Click and move on
+		- 2 mins left maybe do
+- # Listening
+  collapsed:: true
+	- ## Summarise spoken text
+		- ![image.png](../assets/image_1737691013063_0.png){:height 261, :width 389}
+		- 1-2 question, 6-8 marks,
+		- 50-70 words
+		- Evaluation
+			- Form
+			- Grammar
+			- Spelling
+		- Strategy (same as retell lecture)
+			- Listen then write, not the same time
+			- Use template
+			- Use phrases
+			- No spelling mistakes
+			- 60 - 70 words
+		- Template
+			- ```txt
+			  The talk was about _. 
+			  Firstly, the speaker talked about_. 
+			  Later, the speaker said. 
+			  Furthermore, the speaker provided imperative information on_. 
+			  In the end, the speaker left important note on ___. 
+			  ```
+	- ## Multiple Choice: choose multiple answer
+		- Select one answer and move on
+	- ## Fill in the blanks
+		- ![image.png](../assets/image_1737691820059_0.png){:height 261, :width 389}
+		- 12 - 15 marks
+			- Every blank contribute to 2 marks
+		- 2 - 3 questions
+		- Strategy
+			- Listening skills
+			- Grammar
+			- Spelling
+	- ## Highlight correct summary
+		- ![image.png](../assets/image_1737692309008_0.png){:height 261, :width 389}
+		- Select one and move on
+		- 1 mark
+	- ## Multiple choice: choose single answer
+		- Select one and move on
+	- ## Select missing word
+		- ![image.png](../assets/image_1737692455100_0.png){:height 261, :width 389}
+		- If know, select, if not, select and move on
+	- ## Highlight incorrect words
+		- ![image.png](../assets/image_1737692516413_0.png){:height 261, :width 389}
+		- 12 - 15 marks
+		- In doubt dont select
+		- 2 -3 questions, 12 - 15 marks to listening and reading
+		- Strategy
+			- listen and read constantly
+	- ## Write from dictation
+		- 3 - 4 questions
+		- 40 - 45 marks to listening and writing
+		- Evaluation
+			- Every correct word gives 1 mark
+		- Strategy
+			- Sequence doesn't matter
+			- Add extra words
+				- go goes market markets everyday every day eat eats mango a the an
+				- singular, plural, v1, v2, vs, a, an, the, the
+			- Add extra spellings if not sure
+				- meow, meaw
+			- Capital or small letter doesn't matter
+			- Full stop or comma no marks
