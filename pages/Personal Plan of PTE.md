@@ -40,8 +40,12 @@
 	- ## WFD ⭐️
 		- [PTE - Listening Write From Dictation 终极练习技巧（2019）](https://www.youtube.com/watch?v=99BPVyFmvzk)
 	- ## SST ⭐️
-	- ## FIB
+	- ## FIB - W
 	- ## RA ⭐️
 	- ## RS ⭐️
-	- ## DI ⭐️
+	- ## DI ⭐️ 📃
+	- ## SRT 📃
+	- ## WE 📃
+	- ## ROP
+	- ## FIB - R
 	-
