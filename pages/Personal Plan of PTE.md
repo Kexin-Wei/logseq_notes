@@ -20,8 +20,9 @@
 	- AI Suggestion Plan
 		- ![image.png](../assets/image_1737806551928_0.png)
 - # One month plan
+	- Reference
+		- [PTE 9炸自學指南: 兩個月備考攻略 (下) - 太陽彼得。闖。澳洲](https://sunpeteraustralia.com/pte-2/)
 	- ## WFD → SST →RS, RA→DI, RL→RO , FIB_R&W , FIB_R→WE, SWT→FIB_L, ASQ
-		- from [PTE 9炸自學指南: 兩個月備考攻略 (下) - 太陽彼得。闖。澳洲](https://sunpeteraustralia.com/pte-2/)
 		- **WFD **【黑科技高頻】以1.25倍速刷5遍(一二刷全部, 三四五刷錯題，生詞整理在Quizlet)
 		- **SST **【螢火蟲預測】刷4遍，(四刷都刷全部)看螢火蟲參考答案，每篇整理3~4重點。每次寫完都給grammarly檢查，生詞整理在Quizlet
 		- **RS **【螢火蟲預測】以1.25倍速刷3遍(一刷全部，標記錯題，二三刷錯題)，做到可以新句子覆述50%以上，且沒有停頓
@@ -36,4 +37,5 @@
 		- **AQS **【螢火蟲全部!】刷2遍 (一刷全部，標記錯題，二刷錯題)
 		- **FIB_Q** 【螢火蟲單字!】Quizlet單字聽寫模式刷1遍
 	- ![image.png](../assets/image_1737807669566_0.png)
-	-
+	- ## WFD
+		- [PTE - Listening Write From Dictation 终极练习技巧（2019）](https://www.youtube.com/watch?v=99BPVyFmvzk)
