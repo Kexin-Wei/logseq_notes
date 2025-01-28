@@ -55,7 +55,13 @@
 	- ## FIB - W
 	- ## RA ⭐️ > 80
 	- ## RS ⭐️
-	- ## DI RL ⭐️ 📃
+	- ## DI ⭐️ 📃
+	- ## RL ⭐️ 📃
+		- The lecture discusses __.
+		- In the beginning, the speaker explained about ___.
+		- Later, the speaker said __.
+		- Here, the speaker also mentioned __.
+		- In conclusion, the lecture effectively summarized __ .
 	- ## SRT 📃
 	- ## WE 📃
 	- ## ROP
