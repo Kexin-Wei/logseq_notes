@@ -38,7 +38,7 @@
 			- **FIB_Q** 【螢火蟲單字!】Quizlet單字聽寫模式刷1遍
 	- ![image.png](../assets/image_1737807669566_0.png)
 	- ## Practice Note from PTE 猩际
-		- WFD: 50 daily,
+		- WFD: 50 daily, 79: accuracy 80%, error < 2, added words < 3
 	- ## WFD ⭐️
 		- [PTE - Listening Write From Dictation 终极练习技巧（2019）](https://www.youtube.com/watch?v=99BPVyFmvzk)
 		- ![image.png](../assets/image_1738031022665_0.png){:height 232, :width 437}
