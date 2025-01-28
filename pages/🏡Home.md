@@ -114,6 +114,7 @@
 		- [[Investment]]
 	- ## 🗺️Languages Learning
 		- [[PTE]]
+			- [[Personal Plan of PTE]]
 		- IPA
 			- [IPA Chart](https://www.ipachart.com/)
 		- 🇫🇷 French
