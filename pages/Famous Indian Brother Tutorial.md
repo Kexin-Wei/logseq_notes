@@ -81,7 +81,7 @@
 			- normal speed
 			- listen or write, not at the same time
 			- Write phrases instead of words
-	- ## Answer short question
+	- ## ASQ Answer short question
 		- 5-8 questions
 		- max 1-2 marks
 		- not a high priority
@@ -89,7 +89,7 @@
 		- Speak the answer if you know else repeat the question
 			- ![image.png](../assets/image_1737538601951_0.png){:height 261, :width 389}
 - # Writing
-	- ## Summarize written text
+	- ## SWT Summarize written text
 		- ![image.png](../assets/image_1737538664239_0.png){:height 261, :width 389}
 		- 1 sentence
 		- 40-50 words
@@ -99,7 +99,7 @@
 			- Spelling and grammar will lead to zero
 		- Copy 2 sentences, add comma and connector
 			- ![image.png](../assets/image_1737538913109_0.png){:height 261, :width 389}
-	- ## Write Essay
+	- ## WE Write Essay
 		- Not a priority
 		- ![image.png](../assets/image_1737539091745_0.png){:height 261, :width 389}
 		- Marks
@@ -114,7 +114,7 @@
 			  I see that there is equally potential evidence to support the arguments I have provided, and hence, my opinion is that the topic of the statement does reflect on the justification that is provided here.
 		- Simple sentence, complex sentence and compound sentence
 - # Reading
-	- ## Reading and Writing Fill in the Blanks
+	- ## FIB-RW Reading and Writing Fill in the Blanks
 		- ![image.png](../assets/image_1737597333715_0.png){:height 261, :width 389}
 		- 5-6 questions, 25-30 marks
 		- Strategy
@@ -137,14 +137,14 @@
 		- 1-2 question, max 1 mark
 		- Skip
 		- Click and next
-	- ## Reorder the paragraph
+	- ## ROP Reorder the paragraph
 		- 2 questions, 5-6 marks
 		- Not a priority
 		- Strategy
 			- Subject -> Object -> Subject
 			- Noun -> pronoun
 			- Full name -> short name
-	- ## Reading fill in the blanks
+	- ## FIB-R Reading fill in the blanks
 		- ![image.png](../assets/image_1737599842930_0.png){:height 261, :width 389}
 		- 5 questions, 20- 30 marks
 		- Strategy
@@ -182,7 +182,7 @@
 		- Click and move on
 		- 2 mins left maybe do
 - # Listening
-	- ## Summarise spoken text
+	- ## SST Summarise spoken text
 		- ![image.png](../assets/image_1737691013063_0.png){:height 261, :width 389}
 		- 1-2 question, 6-8 marks,
 		- 50-70 words
@@ -206,7 +206,7 @@
 			  ```
 	- ## Multiple Choice: choose multiple answer
 		- Select one answer and move on
-	- ## Fill in the blanks
+	- ## FIB-W Fill in the blanks
 		- ![image.png](../assets/image_1737691820059_0.png){:height 261, :width 389}
 		- 12 - 15 marks
 			- Every blank contribute to 2 marks
@@ -224,14 +224,14 @@
 	- ## Select missing word
 		- ![image.png](../assets/image_1737692455100_0.png){:height 261, :width 389}
 		- If know, select, if not, select and move on
-	- ## Highlight incorrect words
+	- ## HIW Highlight incorrect words
 		- ![image.png](../assets/image_1737692516413_0.png){:height 261, :width 389}
 		- 12 - 15 marks
 		- In doubt dont select
 		- 2 -3 questions, 12 - 15 marks to listening and reading
 		- Strategy
 			- listen and read constantly
-	- ## Write from dictation
+	- ## WFD Write from dictation
 		- 3 - 4 questions
 		- 40 - 45 marks to listening and writing
 		- Evaluation
