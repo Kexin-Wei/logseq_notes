@@ -31,6 +31,8 @@
 	  ```
 - # [[ROS Concepts]]
 - # ROS Visualization - Rviz and Gazebo
+	- ![Kazam_screenshot_00000.png](../assets/Kazam_screenshot_00000_1738058154424_0.png)
+	- ![Screenshot 2025-01-28 17:53:37.png](../assets/Screenshot_2025-01-28_17:53:37_1738058088853_0.png)
 	- run urdf demo
 		- ```bash
 		  ros2 launch urdf_tutorial display.launch.py model:=/opt/ros/jazzy/share/urdf_tutorial/urdf/08-macroed.urdf.xacro 
@@ -50,7 +52,6 @@
 		  ros2 run rviz2 rviz2
 		  ```
 	- Gazebo (harmonic)
-		-
 		- ```bash
 		  # terminal 1
 		  ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro /home/<user>/my_robot_ws/src/my_robot_description/urdf/my_robot.urdf.xacro)"
