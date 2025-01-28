@@ -40,6 +40,7 @@
 	- ## Practice Note from PTE 猩际
 		- WFD: 50 daily, 79: accuracy 80%, error < 2, added words < 3
 		- SST: 5-6 daily
+		- RA: 1 following, 3 self selected daily
 		-
 	- ## WFD ⭐️
 		- [PTE - Listening Write From Dictation 终极练习技巧（2019）](https://www.youtube.com/watch?v=99BPVyFmvzk)
@@ -55,6 +56,7 @@
 		- In conclusion, the lecture effectively summarized __ .
 	- ## FIB - W
 	- ## RA ⭐️ > 80
+		- ![image.png](../assets/image_1738043614113_0.png){:height 232, :width 437}
 	- ## RS ⭐️
 	- ## DI ⭐️ 📃
 	- ## RL ⭐️ 📃
