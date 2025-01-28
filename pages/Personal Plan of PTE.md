@@ -47,7 +47,11 @@
 		- ![image.png](../assets/image_1738031087355_0.png){:height 232, :width 437}
 		- ![image.png](../assets/image_1738032580785_0.png){:height 232, :width 437}
 	- ## SST ⭐️
-		-
+		- The lecture discusses __.
+		- In the beginning, the speaker explained about ___.
+		- Later, the speaker said __.
+		- Here, the speaker also mentioned __.
+		- In conclusion, the lecture effectively summarized __ .
 	- ## FIB - W
 	- ## RA ⭐️ > 80
 	- ## RS ⭐️
