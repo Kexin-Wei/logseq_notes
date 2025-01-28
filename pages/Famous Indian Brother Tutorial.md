@@ -1,5 +1,4 @@
 # General
-collapsed:: true
 	- 2 h
 	- 20 Types of Questions
 	- Mic position: parallel to the mouth
@@ -14,8 +13,7 @@ collapsed:: true
 		- 40 mins
 		- 8 question types
 - # Speaking
-  collapsed:: true
-	- ## Read Aloud
+	- ## RA Read Aloud
 		- Reading time + speaking time
 			- ![image.png](../assets/image_1737530098189_0.png){:height 302, :width 484}
 		- Personal Introduction: name, doing, why this test
@@ -37,7 +35,7 @@ collapsed:: true
 			- give natural pauses for comma and full stop
 			- speak clearly, open the mouth
 			- don't go fast / slow, use natural speed
-	- ## Repeat Sentence
+	- ## RS Repeat Sentence
 		- After audio, see recording and speak (NO Beep Sound)
 			- ![image.png](../assets/image_1737531099460_0.png){:height 261, :width 389}
 		- 10-12 questions
@@ -48,7 +46,7 @@ collapsed:: true
 			- repeat at 60 percent of content, don't try to speak everything
 			- NO fumble or hesitate
 			- Maintain speaking speed and pauses
-	- ## Describe Image
+	- ## DI Describe Image
 		- 4-6 questions
 		- 8-10 marks to speaking
 		- ![image.png](../assets/image_1737535471130_0.png){:height 261, :width 389}
@@ -65,7 +63,7 @@ collapsed:: true
 			- Don't use template
 			- Speak long sentence
 			- Content related to image
-	- ## Re-tell Lecture
+	- ## RL Re-tell Lecture
 		- 1-2 questions
 		- 8-10 marks to speaking
 		- 8-10 marks to listening
@@ -91,7 +89,6 @@ collapsed:: true
 		- Speak the answer if you know else repeat the question
 			- ![image.png](../assets/image_1737538601951_0.png){:height 261, :width 389}
 - # Writing
-  collapsed:: true
 	- ## Summarize written text
 		- ![image.png](../assets/image_1737538664239_0.png){:height 261, :width 389}
 		- 1 sentence
@@ -117,7 +114,6 @@ collapsed:: true
 			  I see that there is equally potential evidence to support the arguments I have provided, and hence, my opinion is that the topic of the statement does reflect on the justification that is provided here.
 		- Simple sentence, complex sentence and compound sentence
 - # Reading
-  collapsed:: true
 	- ## Reading and Writing Fill in the Blanks
 		- ![image.png](../assets/image_1737597333715_0.png){:height 261, :width 389}
 		- 5-6 questions, 25-30 marks
@@ -186,7 +182,6 @@ collapsed:: true
 		- Click and move on
 		- 2 mins left maybe do
 - # Listening
-  collapsed:: true
 	- ## Summarise spoken text
 		- ![image.png](../assets/image_1737691013063_0.png){:height 261, :width 389}
 		- 1-2 question, 6-8 marks,
