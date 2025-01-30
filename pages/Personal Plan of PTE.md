@@ -120,6 +120,7 @@
 			  In conclusion, while there are strong arguments on both sides of the case, I firmly believe that 
 			  _____（复写你自己的总体观点）.
 		- ### SWT 📃
+			- ![Kazam_screenshot_00009.png](../assets/Kazam_screenshot_00009_1738234320432_0.png){:height 232, :width 437}
 		- ## FIB - R
 	- ## Practice Note from PTE 猩际
 		- WFD: 50 daily, 79: accuracy 80%, error < 2, added words < 3
