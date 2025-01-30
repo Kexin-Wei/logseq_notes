@@ -60,6 +60,13 @@
 		- ## DI ⭐️ 📃
 			- ![Kazam_screenshot_00003.png](../assets/Kazam_screenshot_00003_1738210755284_0.png){:height 232, :width 437}
 			- Line
+				- The graph shows us the ...
+				- According to the graph, the value of ... appears to be ...
+				- From the graph, it can be seen that the number of ... is around, which is greater / lower
+				- The highest value of .. is displayed in, which is
+				- the smallest value of ..  is found in, with a total of
+				- Overall, the graph shows
+				-
 			- Bar
 			- Flow
 				- The graph shows us ...
