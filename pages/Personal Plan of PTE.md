@@ -137,5 +137,5 @@
 			- FIB-L: 5 daily, error <1
 			- Third level
 				- WE: 2 essay per week, daily typing the template
-				- SWT: 1 daily
+				- SWT: 2 daily
 				- FIB-R: 15 daily (2 hard), error < 1, 2 mins
