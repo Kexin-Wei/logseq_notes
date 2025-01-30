@@ -67,6 +67,8 @@
 				- Moving on, the second step is
 				- After this, the next step involves
 				- In addition, the .. step shows
+				- The next action is
+				- The following step leads to
 				- The final step demonstrates
 				- In summary, the graph shows us details about
 			- Graph
