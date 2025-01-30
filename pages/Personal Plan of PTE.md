@@ -88,5 +88,5 @@
 		- RA: 1 following, 3 self selected daily, >70+
 		- FIB-RW: 15 daily, >79
 		- RS: 30 daily, >79
-		- DI: 10 daily, >79
+		- DI: 10 daily, >79, 30 - 35s
 		- RL: 5 daily, >79
