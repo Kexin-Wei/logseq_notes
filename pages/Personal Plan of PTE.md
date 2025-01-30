@@ -122,7 +122,7 @@
 		- ### SWT 📃
 			- ![Kazam_screenshot_00009.png](../assets/Kazam_screenshot_00009_1738234320432_0.png){:height 232, :width 437}
 		- ### FIB - R
-			- ![Kazam_screenshot_00010.png](../assets/Kazam_screenshot_00010_1738234694957_0.png)
+			- ![Kazam_screenshot_00010.png](../assets/Kazam_screenshot_00010_1738234694957_0.png){:height 232, :width 437}
 	- ## Practice Note from PTE 猩际
 		- WFD: 50 daily, 79: accuracy 80%, error < 2, added words < 3
 		- SST: 5 daily, >79
@@ -137,5 +137,5 @@
 			- FIB-L: 5 daily, error <1
 			- Third level
 				- WE: 2 essay per week, daily typing the template
-				- SWT: 2 daily
-				- FIB-R: 15 daily, error < 1, 2 mins
+				- SWT: 1 daily
+				- FIB-R: 15 daily (2 hard), error < 1, 2 mins
