@@ -20,9 +20,12 @@
 		- ![image.png](../assets/image_1737806551928_0.png)
 - # One month plan
 	- Reference
+	  collapsed:: true
 		- [PTE 9炸自學指南: 兩個月備考攻略 (下) - 太陽彼得。闖。澳洲](https://sunpeteraustralia.com/pte-2/)
 	- ## Practice Order
+	  collapsed:: true
 		- WFD → SST →RS, RA→DI, RL→RO , FIB_R&W , FIB_R→WE, SWT→FIB_L, ASQ
+		  collapsed:: true
 			- **WFD **【黑科技高頻】以1.25倍速刷5遍(一二刷全部, 三四五刷錯題，生詞整理在Quizlet)
 			- **SST **【螢火蟲預測】刷4遍，(四刷都刷全部)看螢火蟲參考答案，每篇整理3~4重點。每次寫完都給grammarly檢查，生詞整理在Quizlet
 			- **RS **【螢火蟲預測】以1.25倍速刷3遍(一刷全部，標記錯題，二三刷錯題)，做到可以新句子覆述50%以上，且沒有停頓
@@ -38,28 +41,34 @@
 			- **FIB_Q** 【螢火蟲單字!】Quizlet單字聽寫模式刷1遍
 	- ![image.png](../assets/image_1737807669566_0.png)
 	- ## Practice Note from PTE 猩际
+	  collapsed:: true
 		- WFD: 50 daily, 79: accuracy 80%, error < 2, added words < 3
 		- SST: 5-6 daily
 		- RA: 1 following, 3 self selected daily
 		-
-	- ## WFD ⭐️
-		- [PTE - Listening Write From Dictation 终极练习技巧（2019）](https://www.youtube.com/watch?v=99BPVyFmvzk)
-		- ![image.png](../assets/image_1738031022665_0.png){:height 232, :width 437}
-		- ![image.png](../assets/image_1738031040214_0.png){:height 232, :width 437}
-		- ![image.png](../assets/image_1738031087355_0.png){:height 232, :width 437}
-		- ![image.png](../assets/image_1738032580785_0.png){:height 232, :width 437}
-	- ## SST ⭐️
-		- The lecture discusses __.
-		- In the beginning, the speaker explained about ___.
-		- Later, the speaker said __.
-		- Here, the speaker also mentioned __.
-		- In conclusion, the lecture effectively summarized __ .
+	- ## Items
+		- ### WFD
+		  collapsed:: true
+			- [PTE - Listening Write From Dictation 终极练习技巧（2019）](https://www.youtube.com/watch?v=99BPVyFmvzk)
+			- ![image.png](../assets/image_1738031022665_0.png){:height 232, :width 437}
+			- ![image.png](../assets/image_1738031040214_0.png){:height 232, :width 437}
+			- ![image.png](../assets/image_1738031087355_0.png){:height 232, :width 437}
+			- ![image.png](../assets/image_1738032580785_0.png){:height 232, :width 437}
+		- ### SST ⭐️
+		  collapsed:: true
+			- The lecture discusses __.
+			- In the beginning, the speaker explained about ___.
+			- Later, the speaker said __.
+			- Here, the speaker also mentioned __.
+			- In conclusion, the lecture effectively summarized __ .
 	- ## FIB - W
 	- ## RA ⭐️ > 80
+	  collapsed:: true
 		- ![image.png](../assets/image_1738043614113_0.png){:height 232, :width 437}
 	- ## RS ⭐️
 	- ## DI ⭐️ 📃
 	- ## RL ⭐️ 📃
+	  collapsed:: true
 		- The lecture discusses __.
 		- In the beginning, the speaker explained about ___.
 		- Later, the speaker said __.
