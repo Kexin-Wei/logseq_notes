@@ -92,6 +92,7 @@
 			- In conclusion, the lecture effectively summarized __ .
 	- ## Second Level
 		- ## ROP
+			- ![Kazam_screenshot_00005.png](../assets/Kazam_screenshot_00005_1738228968247_0.png){:height 232, :width 437}
 		- ## FIB - L
 		- ## HIW
 		- ### FIB - RW
@@ -110,4 +111,5 @@
 		- RL: 5 daily, >79
 		- Second level
 			- FIB-RW: 15 daily, >79
-			- ROP: 2-3 daily
+			- ROP: 2-3 daily, need to finish in 2 minutes
+			-
