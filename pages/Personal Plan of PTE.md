@@ -136,4 +136,4 @@
 			- FIB-L: 5 daily, error <1
 			- Third level
 				- WE: 2 essay per week, daily typing the template
-				- SWT:
+				- SWT: 2 daily
