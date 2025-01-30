@@ -114,4 +114,4 @@
 			- FIB-RW: 10-15 daily, >79
 			- ROP: 2-3 daily, need to finish in 2 minutes
 			- HIW: 1.2 times of speed, 10 daily
-			- FIB-L: 2-3 daily, error <1
+			- FIB-L: 5 daily, error <1
