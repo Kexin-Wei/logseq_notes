@@ -40,35 +40,25 @@
 			- **AQS **【螢火蟲全部!】刷2遍 (一刷全部，標記錯題，二刷錯題)
 			- **FIB_Q** 【螢火蟲單字!】Quizlet單字聽寫模式刷1遍
 	- ![image.png](../assets/image_1737807669566_0.png)
-	- ## Practice Note from PTE 猩际
-	  collapsed:: true
-		- WFD: 50 daily, 79: accuracy 80%, error < 2, added words < 3
-		- SST: 5-6 daily
-		- RA: 1 following, 3 self selected daily
-		-
 	- ## Items
 		- ### WFD
-		  collapsed:: true
 			- [PTE - Listening Write From Dictation 终极练习技巧（2019）](https://www.youtube.com/watch?v=99BPVyFmvzk)
 			- ![image.png](../assets/image_1738031022665_0.png){:height 232, :width 437}
 			- ![image.png](../assets/image_1738031040214_0.png){:height 232, :width 437}
 			- ![image.png](../assets/image_1738031087355_0.png){:height 232, :width 437}
 			- ![image.png](../assets/image_1738032580785_0.png){:height 232, :width 437}
 		- ### SST ⭐️
-		  collapsed:: true
 			- The lecture discusses __.
 			- In the beginning, the speaker explained about ___.
 			- Later, the speaker said __.
 			- Here, the speaker also mentioned __.
 			- In conclusion, the lecture effectively summarized __ .
 	- ## FIB - W
-	- ## RA ⭐️ > 80
-	  collapsed:: true
+	- ### RA ⭐️ > 80
 		- ![image.png](../assets/image_1738043614113_0.png){:height 232, :width 437}
 	- ## RS ⭐️
 	- ## DI ⭐️ 📃
-	- ## RL ⭐️ 📃
-	  collapsed:: true
+	- ### RL ⭐️ 📃
 		- The lecture discusses __.
 		- In the beginning, the speaker explained about ___.
 		- Later, the speaker said __.
@@ -78,4 +68,8 @@
 	- ## WE 📃
 	- ## ROP
 	- ## FIB - R
-	-
+	- ## Practice Note from PTE 猩际
+		- WFD: 50 daily, 79: accuracy 80%, error < 2, added words < 3
+		- SST: 5-6 daily
+		- RA: 1 following, 3 self selected daily
+		-
