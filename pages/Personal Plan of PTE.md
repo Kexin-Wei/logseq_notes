@@ -22,8 +22,7 @@
 	- Reference
 		- [PTE 9炸自學指南: 兩個月備考攻略 (下) - 太陽彼得。闖。澳洲](https://sunpeteraustralia.com/pte-2/)
 	- ## Practice Order
-	  collapsed:: true
-		- WFD → SST →RS, RA→DI, RL→RO , FIB_R&W , FIB_R→WE, SWT→FIB_L, ASQ
+		- WFD → SST →RS, RA→DI, RL→ROP , FIB_R&W , FIB_R→WE, SWT→FIB_L, ASQ
 		  collapsed:: true
 			- **WFD **【黑科技高頻】以1.25倍速刷5遍(一二刷全部, 三四五刷錯題，生詞整理在Quizlet)
 			- **SST **【螢火蟲預測】刷4遍，(四刷都刷全部)看螢火蟲參考答案，每篇整理3~4重點。每次寫完都給grammarly檢查，生詞整理在Quizlet
