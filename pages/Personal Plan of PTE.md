@@ -97,7 +97,8 @@
 			- ![Kazam_screenshot_00006.png](../assets/Kazam_screenshot_00006_1738231066033_0.png)
 		- ### FIB - RW
 			- ![Kazam_screenshot_00001.png](../assets/Kazam_screenshot_00001_1738210529145_0.png){:height 232, :width 437}
-		- ## FIB - L
+		- ### FIB - L
+			- ![Kazam_screenshot_00007.png](../assets/Kazam_screenshot_00007_1738231956048_0.png)
 	- ## Third Level
 		- ## WE 📃
 		- ## SRT 📃
@@ -112,4 +113,5 @@
 		- Second level
 			- FIB-RW: 10-15 daily, >79
 			- ROP: 2-3 daily, need to finish in 2 minutes
-			- HIW: 1.2 times of speed, 10 daily,
+			- HIW: 1.2 times of speed, 10 daily
+			-
