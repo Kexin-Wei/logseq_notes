@@ -119,7 +119,7 @@
 			  写你自己的观点 B）. 
 			  In conclusion, while there are strong arguments on both sides of the case, I firmly believe that 
 			  _____（复写你自己的总体观点）.
-		- ## SRT 📃
+		- ### SWT 📃
 		- ## FIB - R
 	- ## Practice Note from PTE 猩际
 		- WFD: 50 daily, 79: accuracy 80%, error < 2, added words < 3
@@ -134,4 +134,5 @@
 			- HIW: 1.2 times of speed, 10 daily
 			- FIB-L: 5 daily, error <1
 			- Third level
-				-
+				- WE: 2 essay per week, daily typing the template
+				- SWT:
