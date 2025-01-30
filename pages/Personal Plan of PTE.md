@@ -92,7 +92,6 @@
 			- In conclusion, the lecture effectively summarized __ .
 	- ## Second Level
 		- ### ROP
-		  collapsed:: true
 			- ![Kazam_screenshot_00005.png](../assets/Kazam_screenshot_00005_1738228968247_0.png){:height 232, :width 437}
 		- ## HIW
 		- ### FIB - RW
@@ -100,7 +99,6 @@
 		- ## FIB - L
 	- ## Third Level
 		- ## WE 📃
-		-
 		- ## SRT 📃
 		- ## FIB - R
 	- ## Practice Note from PTE 猩际
@@ -111,6 +109,6 @@
 		- DI: 10 daily, >79, 30 - 35s
 		- RL: 5 daily, >79
 		- Second level
-			- FIB-RW: 15 daily, >79
+			- FIB-RW: 10-15 daily, >79
 			- ROP: 2-3 daily, need to finish in 2 minutes
 			-
