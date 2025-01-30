@@ -63,7 +63,12 @@
 			- Bar
 			- Flow
 				- The graph shows us ...
-				-
+				- The first step is ..
+				- Moving on, the second step is
+				- After this, the next step involves
+				- In addition, the .. step shows
+				- The final step demonstrates
+				- In summary, the graph shows us details about
 			- Graph
 				- The graph shows us ... in ...
 				- The background is ...
