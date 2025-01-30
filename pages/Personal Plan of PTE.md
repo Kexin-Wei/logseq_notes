@@ -38,7 +38,7 @@
 			- **AQS **【螢火蟲全部!】刷2遍 (一刷全部，標記錯題，二刷錯題)
 			- **FIB_Q** 【螢火蟲單字!】Quizlet單字聽寫模式刷1遍
 	- ![image.png](../assets/image_1737807669566_0.png)
-	- ## Items
+	- ## First Level
 		- ### WFD
 			- [PTE - Listening Write From Dictation 终极练习技巧（2019）](https://www.youtube.com/watch?v=99BPVyFmvzk)
 			- ![image.png](../assets/image_1738031022665_0.png){:height 232, :width 437}
@@ -51,8 +51,6 @@
 			- Later, the speaker said __.
 			- Here, the speaker also mentioned __.
 			- In conclusion, the lecture effectively summarized __ .
-		- ### FIB - RW
-			- ![Kazam_screenshot_00001.png](../assets/Kazam_screenshot_00001_1738210529145_0.png){:height 232, :width 437}
 		- ### RA ⭐️ > 80
 			- ![image.png](../assets/image_1738043614113_0.png){:height 232, :width 437}
 		- ### RS ⭐️
@@ -92,10 +90,13 @@
 			- Later, the speaker talked about  __.
 			- Here, the speaker also mentioned __.
 			- In conclusion, the lecture effectively summarized __ .
-		- ## SRT 📃
-		- ## WE 📃
 		- ## ROP
 		- ## FIB - R
+	- ## Second Level
+		- ## SRT 📃
+		- ## WE 📃
+		- ### FIB - RW
+			- ![Kazam_screenshot_00001.png](../assets/Kazam_screenshot_00001_1738210529145_0.png){:height 232, :width 437}
 	- ## Practice Note from PTE 猩际
 		- WFD: 50 daily, 79: accuracy 80%, error < 2, added words < 3
 		- SST: 5 daily, >79
