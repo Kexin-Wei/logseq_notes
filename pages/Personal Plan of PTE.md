@@ -65,8 +65,7 @@
 				- From the graph, it can be seen that the number of ... is around, which is greater / lower
 				- The highest value of .. is displayed in, which is
 				- the smallest value of ..  is found in, with a total of
-				- Overall, the graph shows
-				-
+				- Overall, the graph shows an increase / decrease in
 			- Bar
 			- Flow
 				- The graph shows us ...
