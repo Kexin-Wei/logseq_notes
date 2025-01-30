@@ -57,16 +57,15 @@
 			- ![image.png](../assets/image_1738043614113_0.png){:height 232, :width 437}
 		- ### RS ⭐️
 			- ![Kazam_screenshot_00002.png](../assets/Kazam_screenshot_00002_1738210667982_0.png){:height 232, :width 437}
-		- ## DI ⭐️ 📃
+		- ### DI ⭐️ 📃
 			- ![Kazam_screenshot_00003.png](../assets/Kazam_screenshot_00003_1738210755284_0.png){:height 232, :width 437}
-			- Line
+			- Line / Bar
 				- The graph shows us the ...
 				- According to the graph, the value of ... appears to be ...
 				- From the graph, it can be seen that the number of ... is around, which is greater / lower
 				- The highest value of .. is displayed in, which is
 				- the smallest value of ..  is found in, with a total of
 				- Overall, the graph shows an increase / decrease in
-			- Bar
 			- Flow
 				- The graph shows us ...
 				- The first step is ..
