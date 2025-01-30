@@ -62,7 +62,9 @@
 			- Line
 			- Bar
 			- Flow
-			-
+			- Graph
+				- I observe that the
+				-
 		- ## RL ⭐️ 📃
 			- ![Kazam_screenshot_00004.png](../assets/Kazam_screenshot_00004_1738211192508_0.png){:height 232, :width 437}
 			- The lecture discusses __.
