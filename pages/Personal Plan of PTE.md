@@ -20,7 +20,6 @@
 		- ![image.png](../assets/image_1737806551928_0.png)
 - # One month plan
 	- Reference
-	  collapsed:: true
 		- [PTE 9炸自學指南: 兩個月備考攻略 (下) - 太陽彼得。闖。澳洲](https://sunpeteraustralia.com/pte-2/)
 	- ## Practice Order
 	  collapsed:: true
@@ -53,7 +52,8 @@
 			- Later, the speaker said __.
 			- Here, the speaker also mentioned __.
 			- In conclusion, the lecture effectively summarized __ .
-	- ## FIB - W
+	- ## FIB - RW
+		-
 	- ### RA ⭐️ > 80
 		- ![image.png](../assets/image_1738043614113_0.png){:height 232, :width 437}
 	- ## RS ⭐️
