@@ -89,7 +89,7 @@
 			- ![Kazam_screenshot_00004.png](../assets/Kazam_screenshot_00004_1738211192508_0.png){:height 232, :width 437}
 			- The lecture discusses __.
 			- In the beginning, the speaker explained about ___.
-			- Later, the speaker said __.
+			- Later, the speaker talked about  __.
 			- Here, the speaker also mentioned __.
 			- In conclusion, the lecture effectively summarized __ .
 		- ## SRT 📃
