@@ -52,11 +52,12 @@
 			- Later, the speaker said __.
 			- Here, the speaker also mentioned __.
 			- In conclusion, the lecture effectively summarized __ .
-	- ## FIB - RW
-		- ![Kazam_screenshot_00001.png](../assets/Kazam_screenshot_00001_1738210529145_0.png)
-	- ### RA ⭐️ > 80
-		- ![image.png](../assets/image_1738043614113_0.png){:height 232, :width 437}
-	- ## RS ⭐️
+		- ### FIB - RW
+			- ![Kazam_screenshot_00001.png](../assets/Kazam_screenshot_00001_1738210529145_0.png){:height 232, :width 437}
+		- ### RA ⭐️ > 80
+			- ![image.png](../assets/image_1738043614113_0.png){:height 232, :width 437}
+		- ### RS ⭐️
+			- ![Kazam_screenshot_00002.png](../assets/Kazam_screenshot_00002_1738210667982_0.png){:height 232, :width 437}
 	- ## DI ⭐️ 📃
 	- ### RL ⭐️ 📃
 		- The lecture discusses __.
@@ -72,4 +73,5 @@
 		- WFD: 50 daily, 79: accuracy 80%, error < 2, added words < 3
 		- SST: 5-6 daily
 		- RA: 1 following, 3 self selected daily
-		-
+		- FIB-RW: 15 daily
+		- RS: 30 daily
