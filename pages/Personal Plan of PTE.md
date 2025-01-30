@@ -58,22 +58,28 @@
 			- ![image.png](../assets/image_1738043614113_0.png){:height 232, :width 437}
 		- ### RS ⭐️
 			- ![Kazam_screenshot_00002.png](../assets/Kazam_screenshot_00002_1738210667982_0.png){:height 232, :width 437}
-		- ### DI ⭐️ 📃
+		- ## DI ⭐️ 📃
 			- ![Kazam_screenshot_00003.png](../assets/Kazam_screenshot_00003_1738210755284_0.png){:height 232, :width 437}
-	- ### RL ⭐️ 📃
-		- The lecture discusses __.
-		- In the beginning, the speaker explained about ___.
-		- Later, the speaker said __.
-		- Here, the speaker also mentioned __.
-		- In conclusion, the lecture effectively summarized __ .
-	- ## SRT 📃
-	- ## WE 📃
-	- ## ROP
-	- ## FIB - R
+			- Line
+			- Bar
+			- Flow
+			-
+		- ## RL ⭐️ 📃
+			- ![Kazam_screenshot_00004.png](../assets/Kazam_screenshot_00004_1738211192508_0.png){:height 232, :width 437}
+			- The lecture discusses __.
+			- In the beginning, the speaker explained about ___.
+			- Later, the speaker said __.
+			- Here, the speaker also mentioned __.
+			- In conclusion, the lecture effectively summarized __ .
+		- ## SRT 📃
+		- ## WE 📃
+		- ## ROP
+		- ## FIB - R
 	- ## Practice Note from PTE 猩际
 		- WFD: 50 daily, 79: accuracy 80%, error < 2, added words < 3
-		- SST: 5-6 daily, >79
+		- SST: 5 daily, >79
 		- RA: 1 following, 3 self selected daily, >70+
 		- FIB-RW: 15 daily, >79
 		- RS: 30 daily, >79
 		- DI: 10 daily, >79
+		- RL: 5 daily, >79
