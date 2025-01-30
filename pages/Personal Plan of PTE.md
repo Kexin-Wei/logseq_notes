@@ -53,7 +53,7 @@
 			- Here, the speaker also mentioned __.
 			- In conclusion, the lecture effectively summarized __ .
 	- ## FIB - RW
-		-
+		- ![Kazam_screenshot_00001.png](../assets/Kazam_screenshot_00001_1738210529145_0.png)
 	- ### RA ⭐️ > 80
 		- ![image.png](../assets/image_1738043614113_0.png){:height 232, :width 437}
 	- ## RS ⭐️
