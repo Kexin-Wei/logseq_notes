@@ -48,10 +48,10 @@
 		- ### SST ⭐️
 			- ![image.png](../assets/image_1738292456723_0.png){:height 232, :width 437}
 			- The lecture discusses __.
-			- In the beginning, the speaker explained about ___.
-			- Later, the speaker said __.
-			- Here, the speaker also mentioned __.
-			- In conclusion, the lecture effectively summarized __ .
+			- In the beginning, the speaker explains about ___.
+			- Later, the speaker says __.
+			- Here, the speaker also mentions _.
+			- In conclusion, the lecture effectively summarizes __ .
 		- ### RA ⭐️ > 80
 			- ![image.png](../assets/image_1738043614113_0.png){:height 232, :width 437}
 		- ### RS ⭐️
