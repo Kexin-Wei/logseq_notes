@@ -13,6 +13,7 @@
 		- 40 mins
 		- 8 question types
 - # Speaking
+  collapsed:: true
 	- ## RA Read Aloud
 		- Reading time + speaking time
 			- ![image.png](../assets/image_1737530098189_0.png){:height 302, :width 484}
@@ -113,6 +114,7 @@
 			  I see that there is equally potential evidence to support the arguments I have provided, and hence, my opinion is that the topic of the statement does reflect on the justification that is provided here.
 		- Simple sentence, complex sentence and compound sentence
 - # Reading
+  collapsed:: true
 	- ## FIB-RW Reading and Writing Fill in the Blanks
 		- ![image.png](../assets/image_1737597333715_0.png){:height 261, :width 389}
 		- 5-6 questions, 25-30 marks
@@ -181,6 +183,7 @@
 		- Click and move on
 		- 2 mins left maybe do
 - # Listening
+  collapsed:: true
 	- ## SST Summarise spoken text
 		- ![image.png](../assets/image_1737691013063_0.png){:height 261, :width 389}
 		- 1-2 question, 6-8 marks,
