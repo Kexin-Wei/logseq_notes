@@ -135,7 +135,7 @@
 		- Second level
 			- FIB-RW: 10-15 daily, >79
 			- ROP: 2-3 daily, need to finish in 2 minutes
-			- HIW: 10 daily, 1.2 times of speed,
+			- HIW: 10 daily, 1.2 times of speed
 			- FIB-L: 5 daily, error <1
 			- Third level
 				- WE: 2 essay per week, daily typing the template
