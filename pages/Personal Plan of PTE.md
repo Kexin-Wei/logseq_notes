@@ -46,6 +46,7 @@
 			- ![image.png](../assets/image_1738031087355_0.png){:height 232, :width 437}
 			- ![image.png](../assets/image_1738032580785_0.png){:height 232, :width 437}
 		- ### SST ⭐️
+			- ![image.png](../assets/image_1738292456723_0.png){:height 232, :width 437}
 			- The lecture discusses __.
 			- In the beginning, the speaker explained about ___.
 			- Later, the speaker said __.
