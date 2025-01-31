@@ -103,6 +103,13 @@
 	- ## Third Level
 		- ### WE 📃
 			- ![Kazam_screenshot_00008.png](../assets/Kazam_screenshot_00008_1738232906737_0.png){:height 232, :width 437}
+			- For text compare
+				- Although such topics, in all likelihood, never will yield a consensual agreement, a constructive dialogue on * can lead to thought-provoking discussions. My view is that, irrespective of the numerous arguments that exist on either side, *
+				  Through the course of this essay, I shall put forth my points and calculations by considering both sides of the argument.
+				- There are a number of reasons in favor of my viewpoint.
+				- Firstly, * . This is because * . For example, * . In conclusion, the aforementioned discussion constructively justifies my stance.
+				- Another interesting point is that * . This is mainly due to the fact that * . To quote an example, the research conducted by the department of the American society also reflects on the similar line, and hence, it can be said that the proposition is convincingly justified.
+				- I see that there is equally potential evidence to support the arguments I have provided, and hence, my opinion is that the topic of the statement does reflect on the justification that is provided here.
 			- Although such topics, in all likelihood, never will yield a consensual agreement, a constructive dialogue on ___can lead to thought-provoking discussions. My view is that, irrespective of the numerous arguments that exist on either side, _____. Through the course of this essay, I shall put forth my points and calculations by considering both sides of the argument. 
 			  There are a number of reasons in favor of my viewpoint.
 			- Firstly _______. This is because ______. For example, _____. In conclusion, the aforementioned discussion constructively justifies my stance. 
