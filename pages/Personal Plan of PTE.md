@@ -147,7 +147,7 @@
 	- one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twenty one thirty forty fifty sixty seventy eighty ninety hundred thousand million billion
 	- ## Practice Note from PTE 猩际
 		- WFD: 50 daily, 79: accuracy 80%, error < 2, added words < 3
-		- SST: 5 daily, >79
+		- SST: 5 daily, >79, < 70 words
 		- RA: 1 following, 3 self selected daily, >70+
 		- RS: 30 daily, >79
 		- DI: 10 daily, >79, 30 - 35s
@@ -159,5 +159,5 @@
 			- FIB-L: 5 daily, error <1
 			- Third level
 				- WE: 2 essay per week, daily typing the template
-				- SWT: 2 daily
+				- SWT: 2 daily, < 75 words
 				- FIB-R: 15 daily (2 hard), error < 1, 2 mins
