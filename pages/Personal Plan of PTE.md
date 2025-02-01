@@ -135,7 +135,7 @@
 			- ![Kazam_screenshot_00010.png](../assets/Kazam_screenshot_00010_1738234694957_0.png){:height 232, :width 437}
 	- one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twenty one thirty forty fifty sixty seventy eighty ninety hundred thousand million billion
 	- ## Practice Note from PTE 猩际
-		- WFD: ~~50~~ (36 12 easy 12 medium 12 hard) daily, 79: accuracy 80%, error < 2, added words < 3
+		- WFD: 50 daily, 79: accuracy 80%, error < 2, added words < 3
 		- SST: 5 daily, >79
 		- RA: 1 following, 3 self selected daily, >70+
 		- RS: 30 daily, >79
