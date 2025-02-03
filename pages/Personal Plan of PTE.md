@@ -45,6 +45,18 @@
 			- ![image.png](../assets/image_1738031040214_0.png){:height 232, :width 437}
 			- ![image.png](../assets/image_1738031087355_0.png){:height 232, :width 437}
 			- ![image.png](../assets/image_1738032580785_0.png){:height 232, :width 437}
+		- ### SST ⭐️
+			- ![image.png](../assets/image_1738292456723_0.png){:height 232, :width 437}
+			- The lecture discusses _.
+			  In the beginning, the speaker explains about _.
+			  Later, the speaker says _.
+			  Here, the speaker also mentions _.
+			  In conclusion, the lecture effectively summarizes _.
+			- The talk was about _. 
+			  Firstly, the speaker talked about_. 
+			  Later, the speaker said _. 
+			  Furthermore, the speaker provided imperative information on _. 
+			  In the end, the speaker left important note on _.
 		- ### RA ⭐️ > 80
 			- ![image.png](../assets/image_1738043614113_0.png){:height 232, :width 437}
 		- ### RS ⭐️
