@@ -55,8 +55,8 @@
 			- The talk was about _. 
 			  Firstly, the speaker talked about_. 
 			  Later, the speaker said _. 
-			  Furthermore, the speaker provided imperative information on _. 
-			  In the end, the speaker left important note on _.
+			  Furthermore, the speaker mentioned that  _. 
+			  In the end, the speaker emphasized that _.
 		- ### RA ⭐️ > 80
 			- ![image.png](../assets/image_1738043614113_0.png){:height 232, :width 437}
 		- ### RS ⭐️
