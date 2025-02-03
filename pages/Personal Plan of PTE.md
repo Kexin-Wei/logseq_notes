@@ -53,7 +53,7 @@
 			  Here, the speaker also mentions _.
 			  In conclusion, the lecture effectively summarizes _.
 			- The talk was about _. 
-			  Firstly, the speaker talked about_. 
+			  Firstly, the speaker stated that_. 
 			  Later, the speaker said _. 
 			  Furthermore, the speaker mentioned that  _. 
 			  In the end, the speaker emphasized that _.
