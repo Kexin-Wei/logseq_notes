@@ -32,7 +32,7 @@
 - # [[ROS Concepts]]
 - # ROS Visualization - Rviz and Gazebo
 	- ![Kazam_screenshot_00000.png](../assets/Kazam_screenshot_00000_1738058154424_0.png)
-	- ![Screenshot 2025-01-28 17:53:37.png](../assets/Screenshot_2025-01-28_17:53:37_1738058088853_0.png)
+	- ![Screenshot 2025-01-28 17:53:37.png](../assets/Screenshot_2025-01-28.png)
 	- run urdf demo
 		- ```bash
 		  ros2 launch urdf_tutorial display.launch.py model:=/opt/ros/jazzy/share/urdf_tutorial/urdf/08-macroed.urdf.xacro 
@@ -68,7 +68,6 @@
 		      
 		      <node pkg="ros_gz_sim" exec="create" args="-topic robot_description" />
 		  ```
--
 - # ROS2 & Navigation 2
 	- installation
 		- ```bash
