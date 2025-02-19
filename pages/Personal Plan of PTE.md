@@ -83,6 +83,12 @@
 			- In the beginning, the speaker explained about ___.
 			- Later, the speaker talked about  __.
 			- Here, the speaker also mentioned __.
+			- In the end, the
+		- ### SST
+			- The lecture discusses __.
+			- In the beginning, the speaker explained about ___.
+			- Later, the speaker talked about  __.
+			- Here, the speaker also mentioned __.
 			- In conclusion, the lecture effectively summarized __ .
 	- ## Second Level
 		- ### ROP
