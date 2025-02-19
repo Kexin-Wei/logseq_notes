@@ -81,9 +81,9 @@
 			- ![Kazam_screenshot_00004.png](../assets/Kazam_screenshot_00004_1738211192508_0.png){:height 232, :width 437}
 			- The lecture discusses __.
 			- In the beginning, the speaker explained about ___.
-			- Later, the speaker talked about  __.
+			- Later, the speaker said  __.
 			- Here, the speaker also mentioned __.
-			- In the end, the
+			- In the end, the speaker talked about __.
 		- ### SST
 			- The lecture discusses __.
 			- In the beginning, the speaker explained about ___.
