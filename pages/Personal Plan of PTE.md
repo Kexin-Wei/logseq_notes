@@ -103,31 +103,32 @@
 		- ### WE 📃
 			- ![Kazam_screenshot_00008.png](../assets/Kazam_screenshot_00008_1738232906737_0.png){:height 232, :width 437}
 			- Better version
-			- For text compare
-			  collapsed:: true
-				- Although such topics, in all likelihood, never will yield a consensual agreement, a constructive dialogue on * can lead to thought-provoking discussions. My view is that, irrespective of the numerous arguments that exist on either side, *
-				  Through the course of this essay, I shall put forth my points and calculations by considering both sides of the argument.
-				- There are a number of reasons in favor of my viewpoint.
-				- Firstly, * . This is because * . For example, * . In conclusion, the aforementioned discussion constructively justifies my stance.
-				- Another interesting point is that * . This is mainly due to the fact that * . To quote an example, the research conducted by the department of the American society also reflects on the similar line, and hence, it can be said that the proposition is convincingly justified.
-				- I see that there is equally potential evidence to support the arguments I have provided, and hence, my opinion is that the topic of the statement does reflect on the justification that is provided here.
-			- Although such topics, in all likelihood, never will yield a consensual agreement, a constructive dialogue on ___can lead to thought-provoking discussions. My view is that, irrespective of the numerous arguments that exist on either side, _____. Through the course of this essay, I shall put forth my points and calculations by considering both sides of the argument. 
-			  There are a number of reasons in favor of my viewpoint.
-			- Firstly _______. This is because ______. For example, _____. In conclusion, the aforementioned discussion constructively justifies my stance. 
-			  Another interesting point is that____ . This is mainly due to the fact that ___. To quote an example, the research conducted by the department of the American society also reflects on the similar line, and hence, it can be said that the proposition is convincingly justified. 
-			  I see that there is equally potential evidence to support the arguments I have provided, and hence, my opinion is that the topic of the statement does reflect on the justification that is provided here.
-			- It has become far more widespread these days that ________（题目中引题的话）. While some 
-			  people argue that ________（别人的观点）, I believe that ________（你自己的总体观点）. 
-			  To begin with, we have to acknowledge that ________（你自己的观点原因 A）. That is to say, 
-			  ________（换种说法或者复写原因 A）. A relevant example of this is ________（编写一个例子）. 
-			  Therefore, it is beyond the shadow of a doubt that ________（改写或复写你的观点原因 A）. 
-			  What is more | However（此处根据题目要求选择是否要反面说）, another point to be taken into 
-			  consideration is that ________（你自己的观点原因 B）. In other words, ________（换种说法或者复写
-			  原因 B）. The recent research conducted by the professors at ________（大学名注意首字母大写）
-			  University shows that ________（编一个例子）. Therefore, it is undoubted that ________（改写或复
-			  写你自己的观点 B）. 
-			  In conclusion, while there are strong arguments on both sides of the case, I firmly believe that 
-			  _____（复写你自己的总体观点）.
+			- Indian Brother version
+				- For text compare
+				  collapsed:: true
+					- Although such topics, in all likelihood, never will yield a consensual agreement, a constructive dialogue on * can lead to thought-provoking discussions. My view is that, irrespective of the numerous arguments that exist on either side, *
+					  Through the course of this essay, I shall put forth my points and calculations by considering both sides of the argument.
+					- There are a number of reasons in favor of my viewpoint.
+					- Firstly, * . This is because * . For example, * . In conclusion, the aforementioned discussion constructively justifies my stance.
+					- Another interesting point is that * . This is mainly due to the fact that * . To quote an example, the research conducted by the department of the American society also reflects on the similar line, and hence, it can be said that the proposition is convincingly justified.
+					- I see that there is equally potential evidence to support the arguments I have provided, and hence, my opinion is that the topic of the statement does reflect on the justification that is provided here.
+				- Although such topics, in all likelihood, never will yield a consensual agreement, a constructive dialogue on ___can lead to thought-provoking discussions. My view is that, irrespective of the numerous arguments that exist on either side, _____. Through the course of this essay, I shall put forth my points and calculations by considering both sides of the argument. 
+				  There are a number of reasons in favor of my viewpoint.
+				- Firstly _______. This is because ______. For example, _____. In conclusion, the aforementioned discussion constructively justifies my stance. 
+				  Another interesting point is that____ . This is mainly due to the fact that ___. To quote an example, the research conducted by the department of the American society also reflects on the similar line, and hence, it can be said that the proposition is convincingly justified. 
+				  I see that there is equally potential evidence to support the arguments I have provided, and hence, my opinion is that the topic of the statement does reflect on the justification that is provided here.
+			- XJ version
+				- It has become far more widespread these days that ________（题目中引题的话）. While some people argue that ________（别人的观点）, I believe that ________（你自己的总体观点）. 
+				  To begin with, we have to acknowledge that ________（你自己的观点原因 A）. That is to say, 
+				  ________（换种说法或者复写原因 A）. A relevant example of this is ________（编写一个例子）. 
+				  Therefore, it is beyond the shadow of a doubt that ________（改写或复写你的观点原因 A）. 
+				  What is more | However（此处根据题目要求选择是否要反面说）, another point to be taken into 
+				  consideration is that ________（你自己的观点原因 B）. In other words, ________（换种说法或者复写
+				  原因 B）. The recent research conducted by the professors at ________（大学名注意首字母大写）
+				  University shows that ________（编一个例子）. Therefore, it is undoubted that ________（改写或复
+				  写你自己的观点 B）. 
+				  In conclusion, while there are strong arguments on both sides of the case, I firmly believe that 
+				  _____（复写你自己的总体观点）.
 		- ### SWT 📃
 			- ![Kazam_screenshot_00009.png](../assets/Kazam_screenshot_00009_1738234320432_0.png){:height 232, :width 437}
 		- ### FIB - R
