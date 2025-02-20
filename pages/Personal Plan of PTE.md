@@ -102,7 +102,9 @@
 	- ## Third Level
 		- ### WE 📃
 			- ![Kazam_screenshot_00008.png](../assets/Kazam_screenshot_00008_1738232906737_0.png){:height 232, :width 437}
+			- Better version
 			- For text compare
+			  collapsed:: true
 				- Although such topics, in all likelihood, never will yield a consensual agreement, a constructive dialogue on * can lead to thought-provoking discussions. My view is that, irrespective of the numerous arguments that exist on either side, *
 				  Through the course of this essay, I shall put forth my points and calculations by considering both sides of the argument.
 				- There are a number of reasons in favor of my viewpoint.
