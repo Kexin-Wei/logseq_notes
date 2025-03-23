@@ -1,18 +1,21 @@
 # Tech
 	- ## 💻️Software Development
-	  collapsed:: true
-		- [[Software Management]]
-		- [[C++]]
-		- [[CMake]]
-		- [[Git]]
-		- [[Qt]]
-		- [[CUDA]]
-		- [[Docker]]
-		- [[Visualization]]
+		- ### Desktop
+			- [[Visualization]]
+			- [[Qt]]
+			- [[C++]]
+			- [[CMake]]
+			- [[CUDA]]
+		- ### Skills
+			- [[Docker]]
+			- [[Software Management]]
+			- [[Agile Management]]
+		- ### Web
+		- ### Tools
+			- [[Git]]
+			- [[Neovim]]
+		-
 		- [[Rust]]
-		- [[Agile Management]]
-		- [[Neovim]]
-		  collapsed:: true
 		- [[Python Code Encryption]]
 		- Medical Related Open Source
 		  collapsed:: true
@@ -22,6 +25,7 @@
 				- [IGTL](http://openigtlink.org/users/)
 				- [Plus](https://plustoolkit.github.io/)
 	- ## 🤖Robot
+	  collapsed:: true
 		- [[ROS]]
 		- [[Corporate Explorer]]
 		- [[Soft Tissue Deformation]]
@@ -76,6 +80,7 @@
 			  • Registration can aid segmentation
 			  • Interleaving segmentation and registration
 	- ## 🧠AI
+	  collapsed:: true
 		- [[Numpy]]
 		- [[AI Intro Map]]
 		- [[Download Google Drive in Colab or Jupyter]]
