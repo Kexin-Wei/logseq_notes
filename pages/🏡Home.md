@@ -130,6 +130,7 @@
 				- DONE Unit 3
 				- TODO Unit 4
 - # Book
+  collapsed:: true
 	- [[Making It All Work Book by David Allen]]
 	- [[The Crowd]]
 	- [[Antifragile]]
