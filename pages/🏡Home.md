@@ -1,25 +1,25 @@
 # Tech
 	- ## 💻️Software Development
-		- ### Desktop
+		- ### 🖥️Desktop
 			- [[Visualization]]
 			- [[Qt]]
 			- [[C++]]
 			- [[CMake]]
 			- [[CUDA]]
 			- [[Rust]]
-		- ### Web
-			- [[Javascript]]
-			- []
-		- ### Tools
+		- ### 🌐Web
+			- [[JavaScript]]
+			- [[Golang]]
+			- [[Vue]]
+		- ### ⚒️Tools
 			- [[Docker]]
 			- [[Git]]
 			- [[Neovim]]
-		- ### Skills
+		- ### 🤹Skills
 			- [[Python Code Encryption]]
 			- [[Software Management]]
 			- [[Agile Management]]
-		-
-		- ### Medical Related Open Source
+		- ### 💉Medical Open Source
 			- [Building Solutions on Open Source Technologies (kitware.com)](https://www.kitware.com/open-source/)
 			- [For Users (openigtlink.org)](http://openigtlink.org/users/)
 			- [IGTL](http://openigtlink.org/users/)
@@ -130,14 +130,11 @@
 				- DONE Unit 3
 				- TODO Unit 4
 - # Book
-  collapsed:: true
 	- [[Making It All Work Book by David Allen]]
 	- [[The Crowd]]
 	- [[Antifragile]]
 - # Tool
-  collapsed:: true
 	- ## Learning website to if you can't find help
-	  collapsed:: true
 		- https://scienceexchange.caltech.edu/
 		- https://brilliant.org/?utm_medium=sponsor&utm_source=youtube&utm_campaign=upandatom_170123
 	- ## Zotero
