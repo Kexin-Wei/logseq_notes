@@ -1,0 +1,3 @@
+- Reference
+	- [A Tour of Go](https://go.dev/tour/welcome/1)
+	- [Effective Go - The Go Programming Language](https://go.dev/doc/effective_go)

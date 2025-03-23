@@ -1,5 +1,6 @@
 - Reference
-	- https://rust-unofficial.github.io/too-many-lists/
+	- [Introduction - Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)
+	- [Introduction - Rust By Example](https://doc.rust-lang.org/rust-by-example/)
 - # Basic
 	- use cargo to manage package
 		- ```bash
