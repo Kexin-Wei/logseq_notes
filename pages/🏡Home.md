@@ -1,6 +1,7 @@
 # Tech
 	- ## 💻️Software Development
 		- ### 🖥️Desktop
+		  collapsed:: true
 			- [[Visualization]]
 			- [[Qt]]
 			- [[C++]]
