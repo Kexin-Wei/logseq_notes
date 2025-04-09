@@ -7,7 +7,7 @@
 			- [[CMake]]
 			- [[CUDA]]
 			- [[Rust]]
-		- ### 📱 Mobile
+		- ### 📱Mobile
 			- [[Kotlin]]
 		- ### 🌐Web
 			- [[JavaScript]]
