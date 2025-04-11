@@ -1,13 +1,14 @@
 # Tech
 	- ## 💻️Software Development
 		- ### 🖥️Desktop
-		  collapsed:: true
 			- [[Visualization]]
 			- [[Qt]]
 			- [[C++]]
 			- [[CMake]]
 			- [[CUDA]]
 			- [[Rust]]
+		- ### 📱 Mobile
+			- [[Kotlin]]
 		- ### 🌐Web
 			- [[JavaScript]]
 			- [[Golang]]
