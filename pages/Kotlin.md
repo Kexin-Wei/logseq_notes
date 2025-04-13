@@ -4,4 +4,4 @@
 - Notes
 	- ![A decision tree describing how to choose a scope function.](https://typealias.com/img/start/scopes-and-scope-functions/scope-function-flow-chart.png)
 	-
-	- Maybe later [Generic Variance - Dave Leeds on Kotlin](https://typealias.com/start/kotlin-variance/)
+	- Maybe later [Generic Variance - Dave Leeds on Kotlin](https://typealias.com/start/kotlin-variance/) and Chapter 20
