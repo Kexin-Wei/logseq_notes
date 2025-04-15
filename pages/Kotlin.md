@@ -3,6 +3,6 @@
 	- [Kotlin: An Illustrated Guide - Dave Leeds on Kotlin](https://typealias.com/start/)
 	- [Kotlin Koans | Kotlin Documentation](https://kotlinlang.org/docs/koans.html)
 - Notes
-	- ![A decision tree describing how to choose a scope function.](https://typealias.com/img/start/scopes-and-scope-functions/scope-function-flow-chart.png)
-	-
+	- ![A decision tree describing how to choose a scope function.](https://typealias.com/img/start/scopes-and-scope-functions/scope-function-flow-chart.png){:height 401, :width 748}
+	- ![](https://developer.android.com/guide/components/images/activity_lifecycle.png){:height 671, :width 513}
 	- Maybe later [Generic Variance - Dave Leeds on Kotlin](https://typealias.com/start/kotlin-variance/) and Chapter 20
