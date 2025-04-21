@@ -2,6 +2,8 @@
 - Learn to start
 	- [Kotlin: An Illustrated Guide - Dave Leeds on Kotlin](https://typealias.com/start/)
 	- [Kotlin Koans | Kotlin Documentation](https://kotlinlang.org/docs/koans.html)
+- Database
+	- [10.1: Room, LiveData, and ViewModel · GitBook](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-4-saving-user-data/lesson-10-storing-data-with-room/10-1-c-room-livedata-viewmodel/10-1-c-room-livedata-viewmodel.html)
 - NFC
 	- [Playing with NFC Cards](https://blog.anantshri.info/playing-with-nfc-cards/)
 - Notes
