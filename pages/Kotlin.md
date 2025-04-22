@@ -4,6 +4,8 @@
 	- [Kotlin Koans | Kotlin Documentation](https://kotlinlang.org/docs/koans.html)
 - Database
 	- [10.1: Room, LiveData, and ViewModel · GitBook](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-4-saving-user-data/lesson-10-storing-data-with-room/10-1-c-room-livedata-viewmodel/10-1-c-room-livedata-viewmodel.html)
+	- [(Deprecated) Use Kotlin Coroutines in your Android App](https://developer.android.com/codelabs/kotlin-coroutines?hl=en)
+	- [(Deprecated) Android Room with a View - Kotlin](https://developer.android.com/codelabs/android-room-with-a-view-kotlin?hl=en#9)
 - NFC
 	- [Playing with NFC Cards](https://blog.anantshri.info/playing-with-nfc-cards/)
 - Notes
