@@ -18,6 +18,7 @@
 	- [(Deprecated) Android Room with a View - Kotlin](https://developer.android.com/codelabs/android-room-with-a-view-kotlin?hl=en#9)
 	- [How to Use Room Database with Hilt in Jetpack Compose? | by Emine İNAN | Huawei Developers | Medium](https://medium.com/huawei-developers/how-to-use-room-database-with-hilt-in-jetpack-compose-56a39c821b38)
 	- [Room Database with Hilt in Kotlin | Medium](https://rezaramesh.medium.com/room-database-with-hilt-in-kotlin-a-guide-to-store-and-access-data-in-android-c3001e507738)
+	- [Room Database - Dependency Injection with Hilt](https://www.youtube.com/watch?v=JOfGnXp4NgA)
 - NFC
 	- [Playing with NFC Cards](https://blog.anantshri.info/playing-with-nfc-cards/)
 - UI
