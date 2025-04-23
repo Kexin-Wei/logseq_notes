@@ -9,7 +9,9 @@
 - Activity
 	- ![](https://developer.android.com/guide/components/images/activity_lifecycle.png){:height 671, :width 513}
 - Architecture
-	-
+	- ![](https://developer.android.com/static/topic/libraries/architecture/images/mad-arch-overview.png){:height 231, :width 381}
+	- ![](https://developer.android.com/static/topic/libraries/architecture/images/mad-arch-overview-ui.png){:height 258, :width 279}
+	- ![](https://developer.android.com/static/topic/libraries/architecture/images/mad-arch-overview-data.png){:height 261, :width 284}
 - Database
 	- [10.1: Room, LiveData, and ViewModel · GitBook](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-4-saving-user-data/lesson-10-storing-data-with-room/10-1-c-room-livedata-viewmodel/10-1-c-room-livedata-viewmodel.html)
 	- [(Deprecated) Use Kotlin Coroutines in your Android App](https://developer.android.com/codelabs/kotlin-coroutines?hl=en)
