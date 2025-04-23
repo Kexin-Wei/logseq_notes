@@ -16,7 +16,8 @@
 	- [10.1: Room, LiveData, and ViewModel · GitBook](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-4-saving-user-data/lesson-10-storing-data-with-room/10-1-c-room-livedata-viewmodel/10-1-c-room-livedata-viewmodel.html)
 	- [(Deprecated) Use Kotlin Coroutines in your Android App](https://developer.android.com/codelabs/kotlin-coroutines?hl=en)
 	- [(Deprecated) Android Room with a View - Kotlin](https://developer.android.com/codelabs/android-room-with-a-view-kotlin?hl=en#9)
-	- [10.1: Room, LiveData, and ViewModel · GitBook](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/unit-4-saving-user-data/lesson-10-storing-data-with-room/10-1-c-room-livedata-viewmodel/10-1-c-room-livedata-viewmodel.html)
+	- [How to Use Room Database with Hilt in Jetpack Compose? | by Emine İNAN | Huawei Developers | Medium](https://medium.com/huawei-developers/how-to-use-room-database-with-hilt-in-jetpack-compose-56a39c821b38)
+	- [Room Database with Hilt in Kotlin | Medium](https://rezaramesh.medium.com/room-database-with-hilt-in-kotlin-a-guide-to-store-and-access-data-in-android-c3001e507738)
 - NFC
 	- [Playing with NFC Cards](https://blog.anantshri.info/playing-with-nfc-cards/)
 - UI
