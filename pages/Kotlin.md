@@ -20,3 +20,6 @@
 	- [Playing with NFC Cards](https://blog.anantshri.info/playing-with-nfc-cards/)
 - UI
 	- [ExposedDropdownMenuBox – Jetpack Compose Component in Material 3 Compose](https://composables.com/material3/exposeddropdownmenubox)
+- Examples
+	- [android/architecture-components-samples at master](https://github.com/android/architecture-components-samples/tree/master)
+	- [google-developer-training/basic-android-kotlin-compose-training-inventory-app](https://github.com/google-developer-training/basic-android-kotlin-compose-training-inventory-app)
