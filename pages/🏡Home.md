@@ -1,5 +1,6 @@
 # Tech
 	- ## 💻️Software Development
+	  collapsed:: true
 		- ### 🖥️Desktop
 			- [[Visualization]]
 			- [[Qt]]
@@ -47,6 +48,7 @@
 		- [[Laparoscopic Surgery]]
 		- [[Prostate]]
 		- [[🧠Brain Computer Interface]]
+		- [[Type 1 Diabetes]]
 	- ## 🩻 Medical Image
 	  collapsed:: true
 		- [[Medical Image]]
@@ -93,11 +95,11 @@
 		- [[🗣️Natural Language Processing]]
 		- [[Self Driving Car]]
 - # World
+  collapsed:: true
 	- ## ⛺️Survivor
 	  collapsed:: true
 		- [[Survivorman]]
 	- ## 🥼Science Theory
-	  collapsed:: true
 		- [[⚡️Electric Engineering]]
 		  :LOGBOOK:
 		  * State "DONE" from "TODO" [2022-10-03 Mon 08:22]
@@ -105,7 +107,6 @@
 		- [[🌍️Physics]]
 		- [[🔢Mathematics]]
 	- ## 🏛️Bite of History
-	  collapsed:: true
 		- Ten must known people
 			- [[Mahatma Gandhi]]
 			- [[Buddha]]

@@ -1,0 +1,3 @@
+- Basal insulin: the insulin the pancreas makes to keep the blood sugar within normal range when you are not eating.
+- Bolus insulin: the insulin that the pancreas sends out in response to food
+-
