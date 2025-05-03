@@ -18,5 +18,3 @@
 	- [[Learning website to if you can't find help]]
 - # Book
 	- [[Making It All Work Book by David Allen]]
-	- [[The Crowd]]
-	- [[Antifragile]]
