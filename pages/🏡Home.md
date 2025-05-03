@@ -3,7 +3,10 @@
 	- ## [[🤖Robot]]
 	- ## [[🏥Medical+]]
 	- ## [[🧠AI]]
-- # World
+- # Others
+	- [[PTE]]
+		- [[Personal Plan of PTE]]
+	- [[Investment]]
 	- ## ⛺️Survivor
 		- [[Survivorman]]
 	- ## 🥼Science Theory
@@ -26,15 +29,11 @@
 			- [[Ibn Khaldun]]
 			- [[Nelson Mandela]]
 	- ## 💶Economics
-		- [[Investment]]
 	- ## 🗺️Languages Learning
-		- [[PTE]]
-			- [[Personal Plan of PTE]]
 		- IPA
 			- [IPA Chart](https://www.ipachart.com/)
 		- 🇫🇷 French
 			- Book
-			  collapsed:: true
 				- DONE Unit 1
 				- DONE Unit 2
 				- DONE Unit 3
