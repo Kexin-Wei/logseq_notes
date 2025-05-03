@@ -1,0 +1,30 @@
+### 🖥️Language
+	- [[JavaScript]]
+	- [[Golang]]
+	- [[C++]]
+	- [[CMake]]
+	- [[CUDA]]
+	- [[Rust]]
+- ### 📱Framework
+	- [[Qt]]
+	- [[Kotlin]]
+	- [[Vue]]
+- ### 🌐Libs
+	- [[VTK & ITK]]
+	- [[NURBS]]
+	- [Plus](https://plustoolkit.github.io/)
+	- [IGTL](http://openigtlink.org/users/)
+	- [[Numpy]]
+	- [[ROS]]
+- ### ⚒️Tools
+	- [[Docker]]
+	- [[Git]]
+	- [[Neovim]]
+	- [Medical Open Source](https://www.kitware.com/open-source/)
+- ### 📊 Algorithm
+	- [[STL volume calculation]]
+	- [[Python Code Encryption]]
+- ### 🤹Skills
+	- [[Software Management]]
+	  collapsed:: true
+	- [[Agile Management]]
