@@ -1,4 +1,0 @@
-- [Learn electric circuits](https://www.youtube.com/playlist?list=PL9F74AFA03AA06A11) - 1h
-- Lecture 15
-	- LC Circuit Develop Equation
-- Lecture 16
