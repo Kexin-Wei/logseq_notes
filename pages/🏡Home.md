@@ -3,46 +3,20 @@
 	- ## [[🤖Robot]]
 	- ## [[🏥Medical+]]
 	- ## [[🧠AI]]
-- # Others
+- # 🥼Science
+	- [[🌍️Physics]]
+	- [[🔢Mathematics]]
+- # 💶Others
+	- Zotero
+		- [[Logseq + Zotero Setting]]
+		- [[Zotero + WebDav]]
+		- [[Zotero + ZotFile]]
 	- [[PTE]]
 		- [[Personal Plan of PTE]]
 	- [[Investment]]
-	- [[Logseq + Zotero Setting]]
-	- [[Zotero + WebDav]]
-	- [[Zotero + ZotFile]]
-	- ## 🥼Science Theory
-		- [[🌍️Physics]]
-		- [[🔢Mathematics]]
-	- ## 🏛️Bite of History
-		- Ten must known people
-			- [[Mahatma Gandhi]]
-			- [[Buddha]]
-			- [[Julius Caesar]]
-			- [[Confucius]]
-			- [[Leonardo da Vinci/]]
-			- [[Cleopatra/]]
-			- [[Genghis Khan]]
-			- [[Queen Elizabeth I]]
-			- [[Ibn Khaldun]]
-			- [[Nelson Mandela]]
-		- [[How to find free paper]]
-	- ## 💶Economics
-	- ## 🗺️Languages Learning
-		- IPA
-			- [IPA Chart](https://www.ipachart.com/)
-		- 🇫🇷 French
-			- Book
-				- DONE Unit 1
-				- DONE Unit 2
-				- DONE Unit 3
-				- TODO Unit 4
+	- [[How to find free paper]]
+	- [[Learning website to if you can't find help]]
 - # Book
 	- [[Making It All Work Book by David Allen]]
 	- [[The Crowd]]
 	- [[Antifragile]]
-- # Tool
-	- ## Learning website to if you can't find help
-		- https://scienceexchange.caltech.edu/
-		- https://brilliant.org/?utm_medium=sponsor&utm_source=youtube&utm_campaign=upandatom_170123
-	- ## Zotero
-	- #software

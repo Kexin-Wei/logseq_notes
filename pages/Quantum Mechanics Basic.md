@@ -22,7 +22,7 @@
 - Quantum states and wave functions
 	- [Is there a difference between a quantum state and a quantum wave function?](https://physics.stackexchange.com/questions/591257/is-there-a-difference-between-a-quantum-state-and-a-quantum-wave-function)
 	- Quantum states are described by mathematical functions called wave functions, which contain information about the probabilities of finding a particle in different positions or energy states.
-	- ![image.png](../assets/image_1681571597906_0.png)
+	- ![image.png](../assets/image_1681571597906_0.png){:height 864, :width 749}
 - Uncertainty principle
   id:: 643de789-0f24-4319-92b1-fbf37e1dfa68
 	- or **Heisenberg's uncertainty principle**
