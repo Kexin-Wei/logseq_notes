@@ -9,6 +9,7 @@
 	- [[Qt]]
 	- [[Kotlin]]
 	- [[Vue]]
+	- [[Flutter]]
 - ### 🌐Libs
 	- [[VTK & ITK]]
 	- [[NURBS]]
