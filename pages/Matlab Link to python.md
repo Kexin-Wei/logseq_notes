@@ -1,0 +1,15 @@
+- Simulink to Python
+	- Use [MATLAB Engine API](https://www.mathworks.com/help/matlab/matlab_external/call-matlab-functions-from-python.html) for Python
+	- Use [MATLAB Compiler SDK](https://www.mathworks.com/help/compiler_sdk/gs/create-a-python-application-with-matlab-code.html) to create a shared library and call it from Python
+	- Package the Simulink model as a Functional Mockup Unit (FMU)
+		- Call the FMU from Python using third-party libraries such as [FMPy](https://github.com/CATIA-Systems/FMPy)
+	- Package the Simulink model as a simulation service API (using [MATLAB Production Server](https://www.mathworks.com/products/matlab-production-server.html))
+		- RESTful API for scalable applications
+	- Generate C/C++ code or shared library from the Simulink model
+		- Call the generated code using [CTYPES](https://docs.python.org/3/library/ctypes.html) or related wrappers
+- Repo references
+	- [dapperfu/Python-Simulink: Run Simulink models with Python using shared libraries.](https://github.com/dapperfu/Python-Simulink)
+	- [mathworks/Call-Simulink-from-Python: Examples to show the two options to simulate a Simulink model from Python](https://github.com/mathworks/Call-Simulink-from-Python)
+- Online references
+	- ![20210224123011_15253.pdf](../assets/20210224123011_15253_1747382440364_0.pdf)
+	- ![ww-2023-expo-using-simulink-with-python-mathworks.pdf](../assets/ww-2023-expo-using-simulink-with-python-mathworks_1747382444497_0.pdf)

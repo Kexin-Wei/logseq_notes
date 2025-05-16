@@ -5,6 +5,7 @@
 	- [[CMake]]
 	- [[CUDA]]
 	- [[Rust]]
+	- [[Matlab]]
 - ### 📱Framework
 	- [[Qt]]
 	- [[Kotlin]]
