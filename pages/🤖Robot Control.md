@@ -10,14 +10,14 @@
 - [[URDF: Define the robot]]
 - [[Time Synchronization]]
 - # Software
-- [[ROS + Gazebo Installation]]
-- Robot Control Software #software
+- [[ROS]] #software
 	- ROS2
 		- [Install Guide of Humble](https://docs.ros.org/en/humble/Installation.html)
 		- [Great Start Up Video - ROS2 Humble](https://www.youtube.com/watch?v=Gg25GfA456o)
 		- [[ROS2 Foxy + Raspberry Pi + Macbook]]
+		- [[Rapberry Pi ROS + Gazebo Installation]]
 	- Robot Simulator #software #simulator
-		- Gazebo
+		- [[Gazebo]]
 		- [[Sofa]]
 		- [Drake: Model-Based Design and Verification for Robotics (mit.edu)](https://drake.mit.edu/)
 		- https://github.com/ContinuumRoboticsLab/CRVisToolkit

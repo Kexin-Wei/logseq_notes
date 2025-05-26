@@ -1,10 +1,11 @@
-- [[ROS]]
-- [[Corporate Explorer]]
-- [[Soft Tissue Deformation]]
-- [[Soft Robot]]
 - [[🤖Robot Control]]
-- [[Continuum Mechanism]]
-- [[Continuum Robot]]
+- Soft Robot
+	- [[Continuum Mechanism]]
+	- [[Continuum Robot]]
+	- [[Soft Robot]]
+- Simulation
+	- [[Soft Tissue Deformation]]
+	- [[Ray Tracing]]
 - [[🏃Motion Tracking]]
 - [[📈Signal Processing]]
 - [[✈️SLAM]]

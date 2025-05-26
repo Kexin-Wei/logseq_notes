@@ -1,0 +1,1 @@
+- [Ray-Sphere Intersection » Lighthouse3d.com](https://www.lighthouse3d.com/tutorials/maths/ray-sphere-intersection/)

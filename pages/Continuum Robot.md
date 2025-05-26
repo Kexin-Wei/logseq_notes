@@ -65,12 +65,7 @@ collapsed:: true
 	- Matlab
 		- [Open CR Project](https://www.cs.toronto.edu/~jbk/opencontinuumrobotics/)
 			- https://github.com/ContinuumRoboticsLab/CRVisToolkit
-	- Gazebo
-		- Useful links
-			- https://github.com/aGotelli/A_Gazebo_Simulator_For_Continuum_Parallel_Robots
-			- [A Gazebo Simulator For Continuum Parallel Robots: walk through and demonstration of the simulator](https://www.youtube.com/watch?v=6k5aZPOQjQ8)
-			- https://www.frontiersin.org/articles/10.3389/frobt.2021.713083/full
-		- [[ROS2 Foxy + Raspberry Pi + Macbook]]
+	- [[Gazebo]]
 - # Reference
 	- [[@Continuum Differential Mechanisms and Their Applications in Gripper Designs]]
 	- [Continuous Backbone “Continuum” Robot Manipulators](https://www.hindawi.com/journals/isrn/2013/726506/)
