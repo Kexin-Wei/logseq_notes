@@ -1,0 +1,75 @@
+- start from asking your clients and identify their needs
+- # How to go to business plan 
+  *< 30 days, 3-6 months*
+	- elevated stage: i am interested (90 s)
+	- one page non confidential
+	- 10-12 slices confidential
+	- 20+ slices confidential  (30 mins presentation + 30 min Q&A)
+	- Confidential Agreement ADA CDA
+	- Business plan
+- # Business Plan
+	- License for IP ( data room )
+- # BP should have List of Risks
+  Showing how that amount will reduce the risk
+	- efficacy (clinical)
+	- safety (clinical)
+	- market size (quantify)
+	- regulatory
+	- manufacturing
+	- IP
+	- costs and pricing
+		- cost
+		- competition
+		- value ( through clinical trial )
+	- tax
+	- exit
+		- IRR ( best working way )
+		- pay back investor
+		- stock market
+	- competition
+	- people
+	- financial
+	- sales and marketing (market adoption)
+		- change of habit (patient procedure)
+- # How to Start
+	- 1. Need
+		- patients, doctors, healthcare systems, payers
+	- 2. Solutions
+		- Technology, IP
+	- 3. Why technology meet the need
+		- competition
+	- 4. How your solution will succeed in practice
+		- **Financials, Gantt, Org chart (show people)**
+			- Need a Gantt chart software
+		- Design and manufacture
+		- Pricing and adoption
+		- Regulations
+		- Sales and marketing
+- # How to use a BP
+	- A map
+		- use of funds
+		- milestones
+	- A gauge
+		- detour->explanation
+		- setting benchmarks
+			- yes, pay more per share afterwards
+			- no, ask for more for things unknown
+		- incentives for the team
+		- credibility of updated BPs
+			- vision and detials
+	- A tool for persuasion
+- # How to make
+  *Proof of concept*
+	- Gantt chart (start end cost)
+	- Org chart
+		- define the cost of each stage in Gantt Chart
+	- Budget
+		- assumptions
+		- People
+		- IP
+		- ...
+	- Words
+		- explain why
+		- unmet need
+		- Roadmap: all operations, clinical trials, IP, manufacturing, regulatory, business development, sales and marketing
+		- Exit strategy

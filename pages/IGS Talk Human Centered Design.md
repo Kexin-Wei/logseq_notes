@@ -1,0 +1,2 @@
+- Human centered stakeholder analysis
+- ![Pasted image 20250812175506.png](../assets/Pasted_image_20250812175506_1758854531669_0.png)

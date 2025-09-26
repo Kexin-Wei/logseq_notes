@@ -1,0 +1,39 @@
+- earsdropping / impersonation
+	- steal
+	- fake patient data
+- rf jamming
+	- channel jam
+- physical device breach
+	- data stolen from device (jail break)
+- infra security
+- system approach
+	- alter in the whole chain of the communication
+- augement not replace
+	- nurses -> earsdropping
+- hospital / lab -> API / email / FTP -> HUB -> UI
+- HUB
+	- micro services
+	- DB (audit log)
+- Security
+	- design
+		- token ( continuously authentication )
+		- encrypted transmission
+		- masked single use URL
+		- data encryption
+			- multiple cloud server
+		- obfuscation: function name randomly changed before compile
+	- development process
+		- warn: code by google/AI <- senior team review
+		- infosec team
+			- static code
+			- PEN testing
+	- deployment
+		- architecture: ui->green zone server -> yellow zone server -> red zone server
+		- different servers but identical :power generator -> cloud server
+- Logs
+	- monitor log
+	- monitor os log
+	- monitor dark web
+	- ethicial phishing
+- api and connection
+- code source

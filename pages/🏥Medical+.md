@@ -5,9 +5,12 @@
 	- [[Prostate]]
 	- [[🧠Brain Computer Interface]]
 	- [[Type 1 Diabetes]]
+- ## 🏥 Hospital System
+	- [[FHIR Fast Healthcare Interoperability Resources]]
 - ## 💉 Surgery
 	- [[Laparoscopic Surgery]]
 - ## 🩻 Medical Image
+  collapsed:: true
 	- [[Medical Image]]
 	- [[CT  Computed Tomography Image]]
 	- Ultrasound
@@ -29,3 +32,12 @@
 		- [[Medical Image Segmentation]]
 		- [[MRI-US Prostate Registration]]
 	- ## [[🖥️ Image Processing]]
+- ## 💬 IGS Talks
+	- [[IGS Talk Business Plan]]
+	- [[IGS Talk Case Study & Capitalism]]
+	- [[IGS Talk Clinical Trial]]
+	- [[IGS Talk Grant Application]]
+	- [[IGS Talk Healthcare Journey]]
+	- [[IGS Talk Human Centered Design]]
+	- [[IGS Talk Regulation]]
+	- [[IGS Talk VC]]

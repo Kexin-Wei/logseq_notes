@@ -1,0 +1,2 @@
+- value cycle of the biotech company
+- singapore NRF -> handbook
