@@ -17,3 +17,4 @@
 	- [[How to find free paper]]
 	- [[Learning website to if you can't find help]]
 	- [[Corporate Explorer]]
+	- [[Music]]

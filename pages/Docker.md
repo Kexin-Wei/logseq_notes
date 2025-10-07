@@ -2,10 +2,8 @@
 	- Docker Images and Docker Containers
 		- ![image.png](../assets/image_1679013741651_0.png)
 	- Bridge ( or Network ) connects containers
-	  collapsed:: true
 		- ![image.png](../assets/image_1679014086117_0.png)
 		- Connect images to network
-		  collapsed:: true
 			- ![image.png](../assets/image_1679014315722_0.png){:height 235, :width 462}
 			- ![image.png](../assets/image_1679014359915_0.png)
 		- Bind specific container to another
@@ -13,6 +11,33 @@
 			  docker attach client
 			  curl http://server:80
 			  ```
+- # Docker Commands
+	- | **Docker Command** | **Description** | **Common Usage Example** |
+	  |-------------------|-----------------|-------------------------|
+	  | `docker ps` | Lists running containers | `docker ps -a` (shows all including stopped) |
+	  | `docker run` | Creates and starts a new container | `docker run -d -p 80:80 nginx` |
+	  | `docker build` | Builds an image from a Dockerfile | `docker build -t myapp .` |
+	  | `docker exec` | Runs a command in a running container | `docker exec -it container_name bash` |
+	  | `docker logs` | Views container logs | `docker logs -f container_name` |
+	  | `docker pull` | Downloads an image from registry | `docker pull nginx:latest` |
+	  | `docker stop` | Stops a running container | `docker stop container_name` |
+	  | `docker start` | Starts a stopped container | `docker start container_name` |
+	  | `docker rm` | Removes a container | `docker rm container_name` |
+	  | `docker rmi` | Removes an image | `docker rmi image_name` |
+	- | **Docker Compose Command** | **Description** | **Common Usage Example** |
+	  |---------------------------|-----------------|-------------------------|
+	  | `docker compose up` | Creates and starts containers | `docker compose up -d` (detached mode) |
+	  | `docker compose down` | Stops and removes containers, networks | `docker compose down` |
+	  | `docker compose logs` | Views logs from services | `docker compose logs -f` (follow logs) |
+	  | `docker compose ps` | Lists containers managed by Compose | `docker compose ps` |
+	  | `docker compose build` | Builds or rebuilds services | `docker compose build` |
+	  | `docker compose restart` | Restarts services | `docker compose restart service_name` |
+	  | `docker compose exec` | Executes command in running service | `docker compose exec web bash` |
+	  | `docker compose pull` | Pulls service images | `docker compose pull` |
+	- ![dockercheatsheet8.png](../assets/dockercheatsheet8_1759826809990_0.png){:height 502, :width 748}
+	-
+- # Docker Compose Command
+	-
 - # Docker in Windows 11 Pro
 	- ## Enable Windows feature
 	  collapsed:: true
@@ -40,5 +65,3 @@
 	- ((641be390-ce93-48f0-80fc-ccc2546e712b))
 - # Docker and CUDA and WSL
 	- [ashishpatel26/Cuda-installation-on-WSL2-Ubuntu-20.04-and-Windows11: Cuda installation on WSL2 Ubuntu 20.04 and Windows11](https://github.com/ashishpatel26/Cuda-installation-on-WSL2-Ubuntu-20.04-and-Windows11)
-	-
-	-

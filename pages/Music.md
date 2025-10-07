@@ -1,0 +1,4 @@
+- [[Music Theory]]
+- Bass notes
+	- ![music-poster-bass-guitar-fretboard-map-pdf-with-all-notes-1.jpg](../assets/music-poster-bass-guitar-fretboard-map-pdf-with-all-notes-1_1759826500500_0.jpg)
+	-

@@ -3,7 +3,6 @@
 - In a docker way
   id:: 641be390-ce93-48f0-80fc-ccc2546e712b
 	- **Create a Dockerfile**: Create a new directory for your project, and inside that directory, create a `Dockerfile` with the following content, which sets up a Docker image based on Ubuntu 20.04, installs the required packages, and builds OpenCV from source.
-	  collapsed:: true
 		- ```bash
 		  # Use the official Ubuntu image as the base
 		  FROM ubuntu:20.04
