@@ -1,4 +1,5 @@
 # Tech
+	- ## [[🖥️Computer Science]]
 	- ## [[💻️Software Development]]
 	- ## [[🤖Robot]]
 	- ## [[🏥Medical+]]
