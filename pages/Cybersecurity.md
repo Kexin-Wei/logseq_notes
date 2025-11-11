@@ -5,3 +5,6 @@
 - ## Knowledge
 	- [[OWASP Top 10 (2025)]] — the 10 risk categories with primary defenses
 	- [[CWE Top 25]] — specific weakness types, memory-safety CWEs, OWASP-CWE mapping
+- ## References
+	- https://owasp.org/www-project-top-ten/
+	- https://attack.mitre.org/techniques/T1110/ — MITRE ATT&CK: Brute Force
