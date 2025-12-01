@@ -3,9 +3,7 @@
 Attackers access resources or perform actions they shouldn't be authorized to do.
 
 **Note**: SSRF is now included in this category in OWASP 2025
-
-## How It Works
-
+- ## How It Works
 - a) **IDOR & Direct Access**
 	- Three-phase attack:
 		- 1. **Enumerate**: Discover all API endpoints and URLs (via directory brute-forcing, robots.txt, sitemaps)
@@ -17,9 +15,7 @@ Attackers access resources or perform actions they shouldn't be authorized to do
 	- Steal cloud metadata (IAM credentials, API keys)
 	- Port scan internal network
 	- Bypass filters with obfuscated URLs
-
-## Attack Vectors
-
+- ## Attack Vectors
 - **Direct Object Reference:**
 	- ```
 	  GET /api/user/123/profile  → Change to /api/user/456/profile
@@ -34,9 +30,7 @@ Attackers access resources or perform actions they shouldn't be authorized to do
 	  0x7f.0.0.1 / 127.1 / 2130706433              -- Obfuscated localhost
 	  file:///etc/passwd                            -- File protocol
 	  ```
-
-## Real-World Examples
-
+- ## Real-World Examples
 - **Instagram (2019)**: Users could view private photos by manipulating photo IDs in URLs
 - **Parler (2021)**: Sequential post IDs allowed scraping all private posts
 - **Capital One (2019)**: SSRF on AWS metadata endpoint exposed 100M+ records
@@ -45,14 +39,12 @@ Attackers access resources or perform actions they shouldn't be authorized to do
 - **IDOR**: Changing `user_id=123` to `user_id=456` in URL reveals other users' data
 - **Horizontal escalation**: Regular user accesses another user's account
 - **Vertical escalation**: Regular user gains admin privileges
-
-## Defense
-
+- ## Defense
 - Implement proper authorization checks at every level
 - Use least privilege principle
 - Deny by default
 - Log access control failures
 - Whitelist allowed URLs/domains (SSRF)
-- Disable unnecessary protocols: file://, gopher:// (SSRF)
+- Disable unnecessary protocols: `file://`, `gopher://` (SSRF)
 - Network segmentation
 - Block access to cloud metadata endpoints
