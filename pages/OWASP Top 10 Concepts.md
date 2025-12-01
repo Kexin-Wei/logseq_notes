@@ -1,5 +1,3 @@
-# OWASP Top 10 2025 - Security Concepts
-
 ## A01:2025 - Broken Access Control (BAC)
 - Attackers access resources or perform actions they shouldn't be authorized to do.
 - ### How It Works
@@ -7,6 +5,12 @@
 		- 1. **Enumerate**: Discover all API endpoints and URLs (via directory brute-forcing, robots.txt, sitemaps)
 		- 2. **Fetch**: Try accessing endpoints without authentication or with low-privilege credentials
 		- 3. **Escalate**: Modify user IDs, access admin endpoints, or manipulate tokens to gain elevated privileges
+- ### Attack Vectors
+	- ```
+	  GET /api/user/123/profile  → Change to /api/user/456/profile
+	  GET /admin/dashboard       → Access without admin role
+	  POST /api/user/promote     → Escalate own privileges
+	  ```
 - ### Real-World Examples
 	- **Instagram (2019)**: Users could view private photos by manipulating photo IDs in URLs
 	- **Parler (2021)**: Sequential post IDs allowed scraping all private posts
@@ -18,8 +22,7 @@
 	- Use least privilege principle
 	- Deny by default
 	- Log access control failures
-
-## A02:2025 - Security Misconfiguration
+- ## A02:2025 - Security Misconfiguration
 - Insecure default configurations, incomplete setups, or exposed services.
 - ### How It Works
 	- a) Default Credentials
@@ -46,8 +49,7 @@
 	- Minimize exposed services
 	- Implement proper error handling
 	- Regular security configuration reviews
-
-## A03:2025 - Software Supply Chain Failures
+- ## A03:2025 - Software Supply Chain Failures
 - Vulnerabilities introduced through compromised dependencies, libraries, or development tools.
 - ### How It Works
 	- a) Dependency Confusion
@@ -69,8 +71,7 @@
 	- Regular dependency audits
 	- Software Bill of Materials (SBOM)
 	- Verify package integrity
-
-## A04:2025 - Cryptographic Failures
+- ## A04:2025 - Cryptographic Failures
 - Exposing sensitive data due to weak or missing encryption.
 - ### How It Works
 	- a) Weak Algorithms
@@ -94,8 +95,7 @@
 	- Proper key management (rotate, separate)
 	- Salt and hash passwords (bcrypt, Argon2)
 	- Use proven crypto libraries
-
-## A05:2025 - Injection
+- ## A05:2025 - Injection
 - Untrusted data sent to interpreters as part of commands or queries.
 - ### How It Works
 	- a) SQL Injection
@@ -120,8 +120,7 @@
 	- Output encoding
 	- Use ORM frameworks
 	- Principle of least privilege for DB accounts
-
-## A06:2025 - Insecure Design
+- ## A06:2025 - Insecure Design
 - Fundamental architectural flaws and missing security controls.
 - ### How It Works
 	- a) Missing Rate Limiting
@@ -143,8 +142,7 @@
 	- Secure by design principles
 	- Security requirements in SDLC
 	- Regular security architecture reviews
-
-## A07:2025 - Authentication Failures
+- ## A07:2025 - Authentication Failures
 - Weaknesses in authentication mechanisms allowing unauthorized access.
 - ### How It Works
 	- a) Weak Passwords
@@ -174,8 +172,7 @@
 	- Rate limiting on login attempts
 	- Secure session management
 	- Account lockout mechanisms
-
-## A08:2025 - Software or Data Integrity Failures
+- ## A08:2025 - Software or Data Integrity Failures
 - Failures to verify integrity of code, infrastructure, or data.
 - ### How It Works
 	- a) Unsigned Code
@@ -198,8 +195,7 @@
 	- Secure CI/CD pipeline
 	- Integrity checks (checksums, hashes)
 	- Avoid deserializing untrusted data
-
-## A09:2025 - Logging & Alerting Failures
+- ## A09:2025 - Logging & Alerting Failures
 - Insufficient logging and monitoring allowing attacks to go undetected.
 - ### How It Works
 	- a) Missing Logs
@@ -224,8 +220,7 @@
 	- Real-time alerting on anomalies
 	- Tamper-proof log storage
 	- Regular log reviews
-
-## A10:2025 - Mishandling of Exceptional Conditions
+- ## A10:2025 - Mishandling of Exceptional Conditions
 - Failures to properly handle errors, edge cases, and unexpected inputs.
 - ### How It Works
 	- a) Information Disclosure
@@ -251,18 +246,17 @@
 	- Fail securely (fail closed, not open)
 	- Comprehensive exception handling
 	- Generic error messages to users
-
-## Defense Summary
-
-| Category | Primary Defenses |
-|----------|-----------------|
-| **A01: BAC** | Authorization checks, least privilege, deny by default |
-| **A02: Misconfiguration** | Change defaults, disable unnecessary features, security headers |
-| **A03: Supply Chain** | Dependency audits, SBOM, version pinning, integrity checks |
-| **A04: Cryptographic** | Strong algorithms, HTTPS, proper key management, salt passwords |
-| **A05: Injection** | Parameterized queries, input validation, output encoding |
-| **A06: Insecure Design** | Threat modeling, security requirements, rate limiting |
-| **A07: Authentication** | MFA, strong passwords, rate limiting, secure sessions |
-| **A08: Integrity** | Code signing, signature verification, secure CI/CD |
-| **A09: Logging** | Comprehensive logging, real-time monitoring, tamper-proof storage |
-| **A10: Exceptional Conditions** | Graceful error handling, input validation, resource limits |
+- ## Defense Summary
+  
+  | Category | Primary Defenses |
+  |----------|-----------------|
+  | **A01: BAC** | Authorization checks, least privilege, deny by default |
+  | **A02: Misconfiguration** | Change defaults, disable unnecessary features, security headers |
+  | **A03: Supply Chain** | Dependency audits, SBOM, version pinning, integrity checks |
+  | **A04: Cryptographic** | Strong algorithms, HTTPS, proper key management, salt passwords |
+  | **A05: Injection** | Parameterized queries, input validation, output encoding |
+  | **A06: Insecure Design** | Threat modeling, security requirements, rate limiting |
+  | **A07: Authentication** | MFA, strong passwords, rate limiting, secure sessions |
+  | **A08: Integrity** | Code signing, signature verification, secure CI/CD |
+  | **A09: Logging** | Comprehensive logging, real-time monitoring, tamper-proof storage |
+  | **A10: Exceptional Conditions** | Graceful error handling, input validation, resource limits |
