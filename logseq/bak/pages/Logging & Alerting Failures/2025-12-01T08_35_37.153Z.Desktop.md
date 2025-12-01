@@ -1,0 +1,32 @@
+# A09:2025 - Logging & Alerting Failures
+
+Insufficient logging and monitoring allowing attacks to go undetected.
+
+## How It Works
+
+- a) Missing Logs
+	- Failed logins not logged
+	- No audit trail for sensitive operations
+- b) Inadequate Monitoring
+	- No alerting on suspicious patterns
+	- Logs not reviewed
+- c) Insufficient Log Detail
+	- Missing context (IP, user, timestamp)
+- d) No Log Protection
+	- Logs can be modified or deleted by attackers
+
+## Real-World Examples
+
+- **Equifax (2017)**: Breach went undetected for 76 days
+- **Target (2013)**: Ignored alerts led to 40M card records stolen
+- **Uber (2016)**: Breach hidden for a year due to poor logging
+- **Marriott (2018)**: 4-year breach undetected, 500M records compromised
+
+## Defense
+
+- Log all authentication events
+- Log access control failures
+- Centralized log management
+- Real-time alerting on anomalies
+- Tamper-proof log storage
+- Regular log reviews
