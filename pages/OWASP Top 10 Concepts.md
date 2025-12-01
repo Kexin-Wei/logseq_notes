@@ -1,166 +1,268 @@
-## Broken Access Control (BAC)
-	- Attackers access resources or perform actions they shouldn't be authorized to do.
-	- ### How It Works
-		- Three-phase attack:
-			- 1. **Enumerate**: Discover all API endpoints and URLs (via directory brute-forcing, robots.txt, sitemaps)
-			- 2. **Fetch**: Try accessing endpoints without authentication or with low-privilege credentials
-			- 3. **Escalate**: Modify user IDs, access admin endpoints, or manipulate tokens to gain elevated privileges
-	- ### Real-World Examples
-		- **Instagram (2019)**: Users could view private photos by manipulating photo IDs in URLs
-		- **Parler (2021)**: Sequential post IDs allowed scraping all private posts
-		- **IDOR (Insecure Direct Object Reference)**: Changing `user_id=123` to `user_id=456` in URL reveals other users' data
-		- **Horizontal escalation**: Regular user accesses another user's account
-		- **Vertical escalation**: Regular user gains admin privileges
-	- ### Attack Vectors
-		- ```
-		  GET /api/user/123/profile  → Change to /api/user/456/profile
-		  GET /admin/dashboard       → Access without admin role
-		  POST /api/user/promote     → Escalate own privileges
-		  ```
-- ## Authentication Failures
-	- Weaknesses in authentication mechanisms allowing unauthorized access.
-	- ### How It Works
-		- a) Weak Passwords
-			- Test common passwords: `password`, `123456`, `admin`
-			- Check if password complexity is enforced
-		- b) Brute Force
-			- Make repeated login attempts
-			- Test if rate limiting or account lockout exists
-			- Check for CAPTCHA or anti-automation measures
-		- c) Session Management
-			- Session fixation attacks
-			- Check secure/httponly cookie flags
-			- Test if sessions invalidate on logout
-			- Session hijacking attempts
-		- d) MFA Bypass
-			- Check if MFA can be bypassed via direct URL access
-			- Test API endpoints that skip MFA
-			- Session manipulation to avoid 2FA
-		- e) Credential Recovery
-			- Account enumeration via password reset
-			- Weak/predictable reset tokens
-			- Insecure security questions
-	- ### Real-World Examples
-		- **Twitter (2022)**: 5.4M accounts exposed due to authentication API flaw
-		- **Mirai Botnet**: Exploited default credentials on IoT devices (`admin:admin`)
-		- **LinkedIn breach**: Weak password hashing led to mass credential theft
-		- **GitHub (2013)**: Session fixation vulnerability allowed account takeover
-- ## Security Misconfiguration
-	- Insecure default configurations, incomplete setups, or exposed services.
-	- ### How It Works
-		- a) Default Credentials
-			- Test common defaults: `admin:admin`, `root:root`, `administrator:password`
-			- Check SSH, databases, web panels
-		- b) Exposed Services
-			- Scan for open ports
-			- Identify sensitive services exposed to internet (databases, admin panels)
-			- Check management interfaces
-		- c) Security Headers
-			- Missing headers: `X-Frame-Options`, `X-Content-Type-Options`, `HSTS`, `CSP`
-			- Misconfigured CORS policies
-		- d) Error Handling
-			- Verbose error messages exposing stack traces
-			- Database errors revealing schema
-			- Sensitive paths leaked
-		- e) Directory Listing
-			- Web server shows directory contents
-			- Exposed config files, backups, `.git` folders
-	- ### Real-World Examples
-		- **Equifax (2017)**: Unpatched Apache Struts led to 147M records stolen
-		- **MongoDB ransomware**: 27,000+ databases exposed due to no authentication
-		- **AWS S3 buckets**: Capital One breach (106M customers) due to misconfigured firewall
-		- **Elasticsearch clusters**: Healthcare data exposed due to default configs
-- ## Injection Attacks
-	- Untrusted data sent to interpreters as part of commands or queries.
-	- ### How It Works
+# OWASP Top 10 2025 - Security Concepts
+
+## A01:2025 - Broken Access Control (BAC)
+- Attackers access resources or perform actions they shouldn't be authorized to do.
+- ### How It Works
+	- Three-phase attack:
+		- 1. **Enumerate**: Discover all API endpoints and URLs (via directory brute-forcing, robots.txt, sitemaps)
+		- 2. **Fetch**: Try accessing endpoints without authentication or with low-privilege credentials
+		- 3. **Escalate**: Modify user IDs, access admin endpoints, or manipulate tokens to gain elevated privileges
+- ### Real-World Examples
+	- **Instagram (2019)**: Users could view private photos by manipulating photo IDs in URLs
+	- **Parler (2021)**: Sequential post IDs allowed scraping all private posts
+	- **IDOR (Insecure Direct Object Reference)**: Changing `user_id=123` to `user_id=456` in URL reveals other users' data
+	- **Horizontal escalation**: Regular user accesses another user's account
+	- **Vertical escalation**: Regular user gains admin privileges
+- ### Defense
+	- Implement proper authorization checks at every level
+	- Use least privilege principle
+	- Deny by default
+	- Log access control failures
+
+## A02:2025 - Security Misconfiguration
+- Insecure default configurations, incomplete setups, or exposed services.
+- ### How It Works
+	- a) Default Credentials
+		- Exploiting unchanged defaults: `admin:admin`, `root:root`
+	- b) Exposed Services
+		- Databases, admin panels exposed to internet
+		- Unnecessary open ports
+	- c) Security Headers
+		- Missing: `X-Frame-Options`, `HSTS`, `CSP`
+		- Misconfigured CORS policies
+	- d) Error Handling
+		- Verbose error messages exposing stack traces
+		- Database errors revealing schema
+	- e) Directory Listing
+		- Exposed config files, backups, `.git` folders
+- ### Real-World Examples
+	- **Equifax (2017)**: Unpatched Apache Struts led to 147M records stolen
+	- **MongoDB ransomware**: 27,000+ databases exposed due to no authentication
+	- **AWS S3 buckets**: Capital One breach (106M customers) due to misconfigured firewall
+	- **Elasticsearch clusters**: Healthcare data exposed due to default configs
+- ### Defense
+	- Change all default credentials
+	- Disable directory listing
+	- Minimize exposed services
+	- Implement proper error handling
+	- Regular security configuration reviews
+
+## A03:2025 - Software Supply Chain Failures
+- Vulnerabilities introduced through compromised dependencies, libraries, or development tools.
+- ### How It Works
+	- a) Dependency Confusion
+		- Attackers upload malicious packages with same name to public repos
+	- b) Compromised Libraries
+		- Popular packages get hijacked (event-stream, ua-parser-js)
+	- c) Outdated Dependencies
+		- Using libraries with known CVEs
+	- d) Build Tool Compromise
+		- SolarWinds-style attacks on CI/CD pipeline
+- ### Real-World Examples
+	- **SolarWinds (2020)**: Build system compromise affected 18,000 customers
+	- **event-stream (2018)**: Popular npm package injected with Bitcoin stealer
+	- **Codecov (2021)**: Bash uploader script modified to exfiltrate environment variables
+	- **Log4Shell (2021)**: Widespread Log4j vulnerability in countless applications
+- ### Defense
+	- Pin dependency versions
+	- Use private registries
+	- Regular dependency audits
+	- Software Bill of Materials (SBOM)
+	- Verify package integrity
+
+## A04:2025 - Cryptographic Failures
+- Exposing sensitive data due to weak or missing encryption.
+- ### How It Works
+	- a) Weak Algorithms
+		- MD5, SHA1, DES still in use
+	- b) Unencrypted Transmission
+		- HTTP instead of HTTPS
+		- Cleartext protocols (FTP, Telnet)
+	- c) Poor Key Management
+		- Hardcoded keys in source code
+		- Predictable encryption keys
+	- d) Insufficient Randomness
+		- Weak random number generators
+- ### Real-World Examples
+	- **Adobe (2013)**: 153M passwords encrypted (not hashed) with same key
+	- **LinkedIn (2012)**: Passwords hashed without salt
+	- **Heartbleed (2014)**: OpenSSL vulnerability leaked memory contents
+	- **British Airways (2018)**: Credit card data transmitted over HTTP
+- ### Defense
+	- Use modern encryption (AES-256, RSA-2048+)
+	- Enforce HTTPS everywhere
+	- Proper key management (rotate, separate)
+	- Salt and hash passwords (bcrypt, Argon2)
+	- Use proven crypto libraries
+
+## A05:2025 - Injection
+- Untrusted data sent to interpreters as part of commands or queries.
+- ### How It Works
 	- a) SQL Injection
-		- Injecting SQL commands into database queries
-		- ```sql
-		  
-		  ' OR '1'='1        -- Authentication bypass
-		  
-		  '; DROP TABLE users--  -- Destructive
-		  
-		  ' UNION SELECT password FROM users--  -- Data extraction
-		  
-		  ```
+		- `' OR '1'='1` - Authentication bypass
+		- `'; DROP TABLE users--` - Destructive
+		- `' UNION SELECT password FROM users--` - Data extraction
 	- b) Command Injection
-		- Executing system commands on the server
-		- ```bash
-		  ; whoami          -- Check current user
-		  | ls -la           -- List files
-		  && cat /etc/passwd -- Read sensitive files
-		  `id`              -- Execute commands
-		  ```
+		- `; whoami` - Check current user
+		- `| ls -la` - List files
+		- `&& cat /etc/passwd` - Read sensitive files
 	- c) XSS (Cross-Site Scripting)
-		- Injecting malicious JavaScript
-		- ```html
-		  <script>alert(document.cookie)</script>
-		  <img src=x onerror=alert(1)>
-		  <iframe src="javascript:alert(1)">
-		  ```
-	- ### Real-World Examples
-		- **Sony Pictures (2011)**: SQL injection led to 1M accounts stolen
-		- **British Airways (2018)**: XSS-based Magecart attack stole 380,000 payment cards
-		- **Heartland Payment Systems**: SQL injection compromised 130M credit cards
-		- **Yahoo (2012)**: SQL injection via union-based attack
-- ## Server-Side Request Forgery (SSRF)
-	- Attacker tricks server into making requests to unintended locations (internal network, cloud metadata).
-	- ### How It Works
-		- a) Internal Network Access
-			- Access internal services not exposed to internet
-			- ```
-			  http://localhost:3306      -- MySQL database
-			  http://192.168.1.10:22    -- Internal SSH
-			  http://10.0.0.5:9200      -- Elasticsearch
-			  ```
-		- b) Cloud Metadata Endpoints
-			- Steal IAM credentials, API keys
-			- ```
-			  http://169.254.169.254/latest/meta-data/  -- AWS
-			  http://metadata.google.internal/          -- GCP
-			  http://169.254.169.254/metadata/instance  -- Azure
-			  ```
-		- c) Port Scanning
-			- Use server to scan internal network
-			- ```
-			  Test ports: 22, 80, 443, 3306, 5432, 6379, 9200, 27017
-			  ```
-		- d) Filter Bypass
-			- Obfuscate payloads to bypass filters
-			- ```
-			  0x7f.0.0.1          -- Hex notation
-			  127.1               -- Short form
-			  2130706433          -- Decimal IP
-			  file:///etc/passwd  -- File protocol
-			  ```
-		- ### Real-World Examples
-			- **Capital One (2019)**: SSRF on AWS metadata endpoint exposed 100M+ records
-			- **Shopify (2020)**: SSRF to access internal Google Cloud services
-			- **Vend POS (2020)**: SSRF allowed reading AWS credentials
-			- **Orange Tsai's PDF generator**: SSRF chain to RCE on multiple companies
-- ## Common Attack Flow Example
-	- 1. Reconnaissance → Find target IP: 192.168.0.103
-	  
-	  2. Network Scan → Discover open ports: 22 (SSH), 80 (HTTP), 8042 (HTTP)
-	  
-	  3. Misconfiguration → Test default creds: admin:admin works!
-	  
-	  4. Access Control → Enumerate endpoints: /api/users, /admin/panel
-	  
-	  5. BAC → Access /admin/panel without proper auth
-	  
-	  6. Injection → Test SQL injection on /api/users?id=1
-	  
-	  7. SSRF → Use file upload to access http://169.254.169.254/
-	  
-	  8. Privilege Escalation → Gain admin access via token manipulation
-- ## Defense Recommendations
-	- | Attack Type | Defense |
-	  | **BAC** | Implement proper authorization checks, use least privilege principle |
-	  | **Authentication** | Strong password policies, MFA, rate limiting, secure session management |
-	  | **Misconfiguration** | Change defaults, disable directory listing, minimize exposed services |
-	  | **Injection** | Input validation, parameterized queries, output encoding, CSP headers |
-	  | **SSRF** | Whitelist allowed URLs, disable unnecessary protocols, network segmentation |
-	  
-	  These attacks represent the **OWASP Top 10** vulnerabilities and are the most common security flaws found in modern applications.
+		- `<script>alert(document.cookie)</script>`
+		- `<img src=x onerror=alert(1)>`
+- ### Real-World Examples
+	- **Sony Pictures (2011)**: SQL injection led to 1M accounts stolen
+	- **British Airways (2018)**: XSS-based Magecart attack stole 380,000 payment cards
+	- **Heartland Payment Systems**: SQL injection compromised 130M credit cards
+	- **Yahoo (2012)**: SQL injection via union-based attack
+- ### Defense
+	- Parameterized queries / prepared statements
+	- Input validation and sanitization
+	- Output encoding
+	- Use ORM frameworks
+	- Principle of least privilege for DB accounts
+
+## A06:2025 - Insecure Design
+- Fundamental architectural flaws and missing security controls.
+- ### How It Works
+	- a) Missing Rate Limiting
+		- No protection against brute force
+	- b) Insecure Workflows
+		- Password reset without identity verification
+	- c) Lack of Security Boundaries
+		- No separation between sensitive/public data
+	- d) Missing Threat Modeling
+		- Security not considered during design phase
+- ### Real-World Examples
+	- **Twitter (2020)**: API allowed phone number enumeration of all users
+	- **Clubhouse (2021)**: No rate limiting allowed data scraping
+	- **Zoom (2020)**: Meeting IDs were sequential and predictable
+	- **Robinhood (2021)**: Social engineering due to insufficient verification
+- ### Defense
+	- Implement threat modeling
+	- Rate limiting and throttling
+	- Secure by design principles
+	- Security requirements in SDLC
+	- Regular security architecture reviews
+
+## A07:2025 - Authentication Failures
+- Weaknesses in authentication mechanisms allowing unauthorized access.
+- ### How It Works
+	- a) Weak Passwords
+		- No complexity requirements
+		- Common passwords allowed
+	- b) Brute Force
+		- No rate limiting or account lockout
+		- Missing CAPTCHA
+	- c) Session Management
+		- Session fixation attacks
+		- Missing secure/httponly flags
+		- No session timeout
+	- d) MFA Bypass
+		- Direct URL access skipping MFA
+		- Session manipulation
+	- e) Credential Recovery
+		- Account enumeration via password reset
+		- Weak reset tokens
+- ### Real-World Examples
+	- **Twitter (2022)**: 5.4M accounts exposed due to authentication API flaw
+	- **Mirai Botnet**: Exploited default credentials on IoT devices (`admin:admin`)
+	- **LinkedIn breach**: Weak password hashing led to mass credential theft
+	- **GitHub (2013)**: Session fixation vulnerability allowed account takeover
+- ### Defense
+	- Strong password policies
+	- Multi-factor authentication
+	- Rate limiting on login attempts
+	- Secure session management
+	- Account lockout mechanisms
+
+## A08:2025 - Software or Data Integrity Failures
+- Failures to verify integrity of code, infrastructure, or data.
+- ### How It Works
+	- a) Unsigned Code
+		- No verification of package authenticity
+	- b) Insecure Deserialization
+		- Untrusted data deserialized into objects
+	- c) Auto-Update Without Verification
+		- Updates fetched over HTTP
+		- No signature verification
+	- d) CI/CD Pipeline Compromise
+		- Insecure build environments
+- ### Real-World Examples
+	- **NotPetya (2017)**: Ukrainian accounting software update mechanism compromised
+	- **CCleaner (2017)**: Legitimate software update contained malware
+	- **ASUS (2019)**: Live Update tool compromised affecting 1M users
+	- **Java deserialization**: Numerous RCE vulnerabilities
+- ### Defense
+	- Code signing
+	- Verify digital signatures
+	- Secure CI/CD pipeline
+	- Integrity checks (checksums, hashes)
+	- Avoid deserializing untrusted data
+
+## A09:2025 - Logging & Alerting Failures
+- Insufficient logging and monitoring allowing attacks to go undetected.
+- ### How It Works
+	- a) Missing Logs
+		- Failed logins not logged
+		- No audit trail for sensitive operations
+	- b) Inadequate Monitoring
+		- No alerting on suspicious patterns
+		- Logs not reviewed
+	- c) Insufficient Log Detail
+		- Missing context (IP, user, timestamp)
+	- d) No Log Protection
+		- Logs can be modified or deleted by attackers
+- ### Real-World Examples
+	- **Equifax (2017)**: Breach went undetected for 76 days
+	- **Target (2013)**: Ignored alerts led to 40M card records stolen
+	- **Uber (2016)**: Breach hidden for a year due to poor logging
+	- **Marriott (2018)**: 4-year breach undetected, 500M records compromised
+- ### Defense
+	- Log all authentication events
+	- Log access control failures
+	- Centralized log management
+	- Real-time alerting on anomalies
+	- Tamper-proof log storage
+	- Regular log reviews
+
+## A10:2025 - Mishandling of Exceptional Conditions
+- Failures to properly handle errors, edge cases, and unexpected inputs.
+- ### How It Works
+	- a) Information Disclosure
+		- Stack traces revealing system details
+		- Error messages exposing database schema
+	- b) Resource Exhaustion
+		- No limits on file uploads
+		- Memory leaks on malformed input
+	- c) Improper Input Validation
+		- Crashes on unexpected data types
+		- Integer overflow/underflow
+	- d) Null Pointer Exceptions
+		- Unhandled null values causing denial of service
+- ### Real-World Examples
+	- **Cloudflare (2017)**: Cloudbleed leaked customer data due to buffer overflow
+	- **Apple iMessage (2019)**: Malformed message could crash devices
+	- **WhatsApp (2019)**: Specially crafted video file caused buffer overflow
+	- **Various**: Zip bombs causing resource exhaustion
+- ### Defense
+	- Graceful error handling
+	- Input validation and bounds checking
+	- Resource limits and timeouts
+	- Fail securely (fail closed, not open)
+	- Comprehensive exception handling
+	- Generic error messages to users
+
+## Defense Summary
+
+| Category | Primary Defenses |
+|----------|-----------------|
+| **A01: BAC** | Authorization checks, least privilege, deny by default |
+| **A02: Misconfiguration** | Change defaults, disable unnecessary features, security headers |
+| **A03: Supply Chain** | Dependency audits, SBOM, version pinning, integrity checks |
+| **A04: Cryptographic** | Strong algorithms, HTTPS, proper key management, salt passwords |
+| **A05: Injection** | Parameterized queries, input validation, output encoding |
+| **A06: Insecure Design** | Threat modeling, security requirements, rate limiting |
+| **A07: Authentication** | MFA, strong passwords, rate limiting, secure sessions |
+| **A08: Integrity** | Code signing, signature verification, secure CI/CD |
+| **A09: Logging** | Comprehensive logging, real-time monitoring, tamper-proof storage |
+| **A10: Exceptional Conditions** | Graceful error handling, input validation, resource limits |
