@@ -1,4 +1,4 @@
-## The OWASP Top 10 Categories
+# The OWASP Top 10 Categories
 	- | Category | Primary Defenses |
 	  |----------|-----------------|
 	  | **A01: BAC** | Authorization checks, least privilege, deny by default |
@@ -21,5 +21,16 @@
 	- **A08:2025** - [[Software or Data Integrity Failures]]
 	- **A09:2025** - [[Logging & Alerting Failures]]
 	- **A10:2025** - [[Mishandling of Exceptional Conditions]]
-- ## OWASP Pen Testing
-	-
+	- ## OWASP Pen Testing
+		- | Category | Pen Test? | Notes |
+		  |----------|-----------|-------|
+		  | A01: BAC | ✅ Yes | IDOR, privilege escalation, access bypass |
+		  | A02: Misconfiguration | ⚠️ Partial | Headers, defaults visible; internal configs not |
+		  | A03: Supply Chain | ❌ No | Requires SBOM, dependency audit, pipeline access |
+		  | A04: Cryptographic | ✅ Yes | TLS, certs, weak algorithms |
+		  | A05: Injection | ✅ Yes | SQLi, XSS, command injection |
+		  | A06: Insecure Design | ❌ No | Requires design/threat model review |
+		  | A07: Authentication | ✅ Yes | Brute force, session, MFA bypass |
+		  | A08: Integrity | ❌ No | Requires CI/CD, code signing audit |
+		  | A09: Logging | ❌ No | Can't verify from outside |
+		  | A10: Exceptional | ⚠️ Partial | Can trigger errors, can't verify handling |
