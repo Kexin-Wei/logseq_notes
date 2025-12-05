@@ -1,4 +1,5 @@
 - Failures to properly handle errors, edge cases, and unexpected inputs.
+- **Execution Order:** `All parallel` - All phases are independent and can run simultaneously
 - ## How It Works
 	- a) Information Disclosure
 		- Stack traces revealing system details

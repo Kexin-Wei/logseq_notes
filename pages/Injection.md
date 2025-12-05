@@ -1,4 +1,5 @@
 - Untrusted data sent to interpreters as part of commands or queries.
+- **Execution Order:** `Phase 1 → (2-5 parallel)` - Input discovery first, then all injection tests can run in parallel
 - ## How It Works
 	- a) SQL Injection
 		- `' OR '1'='1` - Authentication bypass

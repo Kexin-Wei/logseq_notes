@@ -1,5 +1,6 @@
 - Attackers access resources or perform actions they shouldn't be authorized to do.
 - **Note**: SSRF is now included in this category in OWASP 2025
+- **Execution Order:** `Phase 1 → (2-8 parallel)` - Recon must complete first, then all other phases can run in parallel
 - ## Phase 1: Reconnaissance & Enumeration
 	- Discover all API endpoints, URLs, parameters
 	- Map application structure (robots.txt, sitemaps, directory brute-forcing)

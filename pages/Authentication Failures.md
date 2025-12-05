@@ -1,4 +1,5 @@
 - Weaknesses in authentication mechanisms allowing unauthorized access.
+- **Execution Order:** `Phase 1 → 2 → (3-6 parallel)` - Recon first, then password testing (may need valid creds), then rest in parallel
 - ## How It Works
 	- a) Weak Passwords
 		- No complexity requirements

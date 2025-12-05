@@ -1,4 +1,5 @@
 - Exposing sensitive data due to weak or missing encryption.
+- **Execution Order:** `All parallel` - All phases are independent and can run simultaneously
 - ## How It Works
 	- a) Weak Algorithms
 		- MD5, SHA1, DES still in use
