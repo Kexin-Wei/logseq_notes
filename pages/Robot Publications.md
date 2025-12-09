@@ -1,0 +1,44 @@
+- # Robotics Conferences & Journals - Quick Reference Guide
+- ## Top Conferences
+	- ### General Robotics
+		- **ICRA** - IEEE International Conference on Robotics and Automation (flagship)
+		- **IROS** - IEEE/RSJ International Conference on Intelligent Robots and Systems
+		- **RSS** - Robotics: Science and Systems
+		- **CoRL** - Conference on Robot Learning
+	- ### Human-Robot Interaction
+		- **HRI** - ACM/IEEE International Conference on Human-Robot Interaction
+		- **RO-MAN** - IEEE International Conference on Robot and Human Interactive Communication
+	- ### Neurorobotics/Bio-inspired
+		- **Living Machines** - Conference on Biomimetic and Biohybrid Systems
+		- **CLAWAR** - International Conference on Climbing and Walking Robots
+		- Relevant sessions at **NeurIPS** and **ICLR**
+- ## Top Journals
+	- ### High-Impact Robotics
+		- *Science Robotics* (very high impact)
+		- *International Journal of Robotics Research (IJRR)*
+		- *IEEE Transactions on Robotics (T-RO)*
+		- *Robotics and Autonomous Systems*
+		- *IEEE Robotics and Automation Letters (RA-L)*
+	- ### Neurorobotics-Specific
+		- *Frontiers in Neurorobotics*
+		- *Biological Cybernetics*
+		- *Autonomous Robots*
+- ## How to Find Rankings
+	- ### Conference Rankings
+		- **CORE Rankings** - http://portal.core.edu.au/conf-ranks/
+			- Tiers: A* (top 5-7%), A (~15%), B (~30%), C (meets standards)
+			- Search by acronym (e.g., "ICRA") or full name
+			- Filter by FoR code 4007 (Robotics) or 4603/4611 (AI/ML)
+		- **Google Scholar Metrics** - h5-index (5-year citation metric)
+		- **Acceptance Rates** - Lower = more selective
+	- ### Journal Rankings
+		- **Impact Factor** - Journal Citation Reports (Web of Science)
+		- **SJR** - scimagojr.com (free)
+		- **CiteScore** - Scopus/Elsevier
+		- **Google Scholar Metrics** - h5-index for journals
+- ## Quick Facts
+	- ICRA and IROS = **A*** ranked (highest tier in CORE)
+	- RSS = **A*** ranked
+	- Lower acceptance rates indicate more competitive venues
+	- Check where leading researchers in your subfield publish
+	- Consider both metrics and review process quality

@@ -1,3 +1,4 @@
+- [[Robot Publications]]
 - [[🤖Robot Control]]
 - Soft Robot
 	- [[Continuum Mechanism]]
