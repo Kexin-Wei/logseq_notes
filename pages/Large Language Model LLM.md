@@ -4,6 +4,6 @@
 	- [Coursera Learn AI Agents](https://www.coursera.org/learn/learn-ai-agents/)
 	- [AI Agents in LangGraph](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/)
 	- [Multi AI Agent Systems with crewAI](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
+- [[Attention is All You Need]]
 - [[LLM AICamp 2025 Jan06-12]]
 - [[LLM Agent AICamp 2025 Jan 01~05]]
--
