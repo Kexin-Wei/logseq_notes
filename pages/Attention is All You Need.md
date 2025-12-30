@@ -1,2 +1,2 @@
 - ![Transformer Attention.webp](../assets/Transformer_Attention_1767107223688_0.webp){:height 541, :width 778}
-- The core of the transformer is the encorder and decorder. Encorder is a two-layer structure with multi-head attention layer as the first, and position-wise forwardcan
+- The core of the transformer is the encorder and decorder. Encorder is a two-layer structure with multi-head attention layer as the first, and position-wise feed forward network,
