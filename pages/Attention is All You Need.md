@@ -1,1 +1,1 @@
-- The core of the transformer is the encorder and decorder. Encorder is a two-stage structure with first stage as multi
+- The core of the transformer is the encorder and decorder. Encorder is a two-layer structure with multi-head attention layer as the first, and position-wise f
