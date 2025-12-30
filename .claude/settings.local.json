@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/kexinwei/phd_notes status)",
+      "Bash(git -C /Users/kexinwei/phd_notes diff)"
+    ]
+  },
+  "outputStyle": "Learning"
+}
