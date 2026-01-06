@@ -1,7 +1,8 @@
 - ![Transformer Attention.webp](../assets/Transformer_Attention_1767107223688_0.webp){:height 541, :width 778}
 - The core of the Transformer consists of the **encorder** and **decorder**.
 - # Self-Attention
-	- The key of the self-attention is
+	- The key of the self-attention is the equation $$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
+	- Q is query, a mapping of the word tha
 - # Cross-Attention
 - # Encorder
 	- The **encorder** is a two-layer structure comprising a multi-head attention layer followed by a position-wise feed forward network. This structure is repeated N times with residual connections.
