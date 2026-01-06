@@ -4,7 +4,8 @@
 	- The key of the self-attention is the equation $$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
 	- Q is query, a mapping of the word that wants to be matched.
 	- K is key, a mapping of all words in the input that need to calculate the similarity of the queried word.
-	- V is value, a mapping of all words in the input that contain the real information
+	- V is value, a mapping of all words in the input that help to generate the real information.
+		- Because a K may be the greatest match of a Q, yet it will not give the real focus that helps to the task. For example, "apple" may match well to "fruit", yet i want to ask for the "color", in the end what matters more is the apple.
 - # Cross-Attention
 - # Encorder
 	- The **encorder** is a two-layer structure comprising a multi-head attention layer followed by a position-wise feed forward network. This structure is repeated N times with residual connections.
