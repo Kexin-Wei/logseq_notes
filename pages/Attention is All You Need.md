@@ -1,8 +1,14 @@
 - ![Transformer Attention.webp](../assets/Transformer_Attention_1767107223688_0.webp){:height 541, :width 778}
-- The core of the Transformer consists of the encorder and decorder.
-- The encorder is a two-layer structure comprising a multi-head attention layer followed by a position-wise feed forward network. This structure is repeated N times with residual connections.
-- The decorder shares a similar architecture but includes two additional layers: a linear projection and a softmax function.
-	- In the decorder, two attention mechanisms are employed.
-	- The first is masked self-attention, which embeds the output tokens and project them into high-dimensional space.
-	- The second is cross-attention, which computes the relationship between the encorder's representation and the decorder's self-attention outputs.
-- The final two layers map the high dimensional representation back to the vocabulary space producing a probability distribution for next-token prediction.2
+- The core of the Transformer consists of the **encorder** and **decorder**.
+- # Self-Attention
+	- The key of the self-attention is
+- # Cross-Attention
+- # Encorder
+	- The **encorder** is a two-layer structure comprising a multi-head attention layer followed by a position-wise feed forward network. This structure is repeated N times with residual connections.
+- # Decorder
+	- The **decorder** shares a similar architecture but includes two additional layers: a linear projection and a softmax function.
+		- In the **decorder**, two attention mechanisms are employed.
+		- The first is masked self-attention, which embeds the output tokens and project them into high-dimensional space.
+		- The second is cross-attention, which computes the relationship between the encorder's representation and the decorder's self-attention outputs.
+- # Output word
+	- The final two layers map the high dimensional representation back to the vocabulary space producing a probability distribution for next-token prediction.
