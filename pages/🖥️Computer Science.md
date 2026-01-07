@@ -11,7 +11,7 @@
 	  | **A08: Integrity** | Code signing, signature verification, secure CI/CD |
 	  | **A09: Logging** | Comprehensive logging, real-time monitoring, tamper-proof storage |
 	  | **A10: Exceptional Conditions** | Graceful error handling, input validation, resource limits |
-	- **A01:2025** - [[Broken Access Control]]
+	- **A01:2025** - [[BAC Broken Access Control]]
 	- **A02:2025** - [[Security Misconfiguration]]
 	- **A03:2025** - [[Software Supply Chain Failures]]
 	- **A04:2025** - [[Cryptographic Failures]]

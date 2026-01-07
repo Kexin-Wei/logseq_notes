@@ -22,7 +22,7 @@
 	  | A10: Exceptional | All parallel | Independent tests |
 - ## Fully Testable Categories
 - ### A01: Broken Access Control
-	- See [[Broken Access Control]]
+	- See [[BAC Broken Access Control]]
 	- **Execution:** `Phase 1 → (2-8 parallel)`
 	- **Key Sections:**
 		- Phase 1: Reconnaissance & Enumeration
