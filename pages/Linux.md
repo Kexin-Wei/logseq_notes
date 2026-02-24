@@ -2,7 +2,7 @@
 - All read commands work without sudo — only modifications require admin.
 - ## About Yourself
   
-  ```
+  ```bash
   whoami                 # your username
   id                     # your uid, gid, and all groups
   groups                 # your groups (short version)
