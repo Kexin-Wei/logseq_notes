@@ -1,2 +1,3 @@
-- [[OWASP Top 10]]
+- [[OWASP Top 10 (2025)]]
+-
 - [[Penetration Testing]]
