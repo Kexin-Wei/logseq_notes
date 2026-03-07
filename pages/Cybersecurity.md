@@ -12,4 +12,6 @@
 	- https://www.aperisolve.com/
 - File Signature
 	- file, xxd
--
+- Web Exploration
+	- Secrets
+	-
