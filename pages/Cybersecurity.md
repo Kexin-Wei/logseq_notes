@@ -4,4 +4,4 @@
 - Hash
 	- https://crackstation.net/
 	- https://www.openwall.com/john/
--
+- S
