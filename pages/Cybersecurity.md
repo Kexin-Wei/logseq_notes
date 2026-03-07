@@ -6,6 +6,8 @@
 	- https://crackstation.net/
 	- [JohnTheRipper](https://www.openwall.com/john/)
 - [Steganography](https://en.wikipedia.org/wiki/Steganography)
+	- hideme picoCTF
 	- https://georgeom.net/StegOnline/extract
 	- https://github.com/ReFirmLabs/binwalk
-	-
+	- https://www.aperisolve.com/
+-
