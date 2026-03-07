@@ -1,4 +1,5 @@
 - Code & Decode
+	- identifier: https://www.dcode.fr/cipher-identifier
 	-
 - Hash
 	-
