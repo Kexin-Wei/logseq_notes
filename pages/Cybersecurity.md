@@ -1,7 +1,9 @@
+- CTF Practice: [picoCTF]()
 - Cipher
 	- identifier: https://www.dcode.fr/cipher-identifier
 	- tool: https://gchq.github.io/CyberChef/
 - Hash
 	- https://crackstation.net/
-	- https://www.openwall.com/john/
-- S
+	- [JohnTheRipper](https://www.openwall.com/john/)
+- [Steganography](https://en.wikipedia.org/wiki/Steganography)
+-
