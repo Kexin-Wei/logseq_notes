@@ -1,5 +1,5 @@
 - Code & Decode
 	- identifier: https://www.dcode.fr/cipher-identifier
-	-
+	- https://gchq.github.io/CyberChef/
 - Hash
 	-
