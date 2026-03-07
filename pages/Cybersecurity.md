@@ -10,4 +10,6 @@
 	- https://georgeom.net/StegOnline/extract
 	- https://github.com/ReFirmLabs/binwalk
 	- https://www.aperisolve.com/
+- File Signature
+	- file, xxd
 -
