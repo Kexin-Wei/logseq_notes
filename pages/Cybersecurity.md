@@ -7,4 +7,5 @@
 	- [JohnTheRipper](https://www.openwall.com/john/)
 - [Steganography](https://en.wikipedia.org/wiki/Steganography)
 	- https://georgeom.net/StegOnline/extract
-	-
+	- https://github.com/ReFirmLabs/binwalk
+-
