@@ -13,5 +13,6 @@
 - File Signature
 	- file, xxd
 - Web Exploration
-	- Secrets
-	- Cookie Monster Secret Recipe
+	- sources, applications
+- JSON Web Token (JWT)
+	-
