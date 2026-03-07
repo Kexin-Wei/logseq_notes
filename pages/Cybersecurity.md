@@ -1,4 +1,4 @@
-- CTF Practice: [picoCTF]()
+- CTF Practice: [picoCTF](https://play.picoctf.org/)
 - Cipher
 	- identifier: https://www.dcode.fr/cipher-identifier
 	- tool: https://gchq.github.io/CyberChef/
@@ -6,4 +6,4 @@
 	- https://crackstation.net/
 	- [JohnTheRipper](https://www.openwall.com/john/)
 - [Steganography](https://en.wikipedia.org/wiki/Steganography)
--
+	-
