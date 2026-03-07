@@ -3,4 +3,5 @@
 	- tool: https://gchq.github.io/CyberChef/
 - Hash
 	- https://crackstation.net/
-	-
+	- https://www.openwall.com/john/
+-
