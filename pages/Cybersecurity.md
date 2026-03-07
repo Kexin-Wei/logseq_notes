@@ -2,4 +2,5 @@
 	- identifier: https://www.dcode.fr/cipher-identifier
 	- tool: https://gchq.github.io/CyberChef/
 - Hash
+	- https://crackstation.net/
 	-
