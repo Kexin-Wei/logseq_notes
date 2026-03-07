@@ -14,4 +14,4 @@
 	- file, xxd
 - Web Exploration
 	- Secrets
-	-
+	- Cookie Monster Secret Recipe
