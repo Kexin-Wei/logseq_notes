@@ -15,4 +15,5 @@
 - Web Exploration
 	- sources, applications
 - JSON Web Token (JWT)
-	-
+	- https://www.jwt.io/
+-
