@@ -1,9 +1,108 @@
 # Tech
-	- ## [[🖥️Computer Science]]
-	- ## [[💻️Software Development]]
-	- ## [[🤖Robot]]
-	- ## [[🏥Medical+]]
-	- ## [[🧠AI]]
+	- ## 🖥️Computer Science
+		- [[Linux]]
+		- [[OWASP Top 10 (2025)]]
+		- [[Penetration Testing]]
+		- [[Cybersecurity]]
+	- ## 🧠AI
+		- ### Theory
+			- [[AI Intro Map]]
+			- [[Large Language Model LLM]]
+			- [[🗣️Natural Language Processing]]
+		- ### How To
+			- [[Download Google Drive in Colab or Jupyter]]
+	- ## 💻️Software Development
+		- ### 🖥️Language
+		  collapsed:: true
+			- [[JavaScript]]
+			- [[Golang]]
+			- [[C++]]
+			- [[CMake]]
+			- [[CUDA]]
+			- [[Rust]]
+			- [[Matlab]]
+		- ### 📱Framework
+		  collapsed:: true
+			- [[Qt]]
+			- [[Kotlin]]
+			- [[Vue]]
+			- [[Flutter]]
+		- ### 🌐Libs
+		  collapsed:: true
+			- [[VTK & ITK]]
+			- [[NURBS]]
+			- [Plus](https://plustoolkit.github.io/)
+			- [IGTL](http://openigtlink.org/users/)
+			- [[Numpy]]
+			- [[ROS]]
+		- ### ⚒️Tools
+		  collapsed:: true
+			- [[Docker]]
+			- [[Git]]
+			- [[Neovim]]
+			- [Medical Open Source](https://www.kitware.com/open-source/)
+		- ### 📊 Algorithm
+		  collapsed:: true
+			- [[STL volume calculation]]
+			- [[Python Code Encryption]]
+		- ### 🤹Skills
+		  collapsed:: true
+			- [[Software Management]]
+			  collapsed:: true
+			- [[Agile Management]]
+	- ## 🤖Robot
+		- [[Robot Publications]]
+		- [[🤖Robot Control]]
+		- ### Soft Robot
+		  collapsed:: true
+			- [[Continuum Mechanism]]
+			- [[Continuum Robot]]
+			- [[Soft Robot]]
+		- ### Simulation
+			- [[Soft Tissue Deformation]]
+			- [[Ray Tracing]]
+		- [[🏃Motion Tracking]]
+		- [[📈Signal Processing]]
+		- [[✈️SLAM]]
+		- [[Self Driving Car]]
+	- ## 🏥Medical+
+		- ### 🫁Bio
+			- [[BBN Blood Brain Barrier]]
+			- [[Anatomy Views of Human]]
+			- [[Kidney Anatomy]]
+			- [[Prostate]]
+			- [[🧠Brain Computer Interface]]
+			- [[Type 1 Diabetes]]
+		- ### 🏥 Hospital System
+			- [[FHIR Fast Healthcare Interoperability Resources]]
+		- ### 💉 Surgery
+			- [[Laparoscopic Surgery]]
+		- ### 🩻 Medical Image
+			- [[Medical Image]]
+			- [[CT  Computed Tomography Image]]
+			- #### Ultrasound
+			  collapsed:: true
+				- [[Ultrasound Basic]]
+				- [[Ultrasound Imaging Mechanism]]
+				- [[HIFU]]
+				- [[🔊HIFU Monitoring]]
+				- [[Micro Ultrasound]]
+				- [[Ultrasound Devices]]
+				- [[Ultrasound Quality Assessment]]
+			- #### MRI
+			  collapsed:: true
+				- [[MRI Introduction]]
+				- [[MRI Mechanism]]
+				- [[MRI Sequences]]
+			- #### Medical Image Analysis
+			  collapsed:: true
+				- [DL in image registration](https://www.youtube.com/watch?v=c4dvyTBvysQ https://www.youtube.com/watch?v=O3TmEcaN5Ww)
+				- [[Online Library of Medical Image Analysis]]
+				- [[Medical Image Fusion]]
+				- [[Medical Image Interpolation]]
+				- [[Medical Image Segmentation]]
+				- [[MRI-US Prostate Registration]]
+		- ### [[🖥️ Image Processing]]
 - # 🥼Science
 	- [[🌍️Physics]]
 	- [[🔢Mathematics]]
