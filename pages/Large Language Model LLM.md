@@ -7,5 +7,7 @@
 - # Transformer
 	- Traditional Transformer: encorder + decorder
 		- [[Attention is All You Need]]
-- [[LLM AICamp 2025 Jan06-12]]
-- [[LLM Agent AICamp 2025 Jan 01~05]]
+- # Events
+	- [[LLM AICamp 2025 Jan 01-05]]
+	- [[LLM AICamp 2025 Jan 06-12]]
+	- [[Bio Hackathon: LLMs Model for Bio]]

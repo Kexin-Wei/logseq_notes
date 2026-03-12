@@ -10,7 +10,6 @@
 - ## 💉 Surgery
 	- [[Laparoscopic Surgery]]
 - ## 🩻 Medical Image
-  collapsed:: true
 	- [[Medical Image]]
 	- [[CT  Computed Tomography Image]]
 	- Ultrasound
@@ -26,6 +25,7 @@
 		- [[MRI Mechanism]]
 		- [[MRI Sequences]]
 	- Medical Image Analysis
+		- [DL in image registration](https://www.youtube.com/watch?v=c4dvyTBvysQ https://www.youtube.com/watch?v=O3TmEcaN5Ww)
 		- [[Online Library of Medical Image Analysis]]
 		- [[Medical Image Fusion]]
 		- [[Medical Image Interpolation]]
