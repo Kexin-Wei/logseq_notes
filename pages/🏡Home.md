@@ -9,6 +9,7 @@
 			- [[AI Intro Map]]
 			- [[Large Language Model LLM]]
 			- [[🗣️Natural Language Processing]]
+			- [[AI Agent]]
 		- ### How To
 			- [[Download Google Drive in Colab or Jupyter]]
 	- ## 💻️Software Development
