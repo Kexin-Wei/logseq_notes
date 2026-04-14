@@ -4,6 +4,7 @@
 	- [Multi AI Agent Systems with crewAI](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)
 - # How to Build
 	- Posts
+	- ## Harness
 		- [Ralph Wiggum as a "software engineer"](https://ghuntley.com/ralph/)
 		- [Anthropic: Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)
 		- [Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps)

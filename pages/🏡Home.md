@@ -10,6 +10,20 @@
 			- [[AI Agent]]
 		- ### How To
 			- [[Download Google Drive in Colab or Jupyter]]
+	- ## 🤖Robot
+		- [[Robot Publications]]
+		- [[🤖Robot Control]]
+		- ### Soft Robot
+			- [[Continuum Mechanism]]
+			- [[Continuum Robot]]
+			- [[Soft Robot]]
+		- ### Simulation
+			- [[Soft Tissue Deformation]]
+			- [[Ray Tracing]]
+		- [[🏃Motion Tracking]]
+		- [[📈Signal Processing]]
+		- [[✈️SLAM]]
+		- [[Self Driving Car]]
 	- ## 💻️Software Development
 		- ### 🖥️Language
 		  collapsed:: true
@@ -49,21 +63,6 @@
 			- [[Software Management]]
 			  collapsed:: true
 			- [[Agile Management]]
-	- ## 🤖Robot
-		- [[Robot Publications]]
-		- [[🤖Robot Control]]
-		- ### Soft Robot
-		  collapsed:: true
-			- [[Continuum Mechanism]]
-			- [[Continuum Robot]]
-			- [[Soft Robot]]
-		- ### Simulation
-			- [[Soft Tissue Deformation]]
-			- [[Ray Tracing]]
-		- [[🏃Motion Tracking]]
-		- [[📈Signal Processing]]
-		- [[✈️SLAM]]
-		- [[Self Driving Car]]
 	- ## 🏥Medical+
 		- ### 🫁Bio
 			- [[BBN Blood Brain Barrier]]
