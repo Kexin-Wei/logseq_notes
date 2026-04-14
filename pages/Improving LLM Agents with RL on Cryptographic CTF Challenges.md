@@ -1,7 +1,0 @@
-- Using reinforcement learning to improve LLM agents on cryptographic CTF challenges.
-- See also: [[Pentest Benchmark Comparison]]
-- ## Benchmark
-	- own [[Random-Crypto Benchmark]]
-	- external
-		- picoCTF
-		- AICrypto

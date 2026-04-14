@@ -1,6 +1,0 @@
-- CIPHER: LLM-guided pentesting assistant.
-- See also: [[Pentest Benchmark Comparison]]
-- Guide user as an assistant
-- ![](../assets/cipher_tab2_comparison_of_attackers.png)
-- ## Benchmark
-	- [[CIPHER Benchmark]]

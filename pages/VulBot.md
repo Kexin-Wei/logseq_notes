@@ -1,5 +1,0 @@
-- VulBot: improved variant of PentestGPT.
-- See also: [[Pentest Benchmark Comparison]]
-- improved from PentestGPT
-- ## Benchmark
-	- [[AI Pentest Benchmark]]

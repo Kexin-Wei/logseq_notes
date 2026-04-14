@@ -1,3 +1,0 @@
-- Survey of benchmarking practices in LLM-driven offensive security.
-- See also: [[Pentest Benchmark Comparison]]
-- ![](../assets/happeBenchmarkingPracticesLLMdriven2025_tab4_llms.png)

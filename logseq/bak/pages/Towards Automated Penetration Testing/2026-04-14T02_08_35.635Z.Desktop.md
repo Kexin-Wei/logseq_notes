@@ -1,0 +1,4 @@
+- Slightly improved from PentestGPT.
+- See also: [[Pentest Benchmark Comparison]]
+- ## Benchmark
+	- [[AI Pentest Benchmark]]
