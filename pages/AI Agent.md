@@ -68,4 +68,9 @@
 				- Across runs, the evaluator's assessments improved over iterations before plateauing, with headroom still remaining. Some generations refined incrementally. Others took sharp aesthetic turns between iterations.
 				- Later implementations tended to be better as a whole, but I regularly saw cases where I preferred a middle iteration over the last one.
 			- [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)
-		-
+				- We did the same for observability tooling. Logs, metrics, and traces are exposed to Codex via a local observability stack that’s ephemeral for any given worktree. Codex works on a fully isolated version of that app—including its logs and metrics, which get torn down once that task is complete.
+				- So instead of treating AGENTS.md as the encyclopedia, we treat it as **the table of contents**.
+				  
+				  The repository’s knowledge base lives in a structured docs/ directory treated as the system of record. A short AGENTS.md (roughly 100 lines) is injected into context and serves primarily as a map, with pointers to deeper sources of truth elsewhere.
+				- Design documentation is catalogued and indexed, including verification status and a set of core beliefs that define agent-first operating principles. [Architecture documentation⁠(opens in a new window)](https://matklad.github.io/2021/02/06/ARCHITECTURE.md.html) provides a top-level map of domains and package layering. A quality document grades each product domain and architectural layer, tracking gaps over time.
+				- Plans are treated as first-class artifacts. Ephemeral lightweight plans are used for small changes, while complex work is captured in [execution plans⁠(opens in a new window)](https://cookbook.openai.com/articles/codex_exec_plans) with progress and decision logs that are checked into the repository. Active plans, completed plans, and known technical debt are all versioned and co-located, allowing agents to operate without relying on external context.
