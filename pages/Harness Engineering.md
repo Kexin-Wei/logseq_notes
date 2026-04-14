@@ -1,5 +1,4 @@
 ### Guidance
-collapsed:: true
 	- #### Design
 		- Agent Roles
 			- separate agents by concern — initializer (setup), coder (incremental progress), planner (expand specs), evaluator (validate output)
