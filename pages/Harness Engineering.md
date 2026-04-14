@@ -1,5 +1,5 @@
-### Guidance
-	- #### Design
+# Guidance
+	- ## Design
 		- Agent Roles
 			- separate agents by concern — initializer (setup), coder (incremental progress), planner (expand specs), evaluator (validate output)
 			- single generalist agents consistently underperform multi-agent systems with clear role boundaries
@@ -29,7 +29,7 @@
 			- lets agents reproduce bugs, validate fixes, and reason about runtime behavior directly
 			- > [Ralph] loop back is everything — always look for opportunities to feed output back into the LLM for evaluation. Add logging, compile and inspect output, etc.
 			- > [OpenAI] ephemeral observability stack per worktree (logs, metrics, traces), torn down after task completion. Agents query with LogQL/PromQL. Single runs can work 6+ hours autonomously.
-	- #### Execution
+	- ## Execution
 		- Loop Pattern
 			- one task/feature per iteration, two phases — generate then backpressure (tests/linters/compilers)
 			- speed of feedback > perfect correctness
@@ -56,7 +56,7 @@
 			- parallelize reads/searches freely, restrict builds/tests to single agent
 			- give each agent an isolated environment (worktree + ephemeral observability stack, torn down after task completion)
 			- > [Ralph] up to 500 subagents for reads/searches/writes; primary context acts as scheduler, not executor. ~170k token budget per loop.
-	- #### Quality & Feedback
+	- ## Quality & Feedback
 		- Testing & Quality Gates
 			- test immediately after each unit
 			- use browser automation for end-to-end verification — agents identify and fix bugs not obvious from code alone
@@ -79,7 +79,7 @@
 			- technical debt compounds; pay it down continuously in small increments, not painful bursts
 			- use feature list with pass/fail status to prevent premature completion
 			- > [Ralph] LLMs chase compilation rewards — instruct "DO NOT IMPLEMENT PLACEHOLDER... WE WANT FULL IMPLEMENTATIONS". Search for TODOs, minimal implementations, placeholders. Always "search codebase first, don't assume not implemented" — ripgrep can yield false negatives.
-	- #### Operations
+	- ## Operations
 		- Recovery
 			- expect broken states
 			- options: `git reset --hard`, rescue prompts, or switch models
@@ -97,7 +97,7 @@
 			- stress-test assumptions — remove one component at a time and measure impact
 			- as models improve, the boundary moves outward
 			- human taste is captured once, then enforced continuously on every line of code
-- ### References
+- # References
 	- [Ralph Wiggum as a "software engineer"](https://ghuntley.com/ralph/)
 	  collapsed:: true
 		- LLMs are surprisingly good at reasoning about what is important to implement and what the next steps are.
