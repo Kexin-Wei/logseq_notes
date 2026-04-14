@@ -1,19 +1,9 @@
-- CTF Practice: [picoCTF](https://play.picoctf.org/)
-- Cipher
-	- identifier: https://www.dcode.fr/cipher-identifier
-	- tool: https://gchq.github.io/CyberChef/
-- Hash
-	- https://crackstation.net/
-	- [JohnTheRipper](https://www.openwall.com/john/)
-- [Steganography](https://en.wikipedia.org/wiki/Steganography)
-	- hideme picoCTF
-	- https://georgeom.net/StegOnline/extract
-	- https://github.com/ReFirmLabs/binwalk
-	- https://www.aperisolve.com/
-- File Signature
-	- file, xxd
-- Web Exploration
-	- sources, applications
-- JSON Web Token (JWT)
-	- https://www.jwt.io/
--
+- Top-level hub for all cybersecurity knowledge and research.
+- ## Practice
+	- [[Penetration Testing]] — web app pentest methodology organized by OWASP Top 10
+	- [[CTF Tools and Resources]] — CTF platforms, ciphers, steganography, forensics tools
+- ## Knowledge
+	- [[OWASP Top 10 (2025)]] — the 10 risk categories with primary defenses
+	- [[CWE Top 25]] — specific weakness types, memory-safety CWEs, OWASP-CWE mapping
+- ## Research
+	- [[LLM-Assisted Penetration Testing]] — project notes, benchmarks, and paper reviews on AI-driven pentesting

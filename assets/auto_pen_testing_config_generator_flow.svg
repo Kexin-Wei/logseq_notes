@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="500" height="1180" viewBox="-20 -10 540 1200">
+  <style>
+    .box { fill: #fff; stroke: #000; stroke-width: 2; }
+    .term { fill: #fff; stroke: #000; stroke-width: 2; }
+    .decision { fill: #fff; stroke: #000; stroke-width: 2; }
+    .label { font-family: Helvetica; font-size: 12px; text-anchor: middle; }
+    .label-small { font-family: Helvetica; font-size: 11px; text-anchor: middle; }
+    .phase-bg { stroke: none; opacity: 0.08; }
+    .phase-label { font-family: Helvetica; font-size: 11px; font-weight: bold; text-anchor: start; }
+  </style>
+
+  <!-- ===== Phase backgrounds ===== -->
+  <rect x="5" y="148" width="400" height="150" rx="8" class="phase-bg" fill="#2196F3"/>
+  <text x="15" y="165" class="phase-label" fill="#1565C0">P0: YAML Validation</text>
+
+  <rect x="5" y="310" width="400" height="330" rx="8" class="phase-bg" fill="#4CAF50"/>
+  <text x="15" y="327" class="phase-label" fill="#2E7D32">P1: Review</text>
+
+  <rect x="5" y="650" width="400" height="300" rx="8" class="phase-bg" fill="#FF9800"/>
+  <text x="15" y="667" class="phase-label" fill="#E65100">P2: Deploy</text>
+
+  <!-- ===== Start ===== -->
+  <ellipse cx="195" cy="25" rx="50" ry="20" class="term"/>
+  <text x="195" y="30" class="label">Start</text>
+
+  <line x1="195" y1="45" x2="195" y2="73" stroke="#000" stroke-width="1.5"/>
+  <polygon points="195,78 191,71 199,71" fill="#000"/>
+
+  <!-- Generate -->
+  <rect x="80" y="80" width="230" height="50" rx="7" class="box"/>
+  <text x="195" y="102" class="label">Generate docker_compose.yaml</text>
+  <text x="195" y="116" class="label">+ ground_truth.json via LLM</text>
+
+  <line x1="195" y1="130" x2="195" y2="170" stroke="#000" stroke-width="1.5"/>
+  <polygon points="195,175 191,168 199,168" fill="#000"/>
+
+  <!-- P0: YAML Syntax Valid? -->
+  <polygon points="195,180 295,222 195,264 95,222" class="decision"/>
+  <text x="195" y="219" class="label">YAML Syntax</text>
+  <text x="195" y="232" class="label">Valid?</text>
+
+  <!-- No → Generator Fix -->
+  <line x1="295" y1="222" x2="335" y2="222" stroke="#000" stroke-width="1.5"/>
+  <text x="312" y="215" class="label-small">No</text>
+  <rect x="338" y="204" width="115" height="36" rx="5" class="box"/>
+  <text x="396" y="220" class="label-small">Generator Fix</text>
+  <text x="396" y="232" class="label-small">(up to 3x)</text>
+  <!-- Loop back under diamond, around left side, into left vertex -->
+  <path d="M 396 240 L 396 280 L 80 280 L 80 222 L 95 222" fill="none" stroke="#000" stroke-width="1.5"/>
+  <polygon points="95,222 88,218 88,226" fill="#000"/>
+
+  <!-- Yes ↓ -->
+  <line x1="195" y1="264" x2="195" y2="335" stroke="#000" stroke-width="1.5"/>
+  <polygon points="195,340 191,333 199,333" fill="#000"/>
+  <text x="208" y="282" class="label-small">Yes</text>
+
+  <!-- P1: Auto-fixes -->
+  <rect x="80" y="343" width="230" height="35" rx="7" class="box"/>
+  <text x="195" y="365" class="label">Auto-fixes (localhost, $var escaping)</text>
+
+  <line x1="195" y1="378" x2="195" y2="403" stroke="#000" stroke-width="1.5"/>
+  <polygon points="195,408 191,401 199,401" fill="#000"/>
+
+  <!-- Static Checker Pass? -->
+  <polygon points="195,413 295,453 195,493 95,453" class="decision"/>
+  <text x="195" y="450" class="label">Static Checker</text>
+  <text x="195" y="463" class="label">Pass?</text>
+
+  <!-- No → LLM Surgical Fix (for static) -->
+  <line x1="295" y1="453" x2="335" y2="453" stroke="#000" stroke-width="1.5"/>
+  <text x="312" y="446" class="label-small">No</text>
+  <rect x="338" y="435" width="115" height="36" rx="5" class="box"/>
+  <text x="396" y="451" class="label-small">LLM Surgical</text>
+  <text x="396" y="463" class="label-small">Fix</text>
+  <!-- Loop back to auto-fixes: right to x=490, up to y=360, left to box edge -->
+  <path d="M 453 453 L 490 453 L 490 360 L 316 360" fill="none" stroke="#000" stroke-width="1.5"/>
+  <polygon points="316,360 323,356 323,364" fill="#000"/>
+
+  <!-- Yes ↓ -->
+  <line x1="195" y1="493" x2="195" y2="523" stroke="#000" stroke-width="1.5"/>
+  <polygon points="195,528 191,521 199,521" fill="#000"/>
+  <text x="208" y="510" class="label-small">Yes</text>
+
+  <!-- LLM Review Pass? -->
+  <polygon points="195,533 295,573 195,613 95,573" class="decision"/>
+  <text x="195" y="570" class="label">LLM Review</text>
+  <text x="195" y="583" class="label">Pass?</text>
+
+  <!-- No → LLM Surgical Fix (for review) -->
+  <line x1="295" y1="573" x2="335" y2="573" stroke="#000" stroke-width="1.5"/>
+  <text x="312" y="566" class="label-small">No</text>
+  <rect x="338" y="555" width="115" height="36" rx="5" class="box"/>
+  <text x="396" y="571" class="label-small">LLM Surgical</text>
+  <text x="396" y="583" class="label-small">Fix</text>
+  <!-- Loop back to auto-fixes: right to shared channel x=490, up to y=360, left -->
+  <path d="M 453 573 L 490 573 L 490 453" fill="none" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Yes ↓ to Phase 2 -->
+  <line x1="195" y1="613" x2="195" y2="675" stroke="#000" stroke-width="1.5"/>
+  <polygon points="195,680 191,673 199,673" fill="#000"/>
+  <text x="208" y="632" class="label-small">Yes</text>
+
+  <!-- P2: Auto-fixes (safety net) -->
+  <rect x="80" y="683" width="230" height="35" rx="7" class="box"/>
+  <text x="195" y="705" class="label">Auto-fixes (safety net)</text>
+
+  <line x1="195" y1="718" x2="195" y2="743" stroke="#000" stroke-width="1.5"/>
+  <polygon points="195,748 191,741 199,741" fill="#000"/>
+
+  <!-- Deploy + Verify -->
+  <rect x="80" y="751" width="230" height="35" rx="7" class="box"/>
+  <text x="195" y="773" class="label">Deploy containers + verify health</text>
+
+  <line x1="195" y1="786" x2="195" y2="816" stroke="#000" stroke-width="1.5"/>
+  <polygon points="195,821 191,814 199,814" fill="#000"/>
+
+  <!-- Deploy Succeed? -->
+  <polygon points="195,826 295,866 195,906 95,866" class="decision"/>
+  <text x="195" y="863" class="label">Deploy</text>
+  <text x="195" y="876" class="label">Succeed?</text>
+
+  <!-- No → Deployer Fix -->
+  <line x1="295" y1="866" x2="335" y2="866" stroke="#000" stroke-width="1.5"/>
+  <text x="312" y="859" class="label-small">No</text>
+  <rect x="338" y="848" width="115" height="36" rx="5" class="box"/>
+  <text x="396" y="864" class="label-small">Deployer Fix</text>
+  <text x="396" y="876" class="label-small">(up to Nx)</text>
+  <!-- Loop back to Phase 2 auto-fixes -->
+  <path d="M 453 866 L 490 866 L 490 700 L 316 700" fill="none" stroke="#000" stroke-width="1.5"/>
+  <polygon points="316,700 323,696 323,704" fill="#000"/>
+
+  <!-- Yes ↓ Teardown -->
+  <line x1="195" y1="906" x2="195" y2="953" stroke="#000" stroke-width="1.5"/>
+  <polygon points="195,958 191,951 199,951" fill="#000"/>
+  <text x="208" y="928" class="label-small">Yes</text>
+
+  <!-- Teardown + Save -->
+  <rect x="80" y="961" width="230" height="35" rx="7" class="box"/>
+  <text x="195" y="983" class="label">Teardown + save files</text>
+
+  <line x1="195" y1="996" x2="195" y2="1023" stroke="#000" stroke-width="1.5"/>
+  <polygon points="195,1028 191,1021 199,1021" fill="#000"/>
+
+  <!-- All vulns done? -->
+  <polygon points="195,1033 285,1068 195,1103 105,1068" class="decision"/>
+  <text x="195" y="1065" class="label">All vulns</text>
+  <text x="195" y="1078" class="label">done?</text>
+
+  <!-- No → back to Generate -->
+  <line x1="285" y1="1068" x2="335" y2="1068" stroke="#000" stroke-width="1.5"/>
+  <text x="308" y="1061" class="label-small">No</text>
+  <path d="M 335 1068 L 380 1068 L 380 60 L 195 60 L 195 75" fill="none" stroke="#000" stroke-width="1.5"/>
+  <polygon points="195,78 191,71 199,71" fill="#000"/>
+
+  <!-- Yes ↓ End -->
+  <line x1="195" y1="1103" x2="195" y2="1128" stroke="#000" stroke-width="1.5"/>
+  <polygon points="195,1133 191,1126 199,1126" fill="#000"/>
+  <text x="208" y="1120" class="label-small">Yes</text>
+
+  <ellipse cx="195" cy="1150" rx="50" ry="20" class="term"/>
+  <text x="195" y="1155" class="label">End</text>
+
+  <!-- Outer retry annotation (left side, dashed) -->
+  <path d="M 80 906 L 35 906 L 35 92 L 75 92" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="5,3"/>
+  <polygon points="78,92 71,88 71,96" fill="#999"/>
+  <text x="18" y="500" class="label-small" transform="rotate(-90, 18, 500)" fill="#999">Fail all retries → regenerate</text>
+</svg>

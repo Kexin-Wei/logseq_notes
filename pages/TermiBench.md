@@ -1,0 +1,9 @@
+- TermiBench benchmark specs.
+- See also: [[Pentest Benchmark Comparison]]
+- ## Specs
+	- 510 hosts, 30 CVEs (RCE, 2015-2025), 25 services
+	- Success criterion: system shell (not flag)
+	- Initial knowledge: subnet only
+	- Multi-service noise: 0/1/3/5/7 benign services per host
+	- Benign pool: sshd, mysql, redis, nginx, etc. (14 total)
+	- Zenodo: https://doi.org/10.5281/zenodo.16962513

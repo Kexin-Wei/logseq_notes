@@ -1,4 +1,5 @@
 - Web application penetration testing methodology based on [[OWASP Top 10 (2025)]].
+- See also: [[Cybersecurity]]
 - ## Testability Overview
 	- | Category | Testable | Notes |
 	  |----------|----------|-------|

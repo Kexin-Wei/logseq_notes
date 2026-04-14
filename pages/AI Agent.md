@@ -7,4 +7,4 @@
 		- [Ralph Wiggum as a "software engineer"](https://ghuntley.com/ralph/)
 		- [Anthropic: Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)
 		- [Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps)
-		-
+		- [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)

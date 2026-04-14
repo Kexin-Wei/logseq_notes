@@ -1,0 +1,6 @@
+- Cryptographic CTF benchmark with LLM + reinforcement learning generation.
+- See also: [[Pentest Benchmark Comparison]]
+- for cryptographic
+- difficulty levels: easy / medium / hard
+- llm + reinforcement learning generated
+- 16 challenges, 50 subtypes

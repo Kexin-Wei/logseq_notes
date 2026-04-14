@@ -1,0 +1,17 @@
+- HackSynth CTF benchmark.
+- See also: [[Pentest Benchmark Comparison]]
+- https://github.com/aielte-research/HackSynth
+- ## Focus
+	- Cybersecurity
+- ## Specs
+	- CTF
+	- Source: PicoCTF (with difficulty and category) and OverTheWire (manually labelled)
+	- 200 challenges
+	- 3 difficulty levels: easy / medium / hard
+	- 6 categories
+		- General skills
+		- Cryptography
+		- Web Exploitation
+		- Forensics
+		- Reverse Engineering
+		- Binary Exploitation

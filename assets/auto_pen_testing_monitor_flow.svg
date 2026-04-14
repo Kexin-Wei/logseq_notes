@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="380" height="720" viewBox="-10 -10 400 740">
+  <style>
+    .box { fill: #fff; stroke: #000; stroke-width: 2; }
+    .term { fill: #fff; stroke: #000; stroke-width: 2; }
+    .decision { fill: #fff; stroke: #000; stroke-width: 2; }
+    .label { font-family: Helvetica; font-size: 12px; text-anchor: middle; }
+    .label-small { font-family: Helvetica; font-size: 11px; text-anchor: middle; fill: #000; }
+    .version { font-family: Helvetica; font-size: 11px; font-weight: bold; fill: #888; }
+  </style>
+
+  <!-- Start terminal -->
+  <ellipse cx="160" cy="25" rx="50" ry="20" class="term"/>
+  <text x="160" y="30" class="label">Start</text>
+
+  <!-- Arrow Start → Config Generator -->
+  <path d="M 160 45 L 160 75" fill="none" stroke="#000" stroke-width="1.5"/>
+  <polygon points="160,80 156,73 164,73" fill="#000"/>
+
+  <!-- 1. Config Generator -->
+  <rect x="55" y="80" width="210" height="50" rx="7" class="box"/>
+  <text x="160" y="101" class="label">Config Generator:</text>
+  <text x="160" y="118" class="label">Docker Config + Ground Truth</text>
+  <text x="300" y="110" class="version">V0</text>
+
+  <!-- Arrow → Validators (V1) -->
+  <path d="M 160 130 L 160 160" fill="none" stroke="#000" stroke-width="1.5"/>
+  <polygon points="160,165 156,158 164,158" fill="#000"/>
+
+  <!-- 2. Validators (V1) -->
+  <rect x="55" y="165" width="210" height="50" rx="7" class="box"/>
+  <text x="160" y="186" class="label">Validators:</text>
+  <text x="160" y="203" class="label">Fix configs to match ground truth</text>
+  <text x="300" y="195" class="version">V1</text>
+
+  <!-- Arrow → Attacker -->
+  <path d="M 160 215 L 160 245" fill="none" stroke="#000" stroke-width="1.5"/>
+  <polygon points="160,250 156,243 164,243" fill="#000"/>
+
+  <!-- 3. Attacker -->
+  <rect x="55" y="250" width="210" height="50" rx="7" class="box" id="attacker"/>
+  <text x="160" y="271" class="label">Attacker:</text>
+  <text x="160" y="288" class="label">Attack containers, gen reports</text>
+
+  <!-- Arrow → Patcher -->
+  <path d="M 160 300 L 160 330" fill="none" stroke="#000" stroke-width="1.5"/>
+  <polygon points="160,335 156,328 164,328" fill="#000"/>
+
+  <!-- 4. Patcher -->
+  <rect x="55" y="335" width="210" height="50" rx="7" class="box"/>
+  <text x="160" y="356" class="label">Patcher:</text>
+  <text x="160" y="373" class="label">Add complexity to configs</text>
+  <text x="300" y="365" class="version">V2</text>
+
+  <!-- Arrow → Validators (V3) -->
+  <path d="M 160 385 L 160 415" fill="none" stroke="#000" stroke-width="1.5"/>
+  <polygon points="160,420 156,413 164,413" fill="#000"/>
+
+  <!-- 5. Validators (V3) -->
+  <rect x="55" y="420" width="210" height="50" rx="7" class="box"/>
+  <text x="160" y="441" class="label">Validators:</text>
+  <text x="160" y="458" class="label">Re-evaluate config correctness</text>
+  <text x="300" y="450" class="version">V3</text>
+
+  <!-- Arrow → Decision -->
+  <path d="M 160 470 L 160 500" fill="none" stroke="#000" stroke-width="1.5"/>
+  <polygon points="160,505 156,498 164,498" fill="#000"/>
+
+  <!-- Decision diamond -->
+  <polygon points="160,505 270,565 160,625 50,565" class="decision"/>
+  <text x="160" y="560" class="label">Black-box &lt;&lt;</text>
+  <text x="160" y="575" class="label">Grey-box?</text>
+
+  <!-- Yes → End -->
+  <path d="M 160 625 L 160 665" fill="none" stroke="#000" stroke-width="1.5"/>
+  <polygon points="160,670 156,663 164,663" fill="#000"/>
+  <text x="175" y="650" class="label-small">Yes</text>
+
+  <!-- End terminal -->
+  <ellipse cx="160" cy="690" rx="50" ry="20" class="term"/>
+  <text x="160" y="695" class="label">End</text>
+
+  <!-- No → Loop back to Attacker -->
+  <path d="M 270 565 L 340 565 L 340 275 L 271 275" fill="none" stroke="#000" stroke-width="1.5"/>
+  <polygon points="265,275 272,271 272,279" fill="#000"/>
+  <text x="350" y="420" class="label-small" text-anchor="start">No</text>
+</svg>

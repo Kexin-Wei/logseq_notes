@@ -1,0 +1,21 @@
+- AutoPT benchmark details (IEEE TIFS '25).
+- See also: [[Pentest Benchmark Comparison]]
+- https://github.com/Dizzy-K/AutoPT
+- ## Benchmark standard
+	- Walter J Price. 1989. A benchmark tutorial. IEEE micro 9, 5 (1989), 28–43.
+	- Xue Qiu, Shuguang Wang, Qiong Jia, Chunhe Xia, and Qingxin Xia. 2014. An automated method of penetration testing. In 2014 IEEE Computers, Communications and IT Applications Conference. IEEE, 211–216.
+	- Comprehensive tasks: Benchmarks must include different tasks that reflect different systems and simulate the diversity of scenarios encountered in real-world penetration tests.
+	- Complexity levels: Benchmarks must include tasks of different complexity levels, from simple to complex, to ensure the wide applicability of benchmarks.
+	- Out of the box: Benchmarks must include clear attack environment specifications to ensure the consistency of the target system of the test environment.
+	- Clear targets: Benchmarks must include clear test targets to accurately identify whether the penetration test has been completed, which is an accurate additional criterion.
+- ## How to build
+	- Source: Vulhub
+	- Manual filtered and tested
+	- Split into simple and complex given number of steps (<3 simple and >3 difficult)
+- ## Specs
+	- OWASP Top 10 vulnerability
+	- 4 major categories, 6 subcategories
+	- 17 pentest environment, 20 CVE projects
+	- 20 out-of-box docker environments
+- ## Github Categories
+	- Broken Access Control, Cryptographic Failures, Identification and Authentication Failures, Injection, Insecure Design, Security Logging and Monitoring Failures, Security Misconfiguration, Server-Side Request Forgery (SSRF), Software and Data Integrity Failures, Vulnerable and Outdated Components

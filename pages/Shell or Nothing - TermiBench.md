@@ -1,0 +1,7 @@
+- Real-world penetration testing benchmark with 510 hosts.
+- See also: [[Pentest Literature Review]]
+- [Shell or Nothing: Real-World Benchmarks and Memory-Activated Agents for Automated Penetration Testing](http://arxiv.org/abs/2509.09207)
+- This paper introduced a new penetration benchmark that is different from Catch The Flag CTF rather a real-world scenario. This benchmark consisted of 510 instances, with benign and vulnerable services in each one. It started from 30 vulnerable configs, and built more combinations by adding benign services from a pool of 14 benign services. The 30 initiate cases were extracted from GitHub, polished and standarised with distilled manuals.
+	- TermiBench: [download](https://zenodo.org/records/17479793)
+- ## Benchmark
+	- [[TermiBench]]

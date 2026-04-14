@@ -1,0 +1,20 @@
+- Tools and resources for CTF (Capture The Flag) practice.
+- See also: [[Cybersecurity]]
+- CTF Practice: [picoCTF](https://play.picoctf.org/)
+- Cipher
+	- identifier: https://www.dcode.fr/cipher-identifier
+	- tool: https://gchq.github.io/CyberChef/
+- Hash
+	- https://crackstation.net/
+	- [JohnTheRipper](https://www.openwall.com/john/)
+- [Steganography](https://en.wikipedia.org/wiki/Steganography)
+	- hideme picoCTF
+	- https://georgeom.net/StegOnline/extract
+	- https://github.com/ReFirmLabs/binwalk
+	- https://www.aperisolve.com/
+- File Signature
+	- file, xxd
+- Web Exploration
+	- sources, applications
+- JSON Web Token (JWT)
+	- https://www.jwt.io/
