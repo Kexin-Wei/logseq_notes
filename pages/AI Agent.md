@@ -5,7 +5,12 @@
 - # How to Build
 	- Posts
 	- ## Harness
-		- [Ralph Wiggum as a "software engineer"](https://ghuntley.com/ralph/)
-		- [Anthropic: Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)
-		- [Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps)
-		- [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)
+		- References
+			- [Ralph Wiggum as a "software engineer"](https://ghuntley.com/ralph/)
+			- [Anthropic: Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)
+			- [Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps)
+			- [Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)
+		- To get good outcomes with Ralph, you need to ask Ralph to do one thing per loop. **Only one thing**. Now, this might seem wild, but you also need to trust Ralph to decide what's the most important thing to implement. This is full hands-off vibe coding that will test the bounds of what you consider "responsible engineering".
+		- LLMs are surprisingly good at reasoning about what is important to implement and what the next steps are.
+		- one item per loop
+		-
