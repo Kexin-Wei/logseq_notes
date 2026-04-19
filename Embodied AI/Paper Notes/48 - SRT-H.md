@@ -9,6 +9,7 @@ status: unread
 link: https://doi.org/10.1126/scirobotics.adt5254
 zotero: false
 ---
+tags:: tier/D, landmark, baseline-candidate, surgical-skill
 
 # 48 — SRT-H
 

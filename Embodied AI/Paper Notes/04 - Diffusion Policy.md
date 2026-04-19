@@ -9,6 +9,7 @@ status: unread
 link: https://arxiv.org/abs/2303.04137
 zotero: true
 ---
+tags:: tier/D, landmark, vla-foundation
 
 # 04 — Diffusion Policy
 

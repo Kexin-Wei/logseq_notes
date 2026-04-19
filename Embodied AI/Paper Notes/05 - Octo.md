@@ -7,6 +7,7 @@ link: https://arxiv.org/abs/2405.12213
 primary_theme: vla-foundation
 bibtex_key: octo2024
 ---
+tags:: tier/K, vla-foundation
 
 # 05 — Octo
 

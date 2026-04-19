@@ -14,6 +14,7 @@ themes: [surgical-sim, survey]
 is_baseline: false
 is_survey: true
 ---
+tags:: tier/D, survey, surgical-sim
 
 # 22 — Reality Gap Survey
 

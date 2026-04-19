@@ -9,6 +9,7 @@ status: unread
 link: https://arxiv.org/abs/2506.02555
 zotero: false
 ---
+tags:: tier/D, landmark, baseline-candidate, surgical-fm
 
 # 40 — SurgVLM
 

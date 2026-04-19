@@ -9,6 +9,7 @@ status: unread
 link: https://arxiv.org/abs/2504.11827
 zotero: false
 ---
+tags:: tier/D, survey, gap-evidence, tactile-force
 
 # 51 — Towards Forceful Robotic Foundation Models
 

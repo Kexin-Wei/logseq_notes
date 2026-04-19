@@ -9,6 +9,7 @@ status: unread
 link: https://doi.org/10.1038/s44287-025-00166-6
 zotero: true
 ---
+tags:: tier/D, survey, surgical-perception
 
 # 28 — LVMs for Robot-Assisted Surgery
 

@@ -9,6 +9,7 @@ status: unread
 link: https://arxiv.org/abs/2510.16240
 zotero: false
 ---
+tags:: tier/D, landmark, baseline-candidate, world-model, surgical-fm
 
 # 18 — Cosmos-Surg-dVRK
 

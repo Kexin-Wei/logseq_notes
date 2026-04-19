@@ -14,6 +14,7 @@ themes: [vla-foundation, survey]
 is_baseline: false
 is_survey: true
 ---
+tags:: tier/D, survey, vla-foundation
 
 # 01 — VLA Survey: Action Tokenization Perspective
 

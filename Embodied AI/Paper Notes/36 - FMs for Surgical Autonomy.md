@@ -9,6 +9,7 @@ status: unread
 link: https://doi.org/10.1038/s42256-024-00917-4
 zotero: false
 ---
+tags:: tier/D, survey, landmark, surgical-fm
 
 # 36 — FMs for Surgical Autonomy (Perspective)
 

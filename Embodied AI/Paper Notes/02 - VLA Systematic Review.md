@@ -14,6 +14,7 @@ themes: [vla-foundation, survey]
 is_baseline: false
 is_survey: true
 ---
+tags:: tier/S, survey, vla-foundation
 
 # 02 — VLA Models in Robotic Manipulation: A Systematic Review
 

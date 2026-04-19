@@ -9,6 +9,7 @@ status: unread
 link: https://arxiv.org/abs/1803.10122
 zotero: true
 ---
+tags:: tier/D, landmark, world-model
 
 # 12 — World Models (Ha & Schmidhuber)
 

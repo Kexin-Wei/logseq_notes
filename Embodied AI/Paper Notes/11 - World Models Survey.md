@@ -9,6 +9,7 @@ status: unread
 link: https://arxiv.org/abs/2510.16732
 zotero: true
 ---
+tags:: tier/D, survey, world-model
 
 # 11 — World Models Survey for Embodied AI
 

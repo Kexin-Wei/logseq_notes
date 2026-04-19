@@ -14,6 +14,7 @@ themes: [vla-foundation, survey]
 is_baseline: false
 is_survey: true
 ---
+tags:: tier/S, survey, vla-foundation
 
 # 63 — VLA Models for Robotics: A Review Towards Real-World Applications
 
