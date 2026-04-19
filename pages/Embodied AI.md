@@ -41,8 +41,8 @@
 	  8. **Tactile/force integration** -- identified gap in all VLA surveys
 - ## Navigation
 	- **primary** — 64 papers indexed by section S1–S8 with D/S/K tier tags
-	- [Themes MOC](../Embodied%20AI/Themes/_MOC.md) — cross-cutting view: same papers re-grouped by 8 themes
-	- **Tip:** this page is organized by reading section (S1 VLA → S8 Regulation). The Themes MOC is the orthogonal view — start there when synthesising across sections.
+	- [Themes MOC](../Embodied%20AI/Themes/MOC.md) — cross-cutting view: same papers re-grouped by 8 themes
+	- **Tip:** this page is organized by reading section (S1 VLA → S8 Regulation). Tihe Themes MOC is the orthogonal view — start there when synthesising across sections.
 - ## S1: Foundations -- Robot Learning & Embodied AI
 	- | #   | Paper                                                                                                   | Year | Venue                 | Source | Key Contribution                                                                                        | Depth | Status |
 	  | --- | ------------------------------------------------------------------------------------------------------- | ---- | --------------------- | ------ | ------------------------------------------------------------------------------------------------------- | ----- | ------ |
