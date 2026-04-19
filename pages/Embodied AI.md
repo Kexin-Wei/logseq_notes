@@ -5,7 +5,7 @@
 	  > **Depth:** D = Deep read (精读, ~2-2.5h) | S = Skim (略读, ~30min) | K = Skip (扫读, abstract+figs only, ~10min)
 	  > **Totals:** 12 D | 31 S | 21 K — fits ~49 hrs over 14 days at 3-4 hrs/day
 - ## Templates
-  Copy the matching one when starting a new paper note.
+	- Copy the matching one when starting a new paper note.
 	- [[Template - Review (Survey)]] — for surveys / reviews (taxonomy-led)
 	- [[Template - D (Deep Read)]] — for landmark method papers (~2h read)
 	- [[Template - S (Skim)]] — for skim-tier papers (~30min, ~100 words)
@@ -43,6 +43,11 @@
 	  6. **FDA regulation** -- Jan 2025 draft guidance for AI-enabled surgical devices
 	  7. **Gemini Robotics** -- Google's push into physical AI
 	  8. **Tactile/force integration** -- identified gap in all VLA surveys
+- ## Navigation
+	- **primary** — 64 papers indexed by section S1–S8 with D/S/K tier tags
+	- [Themes MOC](../Embodied%20AI/Themes/_MOC.md) — cross-cutting view: same papers re-grouped by 8 themes
+	- [Paper Publishing Timeline](../Embodied%20AI/Paper%20Publishing%20Timeline.md) — 26-week plan + conference/journal targets
+	- **Tip:** this page is organized by reading section (S1 VLA → S8 Regulation). The Themes MOC is the orthogonal view — start there when synthesising across sections.
 - ## S1: Foundations -- Robot Learning & Embodied AI
 	- | #   | Paper                                                                                                   | Year | Venue                 | Source | Key Contribution                                                                                        | Depth | Status |
 	  | --- | ------------------------------------------------------------------------------------------------------- | ---- | --------------------- | ------ | ------------------------------------------------------------------------------------------------------- | ----- | ------ |
@@ -58,8 +63,6 @@
 	  | 10  | [GR00T N1: Open Humanoid Robot Foundation Model](https://arxiv.org/abs/2503.14734)                      | 2025 | NVIDIA GTC            | [NEW]  | Dual-system architecture: fast reflexes + slow VLM reasoning                                            | S     | ( )    |
 	  | 63  | [VLA Models for Robotics: A Review Towards Real-World Applications](https://arxiv.org/abs/2503.08906)   | 2025 | arXiv                 | [NEW]  | **Survey** -- sensorimotor/world/affordance taxonomy; flags tactile, memory, continual learning as gaps | S     | (s)    |
 	  | 64  | [CLIP: Learning Transferable Visual Models from Natural Language Supervision](https://arxiv.org/abs/2103.00020) | 2021 | ICML                  | [NEW]  | **Foundational VLM** -- contrastive image-text pretraining; vision backbone underlying most VLAs        | S     | ( )    |
-	  
-	  ---
 - ## S2: World Models for Robotics
 	- | # | Paper | Year | Venue | Source | Key Contribution | Depth | Status |
 	  |---|-------|------|-------|--------|------------------|-------|--------|
