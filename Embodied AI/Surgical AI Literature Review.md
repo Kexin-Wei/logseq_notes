@@ -1,0 +1,290 @@
+# Surgical / Medical Robots x Physical AI / Embodied AI / World Models
+
+> **64 papers** | Last updated: 2026-04-19
+> **Legend:** [Z] = in Zotero (PDF available) | [N] = already in notes | [NEW] = to be added
+> **Status:** ( ) = unread | (x) = read | (s) = skimmed
+> **Depth:** D = Deep read (精读, ~2-2.5h) | S = Skim (略读, ~30min) | K = Skip (扫读, abstract+figs only, ~10min)
+> **Totals:** 12 D | 31 S | 21 K — fits ~49 hrs over 14 days at 3-4 hrs/day
+
+---
+
+%%  %%## Reading Roadmap
+
+```
+S1: Foundations (VLA paradigm)
+       |
+       v
+S2: World Models  ------->  S3: Sim-to-Real & Surgical Sim
+       |                           |
+       v                           v
+S7: Tactile/Force  <-----  S4: Surgical Perception (3DGS, SAM)
+       |                           |
+       v                           v
+S5: Surgical Foundation Models  <---  S6: Learning Surgical Skills
+                |
+                v
+       S8: Safety & Regulation
+```
+
+**Strategy:** In each section, read surveys first for the big picture, then individual papers by year (oldest to newest).
+1. **S1** -- surveys first, then RT-2 (2023) -> pi_0.5/Gemini/GR00T (2025)
+2. **S2** -- survey first, then Ha 2018 classic -> DreamerV3 -> 2026 cutting-edge
+3. **S3-S4** -- surveys first, then surgical sim + perception ("eyes" and "training ground")
+4. **S5-S6** -- reviews/perspectives first, then surgical FMs + autonomous skills ("brain" and "hands")
+5. **S7** -- survey first, then tactile/force (next frontier, key gap in all surveys)
+6. **S8** -- reviews first (2021 foundational -> 2024 systematic -> 2025 perspectives)
+
+---
+
+## Hot Topics (2025-2026)
+
+1. **Autonomous surgery milestones** -- SRT-H cholecystectomy (Science Robotics 2025)
+2. **World models as policies** -- World Action Models (2026), Unified World Models (2025)
+3. **Surgical world models** -- Cosmos-Surg-dVRK bridging NVIDIA Cosmos to surgery
+4. **3D Gaussian Splatting replacing NeRF** -- 5+ MICCAI 2024 papers on surgical 3DGS
+5. **Surgical VLMs** -- SurgVLM as first large-scale surgical vision-language model
+6. **FDA regulation** -- Jan 2025 draft guidance for AI-enabled surgical devices
+7. **Gemini Robotics** -- Google's push into physical AI
+8. **Tactile/force integration** -- identified gap in all VLA surveys
+
+---
+
+## S1: Foundations -- Robot Learning & Embodied AI
+
+| #   | Paper                                                                                                   | Year | Venue                 | Source | Key Contribution                                                                                        | Depth | Status |
+| --- | ------------------------------------------------------------------------------------------------------- | ---- | --------------------- | ------ | ------------------------------------------------------------------------------------------------------- | ----- | ------ |
+| 1   | [A Survey on VLA Models: An Action Tokenization Perspective](https://arxiv.org/abs/2507.01925)          | 2025 | arXiv                 | [Z][N] | **Survey** -- unifying framework through 8 action token types                                           | D     | (s)    |
+| 2   | [VLA Models in Robotic Manipulation: A Systematic Review](https://arxiv.org/abs/2507.10672)             | 2025 | arXiv                 | [Z][N] | **Survey** -- benchmarks, SigLIP+LLaMA+diffusion as dominant arch                                       | S     | (s)    |
+| 3   | [RT-2: Vision-Language-Action Models](https://arxiv.org/abs/2307.15818)                                 | 2023 | DeepMind              | [Z]    | Pioneering VLA -- web knowledge transferred to robot actions                                            | D     | ( )    |
+| 4   | [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion](https://arxiv.org/abs/2303.04137)   | 2023 | RSS                   | [Z]    | Foundational action generation method used across VLAs                                                  | D     | ( )    |
+| 5   | [Octo: An Open-Source Generalist Robot Policy](https://arxiv.org/abs/2405.12213)                        | 2024 | CoRL                  | [NEW]  | Lightweight open-source generalist policy with diffusion output                                         | K     | ( )    |
+| 6   | [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246)                | 2024 | CoRL                  | [NEW]  | 7B open-source VLA, standard benchmark on Open X-Embodiment                                             | K     | ( )    |
+| 7   | [pi_0: A Vision-Language-Action Flow Model for General Robot Control](https://arxiv.org/abs/2410.24164) | 2024 | Physical Intelligence | [NEW]  | 2B VLA with flow matching, 50Hz real-time control                                                       | S     | ( )    |
+| 8   | [pi_0.5: A VLA Model with Open-World Generalization](https://arxiv.org/abs/2504.16054)                  | 2025 | Physical Intelligence | [Z]    | Extended pi_0 with open-world generalization                                                            | S     | ( )    |
+| 9   | [Gemini Robotics 1.5: Pushing the Frontier of Generalist Robots](https://arxiv.org/abs/2510.03342)      | 2025 | Google DeepMind       | [Z]    | Google's generalist robot with multimodal reasoning                                                     | S     | ( )    |
+| 10  | [GR00T N1: Open Humanoid Robot Foundation Model](https://arxiv.org/abs/2503.14734)                      | 2025 | NVIDIA GTC            | [NEW]  | Dual-system architecture: fast reflexes + slow VLM reasoning                                            | S     | ( )    |
+| 63  | [VLA Models for Robotics: A Review Towards Real-World Applications](https://arxiv.org/abs/2503.08906)   | 2025 | arXiv                 | [NEW]  | **Survey** -- sensorimotor/world/affordance taxonomy; flags tactile, memory, continual learning as gaps | S     | (s)    |
+| 64  | [CLIP: Learning Transferable Visual Models from Natural Language Supervision](https://arxiv.org/abs/2103.00020) | 2021 | ICML                  | [NEW]  | **Foundational VLM** -- contrastive image-text pretraining; vision backbone underlying most VLAs        | S     | ( )    |
+
+---
+
+## S2: World Models for Robotics
+
+| # | Paper | Year | Venue | Source | Key Contribution | Depth | Status |
+|---|-------|------|-------|--------|------------------|-------|--------|
+| 11 | [A Comprehensive Survey on World Models for Embodied AI](https://arxiv.org/abs/2510.16732) | 2025 | arXiv | [Z] | **Survey** -- broad survey covering the full world model landscape | D | ( ) |
+| 12 | [World Models (Ha & Schmidhuber)](https://arxiv.org/abs/1803.10122) | 2018 | NeurIPS | [Z] | **Classic** -- originated world models for RL agents | D | ( ) |
+| 13 | [A Path Towards Autonomous Machine Intelligence (LeCun)](https://openreview.net/pdf?id=BZ5a1r-kVsf) | 2022 | Meta | [Z] | Influential vision for JEPA-based world models | S | ( ) |
+| 14 | [DreamerV3: Mastering Diverse Domains through World Models](https://arxiv.org/abs/2301.04104) | 2024 | Nature | [Z] | General world-model algorithm, 150+ tasks single config | S | ( ) |
+| 15 | [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391) | 2024 | ICML | [Z] | Video-based interactive world model from DeepMind | S | ( ) |
+| 16 | [UniSim: Learning Interactive Real-World Simulators](https://arxiv.org/abs/2310.06114) | 2024 | ICLR (Outstanding Paper) | [NEW] | Diffusion-based future-frame generation conditioned on actions | K | ( ) |
+| 17 | [Unified World Models: Coupling Video and Action Diffusion for Pretraining](https://arxiv.org/abs/2504.02792) | 2025 | arXiv | [Z] | Joint video+action pretraining for embodied agents | S | ( ) |
+| 18 | [Cosmos-Surg-dVRK: Surgical World Foundation Model](https://arxiv.org/abs/2510.16240) | 2025 | arXiv | [NEW] | **Bridge paper** -- NVIDIA Cosmos fine-tuned for surgical simulation | D | ( ) |
+| 19 | [World Action Models are Zero-shot Policies](https://arxiv.org/abs/2602.15922) | 2026 | arXiv | [Z] | **Cutting-edge** -- world models directly as robot policies | S | ( ) |
+| 20 | [LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture](https://arxiv.org/abs/2603.19312) | 2026 | arXiv | [Z] | Stable JEPA for world models | K | ( ) |
+
+---
+
+## S3: Sim-to-Real & Surgical Simulation
+
+| # | Paper | Year | Venue | Source | Key Contribution | Depth | Status |
+|---|-------|------|-------|--------|------------------|-------|--------|
+| 21 | [Comprehensive Survey on Surgical Digital Twins](https://arxiv.org/abs/2512.00019) | 2025 | arXiv | [NEW] | **Survey** -- virtual counterparts for pre/intra/postoperative care | S | ( ) |
+| 22 | [The Reality Gap in Robotics: Challenges, Solutions, and Best Practices](https://arxiv.org/abs/2510.20808) | 2025 | arXiv | [Z][N] | **Survey** -- sim-to-real recipe and best practices | D | (s) |
+| 23 | [A Survey of Sim-to-Real Methods in RL](https://arxiv.org/abs/2502.13187) | 2025 | arXiv | [Z] | **Survey** -- comprehensive sim-to-real transfer survey | K | ( ) |
+| 24 | [SurRoL: An Open-Source RL Centered and dVRK Compatible Platform for Surgical Robot Learning](https://arxiv.org/abs/2108.13035) | 2021 | Ongoing | [NEW] | Open sim for surgical embodied intelligence, MPM soft body | S | ( ) |
+| 25 | [ORBIT-Surgical: An Open-Simulation Framework for Learning Surgical Augmented Dexterity](https://arxiv.org/abs/2404.16027) | 2024 | ICRA | [NEW] | GPU-accelerated surgical sim in Omniverse, 14 tasks, dVRK/STAR | S | ( ) |
+| 26 | [Med-Real2Sim: Non-Invasive Medical Digital Twins](https://arxiv.org/abs/2403.00177) | 2024 | NeurIPS | [NEW] | Medical digital twins via physics-informed self-supervised learning | K | ( ) |
+| 27 | [SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds](https://arxiv.org/abs/2604.08544) | 2026 | arXiv | [Z] | **Cutting-edge** -- physics sim for deformable worlds | K | ( ) |
+
+---
+
+## S4: Surgical Scene Understanding & Perception
+
+| # | Paper | Year | Venue | Source | Key Contribution | Depth | Status |
+|---|-------|------|-------|--------|------------------|-------|--------|
+| 28 | [Innovating Robot-Assisted Surgery through Large Vision Models](https://doi.org/10.1038/s44287-025-00166-6) | 2025 | Nature Rev. Electrical Engineering | [Z] | **Review** -- LVMs as paradigm shift for surgical robotics | D | ( ) |
+| 29 | [Surgical Scene Understanding in the Era of Foundation AI Models](https://arxiv.org/abs/2502.14886) | 2025 | arXiv (Survey) | [NEW] | **Survey** -- SAM/DINO/CLIP applied to surgery | S | ( ) |
+| 30 | [SurgicalGaussian: Deformable 3D Gaussians for High-Fidelity Surgical Scene Reconstruction](https://arxiv.org/abs/2407.05023) | 2024 | MICCAI | [NEW] | Deformable 3DGS for surgical reconstruction | S | ( ) |
+| 31 | [Endo-4DGS: Endoscopic Monocular Scene Reconstruction with 4D Gaussian Splatting](https://arxiv.org/abs/2401.16416) | 2024 | MICCAI | [NEW] | Real-time endoscopic 4D reconstruction | K | ( ) |
+| 32 | [Surgical-DeSAM: Decoupled SAM for Instrument Segmentation](https://arxiv.org/abs/2404.14040) | 2024 | MICCAI | [NEW] | Decoupled SAM, 89.6-90.7% Dice on EndoVis 2017/2018 | S | ( ) |
+| 33 | [Realistic Surgical Image Dataset Generation Based on 3D Gaussian Splatting](https://arxiv.org/abs/2407.14846) | 2024 | arXiv | [Z] | Synthetic surgical data generation via 3DGS | K | ( ) |
+| 34 | [SAGS: Self-Adaptive Alias-Free Gaussian Splatting](https://arxiv.org/abs/2510.27318) | 2025 | arXiv | [NEW] | SOTA on EndoNeRF/SCARED for dynamic endoscopic scenes | K | ( ) |
+| 35 | [ReSurgSAM2: Referring Segmentation in Surgical Video Using SAM-2](https://arxiv.org/abs/2505.08581) | 2025 | MICCAI | [NEW] | SAM-2 for referring segmentation in surgical video | K | ( ) |
+
+---
+
+## S5: Foundation Models for Surgical Robotics
+
+| # | Paper | Year | Venue | Source | Key Contribution | Depth | Status |
+|---|-------|------|-------|--------|------------------|-------|--------|
+| 36 | [General-purpose Foundation Models for Increased Autonomy in Robot-Assisted Surgery](https://doi.org/10.1038/s42256-024-00917-4) | 2024 | Nature Machine Intelligence | [NEW] | **Perspective/Review** -- FM increasing surgical autonomy | D | ( ) |
+| 37 | [Advances of Surgical Robotics: Image-Guided Classification and Application](https://doi.org/10.1093/nsr/nwae186) | 2024 | National Science Review | [Z][N] | **Review** -- classification of surgical robot systems | S | ( ) |
+| 38 | [SurgicalGPT: End-to-End Language-Vision GPT for Visual Question Answering in Surgery](https://arxiv.org/abs/2304.09974) | 2023 | MICCAI | [NEW] | End-to-end language-vision GPT for surgical VQA | K | ( ) |
+| 39 | [Surgical-LVLM: Personalized Large Vision-Language Model for Surgery](https://arxiv.org/abs/2405.10948) | 2024 | ICLR Workshop | [NEW] | Personalized surgical VLM for grounded visual QA | K | ( ) |
+| 40 | [SurgVLM: A Large-Scale Surgical Vision-Language Model](https://arxiv.org/abs/2506.02555) | 2025 | arXiv | [NEW] | First large-scale surgical VLM (7B-72B), 1.81M frames, 16+ surgery types | D | ( ) |
+| 41 | [LLM-SAP: Surgical Action Planning with Large Language Models](https://arxiv.org/abs/2503.18296) | 2025 | arXiv | [NEW] | LLMs (Qwen2.5, QwenVL) for surgical action planning | S | ( ) |
+| 42 | [Multi-Modal LLM for Autonomous Blood Suction on da Vinci](https://arxiv.org/abs/2408.07806) | 2025 | arXiv | [NEW] | LLM-driven autonomous blood suction decision-making | K | ( ) |
+
+---
+
+## S6: Learning Autonomous Surgical Skills
+
+| #   | Paper                                                                                                                | Year | Venue                  | Source | Key Contribution                                                            | Depth | Status |
+| --- | -------------------------------------------------------------------------------------------------------------------- | ---- | ---------------------- | ------ | --------------------------------------------------------------------------- | ----- | ------ |
+| 43  | [Deep Reinforcement Learning in Surgical Robotics: A Survey](https://arxiv.org/abs/2309.00773)                       | 2023 | arXiv                  | [NEW]  | **Survey** -- DRL methods and safety concerns for intraoperative use        | S     | ( )    |
+| 44  | [SRT: Surgical Robot Transformer](https://arxiv.org/abs/2407.12998)                                                  | 2024 | arXiv                  | [NEW]  | IL for tissue lifting, needle pickup, suturing on dVRK                      | S     | ( )    |
+| 45  | [SurgicAI: A Hierarchical Platform for Fine-Grained Surgical Policy Learning](https://arxiv.org/abs/2406.13865)      | 2024 | NeurIPS D&B            | [NEW]  | Hierarchical platform for surgical policy learning                          | K     | ( )    |
+| 46  | [SurgIRL: Incremental Reinforcement Learning for Life-Long Surgical Automation](https://arxiv.org/abs/2409.15651)    | 2024 | arXiv                  | [NEW]  | Life-long surgical automation, sim-to-real on dVRK                          | K     | ( )    |
+| 47  | [Safe Reinforcement Learning for Surgical Task Automation](https://doi.org/10.1109/TAI.2024.3351797)                 | 2024 | IEEE Trans. AI         | [NEW]  | Constrained optimization for safe surgical RL                               | K     | ( )    |
+| 48  | [SRT-H: Hierarchical Surgical Robot Transformer for Autonomous Surgery](https://doi.org/10.1126/scirobotics.adt5254) | 2025 | Science Robotics       | [NEW]  | **Landmark** -- autonomous cholecystectomy on ex vivo tissue, 100% accuracy | D     | ( )    |
+| 49  | [Surgical Embodied Intelligence](https://doi.org/10.1126/scirobotics.adt3093)                                        | 2025 | Science Robotics       | [NEW]  | Open-source sim, RL across 12 tasks, live-animal validation                 | S     | ( )    |
+| 50  | [ImitateCholec: A Dataset for Long-Horizon Imitation Learning](https://doi.org/10.1038/s41597-025-06526-z)           | 2025 | Nature Scientific Data | [NEW]  | 18K+ demonstrations from 34 porcine cholecystectomies                       | S     | ( )    |
+
+---
+
+## S7: Multimodal Sensing -- Tactile & Force for Surgery
+
+| # | Paper | Year | Venue | Source | Key Contribution | Depth | Status |
+|---|-------|------|-------|--------|------------------|-------|--------|
+| 51 | [Towards Forceful Robotic Foundation Models](https://arxiv.org/abs/2504.11827) | 2025 | arXiv | [NEW] | **Survey** -- force/proprioception/tactile in robot policy learning | D | ( ) |
+| 52 | [NeuralFeels: Visuotactile Perception via Neural Fields](https://doi.org/10.1126/scirobotics.adl0628) | 2024 | Science Robotics | [NEW] | 94% tracking improvement over vision-only under occlusion | S | ( ) |
+| 53 | [AnyTouch: Unified Static-Dynamic Multi-Sensor Tactile Representation](https://arxiv.org/abs/2502.12191) | 2025 | ICLR | [NEW] | Cross-sensor tactile representation learning (4 sensor types) | K | ( ) |
+| 54 | [TLA: Tactile-Language-Action Model](https://arxiv.org/abs/2503.08548) | 2025 | arXiv | [NEW] | First VLA integrating tactile sensing, 85%+ on contact-rich tasks | S | ( ) |
+| 55 | [Multi-Modal Sensing in Colonoscopy: A Data-Driven Approach](https://doi.org/10.1109/LRA.2025.3645700) | 2026 | IEEE RA-L | [Z] | Data-driven multimodal sensing for surgical context | K | ( ) |
+
+---
+
+## S8: Safety, Autonomy Levels & Regulation
+
+| # | Paper | Year | Venue | Source | Key Contribution | Depth | Status |
+|---|-------|------|-------|--------|------------------|-------|--------|
+| 56 | [Autonomy in Surgical Robotics](https://doi.org/10.1146/annurev-control-062420-090543) | 2021 | Annual Rev. Control, Robotics, Autonomous Systems | [Z] | **Review** -- foundational review of surgical autonomy levels | S | ( ) |
+| 57 | [A Decade Retrospective of Medical Robotics Research from 2010 to 2020](https://doi.org/10.1126/scirobotics.abi8017) | 2021 | Science Robotics | [Z] | **Review** -- historical perspective and trajectory of the field | S | ( ) |
+| 58 | [Levels of Autonomy in FDA-Cleared Surgical Robots](https://doi.org/10.1038/s41746-024-01102-y) | 2024 | npj Digital Medicine | [NEW] | **Systematic Review** -- all FDA-cleared robots (2015-2023), LASR levels 1-5 | S | ( ) |
+| 59 | [IDEAL Framework for Surgical Robotics](https://doi.org/10.1038/s41591-023-02732-7) | 2024 | Nature Medicine | [NEW] | **Framework** -- development, evaluation, long-term monitoring | S | ( ) |
+| 60 | [Will Your Next Surgeon Be a Robot? Autonomy and AI in Robotic Surgery](https://doi.org/10.1126/scirobotics.adt0187) | 2025 | Science Robotics | [Z] | **Perspective** -- AI autonomy + FDA regulatory outlook | S | ( ) |
+| 61 | [Human-Robot Collaboration in Robotic Surgery](https://doi.org/10.1002/aisy.202400319) | 2025 | Advanced Intelligent Systems | [NEW] | Taxonomy: teleoperation -> autonomous subtask -> collaborative decision-making | K | ( ) |
+| 62 | [Six-Layer Embodied Architecture for Surgical Robotics](https://www.techrxiv.org/users/1016372/articles/1376666-embodied-intelligence-in-surgical-robotics-from-perception-action-loops-to-cognitive-collaboration) | 2025 | TechRxiv | [NEW] | Incremental autonomy within verifiable safety envelopes | K | ( ) |
+
+---
+
+## Paper Notes
+
+> Notes are organized by depth tier:
+> - **Deep (D)** -- full notes in [Paper Notes/](./Paper%20Notes/) folder (12 files, one per paper)
+> - **Skim (S)** -- short summaries inline below, ~100-150 words each (29 entries)
+> - **Skip (K)** -- one-sentence notes inline below (21 entries)
+>
+> **Workflow:** Write notes AS you read, not after. Template for each tier is enforced by the file structure.
+
+### Deep Read Notes (D) -- 12 papers
+
+- [01 - VLA Survey (Action Tokenization)](./Paper%20Notes/01%20-%20VLA%20Survey%20-%20Action%20Tokenization.md)
+- [03 - RT-2](./Paper%20Notes/03%20-%20RT-2.md)
+- [04 - Diffusion Policy](./Paper%20Notes/04%20-%20Diffusion%20Policy.md)
+- [11 - World Models Survey](./Paper%20Notes/11%20-%20World%20Models%20Survey.md)
+- [12 - World Models (Ha & Schmidhuber)](./Paper%20Notes/12%20-%20World%20Models%20-%20Ha%20Schmidhuber.md)
+- [18 - Cosmos-Surg-dVRK](./Paper%20Notes/18%20-%20Cosmos-Surg-dVRK.md)
+- [22 - Reality Gap Survey](./Paper%20Notes/22%20-%20Reality%20Gap%20Survey.md)
+- [28 - LVMs for RAS](./Paper%20Notes/28%20-%20LVMs%20for%20RAS.md)
+- [36 - FMs for Surgical Autonomy](./Paper%20Notes/36%20-%20FMs%20for%20Surgical%20Autonomy.md)
+- [40 - SurgVLM](./Paper%20Notes/40%20-%20SurgVLM.md)
+- [48 - SRT-H](./Paper%20Notes/48%20-%20SRT-H.md)
+- [51 - Forceful Robotic FMs](./Paper%20Notes/51%20-%20Forceful%20Robotic%20FMs.md)
+
+---
+
+### Skim Notes (S) -- 30 papers
+
+*Format: **#N -- Title:** One-paragraph summary (~100-150 words): one-line purpose, method gist (2-3 bullets), why it matters, how it connects to your work.*
+
+#### S1: Foundations
+- **[#2 -- VLA Systematic Review](./Paper%20Notes/02%20-%20VLA%20Systematic%20Review.md):** (s) skimmed — full notes in file
+- **#7 -- pi_0:** _(unread)_
+- **#8 -- pi_0.5:** _(unread)_
+- **#9 -- Gemini Robotics 1.5:** _(unread)_
+- **#10 -- GR00T N1:** _(unread)_
+- **[#63 -- VLA Real-World Applications Review](./Paper%20Notes/63%20-%20VLA%20Real-World%20Applications%20Review.md):** (s) skimmed — full notes in file
+- **#64 -- CLIP:** _(unread)_ — contrastive image-text pretraining on 400M pairs; enables zero-shot transfer; vision encoder of choice for most VLA backbones (RT-2, OpenVLA, pi_0 derivatives).
+
+#### S2: World Models
+- **#13 -- LeCun JEPA:** _(unread)_
+- **#14 -- DreamerV3:** _(unread)_
+- **#15 -- Genie:** _(unread)_
+- **#17 -- Unified World Models:** _(unread)_
+- **#19 -- World Action Models:** _(unread)_
+
+#### S3: Sim-to-Real
+- **#21 -- Surgical Digital Twins Survey:** _(unread)_
+- **#24 -- SurRoL:** _(unread)_
+- **#25 -- ORBIT-Surgical:** _(unread)_
+
+#### S4: Perception
+- **#29 -- Surgical Scene Understanding Survey:** _(unread)_
+- **#30 -- SurgicalGaussian:** _(unread)_
+- **#32 -- Surgical-DeSAM:** _(unread)_
+
+#### S5: Surgical Foundation Models
+- **#37 -- Surgical Robotics Classification Review:** _(unread)_
+- **#41 -- LLM-SAP:** _(unread)_
+
+#### S6: Learning Surgical Skills
+- **#43 -- DRL in Surgical Robotics Survey:** _(unread)_
+- **#44 -- SRT:** _(unread)_
+- **#49 -- Surgical Embodied Intelligence:** _(unread)_
+- **#50 -- ImitateCholec:** _(unread)_
+
+#### S7: Tactile/Force
+- **#52 -- NeuralFeels:** _(unread)_
+- **#54 -- TLA:** _(unread)_
+
+#### S8: Safety/Regulation
+- **#56 -- Autonomy in Surgical Robotics:** _(unread)_
+- **#57 -- Decade Retrospective:** _(unread)_
+- **#58 -- FDA Autonomy Levels:** _(unread)_
+- **#59 -- IDEAL Framework:** _(unread)_
+- **#60 -- Will Your Next Surgeon Be a Robot?:** _(unread)_
+
+---
+
+### Skip Notes (K) -- 21 papers
+
+*Format: **#N -- Title:** One sentence -- what it is + why you're not going deeper.*
+
+#### S1: Foundations
+- **#5 -- Octo:** _(unread)_
+- **#6 -- OpenVLA:** _(unread)_
+
+#### S2: World Models
+- **#16 -- UniSim:** _(unread)_
+- **#20 -- LeWorldModel:** _(unread)_
+
+#### S3: Sim-to-Real
+- **#23 -- Sim-to-Real in RL Survey:** _(unread)_
+- **#26 -- Med-Real2Sim:** _(unread)_
+- **#27 -- SIM1:** _(unread)_
+
+#### S4: Perception
+- **#31 -- Endo-4DGS:** _(unread)_
+- **#33 -- Realistic Surgical Dataset (3DGS):** _(unread)_
+- **#34 -- SAGS:** _(unread)_
+- **#35 -- ReSurgSAM2:** _(unread)_
+
+#### S5: Surgical Foundation Models
+- **#38 -- SurgicalGPT:** _(unread)_
+- **#39 -- Surgical-LVLM:** _(unread)_
+- **#42 -- Multi-Modal LLM Blood Suction:** _(unread)_
+
+#### S6: Learning Surgical Skills
+- **#45 -- SurgicAI:** _(unread)_
+- **#46 -- SurgIRL:** _(unread)_
+- **#47 -- Safe RL for Surgery:** _(unread)_
+
+#### S7: Tactile/Force
+- **#53 -- AnyTouch:** _(unread)_
+- **#55 -- Colonoscopy Multimodal:** _(unread)_
+
+#### S8: Safety/Regulation
+- **#61 -- Human-Robot Collaboration:** _(unread)_
+- **#62 -- Six-Layer Architecture:** _(unread)_
