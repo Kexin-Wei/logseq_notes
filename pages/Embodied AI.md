@@ -4,6 +4,12 @@
 	  > **Status:** ( ) = unread | (x) = read | (s) = skimmed
 	  > **Depth:** D = Deep read (精读, ~2-2.5h) | S = Skim (略读, ~30min) | K = Skip (扫读, abstract+figs only, ~10min)
 	  > **Totals:** 12 D | 31 S | 21 K — fits ~49 hrs over 14 days at 3-4 hrs/day
+- ## Templates
+  Copy the matching one when starting a new paper note.
+	- [[Template - Review (Survey)]] — for surveys / reviews (taxonomy-led)
+	- [[Template - D (Deep Read)]] — for landmark method papers (~2h read)
+	- [[Template - S (Skim)]] — for skim-tier papers (~30min, ~100 words)
+	- [[Template - K (Skip)]] — for skip-tier papers (~10min, half-screen)
 - ## Reading Roadmap
 	- ```
 	  S1: Foundations (VLA paradigm)
