@@ -1,4 +1,4 @@
-# Surgical / Medical Robots x Physical AI / Embodied AI / World Models
+- Surgical / Medical Robots x Physical AI / Embodied AI / World Models
 	- > **64 papers** | Last updated: 2026-04-19
 	  > **Legend:** [Z] = in Zotero (PDF available) | [N] = already in notes | [NEW] = to be added
 	  > **Status:** ( ) = unread | (x) = read | (s) = skimmed
@@ -118,114 +118,104 @@
 	  | 54 | [TLA: Tactile-Language-Action Model](https://arxiv.org/abs/2503.08548) | 2025 | arXiv | [NEW] | First VLA integrating tactile sensing, 85%+ on contact-rich tasks | S | ( ) |
 	  | 55 | [Multi-Modal Sensing in Colonoscopy: A Data-Driven Approach](https://doi.org/10.1109/LRA.2025.3645700) | 2026 | IEEE RA-L | [Z] | Data-driven multimodal sensing for surgical context | K | ( ) |
 - ## S8: Safety, Autonomy Levels & Regulation
-  
-  | # | Paper | Year | Venue | Source | Key Contribution | Depth | Status |
-  |---|-------|------|-------|--------|------------------|-------|--------|
-  | 56 | [Autonomy in Surgical Robotics](https://doi.org/10.1146/annurev-control-062420-090543) | 2021 | Annual Rev. Control, Robotics, Autonomous Systems | [Z] | **Review** -- foundational review of surgical autonomy levels | S | ( ) |
-  | 57 | [A Decade Retrospective of Medical Robotics Research from 2010 to 2020](https://doi.org/10.1126/scirobotics.abi8017) | 2021 | Science Robotics | [Z] | **Review** -- historical perspective and trajectory of the field | S | ( ) |
-  | 58 | [Levels of Autonomy in FDA-Cleared Surgical Robots](https://doi.org/10.1038/s41746-024-01102-y) | 2024 | npj Digital Medicine | [NEW] | **Systematic Review** -- all FDA-cleared robots (2015-2023), LASR levels 1-5 | S | ( ) |
-  | 59 | [IDEAL Framework for Surgical Robotics](https://doi.org/10.1038/s41591-023-02732-7) | 2024 | Nature Medicine | [NEW] | **Framework** -- development, evaluation, long-term monitoring | S | ( ) |
-  | 60 | [Will Your Next Surgeon Be a Robot? Autonomy and AI in Robotic Surgery](https://doi.org/10.1126/scirobotics.adt0187) | 2025 | Science Robotics | [Z] | **Perspective** -- AI autonomy + FDA regulatory outlook | S | ( ) |
-  | 61 | [Human-Robot Collaboration in Robotic Surgery](https://doi.org/10.1002/aisy.202400319) | 2025 | Advanced Intelligent Systems | [NEW] | Taxonomy: teleoperation -> autonomous subtask -> collaborative decision-making | K | ( ) |
-  | 62 | [Six-Layer Embodied Architecture for Surgical Robotics](https://www.techrxiv.org/users/1016372/articles/1376666-embodied-intelligence-in-surgical-robotics-from-perception-action-loops-to-cognitive-collaboration) | 2025 | TechRxiv | [NEW] | Incremental autonomy within verifiable safety envelopes | K | ( ) |
-  
-  ---
+	- | # | Paper | Year | Venue | Source | Key Contribution | Depth | Status |
+	  |---|-------|------|-------|--------|------------------|-------|--------|
+	  | 56 | [Autonomy in Surgical Robotics](https://doi.org/10.1146/annurev-control-062420-090543) | 2021 | Annual Rev. Control, Robotics, Autonomous Systems | [Z] | **Review** -- foundational review of surgical autonomy levels | S | ( ) |
+	  | 57 | [A Decade Retrospective of Medical Robotics Research from 2010 to 2020](https://doi.org/10.1126/scirobotics.abi8017) | 2021 | Science Robotics | [Z] | **Review** -- historical perspective and trajectory of the field | S | ( ) |
+	  | 58 | [Levels of Autonomy in FDA-Cleared Surgical Robots](https://doi.org/10.1038/s41746-024-01102-y) | 2024 | npj Digital Medicine | [NEW] | **Systematic Review** -- all FDA-cleared robots (2015-2023), LASR levels 1-5 | S | ( ) |
+	  | 59 | [IDEAL Framework for Surgical Robotics](https://doi.org/10.1038/s41591-023-02732-7) | 2024 | Nature Medicine | [NEW] | **Framework** -- development, evaluation, long-term monitoring | S | ( ) |
+	  | 60 | [Will Your Next Surgeon Be a Robot? Autonomy and AI in Robotic Surgery](https://doi.org/10.1126/scirobotics.adt0187) | 2025 | Science Robotics | [Z] | **Perspective** -- AI autonomy + FDA regulatory outlook | S | ( ) |
+	  | 61 | [Human-Robot Collaboration in Robotic Surgery](https://doi.org/10.1002/aisy.202400319) | 2025 | Advanced Intelligent Systems | [NEW] | Taxonomy: teleoperation -> autonomous subtask -> collaborative decision-making | K | ( ) |
+	  | 62 | [Six-Layer Embodied Architecture for Surgical Robotics](https://www.techrxiv.org/users/1016372/articles/1376666-embodied-intelligence-in-surgical-robotics-from-perception-action-loops-to-cognitive-collaboration) | 2025 | TechRxiv | [NEW] | Incremental autonomy within verifiable safety envelopes | K | ( ) |
 - ## Paper Notes
-  
-  > Notes are organized by depth tier:
-  > - **Deep (D)** -- full notes in [Paper Notes/](./Paper%20Notes/) folder (12 files, one per paper)
-  > - **Skim (S)** -- short summaries inline below, ~100-150 words each (29 entries)
-  > - **Skip (K)** -- one-sentence notes inline below (21 entries)
-  >
-  > **Workflow:** Write notes AS you read, not after. Template for each tier is enforced by the file structure.
+	- > Notes are organized by depth tier:
+	  > - **Deep (D)** -- full notes in [Paper Notes/](./Paper%20Notes/) folder (12 files, one per paper)
+	  > - **Skim (S)** -- short summaries inline below, ~100-150 words each (29 entries)
+	  > - **Skip (K)** -- one-sentence notes inline below (21 entries)
+	  >
+	  > **Workflow:** Write notes AS you read, not after. Template for each tier is enforced by the file structure.
 - ### Deep Read Notes (D) -- 12 papers
-- [01 - VLA Survey (Action Tokenization)](./Paper%20Notes/01%20-%20VLA%20Survey%20-%20Action%20Tokenization.md)
-- [03 - RT-2](./Paper%20Notes/03%20-%20RT-2.md)
-- [04 - Diffusion Policy](./Paper%20Notes/04%20-%20Diffusion%20Policy.md)
-- [11 - World Models Survey](./Paper%20Notes/11%20-%20World%20Models%20Survey.md)
-- [12 - World Models (Ha & Schmidhuber)](./Paper%20Notes/12%20-%20World%20Models%20-%20Ha%20Schmidhuber.md)
-- [18 - Cosmos-Surg-dVRK](./Paper%20Notes/18%20-%20Cosmos-Surg-dVRK.md)
-- [22 - Reality Gap Survey](./Paper%20Notes/22%20-%20Reality%20Gap%20Survey.md)
-- [28 - LVMs for RAS](./Paper%20Notes/28%20-%20LVMs%20for%20RAS.md)
-- [36 - FMs for Surgical Autonomy](./Paper%20Notes/36%20-%20FMs%20for%20Surgical%20Autonomy.md)
-- [40 - SurgVLM](./Paper%20Notes/40%20-%20SurgVLM.md)
-- [48 - SRT-H](./Paper%20Notes/48%20-%20SRT-H.md)
-- [51 - Forceful Robotic FMs](./Paper%20Notes/51%20-%20Forceful%20Robotic%20FMs.md)
-  
-  ---
+	- [01 - VLA Survey (Action Tokenization)](./Paper%20Notes/01%20-%20VLA%20Survey%20-%20Action%20Tokenization.md)
+	- [03 - RT-2](./Paper%20Notes/03%20-%20RT-2.md)
+	- [04 - Diffusion Policy](./Paper%20Notes/04%20-%20Diffusion%20Policy.md)
+	- [11 - World Models Survey](./Paper%20Notes/11%20-%20World%20Models%20Survey.md)
+	- [12 - World Models (Ha & Schmidhuber)](./Paper%20Notes/12%20-%20World%20Models%20-%20Ha%20Schmidhuber.md)
+	- [18 - Cosmos-Surg-dVRK](./Paper%20Notes/18%20-%20Cosmos-Surg-dVRK.md)
+	- [22 - Reality Gap Survey](./Paper%20Notes/22%20-%20Reality%20Gap%20Survey.md)
+	- [28 - LVMs for RAS](./Paper%20Notes/28%20-%20LVMs%20for%20RAS.md)
+	- [36 - FMs for Surgical Autonomy](./Paper%20Notes/36%20-%20FMs%20for%20Surgical%20Autonomy.md)
+	- [40 - SurgVLM](./Paper%20Notes/40%20-%20SurgVLM.md)
+	- [48 - SRT-H](./Paper%20Notes/48%20-%20SRT-H.md)
+	- [51 - Forceful Robotic FMs](./Paper%20Notes/51%20-%20Forceful%20Robotic%20FMs.md)
 - ### Skim Notes (S) -- 30 papers
-  
-  *Format: **#N -- Title:** One-paragraph summary (~100-150 words): one-line purpose, method gist (2-3 bullets), why it matters, how it connects to your work.*
-- #### S1: Foundations
-- **[#2 -- VLA Systematic Review](./Paper%20Notes/02%20-%20VLA%20Systematic%20Review.md):** (s) skimmed — full notes in file
-- **#7 -- pi_0:** _(unread)_
-- **#8 -- pi_0.5:** _(unread)_
-- **#9 -- Gemini Robotics 1.5:** _(unread)_
-- **#10 -- GR00T N1:** _(unread)_
-- **[#63 -- VLA Real-World Applications Review](./Paper%20Notes/63%20-%20VLA%20Real-World%20Applications%20Review.md):** (s) skimmed — full notes in file
-- **#64 -- CLIP:** _(unread)_ — contrastive image-text pretraining on 400M pairs; enables zero-shot transfer; vision encoder of choice for most VLA backbones (RT-2, OpenVLA, pi_0 derivatives).
-- #### S2: World Models
-- **#13 -- LeCun JEPA:** _(unread)_
-- **#14 -- DreamerV3:** _(unread)_
-- **#15 -- Genie:** _(unread)_
-- **#17 -- Unified World Models:** _(unread)_
-- **#19 -- World Action Models:** _(unread)_
-- #### S3: Sim-to-Real
-- **#21 -- Surgical Digital Twins Survey:** _(unread)_
-- **#24 -- SurRoL:** _(unread)_
-- **#25 -- ORBIT-Surgical:** _(unread)_
-- #### S4: Perception
-- **#29 -- Surgical Scene Understanding Survey:** _(unread)_
-- **#30 -- SurgicalGaussian:** _(unread)_
-- **#32 -- Surgical-DeSAM:** _(unread)_
-- #### S5: Surgical Foundation Models
-- **#37 -- Surgical Robotics Classification Review:** _(unread)_
-- **#41 -- LLM-SAP:** _(unread)_
-- #### S6: Learning Surgical Skills
-- **#43 -- DRL in Surgical Robotics Survey:** _(unread)_
-- **#44 -- SRT:** _(unread)_
-- **#49 -- Surgical Embodied Intelligence:** _(unread)_
-- **#50 -- ImitateCholec:** _(unread)_
-- #### S7: Tactile/Force
-- **#52 -- NeuralFeels:** _(unread)_
-- **#54 -- TLA:** _(unread)_
-- #### S8: Safety/Regulation
-- **#56 -- Autonomy in Surgical Robotics:** _(unread)_
-- **#57 -- Decade Retrospective:** _(unread)_
-- **#58 -- FDA Autonomy Levels:** _(unread)_
-- **#59 -- IDEAL Framework:** _(unread)_
-- **#60 -- Will Your Next Surgeon Be a Robot?:** _(unread)_
-  
-  ---
+	- *Format: **#N -- Title:** One-paragraph summary (~100-150 words): one-line purpose, method gist (2-3 bullets), why it matters, how it connects to your work.*
+	- #### S1: Foundations
+		- **[#2 -- VLA Systematic Review](./Paper%20Notes/02%20-%20VLA%20Systematic%20Review.md):** (s) skimmed — full notes in file
+		- **#7 -- pi_0:** _(unread)_
+		- **#8 -- pi_0.5:** _(unread)_
+		- **#9 -- Gemini Robotics 1.5:** _(unread)_
+		- **#10 -- GR00T N1:** _(unread)_
+		- **[#63 -- VLA Real-World Applications Review](./Paper%20Notes/63%20-%20VLA%20Real-World%20Applications%20Review.md):** (s) skimmed — full notes in file
+		- **#64 -- CLIP:** _(unread)_ — contrastive image-text pretraining on 400M pairs; enables zero-shot transfer; vision encoder of choice for most VLA backbones (RT-2, OpenVLA, pi_0 derivatives).
+	- #### S2: World Models
+		- **#13 -- LeCun JEPA:** _(unread)_
+		- **#14 -- DreamerV3:** _(unread)_
+		- **#15 -- Genie:** _(unread)_
+		- **#17 -- Unified World Models:** _(unread)_
+		- **#19 -- World Action Models:** _(unread)_
+	- #### S3: Sim-to-Real
+		- **#21 -- Surgical Digital Twins Survey:** _(unread)_
+		- **#24 -- SurRoL:** _(unread)_
+		- **#25 -- ORBIT-Surgical:** _(unread)_
+	- #### S4: Perception
+		- **#29 -- Surgical Scene Understanding Survey:** _(unread)_
+		- **#30 -- SurgicalGaussian:** _(unread)_
+		- **#32 -- Surgical-DeSAM:** _(unread)_
+	- #### S5: Surgical Foundation Models
+		- **#37 -- Surgical Robotics Classification Review:** _(unread)_
+		- **#41 -- LLM-SAP:** _(unread)_
+	- #### S6: Learning Surgical Skills
+		- **#43 -- DRL in Surgical Robotics Survey:** _(unread)_
+		- **#44 -- SRT:** _(unread)_
+		- **#49 -- Surgical Embodied Intelligence:** _(unread)_
+		- **#50 -- ImitateCholec:** _(unread)_
+	- #### S7: Tactile/Force
+		- **#52 -- NeuralFeels:** _(unread)_
+		- **#54 -- TLA:** _(unread)_
+	- #### S8: Safety/Regulation
+		- **#56 -- Autonomy in Surgical Robotics:** _(unread)_
+		- **#57 -- Decade Retrospective:** _(unread)_
+		- **#58 -- FDA Autonomy Levels:** _(unread)_
+		- **#59 -- IDEAL Framework:** _(unread)_
+		- **#60 -- Will Your Next Surgeon Be a Robot?:** _(unread)_
 - ### Skip Notes (K) -- 21 papers
-  
-  *Format: **#N -- Title:** One sentence -- what it is + why you're not going deeper.*
-- #### S1: Foundations
-- **#5 -- Octo:** _(unread)_
-- **#6 -- OpenVLA:** _(unread)_
-- #### S2: World Models
-- **#16 -- UniSim:** _(unread)_
-- **#20 -- LeWorldModel:** _(unread)_
-- #### S3: Sim-to-Real
-- **#23 -- Sim-to-Real in RL Survey:** _(unread)_
-- **#26 -- Med-Real2Sim:** _(unread)_
-- **#27 -- SIM1:** _(unread)_
-- #### S4: Perception
-- **#31 -- Endo-4DGS:** _(unread)_
-- **#33 -- Realistic Surgical Dataset (3DGS):** _(unread)_
-- **#34 -- SAGS:** _(unread)_
-- **#35 -- ReSurgSAM2:** _(unread)_
-- #### S5: Surgical Foundation Models
-- **#38 -- SurgicalGPT:** _(unread)_
-- **#39 -- Surgical-LVLM:** _(unread)_
-- **#42 -- Multi-Modal LLM Blood Suction:** _(unread)_
-- #### S6: Learning Surgical Skills
-- **#45 -- SurgicAI:** _(unread)_
-- **#46 -- SurgIRL:** _(unread)_
-- **#47 -- Safe RL for Surgery:** _(unread)_
-- #### S7: Tactile/Force
-- **#53 -- AnyTouch:** _(unread)_
-- **#55 -- Colonoscopy Multimodal:** _(unread)_
-- #### S8: Safety/Regulation
-- **#61 -- Human-Robot Collaboration:** _(unread)_
-- **#62 -- Six-Layer Architecture:** _(unread)_
+	- *Format: **#N -- Title:** One sentence -- what it is + why you're not going deeper.*
+	- #### S1: Foundations
+		- **#5 -- Octo:** _(unread)_
+		- **#6 -- OpenVLA:** _(unread)_
+	- #### S2: World Models
+		- **#16 -- UniSim:** _(unread)_
+		- **#20 -- LeWorldModel:** _(unread)_
+	- #### S3: Sim-to-Real
+		- **#23 -- Sim-to-Real in RL Survey:** _(unread)_
+		- **#26 -- Med-Real2Sim:** _(unread)_
+		- **#27 -- SIM1:** _(unread)_
+	- #### S4: Perception
+		- **#31 -- Endo-4DGS:** _(unread)_
+		- **#33 -- Realistic Surgical Dataset (3DGS):** _(unread)_
+		- **#34 -- SAGS:** _(unread)_
+		- **#35 -- ReSurgSAM2:** _(unread)_
+	- #### S5: Surgical Foundation Models
+		- **#38 -- SurgicalGPT:** _(unread)_
+		- **#39 -- Surgical-LVLM:** _(unread)_
+		- **#42 -- Multi-Modal LLM Blood Suction:** _(unread)_
+	- #### S6: Learning Surgical Skills
+		- **#45 -- SurgicAI:** _(unread)_
+		- **#46 -- SurgIRL:** _(unread)_
+		- **#47 -- Safe RL for Surgery:** _(unread)_
+	- #### S7: Tactile/Force
+		- **#53 -- AnyTouch:** _(unread)_
+		- **#55 -- Colonoscopy Multimodal:** _(unread)_
+	- #### S8: Safety/Regulation
+		- **#61 -- Human-Robot Collaboration:** _(unread)_
+		- **#62 -- Six-Layer Architecture:** _(unread)_
