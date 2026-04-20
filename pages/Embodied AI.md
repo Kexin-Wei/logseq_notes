@@ -22,8 +22,7 @@
 	                v
 	       S8: Safety & Regulation
 	  ```
-	  
-	  **Strategy:** In each section, read surveys first for the big picture, then individual papers by year (oldest to newest).
+	- **Strategy:** In each section, read surveys first for the big picture, then individual papers by year (oldest to newest).
 	  1. **S1** -- surveys first, then RT-2 (2023) -> pi_0.5/Gemini/GR00T (2025)
 	  2. **S2** -- survey first, then Ha 2018 classic -> DreamerV3 -> 2026 cutting-edge
 	  3. **S3-S4** -- surveys first, then surgical sim + perception ("eyes" and "training ground")
