@@ -4,8 +4,8 @@
 	- Code
 		- Full API development -> dynamic API development ?
 		- robust action primitives -> local action robustness -> point cloud + segmentation
+		- between high level + low level
 	- Affordance
-		- Box -> localization
-		- Segmentation -> interaction
-		- Affordance -> spatial interaction
-		-
+		- from 2D to 3D -> conflicts with World Model?
+		- affordance evolves over time -> why not just calculate again?
+		- robustness and uncertainty -> local action robustness + noise
