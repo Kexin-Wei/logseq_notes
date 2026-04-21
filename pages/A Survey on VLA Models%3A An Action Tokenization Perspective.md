@@ -1,0 +1,8 @@
+- VLA Future
+	- Language Description
+		- leverage high-level planning, decompose complex tasks to subtasks -> combining other forms of token ( affordance, trajectory, goal state)
+	- Code
+		- Full API development -> dynamic API development ?
+		- robust action primitives -> local action robustness
+	- Affordance
+		-
