@@ -7,4 +7,5 @@
 	- Affordance
 		- Box -> localization
 		- Segmentation -> interaction
-		- Affordance -> sp
+		- Affordance -> spatial interaction
+		-
